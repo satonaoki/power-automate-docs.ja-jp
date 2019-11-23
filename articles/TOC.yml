@@ -1,0 +1,275 @@
+- name: 概要
+  items:
+    - name: サインアップ
+      href: sign-up-sign-in.md
+    - name: Get started
+      href: getting-started.md
+    - name: ガイド付き学習
+      href: 'https://docs.microsoft.com/learn/paths/automate-process-using-flow'
+    - name: ブラウザーでフローを作成する
+      href: get-started-logic-template.md
+    - name: 電話上でフローを作成する
+      href: mobile-create-flow.md
+    - name: チーム フローを作成する
+      href: create-team-flows.md
+    - name: Common Data Service を使用するフローを作成する
+      href: common-data-model-intro.md
+- name: 自動化されたフロー
+  items:
+    - name: ゼロからフローを作成する
+      href: get-started-logic-flow.md
+    - name: 電子メールでフローをトリガーする
+      href: email-triggers.md
+    - name: SharePoint のアラームのフローを作成する
+      href: create-sharepoint-reminder-flows.md
+    - name: SharePoint ページの承認をカスタマイズするフローを作成する
+      href: customize-sharepoint-page-approvals.md
+    - name: Teams でフローを作成する
+      href: flows-teams.md
+    - name: Teams でアダプティブ カードのフローを作成する
+      href: create-adaptive-cards-teams.md
+    - name: Common Data Service を使ってフローを作成する
+      href: connection-cds.md
+    - name: Dynamics 365 でフローを作成する
+      href: connection-dynamics365.md
+    - name: OneDrive for Business でフローを作成する
+      href: onedrive-business-launch-panel.md
+    - name: データのフィルターとコピー
+      href: odata-filters.md
+    - name: Flic を使用する
+      href: flic-button-flows.md
+    - name: bttn を使用する
+      href: bttn-button-flows.md
+- name: ボタン フロー
+  items:
+    - name: ボタン フローを作成する
+      href: introduction-to-button-flows.md
+    - name: トリガー トークンを使用してボタン フローを作成する
+      href: introduction-to-button-trigger-tokens.md
+    - name: ユーザー入力のあるボタン フローを作成する
+      href: button-flow-with-user-input-tokens.md
+    - name: ボタンを共有する
+      href: share-buttons.md
+- name: フローをスケジュールする
+  items:
+    - name: スケジュールに従ってフローを実行する
+      href: run-scheduled-tasks.md
+    - name: 項目のリストを処理する
+      href: apply-to-each.md
+- name: 業務プロセス フロー
+  items:
+    - name: 業務プロセス フローの概要
+      href: business-process-flows-overview.md
+    - name: プロセスを標準化する業務プロセス フローを作成する
+      href: create-business-process-flow.md
+    - name: 分岐を使用して業務プロセス フローを強化する
+      href: enhance-business-process-flows-branching.md
+    - name: ビジネス プロセス フロー属性のベスト プラクティス
+      href: best-practices-entity-attributes.md
+- name: UI フロー (プレビュー)
+  items:
+    - name: UI フローの概要
+      href: ./ui-flows/overview.md
+    - name: UI フローの設定
+      href: ./ui-flows/setup.md
+    - name: デスクトップ UI フローの作成とテスト
+      href: ./ui-flows/create-desktop.md
+    - name: デスクトップ UI フローの編集
+      href: ./ui-flows/edit-desktop.md
+    - name: デスクトップ UI フローで入力と出力を使用する
+      href: ./ui-flows/inputs-outputs-desktop.md
+    - name: Web UI フローの作成とテスト
+      href: ./ui-flows/create-web.md
+    - name: Web UI フローの編集
+      href: ./ui-flows/edit-web.md
+    - name: Web UI フローで入力と出力を使用する
+      href: ./ui-flows/inputs-outputs-web.md
+    - name: UI フローの実行
+      href: ./ui-flows/run-ui-flow.md
+    - name: UI フローの管理
+      href: ./ui-flows/manage.md
+- name: ソリューション
+  items:
+    - name: 概要
+      href: overview-solution-flows.md
+    - name: ソリューションにフローを作成する
+      href: create-flow-solution.md
+    - name: ソリューションをエクスポートする
+      href: export-flow-solution.md
+    - name: ソリューションをインポートする
+      href: import-flow-solution.md
+    - name: ソリューション対応フローを編集する
+      href: edit-solution-aware-flow.md
+    - name: ソリューション対応フローを削除する
+      href: remove-solution-aware-flow.md
+- name: Common Data Service
+  items:
+    - name: クラシック Common Data Service ワークフロー
+      items:
+        - name: 概要
+          href: workflow-processes.md
+        - name: ワークフローのステージとステップを構成する
+          href: configure-workflow-steps.md
+        - name: ワークフロー プロセスの監視と管理
+          href: monitor-manage-processes.md
+        - name: ワークフロー プロセスのベスト プラクティス
+          href: best-practices-workflow-processes.md
+        - name: フローでワークフローを置き換える
+          href: replace-workflows-with-flows.md
+    - name: クラシック Common Data Service アクション
+      items:
+        - name: アクションを使用する
+          href: actions.md
+        - name: カスタム アクションを作成する
+          href: create-actions.md
+        - name: ワークフローからカスタム アクションを構成する
+          href: configure-actions.md
+        - name: ワークフローからカスタム アクションを呼び出す
+          href: invoke-custom-actions-workflow-dialog.md
+    - name: クラシック Common Data Service タスク フロー
+      items:
+        - name: モバイル タスク フローを作成する
+          href: create-mobile-task-flow.md
+    - name: クラシック Common Data Service ダイアログ
+      items:
+        - name: クラシック Common Data Service ダイアログを使う
+          href: use-cds-for-apps-dialogs.md
+        - name: クラシック Common Data Service ダイアログを置き換える
+          href: replace-dialogs.md
+- name: AI ビルダー
+  items:
+    - name: Power Automate で AI Builder を使う
+      href: use-ai-builder.md
+- name: 操作方法
+  items:
+    - name: アクションを追加する
+      href: multi-step-logic-flow.md
+    - name: 条件の追加
+      href: add-condition.md
+    - name: データ操作を使用する
+      href: data-operations.md
+    - name: 条件の式を使用する
+      href: use-expressions-in-conditions.md
+    - name: Visio を使用してフローをモデル化する
+      href: visio-flows.md
+    - name: '参照: 式で関数を使用する'
+      href: 'https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference'
+    - name: 承認フロー
+      items:
+        - name: 1 つの承認
+          href: modern-approvals.md
+        - name: 連続した承認
+          href: sequential-modern-approvals.md
+        - name: 並行した承認
+          href: parallel-modern-approvals.md
+        - name: すべてのユーザーが承認する必要がある
+          href: all-assigned-must-approve.md
+        - name: 統合された承認
+          href: common-data-model-approve.md
+        - name: 書式設定承認要求
+          href: approvals-markdown-support.md
+        - name: カスタム承認応答オプション
+          href: create-approval-response-options.md
+    - name: 電話上でフローを管理する
+      href: mobile-manage-flows.md
+    - name: テンプレートを発行する
+      href: publish-a-template.md
+- name: トラブルシューティング
+  items:
+    - name: フローを見る
+      href: see-a-flow-run.md
+    - name: 電話上でフロー アクティビティを監視する
+      href: mobile-monitor-activity.md
+    - name: フローのトラブルシューティング
+      href: fix-flow-failures.md
+    - name: エラー チェッカーでエラーを検索して修正する
+      href: error-checker.md
+- name: データに接続する
+  items:
+    - name: 利用可能な接続
+      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
+    - name: 接続を管理する
+      href: add-manage-connections.md
+    - name: ゲートウェイを管理する
+      href: gateway-manage.md
+    - name: ゲートウェイについて理解する
+      href: gateway-reference.md
+- name: 開発者向け
+  items:
+    - name: 企業の開発者、パートナー、および ISV
+      href: ./developer/dev-enterprise-intro.md
+    - name: カスタム コネクタのビルドと認定
+      href: ./developer/register-custom-api.md
+    - name: Web サイトとその他のテクノロジを統合する
+      href: ./developer/embed-flow-dev.md
+    - name: 顧客がフローを体験できるようにする
+      href: ./developer/dev-appsource-test-drive.md
+    - name: コードを使用して業務プロセス フローを操作する
+      href: ./developer/business-process-flows-code.md
+      items:
+        - name: 'サンプル: 業務プロセス フローの使用'
+          href: ./developer/sample-work-business-process-flows.md
+    - name: カスタム Common Data Service ワークフロー アクティビティ
+      href: ./developer/custom-cds-for-apps-workflow-activities.md
+- name: 管理
+  items:
+    - name: 組織における Flow の Q & A
+      href: organization-q-and-a.md
+    - name: 料金
+      href: billing-questions.md
+    - name: 管理センターの概要
+      href: admin-center-introduction.md
+    - name: 環境を管理する
+      href: environments-overview-admin.md
+    - name: データ損失の防止に役立つポリシーを設定する
+      href: prevent-data-loss.md
+    - name: モバイル アプリで Intune をサポートする
+      href: intune-support.md
+    - name: データ グループの概要
+      href: introduction-to-data-groups.md
+    - name: 共有およびコネクタの分析レポートを表示する
+      href: admin-analytics-report.md
+    - name: DSR 要求に対応する
+      items:
+        - name: 概要
+          href: gdpr-dsr-summary.md
+        - name: 検出要求
+          href: gdpr-dsr-discovery.md
+        - name: エクスポート要求
+          href: gdpr-dsr-export.md
+        - name: 削除要求
+          href: gdpr-dsr-delete.md
+    - name: Microsoft アカウントの DSR 要求
+      items:
+        - name: 概要
+          href: gdpr-dsr-summary-msa.md
+        - name: 検出要求
+          href: gdpr-dsr-discovery-msa.md
+        - name: エクスポート要求
+          href: gdpr-dsr-export-msa.md
+        - name: 削除要求
+          href: gdpr-dsr-delete-msa.md
+        - name: 終了要求
+          href: gdpr-dsr-accountclose-msa.md
+    - name: Power Automate 米国政府機関
+      href: us-govt.md
+- name: 参照
+  items:
+    - name: リージョンの概要
+      href: regions-overview.md
+    - name: 制限事項と構成
+      href: limits-and-config.md
+    - name: リリース ノート
+      href: release-notes.md
+    - name: Power Automate Web API
+      href: web-api.md
+    - name: よく寄せられる質問
+      href: frequently-asked-questions.md
+- name: 他のユーザーの声
+  items:
+    - name: ウェビナー
+      href: 'https://flow.microsoft.com/blog/category/webinars/'
+    - name: ブログ
+      href: 'https://flow.microsoft.com/blog/'
+    - name: フォーラム
+      href: 'https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity'
