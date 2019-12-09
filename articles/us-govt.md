@@ -182,10 +182,10 @@ https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors
 * .azure.us
 * .usgovcloudapi.net
 * .microsoftonline.com
-* 。 microsoft.com
+* .microsoft.com
 * .windows.net
-* 。 azureedge.net
-* 。 azure.net
+* .azureedge.net
+* .azure.net
 * .crm9.dynamics.com
 
 ユーザーおよび管理者がお客様のテナント内に作成できる Common Data Service インスタンスにアクセスできるようにするには、AzureCloud.usgovtexas および AzureCloud.usgovvirginia に対する [IP 範囲](https://www.microsoft.com/download/confirmation.aspx?id=57063)を参照してください。 
