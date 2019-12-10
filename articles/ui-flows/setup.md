@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e364c4d9c07f3bac1f78fa6941d1823272ae2466
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: e7d5e4219c46703019f995b625c6d672a767018a
+ms.sourcegitcommit: 683127e3655abeec9ae6e86fcdf4ac2256101d08
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74370907"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882123"
 ---
 # <a name="set-up-ui-flows"></a>UI フローの設定
 
@@ -34,7 +34,7 @@ ms.locfileid: "74370907"
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 > [!IMPORTANT]
-> 現在、UI flows 機能はリージョンにロールアウト中です。 お使いの環境に機能が表示されない場合、UI フローを作成できない場合、またはフロー内で実行しようとするとエラーが発生する場合は、しばらくしてからもう一度試してください。
+> 現在、UI flows 機能はリージョンにロールアウト中です。 お使いの環境でこの機能が表示されない場合や、UI フローを作成できない場合、またはフロー内でこれを実行しようとするとエラーが発生する場合は、後でもう一度お試しください。
 
 デバイスを使用して UI フローを作成する前に、デバイスがここに記載されている要件を満たしていることを確認する必要があります。
 
