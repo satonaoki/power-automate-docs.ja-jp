@@ -2,7 +2,7 @@
   items:
     - name: サインアップ
       href: sign-up-sign-in.md
-    - name: Get started
+    - name: 作業の開始
       href: getting-started.md
     - name: ガイド付き学習
       href: 'https://docs.microsoft.com/learn/paths/automate-process-using-flow'
@@ -118,7 +118,7 @@
           href: replace-workflows-with-flows.md
     - name: クラシック Common Data Service アクション
       items:
-        - name: アクションを使用する
+        - name: アクションの使用
           href: actions.md
         - name: カスタム アクションを作成する
           href: create-actions.md
@@ -142,7 +142,7 @@
       href: use-ai-builder.md
 - name: 操作方法
   items:
-    - name: アクションを追加する
+    - name: アクションの追加
       href: multi-step-logic-flow.md
     - name: 条件の追加
       href: add-condition.md
@@ -154,6 +154,20 @@
       href: visio-flows.md
     - name: '参照: 式で関数を使用する'
       href: 'https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference'
+    - name: アダプティブ カードを使用してフローをモデル化する
+      items:
+        - name: Teams 向けアダプティブ カードの概要
+          href: overview-adaptive-cards.md
+        - name: Teams 向けアダプティブ カードの作成
+          href: create-adaptive-cards.md
+        - name: サンプル - 画像の共有
+          href: image-share-sample.md
+        - name: サンプル - メタデータの更新
+          href: metadata-update-sample.md
+        - name: サンプル - 毎日の天気
+          href: daily-weather-sample.md
+        - name: サンプル - 潜在顧客の生成
+          href: lead-collection-sample.md
     - name: 承認フロー
       items:
         - name: 1 つの承認
@@ -192,7 +206,7 @@
       href: add-manage-connections.md
     - name: ゲートウェイを管理する
       href: gateway-manage.md
-    - name: ゲートウェイについて理解する
+    - name: ゲートウェイについて
       href: gateway-reference.md
 - name: 開発者向け
   items:
@@ -200,7 +214,7 @@
       href: ./developer/dev-enterprise-intro.md
     - name: カスタム コネクタのビルドと認定
       href: ./developer/register-custom-api.md
-    - name: Web サイトとその他のテクノロジを統合する
+    - name: Web サイトやその他の技術との統合
       href: ./developer/embed-flow-dev.md
     - name: 顧客がフローを体験できるようにする
       href: ./developer/dev-appsource-test-drive.md
@@ -215,7 +229,7 @@
   items:
     - name: 組織における Flow の Q & A
       href: organization-q-and-a.md
-    - name: 料金
+    - name: 価格
       href: billing-questions.md
     - name: 管理センターの概要
       href: admin-center-introduction.md
@@ -253,7 +267,7 @@
           href: gdpr-dsr-accountclose-msa.md
     - name: Power Automate 米国政府機関
       href: us-govt.md
-- name: 参照
+- name: リファレンス
   items:
     - name: リージョンの概要
       href: regions-overview.md
