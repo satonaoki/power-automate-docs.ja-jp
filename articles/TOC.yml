@@ -64,6 +64,8 @@
       href: create-business-process-flow.md
     - name: 分岐を使用して業務プロセス フローを強化する
       href: enhance-business-process-flows-branching.md
+    - name: ビジネス プロセス フローにカスタム コントロールを追加する
+      href: custom-controls-business-process-flows.md
     - name: ビジネス プロセス フロー属性のベスト プラクティス
       href: best-practices-entity-attributes.md
 - name: UI フロー (プレビュー)
@@ -172,6 +174,8 @@
       items:
         - name: 1 つの承認
           href: modern-approvals.md
+        - name: 添付ファイルを使用した承認
+          href: approval-attachments.md
         - name: 連続した承認
           href: sequential-modern-approvals.md
         - name: 並行した承認
