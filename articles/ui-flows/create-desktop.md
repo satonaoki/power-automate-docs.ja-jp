@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 064ab35f68ad36ba52395be7768b95276c5c648d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: afe9277ced28cdb964ed32550dd0402eaa0d1df4
+ms.sourcegitcommit: 8c4231190023d17c3d620e1e58d1d3d6bcd289ab
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74372609"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75943498"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>デスクトップ UI フローの作成とテスト
 
@@ -112,7 +112,7 @@ ms.locfileid: "74372609"
 
 1. **[保存して終了]** を選択して UI フローを保存します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - 作成した [UI フローをトリガーする](run-ui-flow.md)方法について学習します。
 
@@ -124,7 +124,7 @@ ms.locfileid: "74372609"
 
 - UI flows では各テストまたは実行のたびにアプリケーションの新しいインスタンスが起動されます。このため、UI フローの最後に [ **[閉じる]** アクション](edit-desktop.md#add-a-manual-action)を追加することをお勧めします。
 
-- 不要なアクションまたは重複するアクションを削除するには、記録されたアクションのカードで **[...]**  >  **[削除]** を選択します。 行う記録の種類と速度によっては、重複するアクションが作成される場合があります。 
+- 不要なアクションまたは重複するアクションを削除するには、記録されたアクションのカードで **[...]**  >  **[削除]** を選択します。
 
 - 右クリックが正しく再生されない場合があります。 その場合は、記録中に左クリックによって対象のユーザー インターフェイス要素に UI flows のフォーカスを移動してから、右クリックします。
 
