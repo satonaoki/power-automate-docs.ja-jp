@@ -169,9 +169,9 @@ Azure AD のアカウント管理サービスは、Microsoft Global Foundation S
 
 商用バージョン | US Government バージョン
 ------ | --------
-https://flow.microsoft.com | [https://gov.flow.microsoft.us](https://gov.flow.microsoft.us ) (GCC) および https://high.flow.microsoft.us (GCC High)
-https://admin.flow.microsoft.com | [https://gov.admin.flow.microsoft.us](https://gov.admin.flow.microsoft.us ) (GCC) および https://high.admin.flow.microsoft.us (GCC High)
-https://flow.microsoft.com/connectors | [https://gov.flow.microsoft.us/connectors](https://gov.flow.microsoft.us/connectors ) (GCC) および https://high.flow.microsoft.us/connectors (GCC High)
+https://flow.microsoft.com | https://gov.flow.microsoft.us (GCC) および https://high.flow.microsoft.us (GCC High)
+https://admin.flow.microsoft.com | https://gov.admin.flow.microsoft.us (GCC) および https://high.admin.flow.microsoft.us (GCC High)
+https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors (GCC) および https://high.flow.microsoft.us/connectors (GCC High)
 
 
 ネットワーク制限を実装しているお客様については、エンド ユーザーのアクセス ポイントで次のドメインへのアクセスを利用できることを確認してください。
