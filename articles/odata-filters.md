@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4e0e827b24b81ead79cb1fec73916e625b715eea
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74375829"
 ---
 # <a name="filter-and-copy-data-with-power-automate"></a>Power Automate を使用したデータのフィルターとコピー
@@ -173,6 +173,6 @@ Power Automate を使い慣れている場合は、以下の簡単な手順を�
 > 
 > 
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 フローで[データ操作](data-operations.md)を使用します。
 

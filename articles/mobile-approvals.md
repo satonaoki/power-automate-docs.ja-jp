@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 40692f5993652e386b084b2bd2ff375192448e35
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74377301"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Power Automate を使用してモバイル デバイスで要求を承認する
@@ -81,6 +81,6 @@ ms.locfileid: "74377301"
 ## <a name="reject-requests-and-leave-an-optional-comment"></a>要求を却下し、必要に応じてコメントを残す
 [要求を承認する手順](mobile-approvals.md#approve-requests-and-leave-an-optional-comment)に従いますが、2 番目の手順で **[却下]** を選択します。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 [最新の承認フローを作成する](modern-approvals.md)。
 

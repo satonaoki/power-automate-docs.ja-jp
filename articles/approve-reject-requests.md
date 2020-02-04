@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: abfe59e53f08b2feef106ba1db24e4a672eb8eb4
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74357314"
 ---
 # <a name="manage-approval-requests-in-power-automate"></a>Power Automate で承認要求を管理する
@@ -42,7 +42,7 @@ Power Automate では、[承認ワークフロー プロセス](modern-approvals
 
 
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 * [承認フロー](modern-approvals.md)を作成します。
 * [シーケンシャル承認フロー](sequential-modern-approvals.md)を作成する
 * [並列承認フローを作成する](parallel-modern-approvals.md)

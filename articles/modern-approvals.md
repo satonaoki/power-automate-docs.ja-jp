@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: c174ad7fe18539a7dc1d44acf315d569f4b35a39
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74376519"
 ---
 # <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Power Automate を使用して承認ワークフローを作成してテストする
@@ -177,7 +177,7 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 
 これでフローの作成およびテストが終了したので、フローの使い方を他のユーザーに知らせてください。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 * [承認待ちの要求](approve-reject-requests.md)を表示し、管理する
 * [シーケンシャル承認フロー](sequential-modern-approvals.md)を作成する

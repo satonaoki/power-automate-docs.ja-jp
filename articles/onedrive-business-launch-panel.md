@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d7af2e8171a460159905edc4fed0ad1a3427343a
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74374978"
 ---
 # <a name="create-flows-from-the-onedrive-for-business-launch-panel"></a>OneDrive for Business の起動パネルからフローを作成する
@@ -71,7 +71,7 @@ ms.locfileid: "74374978"
 >[!TIP]
 >このチュートリアルでは、テンプレートからフローを作成する方法について示しますが、一からフローを作成して、Power Automate で使用可能な多くのコネクタを使用することもできます。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - [Power Automate の概要](getting-started.md) 
 - [複数ステップのフローの作成](multi-step-logic-flow.md)

@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: dc0fbe16593396f4d611b98825cf00ddc56efceb
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74376151"
 ---
 # <a name="monitor-and-manage-workflow-processes"></a>ワークフロー プロセスの監視と管理
@@ -67,7 +67,7 @@ ms.locfileid: "74376151"
 ## <a name="status-of-workflow-processes"></a>ワークフロー プロセスの状態  
  ワークフロー プロセスの一覧を表示すると、個々のプロセスには **[状態]** と **[状態の理由]** の値が 1 つ対応しています。  
   
-|都道府県|状態の理由|  
+|州|状態の理由|  
 |-----------|-------------------|  
 |準備完了|リソースの待機中|  
 |中断|待機中|  
@@ -103,6 +103,6 @@ ms.locfileid: "74376151"
 
 同期一括削除では、完了状態の AsyncOperation レコードのみが削除されます。 1 回の呼び出しでの最大 100 万件のレコードが処理されます。 ご使用の環境で 100 万件を超えるレコードを削除する場合には、ジョブを複数回実行する必要があります。  
   
-## <a name="next-steps"></a>次のステップ   
+## <a name="next-steps"></a>次の手順   
  [ワークフロー プロセスのベスト プラクティス](best-practices-workflow-processes.md) <br />
 

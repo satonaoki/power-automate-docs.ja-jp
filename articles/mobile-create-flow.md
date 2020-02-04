@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2faafe936dc9659a50b7e249c75eb9c495101fbf
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74377600"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Power Automate を使用した携帯電話からのフローの作成
@@ -92,7 +92,7 @@ Power Automate に慣れていない場合は、[概要を確認してくださ�
    
     フローが作成され、そのフローを一時停止または削除するまで、マネージャーからのメールがチェックされます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [フロー アクティビティを監視](mobile-monitor-activity.md)します。
 * [フローを管理](mobile-manage-flows.md)します。
 

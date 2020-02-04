@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 000253e168f2575ffb3cf8910c1538699d405b55
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74354715"
 ---
 <div id="main" class="v2">
@@ -164,7 +164,7 @@ ms.locfileid: "74354715"
                                             </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>ヘルプを見る</h3>
+                                            <h3>ヘルプを表示</h3>
                                             <p>いつでもお手伝いします。 何かご質問はありますか。</p>
                                         </div>
                                     </div>

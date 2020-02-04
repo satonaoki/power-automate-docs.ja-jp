@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 94ea624378a58e92441e1c72ce3e0ff72040a7f2
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74375139"
 ---
 # <a name="overview"></a>概要
@@ -74,7 +74,7 @@ ms.locfileid: "74375139"
    > [!TIP]
    > 新しいソリューションが表示されない場合は、 **[ソリューション]** を選択してソリューションの一覧を更新します。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - [ソリューションにフローを作成する](./create-flow-solution.md)
 - [ソリューションをエクスポートする](./export-flow-solution.md)

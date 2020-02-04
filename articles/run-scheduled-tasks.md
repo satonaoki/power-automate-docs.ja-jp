@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e8acff386e031eba3bb48a9f8abd535f8ce57940
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373460"
 ---
 # <a name="run-flows-on-a-schedule"></a>スケジュールに従ったフローの実行
@@ -42,20 +42,20 @@ ms.locfileid: "74373460"
 2. **[一から作成]** を選択します。
    
     ![ゼロからフローを作成](./media/run-scheduled-tasks/create-from-blank.png)
-3. **[すべてのコネクタとトリガーを検索する]** ボックスに、「**繰り返し**」と入力し、**[スケジュール - 繰り返し]** を選択します。
+3. **[すべてのコネクタとトリガーを検索する]** ボックスに、「**繰り返し**」と入力し、 **[スケジュール - 繰り返し]** を選択します。
    
     ![繰り返しのトリガーを検索](./media/run-scheduled-tasks/select-recurrence.png)
 4. **[Recurrence (繰り返し)]** ダイアログ ボックスで、フローを実行する頻度を指定します。
    
-    たとえば、2 週間に 1 回フローを実行するには、**[間隔]** で **[2]** を指定し、**[頻度]** で **[週]** を指定します。
+    たとえば、2 週間に 1 回フローを実行するには、 **[間隔]** で **[2]** を指定し、 **[頻度]** で **[週]** を指定します。
    
     ![定期的な実行の指定](./media/run-scheduled-tasks/specify-recurrence.png)
 
 ## <a name="specify-advanced-options"></a>詳細なオプションを指定する
-1. 前のセクションの手順を実行し、**[詳細オプションを表示する]** を選択します。
+1. 前のセクションの手順を実行し、 **[詳細オプションを表示する]** を選択します。
    
-    **注**: このオプションは、**[間隔]** と **[頻度]** に設定された値に基づいて変更されます。 表示されている画面が、下図と異なる場合は **[間隔]** と **[頻度]** が下図と同じ値に設定されていることを確認してください。
-2. **[タイム ゾーン]** を選択し、**[開始時刻]** を指定する際にローカル タイム ゾーン、協定世界時 (UTC) などを反映するようにします。
+    **注:** このオプションは、 **[間隔]** と **[頻度]** に設定された値に基づいて変更されます。 表示されている画面が、下図と異なる場合は **[間隔]** と **[頻度]** が下図と同じ値に設定されていることを確認してください。
+2. **[タイム ゾーン]** を選択し、 **[開始時刻]** を指定する際にローカル タイム ゾーン、協定世界時 (UTC) などを反映するようにします。
 3. **[開始時刻]** を次の形式で指定します。
    <br>YYYY-MM-DDTHH:MM:SSZ
 4. **[頻度]** で **[日]** を指定した場合は、フローを実行する時刻を指定します。
@@ -74,19 +74,19 @@ ms.locfileid: "74373460"
    
     ![ゼロからフローを作成](./media/run-scheduled-tasks/create-from-blank.png)
 3. [ゼロからのフロー作成](get-started-logic-flow.md)に関する記事に従って、イベントを指定します。
-4. **[新しいステップ]** を選択し、**[アクションの追加]** を選択します。
+4. **[新しいステップ]** を選択し、 **[アクションの追加]** を選択します。
    
     ![フローにアクションを追加するオプション](./media/run-scheduled-tasks/add-action.png)
 5. アクションの一覧で、次のいずれかの操作を行います。
    
-   * **[遅延]** を選択し、**[カウント]** を指定して、秒、分、時間などの **[単位]** を指定する。
+   * **[遅延]** を選択し、 **[カウント]** を指定して、秒、分、時間などの **[単位]** を指定する。
    * **[延期期限]** を選択し、日付を次の形式で指定します。<br>YYYY-MM-DDTHH:MM:SSZ
      
      ![遅延の追加](./media/run-scheduled-tasks/add-delay.png)
      ![時間の単位で遅延を指定](./media/run-scheduled-tasks/delay.png)
      ![延期期限を指定](./media/run-scheduled-tasks/delay-until.png)
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 [詳細オプション](https://docs.microsoft.com/azure/connectors/connectors-native-recurrence)とその構成方法の詳細をご覧ください。
 
