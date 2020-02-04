@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 019d711771c10f360b1f5c7dab61aa432c827311
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367112"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Power Automate でオンプレミス データ ゲートウェイを管理する
@@ -32,7 +32,7 @@ ms.locfileid: "74367112"
 
 オンプレミス データ ゲートウェイをインストールして管理すると、Power Automate を介してさまざまなクラウドベースのアプリをオンプレミスのデータやアプリと安全に統合できます。
 
-ゲートウェイでは、次の接続を通じてオンプレミスのデータに接続することができます。
+ゲートウェイを使用すると、次の接続を介して、オンプレミス データに接続できます。
 
 * Apache Impala
 * 作成するカスタム コネクタ
@@ -53,10 +53,10 @@ ms.locfileid: "74367112"
 ## <a name="prerequisites"></a>前提条件
 
 * Power Automate への[サインアップ](sign-up-sign-in.md)で使用したユーザー名とパスワード。
-* ゲートウェイでの管理アクセス許可。
+* ゲートウェイの管理者アクセス許可。
 
   インストールするゲートウェイごとに、これらのアクセス許可が既定で与えられます。 また、別のゲートウェイの管理者がそのゲートウェイのこれらのアクセス許可を与えることができます。
-* ゲートウェイをサポートするライセンス。 詳しくは、[料金ページ](https://flow.microsoft.com/pricing/)の「接続」セクションをご覧ください。
+* ゲートウェイをサポートするライセンス。 詳細については、[料金に関するページ](https://flow.microsoft.com/pricing/)の「Connectivity (接続)」セクションを参照してください。
 
 > [!NOTE]
 > ゲートウェイとオンプレミスの接続は、[既定の環境](environments-overview-maker.md)でのみ作成することができます。

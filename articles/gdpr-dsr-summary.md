@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 256e874e2b70844219cd1c21e2ed37f2a96ba78c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367388"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の要求への応答

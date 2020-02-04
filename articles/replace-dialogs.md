@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b338991cfdbb73a8a0464fd4322714ece82c2ac5
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373023"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える
@@ -85,7 +85,7 @@ ms.locfileid: "74373023"
 
 この業務プロセスをユーザーが使用できるようにするには、適切なユーザーが確実に業務プロセス フローに対する権限を有しそれをアクティブ化できるようにします。
 
-業務プロセス フローを作成する方法の詳細については、「[Tutorial: Create a business process flow to standardize processes](create-business-process-flow.md)」 (チュートリアル: プロセスを標準化する業務プロセス フローを作成する) を参照してください。
+業務プロセス フローを作成する方法の詳細については、「[チュートリアル: プロセスを標準化する業務プロセス フローを作成する](create-business-process-flow.md)」を参照してください。
 
 ## <a name="dialog-replacement-using-canvas-app-scenario"></a>キャンバス アプリ シナリオを使用したダイアログの置き換え
 
@@ -106,7 +106,7 @@ ms.locfileid: "74373023"
 
 このアプリをユーザーが使用できるようにするには、アプリを公開します。 コール スクリプトを提供し迅速なデータ入力をサポートするスタンドアロン アプリが利用可能なことにより、このようなシナリオがどのように変化する可能性があるかを検討してください。
 
-このエクスペリエンスを Dynamics 365 Sales に埋め込むとします。 これを行うには、まず、Dynamics 365 Sales フォーム上で iframe を作成します。 次に、[Power Apps] メニューから **[アプリ]** セクションに移動し、発行したばかりのアプリを選択し、**[詳細]** タブの下にある Web リンクをコピーし、それを iframe の URL として貼り付けます。 
+このエクスペリエンスを Dynamics 365 Sales に埋め込むとします。 これを行うには、まず、Dynamics 365 Sales フォーム上で iframe を作成します。 次に、[Power Apps] メニューから **[アプリ]** セクションに移動し、発行したばかりのアプリを選択し、 **[詳細]** タブの下にある Web リンクをコピーし、それを iframe の URL として貼り付けます。 
 
 このステップをさらに見ていきます。このアプリが潜在顧客のメイン フォーム内で、および潜在顧客のコンテキスト内で直接利用できるようになることで、最初の画面内でユーザーがアプリから潜在顧客を選択するように求められることがないようにしたいと仮定します。 関連する情報をアプリに渡すには、フォームの読み込みなどの特定のイベントに対して実行される JavaScript を使用することにより、潜在顧客やアカウント ID などの情報を含むクエリ文字列を付加するように iframe URL を変更するだけです。 次に、アプリ内において、最初の画面 (潜在顧客の選択用) を削除し、代わりに [Param 関数](/powerapps/maker/canvas-apps/functions/function-param) を使用することによりクエリ文字列を介してアプリに渡される値にアクセスするように更新を行います。
 

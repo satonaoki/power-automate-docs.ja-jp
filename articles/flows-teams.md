@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: a2a9b5d5a6ed8305ed3e7c29717ef19978bae0a7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367066"
 ---
 # <a name="power-automate-in-teams"></a>Teams での Power Automate
@@ -57,7 +57,7 @@ Microsoft Teams に Power Automate アプリをインストールするには、
 
 1. Microsoft Teams にサインインします。
 
-1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、**[Flow]** アプリを選択します。
+1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、 **[Flow]** アプリを選択します。
 
     ![追加されたアプリのアイコン](media/flows-teams/added-apps-icon.png)
 
@@ -70,7 +70,7 @@ Microsoft Teams に Power Automate アプリをインストールするには、
 
     ![Flow のランディング ページ](media/flows-teams/flow-landing-page.png)
 
-    Name (名前)|目的
+    名前|目的
     ----|-----|
     会話|Flow ボットとやりとりします。
     フロー|フローを作成して管理します。
@@ -100,11 +100,11 @@ Power Automate で行う場合と同様に、Microsoft Teams でも[承認](mode
     履歴|受信済みまたは送信済みの承認要求を一覧表示します。
     承認フローを作成する|承認フローを作成します。
 
-1. 詳細については、**[受信済み]** タブ、**[送信済み]** タブ、または **[履歴]** タブを選択します。
+1. 詳細については、 **[受信済み]** タブ、 **[送信済み]** タブ、または **[履歴]** タブを選択します。
 
     ![[承認] タブ](media/flows-teams/approvals-tab-2.png)
 
-1. 承認フローを作成するには、**[承認フローの作成]** を選択します。
+1. 承認フローを作成するには、 **[承認フローの作成]** を選択します。
 
     ![[承認] タブ](media/flows-teams/approvals-tab-3.png)
 
@@ -116,7 +116,7 @@ Power Automate で行う場合と同様に、Microsoft Teams でも[承認](mode
 > ボットを使用すると、スケジュールによってトリガーされるフロー、またはユーザーの入力なしで手動でトリガーされるフローを一覧表示し、実行することができます。
 
 1. Microsoft Teams にサインインします。
-1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、**[Flow]** アプリを選択します。
+1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、 **[Flow]** アプリを選択します。
 
     ![追加されたアプリのアイコン](media/flows-teams/added-apps-icon.png)
     

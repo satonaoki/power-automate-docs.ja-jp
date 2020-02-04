@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3f4ddd361eaad062a7287c1d0b33e00fc320e69e
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74357912"
 ---
 # <a name="use-the-apply-to-each-action-in-power-automate-to-process-a-list-of-items-periodically"></a>Power Automate の Apply to each アクションを使用して項目の一覧を定期的に処理する
@@ -50,7 +50,7 @@ ms.locfileid: "74357912"
 * [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 向けの Power Automate モバイル アプリ。
 * Office 365 Outlook とプッシュ通知サービスへの接続。
 
-## <a name="create-a-flow"></a>フローを作成する
+## <a name="create-a-flow"></a>フローの作成
 1. [Power Automate](https://flow.microsoft.com) にサインインします。
 2. **[マイ フロー]** タブを選び、一からフローを作成します。
    

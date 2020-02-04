@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4e05c7eaf6a797768574618ad911b8ba4ec27590
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373092"
 ---
 # <a name="remove-a-solution-aware-flow"></a>ソリューション対応フローを削除する
@@ -42,11 +42,11 @@ ms.locfileid: "74373092"
 
    ![](./media/remove-solution-aware-flow/new-flow-inside-solution.png)
    
-1. フローの **[...]**(その他のコマンド) を選択し、**[削除]** を選択します。その後、**[このソリューションから削除]** または **[この環境から削除します]** のどちらかを選択します。
+1. フローの **[...]** (その他のコマンド) を選択し、 **[削除]** を選択します。その後、 **[このソリューションから削除]** または **[この環境から削除します]** のどちらかを選択します。
 
    ![](./media/remove-solution-aware-flow/delete-flow-from-solution-options.png)
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - [ソリューションを作成する](./overview-solution-flows.md)
 - [ソリューションにフローを作成する](./create-flow-solution.md)

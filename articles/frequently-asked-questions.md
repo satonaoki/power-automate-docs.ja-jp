@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 5af881b25afb9dbc1554eaf730b21e2bf27f095d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74367871"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
@@ -78,7 +78,7 @@ Power Automate は最初から 100 以上のデータ ソースに接続でき�
 
 * SharePoint
 * Dynamics 365
-* OneDrive
+* 従来の OneDrive
 * OneDrive for Business
 * Google ドライブ
 * Google シート
@@ -157,7 +157,7 @@ Power Automate は、承認、ドキュメントの校閲、オンボード/オ�
 ### <a name="what-pricing-plans-do-you-offer"></a>どのような価格プランのオファーがありますか。
 Power Automate には、無料と有料の両方のサービス レベルが用意されています。 [価格の詳細については、こちらをご覧ください](billing-questions.md)。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 * Power Automate の[ガイド付き学習ツアー](https://docs.microsoft.com/learn/paths/automate-process-using-flow)を見る
 * [ファースト ステップ ガイド](getting-started.md)で Power Automate の基礎を学習する
