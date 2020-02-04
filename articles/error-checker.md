@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - flowmaker
 ms.openlocfilehash: 1c847d4d1f84f68772af227b35ff1349f2963d39
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74355267"
 ---
 # <a name="the-power-automate-checker"></a>Power Automate チェッカー
@@ -51,7 +51,7 @@ Power Automate チェッカーを使用すると、フローを設計する際�
 
 ![チェッカーの詳細](media/checker/checker-detail.png "チェッカーの詳細")
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 [Power Automate の概要](getting-started.md)
 

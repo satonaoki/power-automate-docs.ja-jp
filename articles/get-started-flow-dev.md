@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: feca66dc9148d6416e2bac8a6e690cee62d6aa9b
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369090"
 ---
 # <a name="start-to-build-with-power-automate"></a>Power Automate でビルドを始める
@@ -62,11 +62,11 @@ Power Automate から接続したい Web サービスがある場合は、最初
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>Web サイトまたはアプリにフロー エクスペリエンスを埋め込む
 
-アプリに Power Automate を[埋め込んで](developer/embed-flow-dev.md)、ご利用のアプリと Power Automate でサポートされる他のすべてのサービスをコンテキスト内で深く統合することができます。 たとえば、次のことが可能です。
+アプリに Power Automate を[埋め込んで](developer/embed-flow-dev.md)、ご利用のアプリと Power Automate でサポートされる他のすべてのサービスをコンテキスト内で深く統合することができます。 たとえば、次のようなことができます。
 
 * サービスに関連するすべてのテンプレートを参照し、ユーザーがテンプレートを選択できるようにする。
 * ユーザーがアプリに関連付けたフローを管理する。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 Power Automate を自分のアプリに[埋め込む](developer/embed-flow-dev.md)方法を学習する

@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 7379cb966be58edfa75cd20c3ad70cf9fff2407a
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362650"
 ---
 # <a name="create-a-flow-in-a-solution"></a>ソリューションにフローを作成する
@@ -47,7 +47,7 @@ ms.locfileid: "74362650"
 
    ![](./media/create-flow-solution/new-solution-created.png)
 
-1. **[+ 新規]** を選択した後、**[フロー]** を選択します。
+1. **[+ 新規]** を選択した後、 **[フロー]** を選択します。
 
    ![](./media/create-flow-solution/select-new-flow.png)
 
@@ -60,7 +60,7 @@ ms.locfileid: "74362650"
 1. **[新しいメールが届いたとき]** トリガーを選択します。
 1. **[+ 新しいステップ]** を選択します。
 1. **[Send me a mobile notification]\(モバイル通知を受け取る\)** アクションを選択します。
-1. **[Send me a mobile notification]\(モバイル通知を受け取る\)** ボックスの **[テキスト]** フィールドに、**[件名]** 動的トークンを追加します。
+1. **[Send me a mobile notification]\(モバイル通知を受け取る\)** ボックスの **[テキスト]** フィールドに、 **[件名]** 動的トークンを追加します。
 1. フローに名前を付けた後、フローを保存します。
 
    フローは次のようになります。
@@ -71,7 +71,7 @@ ms.locfileid: "74362650"
 
    ![](./media/create-flow-solution/new-flow-inside-solution.png)
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 * [ソリューションを作成する](./overview-solution-flows.md)
 * [ソリューションをエクスポートする](./export-flow-solution.md)

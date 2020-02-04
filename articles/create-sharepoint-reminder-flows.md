@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/30/2019
 ms.author: deonhe
 ms.openlocfilehash: 09ee39c918bb35721ee77a7cdcd432755ccfa8c4
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362006"
 ---
 # <a name="sharepoint-remind-me"></a>SharePoint の通知を受け取る
@@ -58,7 +58,7 @@ SharePoint のリストとライブラリを使用すると、カスタム メ�
 
 リマインダー フローは他のフローと同じなので、[Power Automate](https://flow.microsoft.com) を使用してアクセスしたり編集したりすることができます。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - [Power Automate](https://flow.microsoft.com) の概要。
 - SharePoint で[リマインダー フロー](https://support.office.com/article/set-a-reminder-flow-23c0e172-1fc1-4ac8-a9db-cd0b81d634d8)を設定する。

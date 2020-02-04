@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 89d81576fafe0089abd9f0d981471a578b425691
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74358165"
 ---
 # <a name="troubleshooting-a-flow"></a>フローのトラブルシューティング
@@ -38,7 +38,7 @@ ms.locfileid: "74358165"
 
 修復のヒントの電子メールには、次のセクションが含まれています。
 
-Name (名前)|説明
+名前|説明
 ---|---
 時刻|フローで最初にエラーが出た時刻を表示します。
 何が起きましたか?|フロー エラーの原因となった問題を説明します。

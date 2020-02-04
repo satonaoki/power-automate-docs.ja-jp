@@ -19,10 +19,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0380509b2677e2229ecd2a98a5f3b8dde4f9732c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361431"
 ---
 # <a name="configure-workflow-stages-and-steps"></a>ワークフローのステージとステップを構成する
@@ -77,7 +77,7 @@ ms.locfileid: "74361431"
   
 |条件の種類|説明|  
 |--------------------|-----------------|  
-|**条件の確認**|論理 "if-\<condition> then" ステートメント。<br /><br /> ワークフローの実行対象のレコード、そのレコードに N:1 リレーションシップで関連付けられているすべてのレコード、または前のステップで作成されたすべてのレコードの現在の値を確認できます。 これらの値に基づいて、条件が true の場合に追加のステップを定義できます。<br /><br /> "if-\<condition> then" ステートメントで使用できる演算子は、**Equals**、**Does Not Equal**、**Contains Data**、**Does Not Contain Data**、**Under**、および **Not Under** です。 **注意:** **Under** と **Not Under** は階層演算子です。 階層的な関係付けが定義されているエンティティに対してのみ使用できます。 階層的な関係付けが定義されていないエンティティに対してこれらの演算子を使用しようとすると、次のエラー メッセージが表示されます。You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.\(階層的な関係付けが定義されていないエンティティに対して階層演算子を使用しています。エンティティの階層を作成する (階層的なリレーションシップをマークする) か、別の演算子を使用してください。\) 階層的な関係付けについて詳しくは、「[階層的に関連するデータの定義とクエリ](/powerapps/maker/common-data-service/define-query-hierarchical-data)」をご覧ください。 表の後のスクリーンショットは、**Under** および **Not Under** 階層演算子を使用するワークフロー プロセスの定義例です。|  
+|**条件の確認**|論理 "if-\<condition> then" ステートメント。<br /><br /> ワークフローの実行対象のレコード、そのレコードに N:1 リレーションシップで関連付けられているすべてのレコード、または前のステップで作成されたすべてのレコードの現在の値を確認できます。 これらの値に基づいて、条件が true の場合に追加のステップを定義できます。<br /><br /> "if-\<condition> then" ステートメントで使用できる演算子は、**Equals**、**Does Not Equal**、**Contains Data**、**Does Not Contain Data**、**Under**、**Not Under** です。 **注:** **Under** と **Not Under** は階層演算子です。 階層的な関係付けが定義されているエンティティに対してのみ使用できます。 階層的な関係付けが定義されていないエンティティに対してこれらの演算子を使用しようとすると、次のエラー メッセージが表示されます。You’re using a hierarchical operator on an entity that doesn’t have a hierarchical relationship defined. Either make the entity hierarchical (by marking a relationship as hierarchical) or use a different operator.\(階層的な関係付けが定義されていないエンティティに対して階層演算子を使用しています。エンティティの階層を作成する (階層的なリレーションシップをマークする) か、別の演算子を使用してください。\) 階層的な関係付けについて詳しくは、「[階層的に関連するデータの定義とクエリ](/powerapps/maker/common-data-service/define-query-hierarchical-data)」をご覧ください。 表の後のスクリーンショットは、**Under** および **Not Under** 階層演算子を使用するワークフロー プロセスの定義例です。|  
 |**条件分岐**|論理 "else-if-then" ステートメント。エディターでは "Otherwise, if \<condition> then:" というテキストが使用されます。<br /><br /> 前に定義した条件の確認を選択し、条件分岐を追加して、条件の確認で false が返されたときの追加ステップを定義できます。|  
 |**既定のアクション**|論理 "else" ステートメント。 エディターでは、テキスト "Otherwise:" が使用されます。<br /><br /> 前に定義した条件の確認、条件分岐、待機条件、または並列待機分岐を選択し、既定のアクションを使用して、条件または分岐要素で定義されている条件に一致しないすべてのケースに対するステップを定義できます。|  
 |**待機条件**|条件に定義された基準が満たされるまで、バックグラウンド ワークフローを一時停止できます。 待機条件の基準が満たされると、ワークフローが自動的に再開されます。<br /><br /> リアルタイム ワークフローは待機条件を使用できません。|  
@@ -112,7 +112,7 @@ ms.locfileid: "74361431"
 
  ワークフローで **[ワークフローの停止]** アクションを適用するとき、状態条件 ( **[成功]** または **[取り消し済み]** のいずれか) を指定できます。 状態を [取り消し済み] に設定すると、操作が行われません。 アクション停止ステータス メッセージのテキストを含むエラー メッセージが、 **[ビジネス プロセス エラー]** という見出しでユーザーに表示されます。  
   
-## <a name="next-steps"></a>次のステップ  
+## <a name="next-steps"></a>次の手順  
  [プロセスを含むカスタム ビジネス ロジックの作成](guide-staff-through-common-tasks-processes.md)   
  [ワークフロー プロセスの概要](workflow-processes.md)   
  [ワークフロー プロセスの監視と管理](monitor-manage-processes.md)   

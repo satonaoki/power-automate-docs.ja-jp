@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 756ccf21a75728da2ef8d114bc99d72692c38120
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371114"
 ---
-# <a name="preview-introduction-to-ui-flows"></a>プレビュー: UI flows の概要
+# <a name="preview-introduction-to-ui-flows"></a>プレビュー:UI フローの概要
 
 [このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
 
@@ -60,7 +60,7 @@ Power Automate を使用すると、API を使用して最新のアプリケー�
 
 ご自分の UI フローは、自動されたフロー、ボタン フロー、スケジュールされたフロー、およびビジネス プロセス フローと共に [ **[マイ フロー]** ](manage.md) 内にあります。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [UI フローの設定](setup.md)方法について学習します。 
 - ワークフローを自動化するために使用できる[さまざまな種類のフロー](..\getting-started.md#types-of-flows)の詳細について学習する。

@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 569408367130c6f5121b30d2c8c14833b142b934
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368791"
 ---
 # <a name="create-a-flow-in-power-automate"></a>Power Automate でフローを作成する
@@ -32,7 +32,7 @@ ms.locfileid: "74368791"
 
 > [!VIDEO https://www.youtube.com/embed/Gt3CMhLAQqE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF]
 
-イベントでトリガーされた後、1 つまたは複数のタスクを自動的に実行するフローを作成します。 たとえば、指定したキーワードが含まれるツイートを誰かが送信したときにメールで通知するフローを作成するとします。 この例では、ツイートの送信がイベント、メールの送信がアクションになります。
+イベントによってトリガーされた後は 1 つまたは複数のタスクを自動的に実行するフローを作成します。 たとえば、指定したキーワードが含まれるツイートを誰かが送信したときにメールで通知するフローを作成するとします。 この例では、ツイートの送信がイベント、メールの送信がアクションになります。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -126,7 +126,7 @@ ms.locfileid: "74368791"
 >
 >
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * フローに、さまざまな通知方法などの[ステップを追加](multi-step-logic-flow.md)します。
 * アクションを毎日、特定の日付に、または一定時間 (分) 後に実行する場合は、[スケジュールに従ってタスクを実行](run-scheduled-tasks.md)します。

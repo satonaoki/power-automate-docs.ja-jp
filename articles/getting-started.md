@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: bb50b99f0a86e1221aaa4c4072426a31b9bf8f61
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368653"
 ---
 # <a name="get-started-with-power-automate"></a>Power Automate の概要 
@@ -34,7 +34,7 @@ ms.locfileid: "74368653"
 <br>
 <iframe width="1129" height="635" src="https://www.youtube.com/embed/hCuxuUaGC6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-ようこそ。 Power Automate は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
+ようこそ! Power Automate は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
 
 ## <a name="types-of-flows"></a>フローの種類
 
@@ -42,7 +42,7 @@ Power Automate は Power Platform の柱の 1 つです。 わずかなコード
 
 | **フローの種類**                                                                       | **ユース ケース**                                                                                  | **ターゲット**                                                                             |
 |-------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
-| [自動化されたフロー](get-started-logic-flow.md)                 | イベントでトリガーされた後、1 つまたは複数のタスクを自動的に実行するフローを作成します。 | クラウドまたはオンプレミスのサービス向けの[コネクタ](https://docs.microsoft.com/connectors/)。 |
+| [自動化されたフロー](get-started-logic-flow.md)                 | イベントによってトリガーされた後は 1 つまたは複数のタスクを自動的に実行するフローを作成します。 | クラウドまたはオンプレミスのサービス向けの[コネクタ](https://docs.microsoft.com/connectors/)。 |
 | [ボタン フロー](introduction-to-button-flows.md)              | モバイル デバイスでいつでも、どこからでも繰り返しタスクを実行します。                        |                                                                                        |
 | [スケジュールされたフロー](run-scheduled-tasks.md)                    | スケジュールに合わせて 1 つまたは複数のタスクを実行するフローを作成します。             |                                                                                        |
 | [業務プロセス フロー](business-process-flows-overview.md) | ユーザーが実行することで求められる結果を導く一連の手順を定義します。                 | 人的プロセス                                                                        |

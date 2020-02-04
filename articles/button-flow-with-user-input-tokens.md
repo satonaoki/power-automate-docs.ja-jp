@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: fe7e8f685d319e11994adaf1926d2d0ab03706d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74358579"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>ユーザー入力のあるボタン フローの概要
@@ -101,13 +101,13 @@ Power Automate の Web サイトや Power Automate のモバイル アプリで�
 1. Power Automate 用のモバイル アプリでは、 **[ボタン]** タブをタップし、 **[Create bug report with steps]** \(ステップを含むバグ レポートを作成) ボタンをタップします。
    
     ![](./media/button-flow-with-user-input-tokens/runmt1.png)  
-2. 報告するバグのタイトルを入力し、 **[次へ]** をクリックします。 次に例を示します。
+2. 報告するバグのタイトルを入力し、 **[次へ]** をクリックします。 例:
    
     ![](./media/button-flow-with-user-input-tokens/runmt2.png)  
 3. 報告するバグの説明を入力し、 **[次へ]** をタップします。 次に例を示します。
    
     ![](./media/button-flow-with-user-input-tokens/runmt3.png)  
-4. 報告するバグを再現するためのステップを入力し、 **[次へ]** をタップします。 次に例を示します。
+4. 報告するバグを再現するためのステップを入力し、 **[次へ]** をタップします。 例:
    
     ![](./media/button-flow-with-user-input-tokens/runmt3-1.png)  
 5. 報告するバグの重大度を入力し、 **[完了]** をタップします。  
@@ -142,7 +142,7 @@ Power Automate の Web サイトや Power Automate のモバイル アプリで�
 
 ![オプション フィールドを選択する](media/button-flow-with-user-input-tokens/required-optional.png)
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [ボタン フローを共有する](share-buttons.md)
 * [ボタン フローについて](introduction-to-button-flows.md)  
 * [トリガー トークンのあるボタン フローについて](introduction-to-button-trigger-tokens.md)  

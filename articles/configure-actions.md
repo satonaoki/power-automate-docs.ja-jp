@@ -22,16 +22,16 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9157159a263bb2b8be41445aebb478fc6aa2ddb3
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74360557"
 ---
 # <a name="configure-custom-actions-from-a-workflow"></a>ワークフローからカスタム アクションを構成する
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
-コードを作成せずにワークフローからカスタム アクションを有効にすることができます。 詳しくは、「[ワークフローからカスタム アクションを呼び出す](invoke-custom-actions-workflow-dialog.md)」をご覧ください。  
+コードを作成せずにワークフローからカスタム アクションを有効にすることができます。 詳細情報: [ワークフローからカスタム アクションを呼び出す](invoke-custom-actions-workflow-dialog.md)  
   
  開発者がコードで使用できるようにアクションを作成したり、以前に定義されたアクションを編集することが必要になったりすることもあります。 ワークフローのプロセスと同様に、次のことを検討してください。  
   
@@ -48,7 +48,7 @@ ms.locfileid: "74360557"
   
 - **[バックグラウンドで実行]** : アクションは常にリアルタイム ワークフローです。  
   
-また、アクションにはワークフロー プロセスにないものがあります。それは入力と出力の引数です。 詳しくは、「[プロセスの引数を定義する](configure-actions.md#BKMK_DefineProcessArgs)」をご覧ください。  
+また、アクションにはワークフロー プロセスにないものがあります。それは入力と出力の引数です。 詳細情報: [プロセスの引数を定義する](configure-actions.md#BKMK_DefineProcessArgs)  
   
 <a name="create"></a>   
 ## <a name="create-an-action"></a>アクションを作成する  
@@ -101,10 +101,10 @@ ms.locfileid: "74360557"
  すべてのプロセスと同じく、プロセスをテンプレートとしてアクティブ化することができます。これを使用すると、同じパターンのプロセスを作成するときに前進したところから開始できます。  
   
  **[Define Process Arguments]\(プロセスの引数の定義\)**  
- ここでは、アクションが開始時に予期するデータと、アクションから渡されるデータを指定します。 詳しくは、「[プロセスの引数を定義する](configure-actions.md#BKMK_DefineProcessArgs)」をご覧ください。  
+ ここでは、アクションが開始時に予期するデータと、アクションから渡されるデータを指定します。 詳細情報: [プロセスの引数を定義する](configure-actions.md#BKMK_DefineProcessArgs)  
   
  **[Add Stages, Conditions and Actions]\(ステージ、条件、アクションを追加する\)**  
- 他のプロセスと同様に、実行するアクションと、それをいつ実行するかを指定します。 詳しくは、[ステージ、条件、アクションの追加](configure-actions.md#BKMK_AddStagesConditionsAndActions)に関するセクションをご覧ください。
+ 他のプロセスと同様に、実行するアクションと、それをいつ実行するかを指定します。 詳細情報: [ステージ、条件、アクションを追加する](configure-actions.md#BKMK_AddStagesConditionsAndActions)
 
 <a name="BKMK_DefineProcessArgs"></a>   
 ### <a name="define-process-arguments"></a>プロセスの引数を定義する  
@@ -121,9 +121,9 @@ ms.locfileid: "74360557"
 #### <a name="action-process-argument-types"></a>アクション プロセスの引数の型  
  次の表では、アクション プロセスの引数の型について説明します。  
   
-|型|説明|  
+|種類|説明|  
 |----------|-----------------|  
-|Boolean|`true` または `false` の値。|  
+|ブール値|`true` または `false` の値。|  
 |DateTime|日付と時刻の情報を格納する値。|  
 |Decimal|精度が小数点以下の数値。 精度がきわめて重要な場合に使用されます。|  
 |Entity|指定したエンティティのレコードです。 Entity を選択すると、ドロップダウン リストが有効になり、エンティティの種類を選択できるようになります。|  
@@ -136,7 +136,7 @@ ms.locfileid: "74360557"
 |String|テキスト値。|  
   
 > [!NOTE]
-> **EntityCollection** 引数値は、条件またはアクションについて、ユーザー インターフェイスで設定できません。 これらは、開発者がカスタム コードで使用するために提供されます。 詳しくは、「[独自のアクションの作成](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions)」をご覧ください。 
+> **EntityCollection** 引数値は、条件またはアクションについて、ユーザー インターフェイスで設定できません。 これらは、開発者がカスタム コードで使用するために提供されます。 詳細情報: [独自のアクションの作成](https://docs.microsoft.com/dynamics365/customer-engagement/developer/create-own-actions) 
   
 <a name="BKMK_AddStagesConditionsAndActions"></a>   
 ### <a name="add-stages-and-steps"></a>ステージとステップを追加する  
@@ -144,7 +144,7 @@ ms.locfileid: "74360557"
   
  リアルタイム ワークフローで使用できるステップの他に、アクションには **[値の割り当て]** ステップがあります。  アクションでは、これらは出力引数の設定にのみ使用できます。 フォーム アシスタントを使用して、出力引数に特定の値を設定することができます。または、アクションを実行した対象のレコード、そのレコードに多対一リレーションシップで関連するレコード、前のステップで作成されたレコードの値や、プロセスそのものに含まれる値を設定する方がよく行われます。  
   
-## <a name="next-steps"></a>次のステップ  
+## <a name="next-steps"></a>次の手順  
  [アクション](actions.md)  
 
  [ワークフローからカスタム アクションを呼び出す](invoke-custom-actions-workflow-dialog.md)   

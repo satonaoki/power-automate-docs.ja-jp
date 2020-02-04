@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: adfbf357d1ebe31621ecf1703573d86d1e549ca8
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74354738"
 ---
 # <a name="power-automate-mobile-app-supports-microsoft-intune"></a>Power Automate モバイル アプリによる Microsoft Intune のサポート
@@ -69,7 +69,7 @@ Power Automate モバイル アプリを管理するには、次のことを行�
 1. アプリ保護ポリシーの条件を満たす PIN がまだない場合は、PIN を設定する。
 
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 [アプリ保護ポリシー](https://docs.microsoft.com/intune/app-protection-policies)を作成する方法
 

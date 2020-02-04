@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 263ebf710d280ebd7c4a6d2846fa859693561476
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74355474"
 ---
-# <a name="choosing-an-environment"></a>環境を選択する
+# <a name="choosing-an-environment"></a>環境の選択
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
 この記事で紹介する Power Automate の**環境**を使うと、フロー、ゲートウェイ、接続、その他のリソースを作成して安全に分離できます。
@@ -91,7 +91,7 @@ Power Automate では、環境を簡単に切り替えることができます�
 > [!NOTE]
 > 既定の環境でのフローの作成は常に行うことができます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 * [テンプレートからフローを作成する](get-started-logic-template.md)
 * [フローを作成する](get-started-logic-flow.md)

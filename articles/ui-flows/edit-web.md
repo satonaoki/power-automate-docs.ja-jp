@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: f29873dff5ae842d2f7b86f4f6e3e5c31bf04712
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371689"
 ---
 # <a name="edit-web-ui-flows"></a>Web UI フローの編集
@@ -54,7 +54,7 @@ Selenium IDE で特定できるセレクターの例を次に示します。
 
 この高度な機能を使用すると、\${foo.bar} のような構文を使用して、foo オブジェクトの bar プロパティにアクセスできます。 store コマンドの value プロパティとして foo を使用して、foo の bar プロパティに書き込むこともできます。 \${foo[0]} のような構文を使用して、foo 配列内のインデックス 0 の項目にアクセスすることもできます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [Web UI フローの作成](create-web.md)
 - [UI フローの実行](run-ui-flow.md)

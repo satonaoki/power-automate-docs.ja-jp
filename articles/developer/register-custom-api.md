@@ -1,6 +1,6 @@
 ---
-title: カスタム コネクタのコンテンツ リンク | Microsoft Docs
-description: カスタム コネクタを作成、使用、共有、および認定するコンテンツにリンクします。
+title: カスタム コネクタのコンテンツのリンク | Microsoft Docs
+description: カスタム コネクタの作成、使用、共有、認定に関するコンテンツのリンク集。
 services: ''
 suite: flow
 documentationcenter: ''
@@ -19,10 +19,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: ea408b3275a576ef76870143ee181b32111338ee
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364283"
 ---
 # <a name="custom-connectors-in-power-automate"></a>Power Automate のカスタム コネクタ
@@ -30,7 +30,7 @@ ms.locfileid: "74364283"
 
 コードを記述しなくても、[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps)、[Power Automate](https://flow.microsoft.com)、および [Power Apps](https://powerapps.microsoft.com) を使用してワークフローやアプリを作成できます。 データとビジネス プロセスの統合を容易にするために、[180 種類以上のコネクタ](https://docs.microsoft.com/connectors/)を提供しています。Microsoft のサービスおよび製品用だけでなく、GitHub、Salesforce、Twitter などのサービス用も用意されています。 
 
-ただし、あらかじめ作成されているコネクタとして使用できない API、サービス、およびシステムを呼び出すことが必要な場合もあります。 カスタムのシナリオをサポートするために、独自のトリガーとアクションを備えた*カスタム コネクタ*を作成できます。 コネクタのドキュメント サイトでは、カスタム コネクタに関する基本および高度なチュートリアルがすべて揃っています。 まずは[カスタム コネクタの概要](https://docs.microsoft.com/connectors/custom-connectors/)から始めることをお勧めしますが、以下に示すトピックに直接進んで特定の分野について詳しく見ていくこともできます。
+しかし、場合によっては、事前に作成されているコネクタでは利用できない API やサービス、システムを呼び出す必要がでてくることがあります。 より具体的なシナリオに対応する場合、独自のトリガーとアクションを持つ*カスタム コネクタ*を作成できます。 カスタム コネクタ用の基本的なチュートリアルと上級者向けのチュートリアル一式を、コネクタのドキュメント サイトにご用意しました。 まずは[カスタム コネクタの概要](https://docs.microsoft.com/connectors/custom-connectors/)から始めることをお勧めしますが、以下に示すトピックに直接進んで特定の分野について詳しく見ていくこともできます。
 
 * [OpenAPI 定義からカスタム コネクタを作成する](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
 
@@ -42,6 +42,6 @@ ms.locfileid: "74364283"
 
 * [組織内のカスタム コネクタを共有する](https://docs.microsoft.com/connectors/custom-connectors/share)
 
-* [Microsoft の認定を得るためにコネクタを提出する](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
+* [Microsoft の認定を受けるためにコネクタを提出する](https://docs.microsoft.com/connectors/custom-connectors/submit-certification)
 
-* [カスタム コネクタの FAQ](https://docs.microsoft.com/connectors/custom-connectors/faq)
+* [カスタム コネクタに関する FAQ](https://docs.microsoft.com/connectors/custom-connectors/faq)

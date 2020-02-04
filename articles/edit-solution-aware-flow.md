@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 8f1a39206365804cb371fe530ee52f5e0b27c92d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364973"
 ---
 # <a name="edit-a-solution-aware-flow"></a>ソリューション対応フローを編集する
@@ -48,7 +48,7 @@ ms.locfileid: "74364973"
 1. Power Automate デザイナーで編集し、変更をテストしたら、フローを保存します。
 1. フローを実行する必要がある場合は、フローを有効にします。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 * [ソリューションを作成する](./overview-solution-flows.md)
 * [ソリューションにフローを作成する](./create-flow-solution.md)

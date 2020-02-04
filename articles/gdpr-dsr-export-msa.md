@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 05b44b20ec7080eaf603d04627d43b3e73a77a1f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74354991"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体のエクスポート要求への応答
@@ -52,11 +52,11 @@ Microsoft は、パートナーによる一般データ保護規則 (GDPR) へ�
 1. **[アクティビティの履歴]** を選択します。
 
     ![[アクティビティの履歴]](./media/gdpr-dsr-export-msa/activityhistory.png) 使用するさまざまな Microsoft アプリケーションとサービスに対するアクティビティの履歴を参照できます。
-1. **製品とサービス アクティビティ** データをエクスポートするには、**[Download your data]\(データをダウンロードする\)**、**[CREATE NEW ARCHIVE]\(新しいアーカイブを作成する\)** の順に選択します。
+1. **製品とサービス アクティビティ** データをエクスポートするには、 **[Download your data]\(データをダウンロードする\)** 、 **[CREATE NEW ARCHIVE]\(新しいアーカイブを作成する\)** の順に選択します。
 
     ![データのダウンロード](./media/gdpr-dsr-export-msa/downloaddata.png)
 
-1. **[App & service usage]\(アプリとサービス使用量\)**、**[アーカイブを作成]** の順に選択します。
+1. **[App & service usage]\(アプリとサービス使用量\)** 、 **[アーカイブを作成]** の順に選択します。
 
     ![データのダウンロード](./media/gdpr-dsr-export-msa/create-archive.png)
 1. 新しいアーカイブが作成されます。 **[ダウンロード]** を選択して、エクスポートした製品とサービス アクティビティ データを取得します。
@@ -71,7 +71,7 @@ Microsoft は、パートナーによる一般データ保護規則 (GDPR) へ�
 
 1. **[マイ フロー]** を選択し、エクスポートするフローを選択します。
 
-1. **[詳細]** を選択し、**[エクスポート]** を選択します。
+1. **[詳細]** を選択し、 **[エクスポート]** を選択します。
 
     ![フローのエクスポート](./media/gdpr-dsr-export/export-flow.png)
 
@@ -87,7 +87,7 @@ Microsoft は、パートナーによる一般データ保護規則 (GDPR) へ�
 
 1. [Power Automate](https://flow.microsoft.com/) にサインインします。
 1. **[マイ フロー]** リンクを選択し、実行履歴をエクスポートするフローを選択します。
-1. **[実行履歴]** ウィンドウで、**[すべて表示]** を選択します。
+1. **[実行履歴]** ウィンドウで、 **[すべて表示]** を選択します。
 
     ![実行履歴](./media/gdpr-dsr-export/run-history.png)
 
@@ -101,7 +101,7 @@ Microsoft Excel またはテキスト エディターで開いて結果を分析
 
 [Power Automate](https://flow.microsoft.com/) では、アクティビティ フィードはユーザーのアクティビティ、障害、通知の履歴を示します。 ユーザーは、次の手順を行うことで、自分のアクティビティ フィードを見ることができます。
 
-1. [Power Automate](https://flow.microsoft.com/) にサインインし、右上隅のベル アイコンを選択して、**[アクティビティをすべて表示]** を選択します。
+1. [Power Automate](https://flow.microsoft.com/) にサインインし、右上隅のベル アイコンを選択して、 **[アクティビティをすべて表示]** を選択します。
 
     ![アクティビティ フィードの表示](./media/gdpr-dsr-export/show-activity-feed.png)
 
@@ -113,7 +113,7 @@ Microsoft Excel またはテキスト エディターで開いて結果を分析
 
 接続により、フローは API、SaaS アプリケーション、その他のサード パーティ システムに接続できます。 接続を表示するには次の手順のようにします。
 
-1. [Power Automate](https://flow.microsoft.com/) にサインインし、右上隅の歯車アイコンを選択して、**[接続]** を選択します。
+1. [Power Automate](https://flow.microsoft.com/) にサインインし、右上隅の歯車アイコンを選択して、 **[接続]** を選択します。
 
     ![接続の表示](./media/gdpr-dsr-export/show-connections.png)
 1. 結果をコピーし、Microsoft Word などのテキスト エディターに貼り付けます。

@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 7ad18de11dcd06b38a0be4ea9d076ff5ea83252e
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74358303"
 ---
 # <a name="the-admin-center"></a>管理センター
@@ -46,7 +46,7 @@ ms.locfileid: "74358303"
 
 [データ ポリシー](prevent-data-loss.md)を使用し、フロー内のサービス間でビジネス データを共有するしくみを管理するルールを作成する方法について説明します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
-* [環境の詳細](environments-overview-admin.md)
+* [環境に関する詳細](environments-overview-admin.md)
 * [Power Automate の詳細](getting-started.md)

@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: dfc33b4d12d5d8b6936b80182cfb77211f3e9dee
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74369757"
 ---
 # <a name="wait-for-approval-in-power-automate"></a>Power Automate で承認を待つ
@@ -112,7 +112,7 @@ SharePoint で項目を作成した場合に、承認電子メールを担当者
 
     承認メールが指定した受信者に送信されます。 受信者がそのメールで **[承認]** または **[却下]** を選ぶと、メールで返信が届きます。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 * [1 人の承認者による最新の承認のチュートリアル](modern-approvals.md)
 * [シーケンシャル承認](sequential-modern-approvals.md)を作成する

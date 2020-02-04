@@ -22,10 +22,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 22736d826c6e0448e3d1272aed1b3d4f78fdb23b
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362075"
 ---
 # <a name="create-a-mobile-task-flow"></a>モバイル タスク フローを作成する
@@ -81,6 +81,6 @@ ms.locfileid: "74362075"
 > -  デザイナーで有効なコンポーネントを別の有効なコンポーネントに接続するには、[操作] バーの **[コネクタ]** をクリックします。  
 > -  画面の右上隅にある **[Increase the zoom level]\(ズーム レベルを上げる\)** または **[Decrease the zoom level]\(ズーム レベルを下げる\)** ボタンをクリックすることによって、画面の画像を拡大または縮小することができます。 画面にフィットする最大サイズまで画像を拡大するには、 **[Fit to canvas]\(キャンバスに合わせる\)** ボタンをクリックします。  
   
-## <a name="next-steps"></a>次のステップ  
+## <a name="next-steps"></a>次の手順  
  [業務プロセス フローを作成する](create-business-process-flow.md)   
 

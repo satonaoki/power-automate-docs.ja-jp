@@ -23,13 +23,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2c8e512c39805296e5885266750b59b49feca482
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74359200"
 ---
-# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>チュートリアル: プロセスを標準化する業務プロセス フローを作成する
+# <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>チュートリアル:プロセスを標準化する業務プロセス フローを作成する
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
 このチュートリアルでは、Power Apps を使って業務プロセス フローを作成する方法を示します。 業務プロセス フローを使用する理由の詳細については、「[Business process flows overview](business-process-flows-overview.md)」 (業務プロセス フローの概要) を参照してください。 モバイル タスク フローの作成については、「[モバイル タスク フローを作成する](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow)」を参照してください。  
@@ -382,7 +382,7 @@ Dynamics 365 (オンライン) バージョン 9.0 の更新プログラムで�
 
 インスタンスを選択して新しいタブで開くか、またはインスタンスを選択してリンクをコピーしたり、電子メールでリンクを共有したり、破棄したり、削除したりします。
   
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
  - [業務プロセス フローの概要](business-process-flows-overview.md)  
  - [分岐を使用して業務プロセス フローを強化する](enhance-business-process-flows-branching.md)

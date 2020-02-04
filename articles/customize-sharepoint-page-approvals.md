@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: 9a7e6b28f7080ea65141d9a68881a637cd68cb2d
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74362719"
 ---
 # <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Power Automate による SharePoint ページの承認の管理
@@ -74,7 +74,7 @@ SharePoint サイト管理者は、Power Automate を使用して、新規また
 
 ページの承認ではバックグラウンドで Power Automate が使用されるため、サイト所有者がページの承認フローを使用して、フロー内の任意のカスタム ビジネス ロジックを変更および追加できます。 フローを変更するには、サイト所有者が **[フロー]** 選択し、ページ ライブラリで **[フローの表示]** を選択してページの承認フローを見つけることができます。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - [ページの承認フロー](https://support.office.com/article/page-approval-flow-a8b2e689-d4a1-4639-8028-333c0ece30d9)
 - [ページの承認を構成する](https://support.office.com/article/configure-page-approval-14ce6976-a0a7-427b-b4ab-d28d344a5222)

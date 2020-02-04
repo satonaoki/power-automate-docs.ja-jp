@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 38b6ba7f8fe3ab7a386229b6c9c5ccc300a147de
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371413"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Web UI フローで入力と出力を使用する
@@ -69,7 +69,7 @@ Selenium スクリプトで定義されている変数はすべて、自動的�
 
 [Execute script](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/#execute-script) (スクリプトの最後に 'return' 構文を追加して、格納するオブジェクトを返します)。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [Web UI フローの作成](create-web.md)方法について学習します。
 - [Web UI フローのトリガー](run-ui-flow.md)方法について学習します。

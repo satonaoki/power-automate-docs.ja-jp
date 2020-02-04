@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: fdfa1966c40c3c6db6803a58d9f2df687058b3d6
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365640"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>電子メールのプロパティに基づいてフローをトリガーする
@@ -81,7 +81,7 @@ ms.locfileid: "74365640"
 
 1. フローに名前を付けます。 次に、ページ上部の **[フローの作成]** を選択して保存します。
    
-    ![フローを保存する](./media/email-triggers/email-triggers-subject-notification.png)
+    ![フローの保存](./media/email-triggers/email-triggers-subject-notification.png)
 
 おめでとうございます。 これで、件名に「lottery」(宝くじ) という語を含む電子メールを受信するたびにプッシュ通知を受信できます。
 
@@ -106,7 +106,7 @@ ms.locfileid: "74365640"
 
 1. フローの名前を指定した後、ページ上部の **[フローの作成]** を選択することによって保存します。
    
-    ![フローを保存する](./media/email-triggers/email-triggers-sender-5.png)
+    ![フローの保存](./media/email-triggers/email-triggers-sender-5.png)
 
 ## <a name="trigger-a-flow-when-emails-arrive-in-a-specific-folder"></a>電子メールが特定のフォルダーに届いたときにフローをトリガーする
 アドレスなどの特定のプロパティに基づいて電子メールをさまざまなフォルダーに振り分けるルールを使用している場合は、この種類のフローを使用できます。
@@ -134,7 +134,7 @@ ms.locfileid: "74365640"
 
 1. フローの名前を指定した後、ページ上部の **[フローの作成]** を選択することによって保存します。
    
-    ![フローを保存する](./media/email-triggers/email-triggers-7.png)
+    ![フローの保存](./media/email-triggers/email-triggers-7.png)
 
 このチュートリアルで先ほど選択したフォルダーに振り分けられる電子メールを送信することによって、フローをテストします。
 
