@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 223ca24325ee9aed2476d1da6ad9e986c09306d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74375599"
 ---
 # <a name="create-parallel-approval-workflows-with-power-automate"></a>Power Automate を使用してパラレル承認ワークフローを作成する
@@ -60,7 +60,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 
 ## <a name="name-and-save-your-flow"></a>フローに名前を付けて保存する
 
-1. フローの名前を指定し、**[保存]** アイコンを選んで、これまでに行った作業を保存します。
+1. フローの名前を指定し、 **[保存]** アイコンを選んで、これまでに行った作業を保存します。
 
    ![フローの保存](./media/parallel-modern-approvals/save.png)
 
@@ -75,7 +75,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
 > [!IMPORTANT]
-> このアクションを実行すると、**[担当者]** ボックス内のメール アドレスに休暇申請が送信されるため、**Get manager (v2)** の一覧から取得した**電子メール** トークンを挿入してください。
+> このアクションを実行すると、 **[担当者]** ボックス内のメール アドレスに休暇申請が送信されるため、**Get manager (v2)** の一覧から取得した**電子メール** トークンを挿入してください。
 > 
 > 
 
@@ -132,14 +132,14 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 4. **[条件]** カードの最初のチェックボックスをオンにして、動的コンテンツ一覧の **[Start an approval] (承認を開始)** カテゴリから **[Response] (応答)** トークンを選択します。
 
     ![パラレル分岐条件が含まれるフロー](./media/parallel-modern-approvals/configure-approval-condition.png)
-5. 一覧 (**[条件]** カードの中ほどにある) が **[is equal to] (と等しい)** に設定されていることを確認します。
+5. 一覧 ( **[条件]** カードの中ほどにある) が **[is equal to] (と等しい)** に設定されていることを確認します。
 6. 最後のボックスに「**Approve**」(承認) (このテキストでは大文字と小文字が区別されます) と入力します。
 7. 条件カードは、次の例のようになります。
 
     ![パラレル分岐条件が含まれるフロー](includes/media/parallel-modern-approvals/condition-card.png)
 
    > [!NOTE]
-   > この条件は、**[Start an approval] (承認を開始)** アクションから従業員のマネージャーに送信される応答をチェックします。
+   > この条件は、 **[Start an approval] (承認を開始)** アクションから従業員のマネージャーに送信される応答をチェックします。
    > 
    > 
 8. **[Start an approval 2]\(承認を開始 2)** (販売チームへの承認要求) と **[Start an approval 3]\(承認を開始 3)** (人事チームへの承認要求) の分岐について、前のステップを繰り返します。
@@ -148,13 +148,13 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 
 **[条件]** 分岐の **[IF YES]** の側で、次のステップを実行します。
 
-   注: フローでこれらのステップが使用されて電子メールが送信されるのは、要求が承認された場合です。
+   注意:フローでこれらのステップが使用されて電子メールが送信されるのは、要求が承認された場合です。
 
 [!INCLUDE [add-action-to-send-email-when-vacation-approved](includes/add-action-to-send-email-when-vacation-approved.md)]
 
    ![事前承認済みの電子メール テンプレートを構成する](includes/media/parallel-modern-approvals/yes-email-config.png)
 
-要求が却下されたときに電子メールを送信するには、**[条件]** 分岐の **[IF NO]** の側を使用した後、前のステップを繰り返して却下電子メール用のテンプレートを追加します。
+要求が却下されたときに電子メールを送信するには、 **[条件]** 分岐の **[IF NO]** の側を使用した後、前のステップを繰り返して却下電子メール用のテンプレートを追加します。
 
 **[Start an approval 2]\(承認を開始 2)** (販売チームへの承認要求) と **[Start an approval 3]\(承認を開始 3)** (人事チームへの承認要求) の分岐について、前のステップを繰り返します。
 
@@ -162,7 +162,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 
 決定が行われたときに SharePoint を更新するには、次の手順を実行します。
 
-   注: 以下のステップは分岐の **[IF YES]** と **[IF NO]** の両方の側で実行してください。
+   注意:以下のステップは分岐の **[IF YES]** と **[IF NO]** の両方の側で実行してください。
 
 [!INCLUDE [add-action-to-update-sharepoint-with-approval](includes/add-action-to-update-sharepoint-with-approval.md)]
 

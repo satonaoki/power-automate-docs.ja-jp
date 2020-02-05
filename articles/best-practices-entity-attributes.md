@@ -20,10 +20,10 @@ author: msftman
 ms.author: deonhe
 manager: kvivek
 ms.openlocfilehash: ffc9fef64a9eda74d8a834745204fd635125e0c2
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74357268"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>ビジネス プロセス フロー属性使用時のベスト プラクティス
@@ -40,7 +40,7 @@ ms.locfileid: "74357268"
 
 関連エンティティの *アクティブ ステージ* (activestageid) フィールドが非推奨になっているため、ビジネス プロセス フローは 2 とおりの方法で報告できます。
 
-### <a name="option-1-views-and-charts-on-business-process-flow-entity-recommended"></a>選択肢 1: ビジネス プロセス フロー エンティティのビューとグラフ **(推奨)**
+### <a name="option-1-views-and-charts-on-business-process-flow-entity-recommended"></a>オプション 1:ビジネス プロセス フロー エンティティのビューとグラフ **(推奨)**
 
 バージョン 9.0 以降では、ビジネス プロセス フローごとに、通常はビジネス プロセス フロート同じ名前で独自の Common Data Service エンティティが作成されます。 ビジネス プロセス フローについて報告するには、報告対象のビジネス プロセス フローのエンティティを選択し、前と同じようにビューとグラフを作成します。
 

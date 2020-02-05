@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d0d5380e1ade6d1d11d557f38e7fc5db6616d1d9
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74370953"
 ---
 # <a name="run-ui-flows"></a>UI フローの実行
@@ -72,10 +72,10 @@ UI フローを作成してテストした後は、イベント、スケジュ�
 
    これは、デバイスごとに 1 回行う必要があります。
 
-    - **接続名**: フロー接続するデバイスの名前を選択します。 ゲートウェイ名と異っていてもかまいません。
-    - **ユーザー名**: ご使用のデバイスの職場または学校アカウントを指定します。
-    - **認証の種類**: [Windows] を選択します。
-    - **パスワード**: ご自分の職場または学校アカウントのパスワード。
+    - **[接続名]** : フロー接続するデバイスの名前を選択します。 ゲートウェイ名と異っていてもかまいません。
+    - **[ユーザー名]** : ご使用のデバイスの職場または学校アカウントを指定します。
+    - **[認証の種類]** : [Windows] を選択します。
+    - **パスワード**:ご自分の職場または学校アカウントのパスワード。
     - **ゲートウェイ**: インストール時に作成したゲートウェイを選択します。
 
       ![接続の設定](../media/run-ui-flow/connection-settings.png "接続の設定")
@@ -116,7 +116,7 @@ UI フロー内で入力と出力を定義するときに、これらの入力�
 - ゲートウェイ クラスターはサポートされていません。
 - このリリースでは、US (QWERTY) 以外のキーボードはサポートされていないため、US (QWERTY) 以外のキーボードからのキー シーケンスが記録された入力ステップを再生すると、キー ストロークは US (QWERTY) になります。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
  - [オンプレミス データ ゲートウェイ](https://docs.microsoft.com/data-integration/gateway/service-gateway-app)のインストール。
  - [オンプレミス データ ゲートウェイのアプリの使用](https://docs.microsoft.com/flow/gateway-manage)に関するドキュメント

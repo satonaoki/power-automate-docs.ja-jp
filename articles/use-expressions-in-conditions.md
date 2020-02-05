@@ -19,10 +19,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 46985cc33ac099c75c6e8e976aba19d7a5d6c567
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74370309"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
@@ -35,13 +35,13 @@ ms.locfileid: "74370309"
 
 式|説明|例
 --------|-----------|-------
-|[and](#use-the-and-expression)|2 つの引数を受け取り、両方の値が true の場合は true を返します。<br><b>注</b>: 両方の引数をブール値にする必要があります。|次の式は、false を返します。 <br>and(greater(1,10),equals(0,0))
-|[or](#use-the-or-expression)|2 つの引数を受け取り、どちらかの引数が true の場合は true を返します。 <br><b>注</b>: 両方の引数をブール値にする必要があります。|次の式は、true を返します。<br>or(greater(1,10),equals(0,0))
-|equals|2 つの値が等しい場合に true を返します。|たとえば、parameter1 が someValue のとき、次の式は true を返します。<br>equals(parameters('parameter1'), 'someValue')
-|[less](#use-the-less-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも小さい場合、true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>less(10,100)
-|lessOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも小さい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>lessOrEquals(10,10)
-|[greater](#use-the-greater-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greater(10,10)
-|greaterOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greaterOrEquals(10,100)
+|[and](#use-the-and-expression)|2 つの引数を受け取り、両方の値が true の場合は true を返します。<br><b>注:</b>両方の引数をブール値にする必要があります。|次の式は、false を返します。 <br>and(greater(1,10),equals(0,0))
+|[or](#use-the-or-expression)|2 つの引数を受け取り、どちらかの引数が true の場合は true を返します。 <br><b>注:</b>両方の引数をブール値にする必要があります。|次の式は、true を返します。<br>or(greater(1,10),equals(0,0))
+|次の値に等しい|2 つの値が等しい場合に true を返します。|たとえば、parameter1 が someValue のとき、次の式は true を返します。<br>equals(parameters('parameter1'), 'someValue')
+|[less](#use-the-less-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも小さい場合、true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>less(10,100)
+|lessOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも小さい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>lessOrEquals(10,10)
+|[greater](#use-the-greater-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも大きい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greater(10,10)
+|greaterOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも大きい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|オブジェクト、配列、文字列が空の場合は true を返します。|次の式は、true を返します。<br>empty('')
 |not|逆のブール値を返します。 |次の式は、true を返します。<br>not(contains('200 Success','Fail'))
 |if|式の結果が true か false の場合、特定の値を返します。|次の式は、"yes" を返します。<br>if(equals(1, 1), 'yes', 'no')
@@ -92,7 +92,7 @@ ms.locfileid: "74370309"
     ![新しいステップ](includes/media/new-step/action.png)
 2. **[行]** を探し、 **[Excel - 行の取得]** を選択します。
 
-    注: 使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、 **[Google スプレッドシート - 行の取得]** を選択します。
+    注意:使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、 **[Google スプレッドシート - 行の取得]** を選択します。
 
     ![行を取得する](includes/media/new-step/get-excel-rows.png)
 3. **[ファイル名]** ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
@@ -215,4 +215,4 @@ Status 列が "completed" か "unnecessary" の行からデータがすべて削
 
 ## <a name="use-functions-in-expressions"></a>式で関数を使用する
 
-いくつかの式は、フローの実行が開始するときにまだ存在していない可能性があるランタイム アクションから値を取得します。 式でこの値を参照したり使用したりするには、ワークフロー定義言語で提供される関数を使用します。 詳しくは、[Power Automate でのワークフロー定義言語の関数リファレンス](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)に関するページをご覧ください
+いくつかの式は、フローの実行が開始するときにまだ存在していない可能性があるランタイム アクションから値を取得します。 式でこの値を参照したり使用したりするには、ワークフロー定義言語で提供される関数を使用します。 詳細情報: [Power Automate でのワークフロー定義言語の関数リファレンス](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)

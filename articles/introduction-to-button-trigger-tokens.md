@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b57e9dee27a2d22159a9cd805c65034a5e5bb578
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74363892"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>ボタン トリガー トークンの概要
@@ -45,10 +45,10 @@ ms.locfileid: "74363892"
 | 緯度 |フローを実行しているデバイスが位置する緯度。 |
 | 経度 |フローを実行しているデバイスが位置する経度。 |
 | 郵便番号 |フローを実行しているデバイスが位置する郵便番号。 |
-| 都道府県 |フローを実行しているデバイスが位置する都道府県。 |
+| 州 |フローを実行しているデバイスが位置する都道府県。 |
 | 番地 |フローを実行しているデバイスが位置する番地。 |
 | タイムスタンプ |フローを実行しているデバイスが位置する地域の時間。 |
-| 日付 |フローを実行しているデバイスが位置する地域の日付。 |
+| Date |フローを実行しているデバイスが位置する地域の日付。 |
 | ユーザー名 |フローを実行しているデバイスにサインインしているユーザーのユーザー名。 |
 | ユーザーの電子メール |フローを実行しているデバイスにサインインしているユーザーのメール アドレス。 |
 
@@ -65,7 +65,7 @@ ms.locfileid: "74363892"
 
 開始手順:
 
-1. Flow を起動し、**[参照]**  を選択します  
+1. Flow を起動し、 **[参照]**   を選択します  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/1.png)  
 2. **[ボタン]** カテゴリの下にある **[Send a 'Working from home today' email to your manager]** ('本日在宅勤務' のメールをマネージャーに送信する) サービスを選択します   
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/2.png)  
@@ -73,9 +73,9 @@ ms.locfileid: "74363892"
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/3.png)  
 4. **[Send an email]** (電子メールを送信する) カードの **[編集]** を選択します  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/3-5.png)  
-5. **[件名]** テキスト ボックスをタップし、"WFH" テキストの後ろのテキスト ボックスに「**today -**」と入力します。 テキスト ボックスをタップしたときにパラメーター/トークンの一覧も開いていることを確認してください。 次のステップでは、このトークンの 1 つを使って電子メールの件名に日付を追加します。  
+5. **[件名]** テキスト ボックスをタップし、"WFH" テキストの後ろのテキスト ボックスに「**today -** 」と入力します。 テキスト ボックスをタップしたときにパラメーター/トークンの一覧も開いていることを確認してください。 次のステップでは、このトークンの 1 つを使って電子メールの件名に日付を追加します。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/4.png)  
-6. カーソルを [件名] テキスト ボックスに置いた状態で、パラメーターの **[manual]** (手動) 一覧にスクロールして、**[日付]** をタップします。 日付パラメーターが **[件名]** テキスト ボックスに表示されていることを確認します。  
+6. カーソルを [件名] テキスト ボックスに置いた状態で、パラメーターの **[manual]** (手動) 一覧にスクロールして、 **[日付]** をタップします。 日付パラメーターが **[件名]** テキスト ボックスに表示されていることを確認します。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/6.png)  
 7. **[本文]** テキスト ボックスにスクロールし、既定のメッセージが表示されたらタップして、追加のトークンが含められるようにします。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/7.png)  
@@ -85,7 +85,7 @@ ms.locfileid: "74363892"
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/9.png)  
 
 ## <a name="run-the-button-flow"></a>ボタン フローを実行する
-**注**: このボタン フローは電子メールを使用して、現在の場所を送信します。  
+**注**:このボタン フローにより、ご自分の現在の場所が電子メールで送信されます。  
 
 1. 画面の下部にある **[ボタン]** カテゴリをタップします。 使用が許可されているボタンの一覧が表示されます。 今作成したボタン フローを表すボタンをタップします。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/10.png)  
@@ -96,6 +96,6 @@ ms.locfileid: "74363892"
 
 おめでとうございます。日付と完全な住所の両方のトリガー トークンを使用するボタン フローが作成されました。 
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [ボタン フローを共有する](share-buttons.md)
 * [ボタン フローについて](introduction-to-button-flows.md)

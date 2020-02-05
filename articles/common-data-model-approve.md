@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: eab01a20f44f68a85601ff824175f1a506ebec87
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361316"
 ---
 # <a name="build-an-approval-loop-by-using-power-automate-and-the-microsoft-common-data-service"></a>Power Automate と Microsoft Common Data Service を使用して承認ループを作成する
@@ -137,7 +137,7 @@ Common Data Service を使用すると、フローから独立しているデー
 ## <a name="add-data-to-the-entity"></a>エンティティにデータを追加する
 1. **[新しいステップ]** をクリックまたはタップし、 **[アクションの追加]** をクリックまたはタップします。
    
-    ![アクションを追加する](./media/common-data-model-approve/add-action.png)
+    ![アクションの追加](./media/common-data-model-approve/add-action.png)
 2. **[他のアクションを検索してください]** と表示されているボックスに「**Common Data Service**」と入力するか貼り付けて、 **[Common Data Service - Create object (Common Data Service - オブジェクトの作成)]** をクリックまたはタップします。
    
     ![Common Data Service のオブジェクトを作成する](./media/common-data-model-approve/cdm-create-object.png)
@@ -149,7 +149,7 @@ Common Data Service を使用すると、フローから独立しているデー
     ![ファイル名トークンを追加する](./media/common-data-model-approve/add-filename-token.png)
 5. **[Approver (承認者)]** で、ファイルのレビュー担当者の電子メール アドレスを入力するか貼り付けます。
    
-    **注**: フローのテストをより簡単にするには、自分のアドレスを指定してください。 フローを実際に使用する準備ができたときに、後でアドレスを変更できます。
+    **注:** フローのテストをより簡単にするには、自分のアドレスを指定してください。 フローを実際に使用する準備ができたときに、後でアドレスを変更できます。
    
     ![承認者を追加する](./media/common-data-model-approve/add-approver.png)
 6. **[Status (状態)]** で「**Pending**」と入力するか貼り付けます。
@@ -167,7 +167,7 @@ Common Data Service を使用すると、フローから独立しているデー
    
     ![値を選択する](./media/common-data-model-approve/choose-value.png)
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている上部のボックス内をクリックまたはタップします。
+    **注:** ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている上部のボックス内をクリックまたはタップします。
 3. **[Create object (オブジェクトの作成) からの出力]** で **[Status]** をクリックまたはタップし、このパラメーター トークンをフィールドに追加します。
    
     ![Status トークンを追加する](./media/common-data-model-approve/add-status.png)
@@ -178,7 +178,7 @@ Common Data Service を使用すると、フローから独立しているデー
    
     ![監視する状態を指定する](./media/common-data-model-approve/do-until-not-pending.png)
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている下部のボックス内をクリックまたはタップします。
+    **注:** ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている下部のボックス内をクリックまたはタップします。
 6. **[Do until]** アクションの下部にある **[アクションの追加]** をクリックまたはタップします。
    
     ![do until 内でアクションを追加する](./media/common-data-model-approve/add-action-in-dountil.png)
@@ -201,7 +201,7 @@ Common Data Service を使用すると、フローから独立しているデー
    
     ![条件の左上隅](./media/common-data-model-approve/condition-upper-left.png)
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている上部のボックス内をクリックまたはタップします。
+    **注:** ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている上部のボックス内をクリックまたはタップします。
 3. **[Get object (オブジェクトの取得) からの出力]** で **[Status]** パラメーター トークンをクリックまたはタップし、フィールドに追加します。
    
     ![条件に状態を追加する](./media/common-data-model-approve/add-status-to-condition.png)
@@ -209,7 +209,7 @@ Common Data Service を使用すると、フローから独立しているデー
    
     ![状態が承認済みに設定されているかどうかを確認する](./media/common-data-model-approve/status-equals-approved.png)
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている下部のボックスに「**Approved**」を入力するか貼り付けます。
+    **注:** ブラウザー ウィンドウが最大化されていない場合は、 **[値の選択]** と表示されている下部のボックスに「**Approved**」を入力するか貼り付けます。
 
 ## <a name="send-notification-mail"></a>通知メールを送信する
 1. **[はいの場合、何もしない]** で、 **[アクションの追加]** をクリックまたはタップします。
@@ -220,7 +220,7 @@ Common Data Service を使用すると、フローから独立しているデー
     ![はいの場合、メールを送信する](./media/common-data-model-approve/if-yes-send-mail.png)
 3. **[To (宛先)]** に、項目が承諾されたときに通知するユーザーのアドレスを入力するか貼り付けます。
    
-    **注**: フローのテストをより簡単にするには、自分のアドレスを指定してください。 フローを実際に使用する準備ができたら、変更することができます。
+    **注:** フローのテストをより簡単にするには、自分のアドレスを指定してください。 フローを実際に使用する準備ができたら、変更することができます。
    
     ![承認の受信者](./media/common-data-model-approve/approval-recipient.png)
 4. **[Subject (件名)]** で、ボックス内をクリックまたはタップし、 **[ファイル名]** パラメーター トークンをクリックまたはタップして、それをフィールドに追加します。
@@ -259,7 +259,7 @@ Common Data Service を使用すると、フローから独立しているデー
 3. Windows 用の Power Apps Studio を開いた場合は、左側のナビゲーション バーの **[新規]** をクリックまたはタップします。
 4. **[Create an app from your data (データからアプリを作成する)]** で、 **[Common Data Service]** タイルの **[Phone レイアウト]** をクリックまたはタップします。
    
-    ![アプリを作成する](./media/common-data-model-approve/afd-cdm.png)
+    ![アプリの作成](./media/common-data-model-approve/afd-cdm.png)
 5. **[Search (検索)]** ボックスに「**Review**」と入力するか貼り付けます。
    
     ![エンティティを検索する](./media/common-data-model-approve/search-entities.png)
@@ -268,7 +268,7 @@ Common Data Service を使用すると、フローから独立しているデー
     ![エンティティを選択する](./media/common-data-model-approve/choose-entity.png)
 7. 右下隅の近くの **[Connect (接続)]** をクリックまたはタップします。
    
-    ![[Connect (接続)] ボタン](./media/common-data-model-approve/connect-button.png)
+    ![[接続] ボタン](./media/common-data-model-approve/connect-button.png)
 8. 紹介ツアーの開始画面が表示されたら、ツアーを実行して Power Apps の概要を理解します (または、 **[スキップ]** をクリックまたはタップします)。
    
     ![紹介ツアー](./media/common-data-model-approve/quick-tour.png)
@@ -281,7 +281,7 @@ Common Data Service を使用すると、フローから独立しているデー
 ## <a name="customize-the-app"></a>アプリをカスタマイズする
 1. 右側のナビゲーション バーで、ヘッダーと説明が含まれているレイアウトをクリックまたはタップします。
    
-    ![[Connect (接続)] ボタン](./media/common-data-model-approve/choose-layout.png)
+    ![[接続] ボタン](./media/common-data-model-approve/choose-layout.png)
 2. **[BrowseScreen]** で検索バーのすぐ下をクリックまたはタップし、より大きなテキスト ボックス コントロールを選択します。
    
     ![ヘッダーを選択する](./media/common-data-model-approve/select-header.png)
@@ -327,7 +327,7 @@ Common Data Service を使用すると、フローから独立しているデー
     ![ファイルを却下する](./media/common-data-model-approve/reject-file.png)
 10. 右上隅のチェック マーク アイコンをクリックまたはタップして変更を保存し、詳細画面に戻ります。
     
-     ![変更を保存する](./media/common-data-model-approve/save-record.png)
+     ![変更の保存](./media/common-data-model-approve/save-record.png)
     
      数分後に、ファイルが却下されたことを示す電子メールを受信し、ファイルが Dropbox から削除されます。
 

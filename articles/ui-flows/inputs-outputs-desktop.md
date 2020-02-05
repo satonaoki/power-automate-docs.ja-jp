@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 391e977343617497328ff231d4808a0c78ceb154
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74371643"
 ---
 # <a name="use-inputs-and-outputs-in-desktop-ui-flows"></a>デスクトップ UI フローで入力と出力を使用する
@@ -114,7 +114,7 @@ ms.locfileid: "74371643"
 各出力には次のものがあります。
 
 -  記録中に定義された出力名
--  説明: このフィールドは、記録中に多くの出力を定義し、それらを簡単に識別できるようにする場合に非常に便利です。
+-  説明:このフィールドは、記録中に多くの出力を定義し、それらを簡単に識別できるようにする場合に非常に便利です。
 -  アクション名: UI フローで出力が定義されているアクション
 
 ## <a name="delete-an-output-from-a-ui-flow"></a>UI フローから出力を削除する
@@ -141,7 +141,7 @@ UI フローをテストすることで、変更と適切な再生動作を検�
 
    ![](../media/inputs-outputs-desktop/85056d7942d12a5408005f5b683d432b.png)
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 - 作成した [UI フローをトリガーする](run-ui-flow.md)方法について学習します。
 

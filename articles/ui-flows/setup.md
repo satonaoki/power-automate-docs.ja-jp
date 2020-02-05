@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e7d5e4219c46703019f995b625c6d672a767018a
-ms.sourcegitcommit: 683127e3655abeec9ae6e86fcdf4ac2256101d08
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 12/06/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74882123"
 ---
 # <a name="set-up-ui-flows"></a>UI フローの設定
@@ -34,7 +34,7 @@ ms.locfileid: "74882123"
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 > [!IMPORTANT]
-> 現在、UI flows 機能はリージョンにロールアウト中です。 お使いの環境でこの機能が表示されない場合や、UI フローを作成できない場合、またはフロー内でこれを実行しようとするとエラーが発生する場合は、後でもう一度お試しください。
+> 現在、UI flows 機能はリージョンにロールアウト中です。 お使いの環境に機能が表示されない場合、UI フローを作成できない場合、またはフロー内で実行しようとするとエラーが発生する場合は、しばらくしてからもう一度試してください。
 
 デバイスを使用して UI フローを作成する前に、デバイスがここに記載されている要件を満たしていることを確認する必要があります。
 
@@ -135,7 +135,7 @@ Selenium IDE をインストールするには、次の手順のようにしま�
 1. **[UI フロー (プレビュー)]** を探して選択します。
 1. **[アンインストール]** を選択します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [デスクトップ UI フローの作成](create-desktop.md)について学習します。
 - [Web UI フローの作成](create-web.md)について学習します。

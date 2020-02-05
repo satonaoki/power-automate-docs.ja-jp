@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e617e6928d5295a9485c55e1efa57a945abf870f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74374311"
 ---
 # <a name="release-notes"></a>リリース ノート
@@ -49,7 +49,7 @@ ms.locfileid: "74374311"
 1. [マイ サイト] にある、種類が *カスタム リスト* 以外の SharePoint リストがサポートされていません。 この問題を回避するには、標準的な SharePoint サイトにカスタム リストを作成します。
 2. 選択したフォルダー内で入れ子になったフォルダーの中に追加されるファイルに対しては、ファイル トリガーが起動されません。
 
-## <a name="whats-new"></a>新機能
+## <a name="whats-new"></a>新着情報
 
 > [!IMPORTANT]
 >
@@ -74,7 +74,7 @@ ms.locfileid: "74374311"
 ### <a name="release-2018-08-31"></a>2018 年 8 月 31 日リリース
 
 - **サンプル データを使用してフローをテストする** - Power Automate デザイナー内で構築するときに、コネクタからのサンプル データを使用して、フローをテストします。 サンプル データでフローをテストするときは、運用環境に展開したときに意図したとおりにフローが実行することを確認します。
-- **5 つの新しいコネクタ** - 5 つの新しい管理コネクタ Power Apps for App Makers、Power platform for Admins、Power Apps for Admins、Power Automate for Admins、Microsoft School Data Sync を追加しました。
+- **5 つの新しいコネクタ** - 5 つの新しい管理コネクタ:Power Apps for App Makers、Power platform for Admins、Power Apps for Admins、Power Automate for Admins、Microsoft School Data Sync が追加されました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/test-data-management-connectors/)。
 
@@ -83,7 +83,7 @@ ms.locfileid: "74374311"
 - **新しいカレンダー同期テンプレート** - Google カレンダーと Office 365 または Outlook.com の間でイベントをコピーする新しいカレンダー テンプレート。
 - **SharePoint の複数値のサポート** - SharePoint の Choice、Person、または Lookup 型の複数値フィールド読み取りと書き込み。
 - **組織内の他のユーザーに代わって承認を送信する** - たとえば、フローを作成したユーザーの代わりに、SharePoint リストでファイルをアップロードしたユーザー。
-- **入力型のボタンの追加** - 数値型とはい/いいえ型の 2 つの新しい入力型ボタン。
+- **ボタンの入力型の追加** - ボタンに 2 つの新しい入力型:数値と "はい/いいえ" が追加されました。
 - **コネクタの更新** - 新しい NetDocuments コネクタ、Azure コネクタなどの機能強化。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/button-types-more/)。
@@ -395,13 +395,13 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 * **カスタム API Webhook の作成** - カスタム コネクタの開発者は、Webhook でカスタム API にトリガーを追加できるようになりました。
 * **管理センターでのフロー所有者の管理** - 環境の管理者は、Power Automate 管理センターでフローの所有者を管理できます。
 * **コネクタのドキュメントの参照** - [docs.microsoft.com にコネクタの完全なリファレンス](https://docs.microsoft.com/Connectors/)が公開されました。
-* **2 つのパートナー サービス** - Nexmo と Paylocity という 2 つの新しいパートナー サービスがリリースされました。
+* **2 つのパートナー サービス** - 2 つの新しいパートナー サービス:Nexmo と Paylocity がリリースされました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/canada-mailboxes-aad)。
 
 ### <a name="release-2017-04-27"></a>2017 年 4 月 27 日リリース
 * **並列ステップでのフロー構築** - 並列実行によりフローを作成します。2 つ以上のステップを同時に実行できることになります。
-* **新しく 5 つのサービスをサポート** - 新しい 5 つのサービスとは、承認、ベンチマーク電子メール、カプセル CRM、LiveChat、Outlook Customer Manager です。
+* **新しく 5 つのサービスをサポート** - 5 つの新しいサービス:Approvals、Benchmark Email、Capsule CRM、LiveChat、Outlook Customer Manager。
 * **操作の再試行を監視** - Power Automate では、サービスでエラーがある場合に再試行が行われます。 自動再試行の回数と、その詳細を確認できるようになりました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/parallel-actions/)。
@@ -424,7 +424,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 ### <a name="release-2017-04-03"></a>2017 年 4 月 3 日リリース
 * **Windows Phone ベータ版** - Windows Phone アプリのベータ プログラムで、Windows Phone にアプリのプレビューを入手できるようになりました。 [詳しくはこちら](https://flow.microsoft.com/blog/windows-phone-app-beta-is-now-available/)。
 * **Muhimbi PDF** - Muhimbi PDF で Microsoft Word ファイルから PDF への変換、透かしの追加、文書のマージなどができるようになりました。 [詳しくはこちら](https://flow.microsoft.com/blog/convert-files-using-muhimbi/)。
-* **物理ボタンからフローをトリガーする** - Shortcut Labs の Flic、The Button Corporation の Bttn という物理ボタン領域の 2 つの主要製品との提携を発表しました。 [詳しくはこちら](https://flow.microsoft.com/blog/physical-buttons/)。
+* **物理ボタンからフローをトリガーする** - 物理ボタン業界をリードする 2 つの製品:Shortcut Labs の Flic と、The Button Corporation の Bttn との提携を発表しました。 [詳しくはこちら](https://flow.microsoft.com/blog/physical-buttons/)。
 
 ### <a name="release-2017-03-22"></a>2017 年 3 月 22 日リリース
 * **フローのコピーを作成する** - フローのコピーを作成して、下書きバージョンで作業したり、過去に作成したフローを複製したりできるようになりました。
@@ -526,7 +526,7 @@ Power Automate でご利用いただけるサービスに DocuSign (電子署名
 
 ### <a name="release-2016-11-15"></a>2016 年 11 月 15 日リリース
 * **Power Automate パートナー プログラム** - Power Automate に認定パートナー プログラムが導入されました。世界中の Power Automate とつながり、さまざまな会社の才能と経験を活用できます。
-* **6 つの新しいサービス** - Asana、Campfire、EasyRedmine、JIRA、Redmine、Vimeo という 6 個のサービスを今週リリースします。
+* **6 つの新しいサービス** - また、6 個のサービス:Asana、Campfire、EasyRedmine、JIRA、Redmine、Vimeo を今週リリースします。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/partner-program-six-new-services/)。
 
@@ -649,7 +649,7 @@ Power Automate に統合された Microsoft Common Data Service のパブリッ�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/may-updates-to-microsoft-flow/)。
 
 ### <a name="release-2016-05-07"></a>2016 年 5 月 7 日リリース
-Microsoft Project Online と Mailchimp の Mandrill の 2 つの新しいサービスを追加しました。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/)。
+2 つの新しいサービス:Microsoft Project Online と Mailchimp の Mandrill が追加されました。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/announcing-microsoft-flow-webinars/)。
 
 ### <a name="release-2016-04-27---public-preview"></a>2016 年 4 月 27 日リリース - パブリック プレビュー
 [Microsoft Power Apps](https://powerapps.microsoft.com) の一環として Logic フローを使用すると、Power Automate プレビュー リリースの新機能をいくつか使用できます。
@@ -660,6 +660,6 @@ Microsoft Project Online と Mailchimp の Mandrill の 2 つの新しいサー�
 * フローを保存するときに、トリガー アクションを実行するだけで、[実行中のフローを即座に確認](see-a-flow-run.md)できます。
 * Flow に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](https://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 このリリース ノートまたは[よく寄せられる質問](frequently-asked-questions.md)に記載されていない問題がある場合は、[コミュニティに参加](https://go.microsoft.com/fwlink/?LinkID=787467)して質問するか、[サポートにお問い合わせください](https://go.microsoft.com/fwlink/?LinkID=787479)。
 

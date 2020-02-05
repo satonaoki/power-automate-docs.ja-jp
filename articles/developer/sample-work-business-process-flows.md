@@ -19,10 +19,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: 4f7566c6d6430c9167c0d1b7cc082792d0939780
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364720"
 ---
 # <a name="sample-work-with-business-process-flows"></a>サンプル: 業務プロセス フローの使用
@@ -30,7 +30,7 @@ ms.locfileid: "74364720"
 
 このサンプルでは、エンティティ レコードのビジネス プロセス フロー インスタンスを取得する、ビジネス プロセス フロー インスタンスのアクティブなパスとそのプロセス ステージを取得する、およびアクティブなステージを変更するなどの業務プロセス フローをプログラムで操作する方法を説明します。 これらの概念については、「[Work with business process flows using code](business-process-flows-code.md)」 (コードを使用して業務プロセス フローを操作する) を参照してください  
 
- このサンプルは、「[サンプル: 業務プロセス フローの使用](https://go.microsoft.com/fwlink/p/?LinkId=846108)」からダウンロードできます。  
+ このサンプルをダウンロードするには、「[サンプル: 業務プロセス フローの使用](https://go.microsoft.com/fwlink/p/?LinkId=846108)」をご覧ください。  
 
 <a name="BKMK_Prerequisites"></a>   
 ## <a name="prerequisites"></a>前提条件  
@@ -71,7 +71,7 @@ ms.locfileid: "74364720"
 
 2. 抽出したフォルダー内の `WorkWithBPF.sln` ファイルを見つけて、Visual Studio で開きます。  
 
-3. サンプル プロジェクトでは、サンプルを実行する前に復元する必要がある NuGet パッケージが使用されています。 Visual Studio で NuGet パッケージの自動復元が有効になっていることを確認します。 詳細情報: [パッケージの復元の有効化と無効化](https://go.microsoft.com/fwlink/?linkid=846106)  
+3. サンプル プロジェクトでは、サンプルを実行する前に復元する必要がある NuGet パッケージが使用されています。 Visual Studio で NuGet パッケージの自動復元が有効になっていることを確認します。 詳細情報: [NuGet パッケージの復元の有効化と無効化](https://go.microsoft.com/fwlink/?linkid=846106)  
 
     または、 **[プロジェクト]**  >  **[NuGet パッケージの管理]** を選択し、 **[復元]** を選択して、サンプルで使用されているパッケージを手動で復元します。  
 

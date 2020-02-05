@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: e8f7b993b59c269b56dac2f13d4db166ed3e91b7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74373069"
 ---
 # <a name="manage-sequential-approvals-with-power-automate"></a>Power Automate を使用してシーケンシャル承認を管理する
@@ -45,7 +45,7 @@ ms.locfileid: "74373069"
 3. 事前承認の決定を従業員に電子メールで送信します。
 4. SharePoint Online リストを事前承認者の決定とコメントによって更新します。
    
-   注: 申請が事前承認された場合に、フローは以下のステップに進みます。
+   注意:申請が事前承認された場合に、フローは以下のステップに進みます。
 5. 最終承認者に申請を送信します。
 6. 最終決定を従業員に電子メールで送信します。
 7. SharePoint リストを最終決定によって更新します。
@@ -74,7 +74,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 ## <a name="get-the-manager-for-the-person-who-created-the-vacation-request"></a>休暇申請を作成した従業員のマネージャーを取得する
 [!INCLUDE [add-get-manager-action](includes/add-get-manager-action.md)]
 
-1. フローの名前を指定し、**[フローの作成]** を選択してこれまでに行った作業を保存します。
+1. フローの名前を指定し、 **[フローの作成]** を選択してこれまでに行った作業を保存します。
    
     ![フローの保存](./media/sequential-modern-approvals/save.png)
    
@@ -90,13 +90,13 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 ## <a name="add-an-approval-action-for-pre-approvals"></a>事前承認用の承認アクションを追加する
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
-注: このアクションを実行すると、**[割り当て先ユーザー/グループ]** ボックス内の電子メール アドレスに事前承認要求が送信されます。
+注意:このアクションを実行すると、 **[割り当て先ユーザー/グループ]** ボックス内の電子メール アドレスに事前承認要求が送信されます。
 
 ## <a name="add-a-condition"></a>条件の追加
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
 > [!NOTE]
-> この条件は、**[Start an approval] (承認を開始)** アクションからの応答をチェックします。
+> この条件は、 **[Start an approval] (承認を開始)** アクションからの応答をチェックします。
 > 
 > 
 
@@ -111,13 +111,13 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
    ![アイテムの更新の構成](./media/sequential-modern-approvals/configure-update-item.png)
 
 ## <a name="get-the-pre-approvers-manager"></a>事前承認者のマネージャーを取得する
-1. 先ほどの[休暇申請を作成した従業員のマネージャーを取得する](sequential-modern-approvals.md#get-the-manager-for-the-person-who-created-the-vacation-request)ステップを使用して、**[Get manager] (マネージャー取得)** アクションを再度追加して構成します。 今回は事前承認者のマネージャーを取得します。
-2. 作成した **[Get manager 2] (マネージャー取得 2)** カードはこのイメージのようになります。 **[このフローで使用されるアプリやサービスから動的コンテンツを追加します]** カードでは、**[Get manager] (マネージャー取得)** カテゴリから取得した **[電子メール]** トークンを使用してください。
+1. 先ほどの[休暇申請を作成した従業員のマネージャーを取得する](sequential-modern-approvals.md#get-the-manager-for-the-person-who-created-the-vacation-request)ステップを使用して、 **[Get manager] (マネージャー取得)** アクションを再度追加して構成します。 今回は事前承認者のマネージャーを取得します。
+2. 作成した **[Get manager 2] (マネージャー取得 2)** カードはこのイメージのようになります。 **[このフローで使用されるアプリやサービスから動的コンテンツを追加します]** カードでは、 **[Get manager] (マネージャー取得)** カテゴリから取得した **[電子メール]** トークンを使用してください。
    
    ![事前承認者のマネージャーを取得する](includes/media/modern-approvals/get-pre-approver-manager.png)
 
 ## <a name="add-the-final-approval-action"></a>最終承認アクションを追加する
-1. 先ほどの[事前承認用の承認アクションを追加する](sequential-modern-approvals.md#add-an-approval-action-for-pre-approvals)ステップを使用して、**[Start an approval] (承認を開始)** アクションを再度追加して構成します。 このアクションを使用すると、最終承認を求める電子メール要求が送信されます。
+1. 先ほどの[事前承認用の承認アクションを追加する](sequential-modern-approvals.md#add-an-approval-action-for-pre-approvals)ステップを使用して、 **[Start an approval] (承認を開始)** アクションを再度追加して構成します。 このアクションを使用すると、最終承認を求める電子メール要求が送信されます。
 2. 完了したカードはこのイメージのようになります。
    
     ![承認の構成](./media/sequential-modern-approvals/provide-approval-config-info.png)
@@ -142,7 +142,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 
    ![却下された要求を構成する](./media/sequential-modern-approvals/configure-rejected-email.png)
 
-注: このアクションは **[条件]** カードの下にある **[IF NO, DO NOTHING]** 分岐に追加する必要があります。
+注意:このアクションは **[条件]** カードの下にある **[IF NO, DO NOTHING]** 分岐に追加する必要があります。
 
 ## <a name="update-sharepoint-with-pre-approval-rejection"></a>事前承認の却下情報によって SharePoint を更新する
 [!INCLUDE [add-action-to-update-sharepoint-with-rejection](includes/add-action-to-update-sharepoint-with-rejection.md)]
@@ -152,7 +152,7 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 ## <a name="send-email-with-final-rejection"></a>最終的な却下情報を含む電子メールを送信する
 1. [事前承認の拒否情報を含む電子メールを送信する](sequential-modern-approvals.md#send-email-with-pre-approval-rejection)ステップを使用して、休暇申請が最終承認者によって却下されたときに電子メールを送信するアクションを追加して構成します。
    
-    注: このアクションは **[条件 2]** カードの下にある **[IF NO, DO NOTHING]** 分岐に追加する必要があります。
+    注意:このアクションは **[条件 2]** カードの下にある **[IF NO, DO NOTHING]** 分岐に追加する必要があります。
 2. 完了したカードはこのイメージのようになります。
    
    ![却下された要求を構成する](./media/sequential-modern-approvals/final-rejection-email-card.png)
@@ -188,11 +188,11 @@ SharePoint Online リストの名前と URL をメモします。 これらの�
 ## <a name="approve-the-request"></a>要求を承認する
 要求を承認するステップは、[要求を事前承認する](sequential-modern-approvals.md#pre-approve-a-request)ステップと同じです。
 
-注: 最終承認者が休暇申請を取得するのは、その申請が事前承認された後だけです。
+注意:最終承認者が休暇申請を取得するのは、その申請が事前承認された後だけです。
 
 ## <a name="reject-a-request"></a>要求を却下する
 [!INCLUDE [reject-a-request](includes/reject-a-request.md)]
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>詳細
 [1 人の承認者による最新の承認のチュートリアル](modern-approvals.md)
 

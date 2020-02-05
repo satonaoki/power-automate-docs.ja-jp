@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 136bb90c47a1aeea2f11ef45e35a4957506ad488
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74363915"
 ---
 # <a name="introducing-button-flows"></a>ボタン フローの概要
@@ -46,7 +46,7 @@ ms.locfileid: "74363915"
 ### <a name="from-the-portal"></a>ポータルから
 このチュートリアルでは、Visual Studio Online (VSO) ビルドを開始し、そのビルドの開始を知らせる通知を送信するボタンを作成しましょう。  
 
-1. **[表示]** ドロップダウン リストを選択し、**[ボタン]** カテゴリを選択します。 テンプレートの一覧がフィルター処理され、ボタン フローで使用できるものに絞り込まれます。  
+1. **[表示]** ドロップダウン リストを選択し、 **[ボタン]** カテゴリを選択します。 テンプレートの一覧がフィルター処理され、ボタン フローで使用できるものに絞り込まれます。  
    ![概要画像](./media/introduction-to-button-flows/create-button-1.png)   
 2. テンプレートの一覧から **[Trigger a new build in VSO]** (VSO で新しいビルドをトリガーする) テンプレートを選択します。  
    ![概要画像](./media/introduction-to-button-flows/create-button-2.png)  
@@ -54,30 +54,30 @@ ms.locfileid: "74363915"
    ![概要画像](./media/introduction-to-button-flows/create-button-3.png)  
 4. サインインしていない場合、この時点でサインインするように求められます。  
    ![概要画像](./media/introduction-to-button-flows/create-button-4.png)  
-5. Flow にサインインすると、選択したテンプレートで使用されるコネクタにサインインするように求められます。 この例では、上の手順 2 で、**[Trigger a new build in VSO]** (VSO で新しいビルドをトリガーする) テンプレートを選択しました。そのため、まだサインインしていない場合、VSO (と使用しているその他のコネクタ) にサインインする必要があります。  
+5. Flow にサインインすると、選択したテンプレートで使用されるコネクタにサインインするように求められます。 この例では、上の手順 2 で、 **[Trigger a new build in VSO]** (VSO で新しいビルドをトリガーする) テンプレートを選択しました。そのため、まだサインインしていない場合、VSO (と使用しているその他のコネクタ) にサインインする必要があります。  
    ![概要画像](./media/introduction-to-button-flows/create-button-pre-req-1.png)    
-6. VSO アカウントへのアクセス許可を Flow に与えることに同意する場合、**[承諾]** ボタンを選択します。  
+6. VSO アカウントへのアクセス許可を Flow に与えることに同意する場合、 **[承諾]** ボタンを選択します。  
    ![概要画像](./media/introduction-to-button-flows/create-button-5.png)   
    **注** 各コネクタを同様に承認する必要があります。 次の手順に進む準備ができると、このようなデザイナーが表示されるはずです。 **[続行]** ボタンを選択して先に進みます。  
    ![概要画像](./media/introduction-to-button-flows/create-button-6.png)   
 7. これで、開始するビルドのプロパティを構成する準備ができました。    
    ![概要画像](./media/introduction-to-button-flows/create-button-7.png)  
-8. **[新しいビルドをキューに入れる]** カードで **[アカウント名]**、**[プロジェクト名]**、**[ビルド定義 ID]**、**[ソース ブランチ]** を選択するか、入力し、任意で **[パラメーター]** を選択するか、入力します。    
+8. **[新しいビルドをキューに入れる]** カードで **[アカウント名]** 、 **[プロジェクト名]** 、 **[ビルド定義 ID]** 、 **[ソース ブランチ]** を選択するか、入力し、任意で **[パラメーター]** を選択するか、入力します。    
    ![概要画像](./media/introduction-to-button-flows/create-button-8.png)  
-9. 次に、**[Send a push notification]** (プッシュ通知を送信する) カードでプッシュ通知のプロパティを構成します。 既定では、このプッシュ通知は、ビルドの状態を表示する Web ページに HTML リンクを送信するように構成されています。  
+9. 次に、 **[Send a push notification]** (プッシュ通知を送信する) カードでプッシュ通知のプロパティを構成します。 既定では、このプッシュ通知は、ビルドの状態を表示する Web ページに HTML リンクを送信するように構成されています。  
    ![概要画像](./media/introduction-to-button-flows/create-button-9.png)  
-10. **[フローの作成]** ボタンを選択し、ボタン フローを保存します: ![概要画像](./media/introduction-to-button-flows/create-button-10.png)  
+10. **[フローの作成]** ボタンを選択し、ボタン フローを保存します。![概要画像](./media/introduction-to-button-flows/create-button-10.png)  
 11. しばらくすると、この成功メッセージが表示されるはずです。  
     ![概要画像](./media/introduction-to-button-flows/create-button-11.png)  
 
 おめでとうございます。ボタン フローが作成されました。 これで Flow アプリの **[ボタン]** タブから、時と場所に関係なく、このボタン フローを実行できます。 "ボタン" を押すだけで実行されます。 Power Automate モバイル アプリは、[Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) で使用できます。
 
 ### <a name="from-your-mobile-device"></a>モバイル デバイスから
-**注**: このチュートリアルでは Android デバイスの画面を利用しますが、iOS でも同じような画面や動作になります。
+**注:** このチュートリアルでは Android デバイスの画面を利用しますが、iOS でも同じような画面や動作になります。
 
 Flow アプリで次の操作を行います。
 
-1. **[参照]** タブを選び、**[ボタン]** カテゴリにスクロールします。  
+1. **[参照]** タブを選び、 **[ボタン]** カテゴリにスクロールします。  
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-1.png)  
 2. **[すべて表示]** リンクを選択します。 すぐに使えるボタンのテンプレートがすべて表示されます。     
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-2.png)  
@@ -87,7 +87,7 @@ Flow アプリで次の操作を行います。
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-4.png)  
 5. このテンプレートが使用するすべてのサービスにサインインする必要があります。    
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-5.png)  
-6. すべてのサービスにサインインしたら、**[次へ]** リンクを選択します。      
+6. すべてのサービスにサインインしたら、 **[次へ]** リンクを選択します。      
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-6.png)  
 7. **[作成]** リンクを選択します。 ここで、たとえば、フローを確認したり、必要な変更を行い、自分だけの電子メールを作成したりできます。        
    ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-7.png)  
@@ -118,12 +118,12 @@ Flow アプリで次の操作を行います。
 フロー アプリの **[アクティビティ]** タブからボタン フローを監視できます。   
 ![概要画像](./media/introduction-to-button-flows/create-button-from-mobile-13.png)  
 
-**注**: 任意のアクティビティをタップして実行結果を表示し、実行に関する情報を入手します。  
+**注:** 任意のアクティビティをタップして実行結果を表示し、実行に関する情報を入手します。  
 
 ![概要画像](./media/introduction-to-button-flows/activity-details-1.png)  
 
 ## <a name="manage-button-flows"></a>ボタン フローを管理する
-ボタンは完全に制御できます。時と場所に関係なく、ボタンを有効/無効にしたり、編集したり、削除したりできます。 モバイル アプリまたはフロー ポータルから、**[My flows]** (マイ フロー) を選択し、フローの管理を開始します。    
+ボタンは完全に制御できます。時と場所に関係なく、ボタンを有効/無効にしたり、編集したり、削除したりできます。 モバイル アプリまたはフロー ポータルから、 **[My flows]** (マイ フロー) を選択し、フローの管理を開始します。    
 
 Flow アプリの **[My flows]** (マイ フロー) タブで:
 
@@ -140,10 +140,10 @@ Flow アプリの **[My flows]** (マイ フロー) タブで:
    ![概要画像](./media/introduction-to-button-flows/manage-flow-3.png)   
 2. **[実行履歴]** をタップすると、特定のボタン フローの全実行結果が表示されます。    
    ![概要画像](./media/introduction-to-button-flows/manage-flow-4.png)  
-3. フローを無効にすると、**[ボタン]** タブで利用できなくなります。    
+3. フローを無効にすると、 **[ボタン]** タブで利用できなくなります。    
    ![概要画像](./media/introduction-to-button-flows/manage-flow-5.png)  
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [ボタン フローを共有する](share-buttons.md)
 * ボタン フローの実行時に[ボタン トリガー トークン](introduction-to-button-trigger-tokens.md)を使用してリアルタイムのデータを送信する方法について理解する
 * [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリをインストールします。

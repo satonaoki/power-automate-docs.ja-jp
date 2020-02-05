@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 06a27a495a008542208cd56230ad8c21b5e5b938
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74372379"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Web UI フローの作成とテスト
@@ -58,7 +58,7 @@ ms.locfileid: "74372379"
    Selenium IDE が起動します。
 
    >[!TIP] 
-   >ヒント: 同じタブ内で、複数の HTTP または HTTPS Web サイト間でアクションを記録できます。  
+   >ヒント:同じタブ内で、複数の HTTP または HTTPS Web サイト間でアクションを記録できます。  
 
 1. Selenium IDE で、画面の右上にある赤色の **[REC]** ボタンを選択してレコーダーを起動します。
 
@@ -112,7 +112,7 @@ Selenium IDE の記録は現在のユーザーのプロファイルで実行さ�
 
 -   多要素認証 (MFA) はサポートされていません。MFA を必要としないテナントを使用してください。
 
--   次の Selenium IDE コマンドはサポートされていません: Run、AnswerOnNextPrompt、ChooseCancelOnNextConfirmation、ChooseCancelOnNextPrompt、ChooseOkOnNextConfirmation、Debugger、ClickAt、DoubleClickAt、Echo、MouseOut、MouseUpAt、および MouseDownAt。
+-   次の Selenium IDE コマンドはサポートされていません:Run、AnswerOnNextPrompt、ChooseCancelOnNextConfirmation、ChooseCancelOnNextPrompt、ChooseOkOnNextConfirmation、Debugger、ClickAt、DoubleClickAt、Echo、MouseOut、MouseUpAt、および MouseDownAt。
 
 -   右クリックはサポートされていません 
 
@@ -125,7 +125,7 @@ Selenium IDE の記録は現在のユーザーのプロファイルで実行さ�
 
 -   Selenium IDE での直接再生は、意図したとおりに動作しない場合があります。 ただし、UI フロー インフラストラクチャによる実行時の再生は正常に動作します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 - [UI フロー](run-ui-flow.md)の実行方法について学習します。
 

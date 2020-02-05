@@ -17,13 +17,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 577bad2fa7e0db66c95fae5668c4a576e3c3a2d7
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365180"
 ---
-# <a name="tutorial-enhance-business-process-flows-with-branching"></a>チュートリアル: 分岐を使用して業務プロセス フローを強化する
+# <a name="tutorial-enhance-business-process-flows-with-branching"></a>チュートリアル:分岐を使用して業務プロセス フローを強化する
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
 
 業務プロセス フローによって、販売、マーケティング、サービスのプロセスの完了までさまざまなステージが示されます。 単純なケースでは直線的な業務プロセス フローが適しています。 ただし、シナリオが複雑になると、分岐を使用して業務プロセス フローを強化することができます。 業務プロセス フローに対する作成権限を持っている場合、`If-Else` ロジックを使用して、複数の分岐を含む業務プロセス フローを作成できます。 分岐条件は、`AND` 演算子または `OR` 演算子を組み合わせて使用する複数の論理式で形成されます。 分岐の選択は、プロセス定義時に定義したルールに基づいて、リアルタイムで自動的に行われます。 たとえば、自動車を販売する際に 1 つの業務プロセス フローを構成できますが、一般的な見込み評価ステージの後で、ルール (新車と中古車のどちらを希望しているか、予算は $20,000 より上か下かなど) に基づいて 2 つのブランチに分かれます。 一方は新車を販売し、もう一方は中古車を販売します。 業務プロセス フローについて詳しくは、「[Business process flows overview](business-process-flows-overview.md)」 (業務プロセス フローの概要) を参照してください。  
@@ -58,7 +58,7 @@ ms.locfileid: "74365180"
 > - プロセスで使用されるエンティティには、複数回アクセスできます (複数のクローズド エンティティ ループ)。  
 > - プロセスはエンティティ型に関係なく前のステージに戻ることができます。 たとえば、アクティブなステージが見積もりレコードに対する **[Deliver Quote]\(見積もりの提供\)** である場合、プロセス ユーザーはアクティブなステージを営業案件レコードに対する **[提案]** ステージに戻すことができます。  
 >   
->   もう 1 つの例として、あるプロセスが現在、プロセス フロー ( **[リードを見込みありと評価]**  >  **[Identify Needs]\(ニーズの特定\)**  >  **[Create Proposal]\(提案の作成\)**  >  **[提案の提示]**  >  **[精算]** ) の **[提案の提示]** ステージにあるとします。 顧客に提示した提案で、顧客のニーズを特定するための調査がさらに必要になった場合、ユーザーはプロセスの **[Identify Needs]\(ニーズの特定\)** ステージを選択して、 **[アクティブに設定]** を選ぶだけです。  
+>   もう 1 つの例として、あるプロセスが現在、次のプロセス フローの **[提案の提示]** ステージにあるとします。 **[リードを見込みありと評価]**  >  **[Identify Needs]\(ニーズの特定\)**  >  **[Create Proposal]\(提案の作成\)**  >  **[提案の提示]**  >  **[精算]** 。 顧客に提示した提案で、顧客のニーズを特定するための調査がさらに必要になった場合、ユーザーはプロセスの **[Identify Needs]\(ニーズの特定\)** ステージを選択して、 **[アクティブに設定]** を選ぶだけです。  
   
 <a name="CarSelling365"></a>   
 ## <a name="example-car-selling-process-flow-with-two-branches"></a>例: 2 つの分岐がある自動車販売プロセス フロー
@@ -120,7 +120,7 @@ ms.locfileid: "74365180"
   
  承認/拒否の決定を調査レコードから申し込みレコードに同期するためのワークフローを提供する必要があります。  
   
-### <a name="next-steps"></a>次のステップ  
+### <a name="next-steps"></a>次の手順  
  [業務プロセス フローの作成](create-business-process-flow.md)   
  [プロセスを含むカスタム ビジネス ロジックの作成](guide-staff-through-common-tasks-processes.md)   
  

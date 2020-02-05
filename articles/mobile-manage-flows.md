@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: cba8de780c58a2b70f1d65ff002336c7312dfd36
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74377416"
 ---
 # <a name="manage-flows-in-power-automate-from-your-phone"></a>携帯電話から Power Automate のフローを管理する
@@ -46,7 +46,7 @@ ms.locfileid: "74377416"
 
 ![Slack へのメッセージの送信](./media/mobile-manage-flows/create-event.png)
 
-**注**: モバイル アプリから[フロー アクティビティを監視](mobile-monitor-activity.md)することもできます。
+**注:** モバイル アプリから[フロー アクティビティを監視](mobile-monitor-activity.md)することもできます。
 
 ## <a name="manage-a-flow"></a>フローの管理
 1. モバイル アプリを開き、画面下部にある **[自分のフロー]** をタップして、フローの一覧を表示します。

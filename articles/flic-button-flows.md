@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: a9042e258c1e99aafc5e20b9d1adce9782dc09ca
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74366629"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Flic スマート ボタン (プレビュー) を押してフローを実行する
@@ -58,7 +58,7 @@ Flic イベントを Power Automate にリンクしたら、その Flic を、�
 ## <a name="create-a-flow-thats-triggered-by-a-flic"></a>Flic によってトリガーされるフローを作成する
 このチュートリアルでは、コンサルタントが各クライアントで費やした時間を記録するフローを作成します。 コンサルタントはクライアントに到着したときに Flic を 1 回押し、クライアントを離れる直前にもう一度押します。 Flic を押すたびに、Flic が接続されているフローが実行されます。 フローにより、現在の時刻が Google スプレッドシートに保存され、電子メール通知が送信されます。 電子メールには、フロー実行に関する詳細情報が含まれています。
 
-注: Flic モバイル アプリを使用してペアリングが行われていることを確認し、Power Automate をトリガーするために 1 回以上の**クリック**操作を構成します。 このスクリーンショットでは、Power Automate をトリガーするために**クリック**操作を構成しています。 このチュートリアルでは後で、Flic が 1 回押された (クリックされた) ときにトリガーされるようにフローを構成します。
+注意:Flic モバイル アプリを使用してペアリングが行われていることを確認し、Power Automate をトリガーするために 1 回以上の**クリック**操作を構成します。 このスクリーンショットでは、Power Automate をトリガーするために**クリック**操作を構成しています。 このチュートリアルでは後で、Flic が 1 回押された (クリックされた) ときにトリガーされるようにフローを構成します。
 
    ![Flic の構成](./media/flic-button-flows/flic-configured-for-flow.png)
 
@@ -81,11 +81,11 @@ Flic イベントを Power Automate にリンクしたら、その Flic を、�
    ![テンプレートの詳細を確認する](./media/flic-button-flows/flic-template-details.png)
 2. Google スプレッドシートで、**ClickType** および **TimeStamp** という名前の列を含むスプレッドシートを作成します。
    
-      ヒント: Google スプレッドシート内の列に名前を付けるには、列の上部に列名を入力します。 シートはスクリーン ショットのように表示されます。
+      ヒント:Google スプレッドシート内の列に名前を付けるには、列の上部に列名を入力します。 シートはスクリーン ショットのように表示されます。
    
    ![Google スプレッドシート](./media/flic-button-flows/flic-google-sheet.png)
    
-   注: このシートはこのチュートリアルの後の方で使用します。
+   注意:このシートはこのチュートリアルの後の方で使用します。
 
 ### <a name="add-the-flic-trigger-to-your-flow"></a>Flic トリガーをフローに追加する
 1. テンプレートのサービスにサインインし、 **[続行]** を選択します。
@@ -113,7 +113,7 @@ Flic イベントを Power Automate にリンクしたら、その Flic を、�
 1. **[ファイル]** リストから、先ほど作成したスプレッドシートを選択します。
 2. **[ワークシート]** リストからシートを選択します。
    
-   注: シートを選択すると、 **[行の挿入]** カードに 2 つのボックスが追加で表示されます。 これらのボックスは、先ほど作成したシート内の 2 つの列を表します。
+   注意:シートを選択すると、 **[行の挿入]** カードに 2 つのボックスが追加で表示されます。 これらのボックスは、先ほど作成したシート内の 2 つの列を表します。
 3. **[ClickType]** ボックスを選択し、 **[Click type]** /(クリックの種類/) トークンを選択します。
 4. **[Timestamp]** ボックスを選択し、 **[Click time]** /(クリック時刻/) トークンを選択します。
    

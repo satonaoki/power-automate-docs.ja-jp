@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - maker
 ms.openlocfilehash: d33b1e78678c7029d441bcf00f6c066d7f492a66
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74359246"
 ---
 # <a name="create-custom-response-options-for-approval-flows"></a>承認フローのカスタム応答オプションを作成する
@@ -41,11 +41,11 @@ ms.locfileid: "74359246"
 ## <a name="create-approval-flow"></a>承認フローを作成する
 1. [Power Automate](https://flow.microsoft.com) にサインインします。
 1. 左側のナビゲーション バーで **[マイ フロー]** を選択します。
-1. **[新規]** > **[一から作成]** を選択します。
+1. **[新規]**  >  **[一から作成]** を選択します。
 
     ![[一から作成] オプション](media/create-approval-response-options/create-approval-response-options.png)
 
-1. 表示された画面で、**[一から作成]** を選択します。 
+1. 表示された画面で、 **[一から作成]** を選択します。 
 
     ![[一から作成] を選択する](media/create-approval-response-options/create-from-blank.png)
 
@@ -53,9 +53,9 @@ ms.locfileid: "74359246"
 
 1. SharePoint の **[サイトのアドレス]** と **[リスト名]** を指定します。 
 
-1. **[新しいステップ]** を選択し、**[承認]** を検索して、**[承認の開始と待機 (V2)]** を選択します。
+1. **[新しいステップ]** を選択し、 **[承認]** を検索して、 **[承認の開始と待機 (V2)]** を選択します。
 
-1. **[承認の開始と待機 (V2)]** カードで、**[承認の種類]** 一覧を選択します。
+1. **[承認の開始と待機 (V2)]** カードで、 **[承認の種類]** 一覧を選択します。
 
     ![Approval type (承認の種類)](media/create-approval-response-options/select-approval-type.png)
 
@@ -66,11 +66,11 @@ ms.locfileid: "74359246"
     次に、承認者が従業員の経費の承認要求に応答するときに使用するカスタム応答を作成します。
 
 
-1. **[Response options Item - 1]\(応答オプション項目 - 1\)** ボックスに「**承認**」と入力し、**[新しい項目の追加]** を選択します。 
+1. **[Response options Item - 1]\(応答オプション項目 - 1\)** ボックスに「**承認**」と入力し、 **[新しい項目の追加]** を選択します。 
 
     ![カスタム応答 1](media/create-approval-response-options/enter-response-1.png)
 
-1. **[Response options Item - 2]\(応答オプション項目 - 2\)** ボックスに「**却下**」と入力し、**[新しい項目の追加]** を選択します。
+1. **[Response options Item - 2]\(応答オプション項目 - 2\)** ボックスに「**却下**」と入力し、 **[新しい項目の追加]** を選択します。
 
     ![カスタム応答 2](media/create-approval-response-options/enter-response-2.png)
 
@@ -79,7 +79,7 @@ ms.locfileid: "74359246"
     ![カスタム応答 3](media/create-approval-response-options/enter-response-3.png)   
     
 
-1. **[タイトル]**、**[割り当て先]** (承認者のメール アドレス)、**[詳細]** (承認要求に含める詳細) を入力します。
+1. **[タイトル]** 、 **[割り当て先]** (承認者のメール アドレス)、 **[詳細]** (承認要求に含める詳細) を入力します。
 
     次に例を示します。
 
@@ -105,6 +105,6 @@ ms.locfileid: "74359246"
 
 ![承認要求メール](media/create-approval-response-options/approval-request-email.png)
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 - [単一承認者フロー](modern-approvals.md)を作成する
 - [シーケンシャル承認者フロー](sequential-modern-approvals.md)を作成する

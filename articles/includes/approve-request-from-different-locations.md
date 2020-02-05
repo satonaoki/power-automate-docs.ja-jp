@@ -5,7 +5,7 @@
 ### <a name="from-email"></a>電子メールの場合
 1. 項目が SharePoint Online リストに追加されたときに受信する電子メールで **[承認]** を選択します。
    
-     注: Power Automate アプリがインストールされているモバイル デバイスを使用している場合は、Power Automate アプリが起動されます。それ以外の場合は、承認センターがブラウザーに表示されます。
+     注意:Power Automate アプリがインストールされているモバイル デバイスを使用している場合は、Power Automate アプリが起動されます。それ以外の場合は、承認センターがブラウザーに表示されます。
    
     ![要求の電子メール](media/modern-approvals/email-approval-request.png)
 2. コメントを入力して、 **[確認]** ボタンを選択します。
@@ -35,5 +35,5 @@
    
     ![成功ページ](media/modern-approvals/mobile-approval-confirmation.png)
 
-注: Android、iOS、Windows Phone の画面は、若干異なる場合がありますが、機能はすべてのデバイスで同じです。
+注意:Android、iOS、Windows Phone の画面は、若干異なる場合がありますが、機能はすべてのデバイスで同じです。
 

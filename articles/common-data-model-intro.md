@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2b536263d90af7b0bbdcdec30d1b00bc7bae2a9e
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74361201"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
@@ -73,7 +73,7 @@ ms.locfileid: "74361201"
     ![テンプレートの使用](./media/common-data-model-intro/use-template.png)
 4. Power Automate から Dynamics 365 への接続をまだ作成していない場合は、 **[サインイン]** をクリックまたはタップし、資格情報の入力を求めるメッセージが表示されたら入力します。
    
-    ![Dynamics 365 へのサインイン](./media/common-data-model-intro/dynamics-signin.png)
+    ![Dynamics 365 にサインインする](./media/common-data-model-intro/dynamics-signin.png)
 5. **[続行]** をクリックまたはタップします。
    
     ![アカウントの確認](./media/common-data-model-intro/confirm-accounts.png)
@@ -86,12 +86,12 @@ ms.locfileid: "74361201"
     ![Dynamics 365 のインスタンスの指定](./media/common-data-model-intro/specify-instance.png)
 2. (省略可能) 画面上部で、作成しているフローに別の名前を指定します。
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合、UI の表示が若干異なることがあります。
+    **注:** ブラウザー ウィンドウが最大化されていない場合、UI の表示が若干異なることがあります。
    
     ![フローの名前の指定](./media/common-data-model-intro/name-flow.png)
 3. **[フローの作成]** をクリックまたはタップします。
    
-    **注**: ブラウザー ウィンドウが最大化されていない場合、チェック マークだけが表示されることがあります。
+    **注:** ブラウザー ウィンドウが最大化されていない場合、チェック マークだけが表示されることがあります。
    
     ![フローの作成](./media/common-data-model-intro/create-flow.png)
 

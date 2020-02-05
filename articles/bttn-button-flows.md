@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4ee3a9c7acb567ed0516b682377e5b79d40132cf
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74356739"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Button Corporation (プレビュー) から物理ボタン (bttn) でフローを実行する
@@ -57,7 +57,7 @@ ms.locfileid: "74356739"
 
 ![bttn のテンプレート](./media/bttn-button-flows/bttn-templates.png)
 
-ヒント: このチュートリアルの目的上、bttn には一般的なオフィス ビル内の会議室を表す名前を付けます。
+ヒント:このチュートリアルの目的上、bttn には一般的なオフィス ビル内の会議室を表す名前を付けます。
 
 bttn の設定は (bttn Web サイトからの) この例のようになります。
 
@@ -70,7 +70,7 @@ bttn の設定は (bttn Web サイトからの) この例のようになりま�
    
     ![サインイン](./media/bttn-button-flows/sign-into-flow.png)
    
-    メモ: 代わりに、[Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリでフローを作成することもできます。
+    注意:代わりに、[Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリでフローを作成することもできます。
 2. 検索ボックスに「**bttn**」と入力し、検索アイコンを選択します。
    
     ![検索](./media/bttn-button-flows/bttn-search-template.png)
@@ -89,7 +89,7 @@ bttn の設定は (bttn Web サイトからの) この例のようになりま�
     **重要**: Power Automate が bttn を使用することを承認しないと、Power Automate から bttn を表示して接続することができません。
    
     ![承認](./media/bttn-button-flows/authorize-bttn.png)
-3. 両方のサービスにサインインした後、**[続行]** を選択します。
+3. 両方のサービスにサインインした後、 **[続行]** を選択します。
    
     ![続行](./media/bttn-button-flows/continue.png)
 
@@ -101,7 +101,7 @@ bttn の設定は (bttn Web サイトからの) この例のようになりま�
     フローはこの例のようになります。
    
     ![フローの概要](./media/bttn-button-flows/bttn-done.png)
-2. フローに名前を付けて、**[フローの作成]** を選択して保存します。
+2. フローに名前を付けて、 **[フローの作成]** を選択して保存します。
    
     ![フローの保存](./media/bttn-button-flows/save.png)
 
@@ -111,7 +111,7 @@ bttn の設定は (bttn Web サイトからの) この例のようになりま�
    
     実行履歴は Power Automate Web サイトまたはモバイル デバイス上でチェックすることができます。
    
-    注: 他のユーザーがサポート リクエスト電子メールで **[Acknowledge]\(確認)** を選択するまで、実行状態は **running (実行中)** に設定されます。
+    注意:他のユーザーがサポート リクエスト電子メールで **[Acknowledge]\(確認)** を選択するまで、実行状態は **running (実行中)** に設定されます。
 3. サポート チームに電子メールが送信されたことを確認することもできます。
    
     これまでのステップに従った場合、サポート電子メールは次の例のようになります。
@@ -122,7 +122,7 @@ bttn の設定は (bttn Web サイトからの) この例のようになりま�
 * フローがトリガーされなかった場合、Button Corporation のサイトにサインインし、ボタン アクティビティ (ボタン押し) が記録されているかどうかを確認します。
 * Power Automate サイトで実行済みアクティビティをドリル ダウンし、エラー メッセージがないかどうかをチェックすることもできます。
 
-## <a name="more-information"></a>詳細情報
+## <a name="more-information"></a>詳細
 * [ボタン フローを共有する](share-buttons.md)
 * [ボタン トリガー トークン](introduction-to-button-trigger-tokens.md)を使用してボタン フローの実行時に現在のデータを送信する方法について説明します。
 * [Android 向け Power Automate アプリをインストールする](https://aka.ms/flowmobiledocsandroid)。

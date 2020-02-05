@@ -15,10 +15,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: d65be1552c3e748e4910c4fb942a60322f6f1e19
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74363271"
 ---
 # <a name="work-with-business-process-flows-using-code"></a>コードを使用して業務プロセス フローを操作する
@@ -47,7 +47,7 @@ ms.locfileid: "74363271"
 <a name="DefineBPF"></a>   
 ## <a name="define-business-process-flow"></a>業務プロセス フローを定義する
   
-ビジュアル業務プロセス フロー デザイナーを使用して、業務プロセス フローを定義します。 詳しくは、[業務プロセス フローの作成](../create-business-process-flow.md)に関する記事をご覧ください。
+ビジュアル業務プロセス フロー デザイナーを使用して、業務プロセス フローを定義します。 詳細情報: [業務プロセス フローを作成する](../create-business-process-flow.md)
 
 既定では、業務プロセス フロー レコードが `Draft` 状態で作成されます。  
 
@@ -55,7 +55,7 @@ ms.locfileid: "74363271"
   
 <a name="ActivateBPF"></a>   
 ## <a name="activate-business-process-flow"></a>業務プロセス フローをアクティブ化する  
- プロセス フローを使用するには、前もってアクティブ化する必要があります。 アクティブ化するには、`Workflow` エンティティの `prvActivateBusinessProcessFlow` 権限を持っている必要があります。 <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> メッセージを使用して、`Workflow` エンティティ レコードの状態を `Activated` に設定します。 詳しくは、「[[更新] を使用して特化された操作を実行する](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update)」をご覧ください。 
+ プロセス フローを使用するには、前もってアクティブ化する必要があります。 アクティブ化するには、`Workflow` エンティティの `prvActivateBusinessProcessFlow` 権限を持っている必要があります。 <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> メッセージを使用して、`Workflow` エンティティ レコードの状態を `Activated` に設定します。 詳細情報: [[更新] を使用して特化された操作を実行する](/dynamics365/customer-engagement/developer/org-service/perform-specialized-operations-using-update) 
 
  > [!NOTE]
  > 業務プロセス フロー デザイナーを使用して、業務プロセス フローをアクティブ化することもできます。 
@@ -75,10 +75,10 @@ ms.locfileid: "74363271"
 
 業務プロセス フローのエンティティの名前を取得するには、次のいずれかの方法を使用します。
 
-- **UI の使用**: カスタマイズの UI を使用して、業務プロセス フローのエンティティを参照します。
+- **UI を使用**: カスタマイズの UI を使用して、業務プロセス フローのエンティティを一覧から選択します。
 
     ![](media/bpf-entity-name.png)
-- **Web API の使用**: 次の要求を使用します。
+- **Web API を使用**: 次の要求を使用します。
 
     **要求**
 
@@ -143,7 +143,7 @@ ms.locfileid: "74363271"
 > [!IMPORTANT]
 > エンティティ レコードのプロセス インスタンスを別のインスタンスに切り替えることは、UI (クライアント) で行うか、このセクションで示す情報を使用してプログラミングで行うことだけがサポートされています。 `SetProcess` メッセージ (<xref href="Microsoft.Dynamics.CRM.SetProcess?text=SetProcess Action" /> または <xref:Microsoft.Crm.Sdk.Messages.SetProcessRequest>) を使用してプログラミングでターゲット エンティティ レコードのプロセスを切り替える (別の業務フローをアクティブなプロセス インスタンスとして設定する) ことはできなくなりました。 
 
- 複数のエンティティにまたがる業務プロセス フローがあるとします。名前は "My Custom BPF" で、S1:Account、S2:Account、S3:Contact の 3 つのステージがあります。 
+ 複数のエンティティにまたがる業務プロセス フローがあるとします。名前は "My Custom BPF" で、3 つのステージがあります。S1:Account、S2:Account、および S3:Contact です。 
 
  ![](media/sample-bpf.png)
  
@@ -265,9 +265,9 @@ OData-Version: 4.0
 }
 ```
 
-#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>プロセス インスタンスの状態 ([中止]、[再アクティブ化]、[完了]) を変更する 
+#### <a name="change-the-state-of-a-process-instance-abort-reactivate-or-finish"></a>プロセス インスタンスの状態を変更する: 中止、再アクティブ化、完了 
 
-プロセス インスタンスの状態は、 **[アクティブ]** 、 **[完了済]** 、または **[中止]** のいずれかにすることができます。 状態は、プロセス インスタンス レコードの次の属性によって判別されます。
+プロセス インスタンスの状態は、 **[アクティブ]** 、 **[完了済]** 、 **[中止]** のいずれかとなります。 状態は、プロセス インスタンス レコードの次の属性によって判別されます。
 
 - **statecode**: プロセス インスタンスの状態が表示されます。
 
@@ -344,7 +344,7 @@ DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff
   
  業務プロセス フロー インスタンスのアクティブなステージとアクティブなパスの情報を得たら、その情報を使用して、アクティブなパスで前のステージまたは次のステージに移動できます。 前方向へのステージのナビゲーションは順序どおりに行う必要があります。つまり、アクティブなパスの次のステージに前進してください。   
   
- [組織サービス](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata)を使用して、これら 2 つの方法とステージ ナビゲーションの使用方法を説明するコードの詳しいサンプルについては、「[Sample: Work with business process flows](sample-work-business-process-flows.md)」(サンプル: 業務プロセス フローの使用) をご覧ください。 
+ [組織サービス](/dynamics365/customer-engagement/developer/org-service/use-organization-service-read-write-data-metadata)を使用してこれら 2 つの方法とステージ ナビゲーションの使用方法を示すサンプル コード全体については、「[サンプル: 業務プロセス フローの使用](sample-work-business-process-flows.md)」をご覧ください。 
 
 <a name="ApplyBPF"></a>   
 ## <a name="apply-business-process-flow-while-creating-an-entity-record"></a>エンティティ レコードの作成時に業務プロセス フローを適用する
@@ -373,7 +373,7 @@ DELETE [Organization URI]/api/data/v9.0/new_mycustombpfs(dc2ab599-306d-e811-80ff
 
 業務プロセス フローに対応するエンティティの従来のプロセス関連の属性 (**ProcessId**、**StageId**、**TraversedPath** など) は、既に非推奨になっています。 ターゲット エンティティ レコードに対してこのような従来のプロセス関連の属性を操作すると、業務プロセス フローの状態の一貫性を保証できません。サポートされるシナリオ "***ではありません***"。 お勧めの方法は、「[Create, retrieve, update, and delete business process flow entity records (process instances)](#create-retrieve-update-and-delete-business-process-flow-entity-records-process-instances)」(業務プロセス フロー エンティティ レコード (プロセス インスタンス) の作成、取得、更新、削除) セクションで前に説明したように業務プロセス フロー エンティティの属性を使用することです。
 
-唯一の例外は、前のセクション「[Apply business process flow while creating an entity record](#ApplyBPF)」(エンティティ レコードの作成時に業務プロセス フローを適用する) で説明したように、エンティティ レコードの作成時に **ProcessId** 属性をプログラミングによって変更して、業務プロセス フローの新規レコードへの既定の適用をオーバーライドすることです。
+唯一の例外は、新規レコードへの業務プロセス フローの既定の適用をオーバーライドするためにエンティティ レコードの作成時に **ProcessId** 属性をプログラミングによって変更することです。これについては、前の「[エンティティ レコードの作成時に業務プロセス フローを適用する](#ApplyBPF)」で説明されています。
 
 <a name="BKMK_clientSideScript"></a>   
 ## <a name="client-side-programmability-support-for-business-process-flows"></a>業務プロセス フローに関するクライアント側でのプログラミングのサポート  

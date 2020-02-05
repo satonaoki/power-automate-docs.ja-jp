@@ -21,10 +21,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 45fe310d7c18fc395857d29503faef9bf4e6eedb
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74365709"
 ---
 # <a name="using-environments-within-power-automate"></a>Power Automate 内の環境の使用
@@ -34,21 +34,21 @@ ms.locfileid: "74365709"
 
 環境には次の利点があります。
 
-* **データのローカリティ**: 環境は複数の異なるリージョンに作成でき、その地理的な場所にバインドされます。 環境内にフローを作成すると、そのフローはその地理的な場所のすべてのデータセンターにルーティングされます。 これには、パフォーマンス上の利点もあります。
+* **データのローカリティ**:環境はさまざまなリージョンで作成され、その地理的位置に関連付けられます。 環境内にフローを作成すると、そのフローはその地理的な場所のすべてのデータセンターにルーティングされます。 これには、パフォーマンス上の利点もあります。
 
     ユーザーがヨーロッパにいる場合は、ヨーロッパ リージョンに環境を作成して使います。 ユーザーが米国にいる場合は、米国に環境を作成して使います。 
 
     > [!IMPORTANT]
     > 環境を削除した場合、その環境内のすべてのフローも削除されます。 これは、接続、ゲートウェイ、Power Apps など、その環境で作成するすべての項目に適用されます。
-* **データ損失の防止**: 管理者としては、内部の場所 (給与情報を含む *OneDrive for Business* や SharePoint リストなど) からデータを取得し、そのデータを公開の場所 (*Twitter* など) に投稿するようなフローは望ましくありません。 Power Automate の展開内のデータを共有できるサービスを制御するには、データ損失防止を使います。
+* **データ損失の防止**:管理者としては、内部の場所 (給与情報を含む *OneDrive for Business* や SharePoint リストなど) からデータを取得し、そのデータを公の場所 (*Twitter* など) に投稿するようなフローは望ましくありません。 Power Automate の展開内のデータを共有できるサービスを制御するには、データ損失防止を使います。
 
     たとえば、*SharePoint* と *OneDrive for Business* サービスを、ビジネス データのみのポリシーに追加することができます。 この環境に作成されるすべてのフローは、*SharePoint* サービスと *OneDrive for Business* サービスを使うことができます。 しかし、ビジネス データのみのポリシーに含まれていない他のサービスとデータを共有することはできません。
 
   > [!NOTE]
   > データ損失防止は、P2 ライセンスなど、いくつかのライセンス SKU で使用できます。
 
-* **すべてのリソースの分離境界**: どのフロー、ゲートウェイ、接続、カスタム コネクタなども、固有の環境に存在します。 他の環境には存在しません。
-* **Common Data Service**: サービスにデータを挿入するフローを作成する場合は、このサービスを使います。
+* **すべてのリソースの分離境界**:あらゆるフロー、ゲートウェイ、接続、カスタム コネクタなどは固有の環境に存在します。 他の環境には存在しません。
+* **Common Data Service**:サービスにデータを挿入するフローを作成する場合は、このサービスを使います。
 
   * Excel ファイルにデータを挿入し、OneDrive などのクラウド ストレージ アカウントに Excel ファイルを格納します。
   * SQL Database を作成してから、そこにデータを格納します。
@@ -71,7 +71,7 @@ ms.locfileid: "74365709"
 
 管理者は、管理センターを使って環境の作成と管理を行います。 管理センターを開くには 2 つの方法があります。
 
-### <a name="option-1-select-settings"></a>オプション 1: 設定を選択する
+### <a name="option-1-select-settings"></a>オプション 1:[設定] を選択する
 
 1. [flow.microsoft.com](https://flow.microsoft.com) にサインインします。
 1. 設定の歯車アイコンを選び、一覧から **[管理センター]** を選びます。
@@ -79,11 +79,11 @@ ms.locfileid: "74365709"
    ![設定と管理者ポータル](./media/environments-overview-admin/settings.png)
 1. 管理センターが開きます。
 
-### <a name="option-2-open-adminflowmicrosoftcom"></a>オプション 2: admin.flow.microsoft.com を開く
+### <a name="option-2-open-adminflowmicrosoftcom"></a>オプション 2:admin.flow.microsoft.com を開く
 
 [admin.flow.microsoft.com](https://admin.flow.microsoft.com) に移動し、職場アカウントでサインインします。
 
-## <a name="create-an-environment"></a>環境を作成する
+## <a name="create-an-environment"></a>環境の作成
 
 1. [Power Automate 管理センター](https://admin.flow.microsoft.com)で **[Environments]\(環境\)** を選択します。 既存の環境がすべて表示されます。![環境](./media/environments-overview-admin/environments-list.png)
 2. **[新しい環境]** を選び、必要な情報を指定します。
@@ -92,8 +92,8 @@ ms.locfileid: "74365709"
    |     プロパティ     |                                                 説明                                                 |
    |------------------|-------------------------------------------------------------------------------------------------------------|
    | 環境名 |              「`Human Resources`」や「`Europe flows`」など、環境の名前を入力します。              |
-   |      Region (リージョン)      | 環境をホストする場所を選択します。 最高のパフォーマンスを得るには、ユーザーに最も近いリージョンを使用します。 |
-   | 環境の種類 |                  ライセンスに基づいて、環境の種類 ([Production]\(運用\) または [試用版])。                   |
+   |      リージョン      | 環境をホストする場所を選択します。 最高のパフォーマンスを得るには、ユーザーに最も近いリージョンを使用します。 |
+   | 環境の種類 |                  お使いのライセンスに基づいて環境の種類を選択します。[Production]\(運用\) または [試用版] です。                   |
 
      ![環境設定](./media/environments-overview-admin/new-environment-dialog.png)
 3. **[環境の作成]** をクリックします。
@@ -111,12 +111,12 @@ ms.locfileid: "74365709"
 
    ![環境のメニュー項目](./media/environments-overview-admin/select-environments.png)
 1. 環境を選択してプロパティを開きます。
-1. 環境の作成者や地理的な場所など、環境に関する追加情報を見るには、**[詳細]** タブを使います。
+1. 環境の作成者や地理的な場所など、環境に関する追加情報を見るには、 **[詳細]** タブを使います。
 
    ![[詳細] タブ](./media/environments-overview-admin/open-environment.png)
-1. **[Security]** (セキュリティ) を選択します。
+1. **[セキュリティ]** を選択します。
 
-    前のステップで **[データベースの作成]** を選ばなかった場合は、**[環境ロール]** として **[環境管理者]** と **[環境作成者]** の 2 つのオプションが表示されます。
+    前のステップで **[データベースの作成]** を選択しなかった場合、 **[環境ロール]** として **[環境管理者]** と **[環境作成者]** の 2 つのオプションが表示されます。
 
     ![管理者ロール](./media/environments-overview-admin/environment-roles.png)
 
@@ -129,7 +129,7 @@ ms.locfileid: "74365709"
 
     **管理者**は、データ損失防止ポリシーを作成できるほか、環境の作成、環境へのユーザーの追加、管理者/作成者権限の割り当てなどの他の管理タスクを実行できます。
 
-   1. **[環境作成者]** ロールを選んだ後、**[ユーザー]** を選びます。![作成者ロール](./media/environments-overview-admin/add-environment-maker.png)
+   1. **[環境作成者]** ロールを選んだ後、 **[ユーザー]** を選びます。![作成者ロール](./media/environments-overview-admin/add-environment-maker.png)
    1. **作成者**ロールに与える名前、メール アドレス、またはユーザー グループを入力します。
    1. **[保存]** を選択します。
 
@@ -163,7 +163,7 @@ ms.locfileid: "74365709"
 >
 
 ### <a name="database-security"></a>データベース セキュリティ
-データベース スキーマを作成および変更できるかどうか、および環境でプロビジョニングされているデータベース内に格納されたデータに接続できるかどうかは、データベースのユーザー ロールとアクセス許可セットによって制御されます。 環境のデータベースのユーザー ロールとアクセス許可セットは、**[セキュリティ]** タブの **[ユーザー ロール]** および **[アクセス許可セット]** セクションから管理できます。 
+データベース スキーマを作成および変更できるかどうか、および環境でプロビジョニングされているデータベース内に格納されたデータに接続できるかどうかは、データベースのユーザー ロールとアクセス許可セットによって制御されます。 環境のデータベースのユーザー ロールとアクセス許可セットは、 **[セキュリティ]** タブの **[ユーザー ロール]** および **[アクセス許可セット]** セクションから管理できます。 
 
    ![ユーザーにロールを割り当てる](./media/environments-overview-admin/D365-Assign-Role.png)
 
@@ -181,9 +181,9 @@ Common Data Service を使用してデータベースを作成する権限は、
 
 課金に関してよく寄せられる質問に対する回答については、[課金についての質問](billing-questions.md)に関するドキュメントをご覧ください。
 
-### <a name="can-the-common-data-service-be-used-outside-of-an-environment"></a>環境の外部で Common Data Service を使用できますか。
+### <a name="can-the-common-data-service-be-used-outside-of-an-environment"></a>Common Data Service は、環境の外部でも使用できますか。
 
-できません。 Common Data Service には環境が必要です。 詳細は、[こちらを](common-data-model-intro.md)参照してください。
+いいえ。 Common Data Service には環境が必要です。 詳細は、[こちらを](common-data-model-intro.md)参照してください。
 
 ### <a name="what-regions-include-power-automate"></a>Power Automate が含まれるリージョン
 

@@ -15,10 +15,10 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 2b2b53b833711311c039678a9196a2833d50c84c
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74370861"
 ---
 # <a name="power-automate-us-government"></a>Power Automate 米国政府機関
@@ -67,7 +67,7 @@ Power Automate US Government プランへのアクセスは、以下のセクシ
 > [!NOTE]
 > ライセンスは、2019 年 4 月中旬から顧客テナントで利用できます。
 
-これらのライセンスのグループ間の機能の違いに関する追加情報と詳細については、ここで詳しく説明されています: [Power Automate のライセンスに関する情報のページ](https://flow.microsoft.com/pricing/)。
+これらのライセンスのグループ間の機能の違いに関する追加情報と詳細については、ここで詳しく説明されています:[Power Automate ライセンス情報](https://flow.microsoft.com/pricing/)。
 
 Power Automate US Government は、ボリューム ライセンスおよびクラウド ソリューション プロバイダーの購入チャンネルを通じて取得できます。
 
@@ -207,7 +207,7 @@ https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors
 
 Azure は複数のクラウドに分散されます。 既定では、テナントでクラウド固有のインスタンスに対するファイアウォール規則を開くことが許可されていますが、クラウド間ネットワークの場合は異なり、サービス間で通信するために特定のファイアウォール規則を開く必要があります。 Power Automate のお客様で、アクセスする必要がある Azure パブリック クラウドに既存の SQL インスタンスがある場合、次のデータセンターのために、Azure Government Cloud IP 空間に対する特定のファイアウォール ポートを SQL で開く必要があります。
 
-- USGov バージニア
+- USGov バージニア州
 - USGov テキサス
 
 AzureCloud.usgovtexas と AzureCloud.usgovvirginia に注目しながら、[Azure IP 範囲とサービス タグ – US Government Cloud](https://www.microsoft.com/download/confirmation.aspx?id=57063) のドキュメントを参照してください。 また、これらが、エンドユーザーがサービス URL にアクセスするために必要な IP 範囲であることにも注意してください。

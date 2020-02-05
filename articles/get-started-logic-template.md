@@ -21,10 +21,10 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: f2e92d43a33a4a05523ae350a63aa68f9cda2d1f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74368699"
 ---
 # <a name="create-a-flow-from-a-template-in-power-automate"></a>Power Automate でテンプレートからフローを作成する
@@ -71,7 +71,7 @@ ms.locfileid: "74368699"
 
 これで、上司からの電子メールを受信したときに、指定した情報を含む Slack メッセージを受信します。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 * [実行中のフローを確認する](see-a-flow-run.md)
 * [独自のテンプレートを発行する](publish-a-template.md)
 * [Common Data Service のテンプレートを使用する](common-data-model-intro.md)
