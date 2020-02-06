@@ -20,10 +20,10 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/29/2020
 ms.locfileid: "74364628"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Power Automate と Web サイトおよびアプリを統合する
@@ -123,7 +123,7 @@ var sdk = new MsFlowSdk({
 }); 
 ```
 
-| Name (名前)     | 必須/省略可能 | 説明                                                    | 
+| 名前     | 必須/省略可能 | 説明                                                    | 
 |----------|-------------------|----------------------------------------------------------------| 
 | `hostName` | 省略可能          | Power Automate のホスト名 (例: https://flow.microsoft.com )        | 
 | `locale`   | 省略可能          | ウィジェットのクライアント ロケール (指定されていない場合は `en-Us`) | 
@@ -258,7 +258,7 @@ ApprovalCenter ウィジェットに適用されます。
 |------------|-------------------|--------------| 
 | `hideLink`| 省略可能 | `true` に設定されると、ウィジェットは送受信済みの承認リンクを非表示にします。 | 
 | `autoNavigateToDetails`| 省略可能 | `true` に設定されると、承認が 1 つだけ存在するとき、ウィジェットによって承認詳細が自動的に開きます | 
-| `approvalsFilter`| 省略可能 | 承認ウィジェットでは、承認を一覧表示するときに、指定の承認フィルターが適用されます。次に例を示します。 <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
+| `approvalsFilter`| 省略可能 | 承認を一覧表示するとき、承認ウィジェットは指定の承認フィルターを適用します。例:  承認を一覧表示するとき、承認ウィジェットは指定の承認フィルターを適用します。例: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
 | `tab`| 省略可能 | Flow ウィジェットに表示するようにアクティブ タブを既定値に設定します。 <br/> 有効な値 : "receivedApprovals"、"sentApprovals" | 
 | `showSimpleEmptyPage`| 省略可能 | 承認がないとき、空のページが表示されます | 
 | `hideInfoPaneCloseButton` | 省略可能 | 情報ウィンドウの [閉じる] ボタンを非表示にします (あるいは、ホストに [閉じる] ボタンが既にあります) | 
@@ -269,7 +269,7 @@ ApprovalCenter ウィジェットに適用されます。
 
 Power Automate ウィジェットは、ホストがウィンドウのライフサイクル イベントを待ち受けることを許可するイベントに対応しています。 Power Automate ウィジェットは、2 種類のイベントに対応しています: 一方向通知イベント (Widget\_Ready など) と、ウィジェットから発生し、ホストからデータを取得するイベント (Get\_Access\_Token)。 ホストは widget.listen() メソッドを使用し、ウィジェットから発生する特定のイベントを待ち受ける必要があります。
 
-### <a name="usage"></a>使用法
+### <a name="usage"></a>使用
 
 ```javascript
 widget.listen("<WIDGET_EVENT>", function() {
@@ -401,7 +401,7 @@ Flow サービス スコープ (委任されたアクセス許可) でクライ�
 7. **[追加]** を選択します。
 8. **[API を選択する]** を選択します。
       ![ウィジェット アーキテクチャ](../media/embed-flow-dev/AAD-App-Select-an-API.png)
-9. **Power Automate サービス** を検索して選択します。 注: Power Automate サービスを表示するには、テナントで少なくとも 1 人の AAD ユーザーが Flow ポータル (<https://flow.microsoft.com>) にサインインしている必要があります。
+9. **Power Automate サービス** を検索して選択します。 注意:Power Automate サービスを表示するには、テナントで少なくとも 1 人の AAD ユーザーが Flow ポータル (<https://flow.microsoft.com>) にサインインしている必要があります。
 10. アプリケーションに必要な Flow スコープを選択し、 **[保存]** を選択します。
       ![ウィジェット アーキテクチャ](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
 
@@ -413,7 +413,7 @@ Flow サービス スコープ (委任されたアクセス許可) でクライ�
 
 ### <a name="registering-an-aad-app"></a>AAD アプリを登録する
 
-1.  [Azure Portal](https://portal.azure.com/) にサインインします。
+1.  [Azure portal](https://portal.azure.com/) にサインインします。
 2.  左のナビゲーション ウィンドウで、 **[Azure Active Directory]** を選択し、 **[アプリの登録 (プレビュー)]** 、[新規登録] の順に選択します。
 3.  **[アプリケーションの登録]** ページが表示されたら、アプリケーションの名前を入力します。
 4.  **[サポートされているアカウントの種類]** で、任意の組織ディレクトリで **[アカウント]** を選択します。
