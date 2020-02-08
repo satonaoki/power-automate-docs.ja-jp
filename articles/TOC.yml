@@ -56,6 +56,24 @@
       href: run-scheduled-tasks.md
     - name: 項目のリストを処理する
       href: apply-to-each.md
+- name: 承認フロー
+  items:
+    - name: 1 つの承認
+      href: modern-approvals.md
+    - name: 添付ファイルを使用した承認
+      href: approval-attachments.md
+    - name: 連続した承認
+      href: sequential-modern-approvals.md
+    - name: 並行した承認
+      href: parallel-modern-approvals.md
+    - name: すべてのユーザーが承認する必要がある
+      href: all-assigned-must-approve.md
+    - name: 統合された承認
+      href: common-data-model-approve.md
+    - name: 書式設定承認要求
+      href: approvals-markdown-support.md
+    - name: カスタム承認応答オプション
+      href: create-approval-response-options.md
 - name: 業務プロセス フロー
   items:
     - name: 業務プロセス フローの概要
@@ -170,24 +188,6 @@
           href: daily-weather-sample.md
         - name: サンプル - 潜在顧客の生成
           href: lead-collection-sample.md
-    - name: 承認フロー
-      items:
-        - name: 1 つの承認
-          href: modern-approvals.md
-        - name: 添付ファイルを使用した承認
-          href: approval-attachments.md
-        - name: 連続した承認
-          href: sequential-modern-approvals.md
-        - name: 並行した承認
-          href: parallel-modern-approvals.md
-        - name: すべてのユーザーが承認する必要がある
-          href: all-assigned-must-approve.md
-        - name: 統合された承認
-          href: common-data-model-approve.md
-        - name: 書式設定承認要求
-          href: approvals-markdown-support.md
-        - name: カスタム承認応答オプション
-          href: create-approval-response-options.md
     - name: 電話上でフローを管理する
       href: mobile-manage-flows.md
     - name: テンプレートを発行する
