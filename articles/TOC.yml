@@ -180,12 +180,20 @@
           href: overview-adaptive-cards.md
         - name: Teams 向けアダプティブ カードの作成
           href: create-adaptive-cards.md
+        - name: サンプル - 候補のフィードバック
+          href: candidate-feedback-sample.md
         - name: サンプル - 画像の共有
           href: image-share-sample.md
+        - name: サンプル - 潜在顧客のコレクション
+          href: lead-collection-sample.md
+        - name: サンプル - ポーリング ジェネレーター
+          href: poll-generator-sample.md
         - name: サンプル - メタデータの更新
           href: metadata-update-sample.md
         - name: サンプル - 毎日の天気
           href: daily-weather-sample.md
+        - name: サンプル - 頭字語フォーム
+          href: acronym-sample.md
         - name: サンプル - 潜在顧客の生成
           href: lead-collection-sample.md
     - name: 電話上でフローを管理する
