@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2b536263d90af7b0bbdcdec30d1b00bc7bae2a9e
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: a96d2e7ee5d0050f5fcbc96afe79429e1aad2426
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74361201"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575038"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -42,7 +42,7 @@ ms.locfileid: "74361201"
 
 **前提条件**
 
-* [Power Automate](https://flow.microsoft.com) と [PowerApps](https://make.powerapps.com) にサインアップします。
+* [Power Automate](https://flow.microsoft.com) と [Power Apps](https://make.powerapps.com) にサインアップします。
   
     問題が発生した場合は、所有するアカウントの種類が [Power Automate](sign-up-sign-in.md) と [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) でサポートされているかどうかと、組織によってサインアップがブロックされていないことを確認してください。
 * 今までに Common Data Service を使用したことがない場合は、[powerapps.com](https://web.powerapps.com/#/entities) の **[エンティティ]** タブを開き、 **[自分のデータベースを作成]** をクリックまたはタップしてください。
