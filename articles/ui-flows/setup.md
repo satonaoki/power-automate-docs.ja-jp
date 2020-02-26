@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e7d5e4219c46703019f995b625c6d672a767018a
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 222ee4a6d7d3116100880ec4a5dc205988fc8ce6
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74882123"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77574964"
 ---
 # <a name="set-up-ui-flows"></a>UI フローの設定
 
@@ -108,7 +108,7 @@ UI flows のインストーラーが完了すると、拡張機能のアクテ�
 Navigate to this link https://chrome.google.com/webstore/detail/microsoft-flow-preview/jcajipieipkmjpfakbdhmjidmhidogoo and install it manually, that will fix any issues. (For Edge Chromium, use the same link and accept when prompted to install from external stores.)
 -->
 
-## <a name="optional-install-selenium-ide-to-automate-web-applications"></a>(省略可能) Selenium IDE をインストールして Web アプリケーションを自動化する
+## <a name="install-selenium-ide-to-automate-web-applications"></a>Selenium IDE をインストールして Web アプリケーションを自動化する
 
 オープンソース ツールの Selenium IDE を使用すると、Web サイトでの人間の操作を記録して再生することができます。
 

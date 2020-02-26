@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: msftman
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/16/2019
+ms.date: 02/13/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 019d711771c10f360b1f5c7dab61aa432c827311
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f3600587897b9e64ecd76f85c8b9762e84bc7b94
+ms.sourcegitcommit: dbba53a52e2c5b1c2965f6c608e586748d5baae0
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367112"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "77567003"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Power Automate でオンプレミス データ ゲートウェイを管理する
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -58,8 +58,8 @@ ms.locfileid: "74367112"
   インストールするゲートウェイごとに、これらのアクセス許可が既定で与えられます。 また、別のゲートウェイの管理者がそのゲートウェイのこれらのアクセス許可を与えることができます。
 * ゲートウェイをサポートするライセンス。 詳細については、[料金に関するページ](https://flow.microsoft.com/pricing/)の「Connectivity (接続)」セクションを参照してください。
 
-> [!NOTE]
-> ゲートウェイとオンプレミスの接続は、[既定の環境](environments-overview-maker.md)でのみ作成することができます。
+> [!TIP]
+> ゲートウェイとオンプレミスの接続は、[任意の環境](environments-overview-maker.md)で作成することができます。
 
 ## <a name="install-a-gateway"></a>ゲートウェイのインストール
 

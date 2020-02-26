@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e617e6928d5295a9485c55e1efa57a945abf870f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ab6b6d0cf638b489db47e1f2d075afdf18a2ee49
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74374311"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77575061"
 ---
 # <a name="release-notes"></a>リリース ノート
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -51,14 +51,9 @@ ms.locfileid: "74374311"
 
 ## <a name="whats-new"></a>新着情報
 
-> [!IMPORTANT]
->
-> **リリース ノートのお知らせ**
->
-> Power Automate の今後リリースされる機能と最近リリースされた機能については、
->[2018 年 10 月のリリース ノートをご覧ください](https://docs.microsoft.com/business-applications-release-notes/October18/microsoft-flow/)。 計画に利用できるあらゆる詳細情報を網羅しています。 さらなる詳細については、[各週のリリース](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow)とそこに含まれている機能および機能強化を確認してください。
->
-> 2018 年 10 月より前のリリース ノートは今後の参考用にここに残されますが、新しいリリースはすべてこのページではなく上記の場所にのみ追加されます。
+Power Automate でリリースされた新機能の詳細については、以下を参照してください。
+- [2020 リリース ウェーブ 1 の予定](https://docs.microsoft.com/power-platform-release-plan/2020wave1/power-automate/planned-features): 今後数か月の間にリリースされる新機能について。
+- [週間リリース ノート](https://docs.microsoft.com/business-applications-release-notes/powerplatform/released-versions/flow): 過去数週間にリリースされた新機能、修正プログラム、機能強化について。
 
 ### <a name="release-2018-09-24"></a>2018 年 9 月 24 日リリース
 

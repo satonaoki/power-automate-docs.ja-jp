@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2b2b53b833711311c039678a9196a2833d50c84c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 44220aebd8726c31f94996ec215020688f317223
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370861"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77574983"
 ---
 # <a name="power-automate-us-government"></a>Power Automate 米国政府機関
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -226,7 +226,7 @@ Flow US Government の顧客は、Flow の商用バージョンで使用でき�
 
 - Power Automate US Government フローを Dynamics 365 GCC "*から*" トリガーする
 
-- [承認](./modern-approvals.md) – 米国政府機関のお客様は、Power Automate の承認を使用できますが、アクション可能な電子メールを送信することはできず、承認センターに承認者を送る必要があります。 回避策として、Power Automate 作成者は標準の電子メール コネクタを活用して、承認待ちのユーザーに通知することができます。 その場合、米国政府のお客様が承認を処理できる承認センターを指し示すハイパーリンクも電子メールに含めます。
+- [承認](./modern-approvals.md)は、GCC および GCC High テナントではまだ利用できません。
 
 - [利用状況分析](https://flow.microsoft.com/blog/admin-analytics/)
 
