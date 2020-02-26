@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 3ea993f30f34a9997a1a3a3580b0151e93223d7a
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5534b96eaa8ad762d24794f84c983811bf116d7f
+ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74356785"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "77574998"
 ---
 # <a name="billing-and-metering-questions"></a>課金と使用状況の測定に関する質問
 [!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
@@ -41,7 +41,7 @@ ms.locfileid: "74356785"
 
 ## <a name="where-can-i-find-out-what-my-plan-is"></a>現在のプランはどこで確認できますか
 
-[価格に関するページ](https://flow.microsoft.com/pricing/)を参照してください。
+こちらの[サブスクリプションに関するページ](https://portal.office.com/account/#subscriptions)を参照してください。
 
 ## <a name="how-do-i-switch-plans"></a>プランの切り替え方法を教えてください
 
