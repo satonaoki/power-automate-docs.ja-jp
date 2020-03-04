@@ -100,6 +100,9 @@
       href: ./ui-flows/edit-desktop.md
     - name: デスクトップ UI フローで入力と出力を使用する
       href: ./ui-flows/inputs-outputs-desktop.md
+      items:
+        - name: UI フローでの入力方式エディター (IME) の使用
+          href: ./ui-flows/use-ime.md
     - name: Web UI フローの作成とテスト
       href: ./ui-flows/create-web.md
     - name: Web UI フローの編集
