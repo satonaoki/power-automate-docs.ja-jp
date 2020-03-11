@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 02/28/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: afe9277ced28cdb964ed32550dd0402eaa0d1df4
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: c27637f56defb1acff07302954424953ec48b506
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "75943498"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244321"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>デスクトップ UI フローの作成とテスト
 
@@ -60,6 +60,23 @@ ms.locfileid: "75943498"
    ![デスクトップの選択](../media/create-windows-ui-flow/give-a-name.png "デスクトップの選択") 
 
 1. 下部にある **[次へ]** を選択して、オプションの **[入力の設定]** 画面をスキップします。このチュートリアルでは入力を使用しません。
+
+1.  **[パッケージのダウンロード]** を選択します。
+1.  **Setup.Microsoft.Flow.UIflow.exe** ファイルを開きます。 このファイルは、前の手順でダウンロードした後、**Downloads** フォルダーにあるはずです。
+1.  UI flows (プレビュー) セットアップ インストーラーの指示に従い、インストールを完了させます。
+
+    UI flows のインストーラーが完了すると、拡張機能のアクティブ化を求めるメッセージがブラウザーに表示されます。
+
+1. Microsoft Edge (Chromium) では、ブラウザーの右上にある各警告アイコンを選択し、 **[Enable extension]\(拡張機能の有効化\)** を選択します。
+1. Google Chrome では、プロンプトが表示されたら、 **[Enable extension]\(拡張機能の有効化\)** を選択します。
+
+   > [!TIP]
+   > ブラウザーにプロンプトが表示されない場合は、次のことを確認してください。
+   > - Microsoft Edge (Chromium) または Google Chrome ブラウザーを使用しています。
+   > - 場合によっては、拡張機能を手動で有効にする必要があります。 Microsoft Edge (Chromium) の場合は **edge://extensions** に移動し、Google Chrome の場合は **chrome://extensions** に移動します。
+   > - Power Automate の UI flows 拡張機能が表示されない場合は、[UI flows インストーラー](https://go.microsoft.com/fwlink/?linkid=2102613)を使用して再インストールできます。
+
+   拡張機能をインストールしたら、続行します。
 
 1. **[アプリの記録]** カードを選択して展開します。
 
@@ -128,14 +145,14 @@ ms.locfileid: "75943498"
 
 - 右クリックが正しく再生されない場合があります。 その場合は、記録中に左クリックによって対象のユーザー インターフェイス要素に UI flows のフォーカスを移動してから、右クリックします。
 
-- 新しいバージョンをインストールした後に、UI flows で Windows アプリケーションが記録または再生されなくなった場合は、以前のバージョンをアンインストールしてから、新しいバージョンをインストールします。
+- 新しいバージョンのインストール後に、UI flows で Windows アプリケーションが記録または再生されなくなった場合は、[最新バージョン](https://go.microsoft.com/fwlink/?linkid=2102613&clcid=0x409)を使用していることをご確認ください。
 
 
 ### <a name="unsupported-application-types"></a>サポートされていないアプリケーションの種類
 
--   Windows での対話 (エクスプローラー、スタートアップ メニュー、タスク バーなど)。
+- Windows での対話 (エクスプローラー、スタートアップ メニュー、タスク バーなど)。
 
--   Web ブラウザー (Chrome、IE、Microsoft Edge、Edge Chromium、Firefox、Mozilla など)。
+- Web ブラウザー (Chrome、IE、Microsoft Edge、Edge Chromium、Firefox、Mozilla など)。
     Web サイトを自動化するには、代わりに「[Web UI フローの作成](edit-web.md)」を参照してください。
 
 -   Java アプリケーション。

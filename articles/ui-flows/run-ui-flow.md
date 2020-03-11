@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: d0d5380e1ade6d1d11d557f38e7fc5db6616d1d9
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 3feab8291a3dc14adab398f7619fd5b6141674ab
+ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370953"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "78244221"
 ---
 # <a name="run-ui-flows"></a>UI フローの実行
 
@@ -72,7 +72,7 @@ UI フローを作成してテストした後は、イベント、スケジュ�
 
    これは、デバイスごとに 1 回行う必要があります。
 
-    - **[接続名]** : フロー接続するデバイスの名前を選択します。 ゲートウェイ名と異っていてもかまいません。
+    - **[接続名]** : フロー接続するデバイスの名前を選択します。 これはゲートウェイ名とは別でもかまいません。
     - **[ユーザー名]** : ご使用のデバイスの職場または学校アカウントを指定します。
     - **[認証の種類]** : [Windows] を選択します。
     - **パスワード**:ご自分の職場または学校アカウントのパスワード。
@@ -111,10 +111,6 @@ UI フロー内で入力と出力を定義するときに、これらの入力�
 
 1. また、UI フローからの出力を、フロー内で後で表示されるアクションの入力として使用することもできます。 これを行うには、入力フィールドを選択し、トークン ピッカーから入力を選択します。
 
-## <a name="limitations-and-known-issues"></a>制限事項と既知の問題
-
-- ゲートウェイ クラスターはサポートされていません。
-- このリリースでは、US (QWERTY) 以外のキーボードはサポートされていないため、US (QWERTY) 以外のキーボードからのキー シーケンスが記録された入力ステップを再生すると、キー ストロークは US (QWERTY) になります。
 
 ## <a name="learn-more"></a>詳細情報
 
