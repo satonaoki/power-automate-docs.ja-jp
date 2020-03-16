@@ -92,6 +92,8 @@
   items:
     - name: UI フローの概要
       href: ./ui-flows/overview.md
+    - name: 以前のリリースからの UI flows のアップグレード
+      href: ./ui-flows/upgrade.md
     - name: UI フローの設定
       href: ./ui-flows/setup.md
     - name: デスクトップ UI フローの作成とテスト
@@ -109,7 +111,7 @@
       href: ./ui-flows/edit-web.md
     - name: Web UI フローで入力と出力を使用する
       href: ./ui-flows/inputs-outputs-web.md
-    - name: UI フローの実行
+    - name: 有人および無人の UI フローを実行する
       href: ./ui-flows/run-ui-flow.md
     - name: UI フローの管理
       href: ./ui-flows/manage.md
