@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4ee3a9c7acb567ed0516b682377e5b79d40132cf
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 4eaafb1a551cc3333cde2058aebc41076b0267bd
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74356739"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194165"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Button Corporation (プレビュー) から物理ボタン (bttn) でフローを実行する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 フローをトリガーするには、bttn ([Button Corporation](https://my.bt.tn/) によって作成された物理ボタン) を押します。 たとえば、以下のタスクを実行するフローをトリガーする bttn を押すことができます。
 
 * 位置情報を使用してヘルプデスクに問い合わせる

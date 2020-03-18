@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 8554959026d299ac45ccf3ccb3ace7b8d9226294
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 39291e74b16727abe04c20c16eddeaa6d9871091
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74369067"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195683"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の削除要求への応答
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 組織の顧客データから個人データを削除することによる "忘れられる権利" は、GDPR での重要な保護です。 個人データの削除には、すべての個人データとシステムによって生成されたログの削除は含まれますが、監査ログ情報の削除は含まれません。
 

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 136bb90c47a1aeea2f11ef45e35a4957506ad488
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ef83dc95d5f9f9afae42f3c488513f81de69b172
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74363915"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192417"
 ---
 # <a name="introducing-button-flows"></a>ボタン フローの概要
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ## <a name="what-are-button-flows"></a>ボタン フローとは
 ボタンを 1 回押すだけで実行したい反復作業は多く存在します。 たとえば、毎日のチーム同期への参加を促すメールを簡単に送信できれば便利です。あるいは、その日に予定されているチェックインがこれ以上ないという通知を受け取った後で、ご自分のコード ベースの新しい Visual Studio Online ビルドを開始できるかもしれません。 ボタン フローを利用すれば、モバイル デバイスのボタンをタップするだけでこのような作業を遂行できます。
 

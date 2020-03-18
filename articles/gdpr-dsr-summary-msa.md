@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 81b486c0d9ed059cc310f1297e27b28206776f45
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: c785a900b0b92a22efc7559674965d5a105a5f51
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367549"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194786"
 ---
 # <a name="respond-to-gdpr-data-subject-rights-dsrs-requests"></a>GDPR データ主体の権利 (DSR) の要求に応答する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 この記事では、EU の一般データ保護規則 (GDPR) について説明し、Microsoft アカウント (MSA) での認証を行う Power Automate ユーザー向けに GDPR コンプライアンスをサポートする手順について示します。
 

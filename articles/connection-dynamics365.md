@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 84b3a8956008149f80f1790a20c1388dde8737ac
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f341adb319c20a201525bb6b7a8a0c54e2da5ea3
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74360235"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195039"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365 (オンライン) を使用したフローの作成
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Dynamics 365 コネクタを使用すると、Dynamics 365 またはその他のサービスでイベントが発生し、これにより Dynamics 365 またはその他のサービスでアクションが実行されたときに、開始されるフローを作成することができます。 
 
 Power Automate で、お気に入りのアプリとサービスの間に自動化されたワークフローを設定し、ファイルの同期、通知の受信、データの収集などを行うことができます。 詳しくは、「[Power Automate の概要](getting-started.md)」をご覧ください。

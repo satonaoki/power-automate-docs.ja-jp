@@ -15,15 +15,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
-ms.openlocfilehash: 9a7e6b28f7080ea65141d9a68881a637cd68cb2d
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: fee8eedddd39226d01ee4dde72bc66fcdfcdfda6
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74362719"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194188"
 ---
 # <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Power Automate による SharePoint ページの承認の管理
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 SharePoint サイト管理者は、Power Automate を使用して、新規または更新されたサイト ページが発行される前に承認を求めるようにすることができます。
 

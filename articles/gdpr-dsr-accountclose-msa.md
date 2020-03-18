@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 277765754683a6690b186a5f592517482b32666f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 10f232e45a53cea30892f512b626246fec16deed
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74366376"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195637"
 ---
 # <a name="responding-to-gdpr-data-subject-account-close-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体のアカウントの削除要求への応答
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 個人データの**忘れられる権利**は、GDPR での重要な保護です。 この権利には、監査ログの情報を除く、すべての個人データの削除が含まれます。 ユーザーが自分の Microsoft アカウント (MSA) を削除する場合、ユーザーの基になるデータも削除されます。
 

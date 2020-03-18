@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 46a661b8e4cae28be2c25e8b07269b2677ca5667
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 2a0e2d3ff9fb39019ef4b8f37a7715229844c388
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367940"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224356"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイとは
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 オンプレミス データ ゲートウェイはブリッジとして機能し、オンプレミス データ (クラウド内に存在しないデータ) といくつかの Microsoft クラウド サービスとの間でデータをすばやく安全に転送できます。 そのようなクラウド サービスには、Power BI、Power Apps、Power Automate、Azure Analysis Services、Azure Logic Apps があります。 ゲートウェイを使用することにより、組織はオンプレミス ネットワーク上のデータベースやその他のデータソースを維持しながら、そのオンプレミス データをクラウド サービスで安全に使用することができます。
 

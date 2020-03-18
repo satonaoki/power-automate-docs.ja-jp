@@ -18,15 +18,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e3b5d53e72cff93f853bafd89f8a51200a7e735f
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: c165213949d72fa9e7aacbc28d076969677a8802
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74354600"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192923"
 ---
-# <a name="use-actions"></a>アクションを使用する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+# <a name="use-actions"></a>アクションの使用
+
 
 アクションによって、ビジネス ロジックの作成範囲が広がります。 アクションでは、作成、更新、削除、割り当て、実行などの操作を実行できます。 内部では、アクションによりカスタム メッセージが作成されます。 開発者はこのようなアクションを "メッセージ" と呼びます。 メッセージはそれぞれ、エンティティ レコードで行われたアクションに基づきます。 プロセスの目標がレコードの作成、更新、割り当ての場合、3 つの個別の手順があります。 各手順を定義するのはエンティティの機能であり、必ずしもビジネス プロセスではありません。  
   
@@ -43,7 +43,7 @@ ms.locfileid: "74354600"
  
  Common Data Service のワークフローや[プラグイン](/powerapps/developer/common-data-service/apply-business-logic-with-code?branch=master#create-a-plug-in)とは異なり、アクションを特定のエンティティに関連付ける必要はありません。 それ自体で呼び出せる "グローバル" アクションを定義できます。
 
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 
 [カスタム アクションの作成](create-actions.md)  
   

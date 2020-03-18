@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 22fa35d40dbb198b376150f144d4de11585fc7ca
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: f1e3ab59ad135b47b79466e1bd4d7fec73139955
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74375185"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79196074"
 ---
 # <a name="flow-in-your-organization-qa"></a>組織における Flow の Q & A
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 このトピックでは、組織のユーザーが Flow を使用する方法と、管理者が Flow サービスを制御する方法について説明します。
 
 ## <a name="signing-up-for-flow"></a>Flow にサインアップする

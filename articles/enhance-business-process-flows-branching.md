@@ -16,15 +16,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 577bad2fa7e0db66c95fae5668c4a576e3c3a2d7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 2fedda5160291362d1ff4fcbcf91cec9f4e78713
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74365180"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195591"
 ---
 # <a name="tutorial-enhance-business-process-flows-with-branching"></a>チュートリアル:分岐を使用して業務プロセス フローを強化する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 業務プロセス フローによって、販売、マーケティング、サービスのプロセスの完了までさまざまなステージが示されます。 単純なケースでは直線的な業務プロセス フローが適しています。 ただし、シナリオが複雑になると、分岐を使用して業務プロセス フローを強化することができます。 業務プロセス フローに対する作成権限を持っている場合、`If-Else` ロジックを使用して、複数の分岐を含む業務プロセス フローを作成できます。 分岐条件は、`AND` 演算子または `OR` 演算子を組み合わせて使用する複数の論理式で形成されます。 分岐の選択は、プロセス定義時に定義したルールに基づいて、リアルタイムで自動的に行われます。 たとえば、自動車を販売する際に 1 つの業務プロセス フローを構成できますが、一般的な見込み評価ステージの後で、ルール (新車と中古車のどちらを希望しているか、予算は $20,000 より上か下かなど) に基づいて 2 つのブランチに分かれます。 一方は新車を販売し、もう一方は中古車を販売します。 業務プロセス フローについて詳しくは、「[Business process flows overview](business-process-flows-overview.md)」 (業務プロセス フローの概要) を参照してください。  
   

@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 22736d826c6e0448e3d1272aed1b3d4f78fdb23b
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 72a4e33dafd7c2237799357cc993d9815dd36012
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74362075"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194970"
 ---
 # <a name="create-a-mobile-task-flow"></a>モバイル タスク フローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 電話用 Dynamics 365 またはタブレット用 Dynamics 365 で、ユーザーが実行する一般的なタスクに基づいてフローを設計します。 たとえば、クライアントとの会議後、一連のフォロー アップ手順を定期的に実行する必要がある場合に、タスク フローを作成します。 ユーザーがモバイル アプリで新しいタスクをタップすると、開始から終了まで、重要な手順を忘れないように導かれます。  
   

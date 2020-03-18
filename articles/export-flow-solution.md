@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 826fb3097bca225eac82f2f9abacb8089e08e500
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: 32f8269bce8e36774bf937683776f97fc618d41a
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74365617"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194947"
 ---
 # <a name="export-a-solution"></a>ソリューションをエクスポートする
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 次の手順に従って、ソリューションとその依存関係を新しい環境に移動します。
 
@@ -44,7 +44,7 @@ ms.locfileid: "74365617"
    > [!NOTE]
    > 現在、 **[マネージドとして]** はサポートされていません。
 
-## <a name="learn-more"></a>詳細については、こちらをご覧ください
+## <a name="learn-more"></a>詳細情報
 
 <!--from editor: Do you want to add Remove a solution-aware flow to this list?-->
 

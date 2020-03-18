@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 40692f5993652e386b084b2bd2ff375192448e35
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 513200d18ac2a845cd63a6d269513f3bcb45118c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74377301"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193981"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Power Automate を使用してモバイル デバイスで要求を承認する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 フローによって承認者として識別された場合、Power Automate 用のモバイル アプリがインストール済みであると、承認を要求されるたびにプッシュ通知を受け取ります。
 
 この記事では、Power Automate 用のモバイル アプリで承認要求を管理するときに、発生する可能性があるいくつかの一般的なシナリオについて説明します。

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: eab01a20f44f68a85601ff824175f1a506ebec87
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 6346772d3eba6177577f7c5d7a151174f1a575f9
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74361316"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193866"
 ---
 # <a name="build-an-approval-loop-by-using-power-automate-and-the-microsoft-common-data-service"></a>Power Automate と Microsoft Common Data Service を使用して承認ループを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Common Data Service を使用すると、フローから独立しているデータベースに情報が格納されるフローを作成できます。 その最も良い例が、承認に関するものです。 承認の状態をエンティティに格納すると、フローはそれを基盤にして動作することができます。
 
 この例では、ユーザーが Dropbox にファイルを追加したときに開始される承認プロセスを作成します。 ファイルが追加されると、それに関する情報がアプリに表示されます。ここで、レビュー担当者が変更を承認または却下できます。 レビュー担当者が変更を承認または却下すると、通知メールが送信され、却下されたファイルは Dropbox から削除されます。

@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 1d8d17b3f3ad0621da11406c7b9e29892138a382
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9c7ed87d62ff6fc7370d5b57053239c8bfbeb591
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74356210"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193452"
 ---
 # <a name="sharing-and-connectors-admin-analytics-reports"></a>管理者分析の共有レポートとコネクタ レポート
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 組織は、アプリの利用者と利用状況に関する分析情報を必要とします。 共有とコネクタに関する管理者分析レポートからは、テナント内における Power Automate の利用状況に関する分析情報が提供されます。 
 

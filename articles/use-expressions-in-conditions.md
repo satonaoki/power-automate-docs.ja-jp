@@ -18,15 +18,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 46985cc33ac099c75c6e8e976aba19d7a5d6c567
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 3c1eb0f208f964f2a41e26ca831c60edef0d747c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74370309"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195972"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 このチュートリアルでは、式と**条件**を利用し、**詳細設定モード**で複数の値を比較する方法について学習します。
 
 フローを作成するとき、基本モードで[**条件**](add-condition.md#add-a-condition)カードを使用し、単一値を別の値と簡単に比較できます。 ただし、複数の値を比較しなければならない場面もあります。 たとえば、スプレッドシートやデータベース テーブルの列の値を確認する場合です。

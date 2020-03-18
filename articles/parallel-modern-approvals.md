@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 223ca24325ee9aed2476d1da6ad9e986c09306d7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9515fee127c1130803f075c6b6a08802a7c1eaea
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74375599"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192463"
 ---
 # <a name="create-parallel-approval-workflows-with-power-automate"></a>Power Automate を使用してパラレル承認ワークフローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 パラレル承認ワークフローでは、請求書、発注書、休暇申請などの項目を複数のユーザーが承認する必要があります。各ユーザーの承認は、他のすべての承認者から独立しています。
 

@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: c27637f56defb1acff07302954424953ec48b506
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 254e92db3c02cac4294b92fc5a1deec4a23e341e
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244321"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224195"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>デスクトップ UI フローの作成とテスト
 
@@ -129,11 +129,6 @@ ms.locfileid: "78244321"
 
 1. **[保存して終了]** を選択して UI フローを保存します。
 
-## <a name="next-steps"></a>次の手順
-
-- 作成した [UI フローをトリガーする](run-ui-flow.md)方法について学習します。
-
-- UI フローでさらに多くの操作を行う場合は、[入力と出力](inputs-outputs-web.md)パラメーターを使用して UI フローを試すこともできます。
 
 ## <a name="known-issues-and-solutions"></a>既知の問題と解決策
 
@@ -205,3 +200,9 @@ ms.locfileid: "78244321"
 - 再生中、リボンが自動非表示に設定されている場合に発生する可能性のある問題を回避するには、再生を開始する前にリボンをピン留めします。
 - クリックしてドラッグする方法で項目を選択しないでください。 たとえば、Shift キーを押しながらクリックして Microsoft Excel のセルを選択したり、Microsoft Word または Microsoft PowerPoint でマウスをドラッグしてテキストを選択したりしないでください。
 - Microsoft Word および Microsoft PowerPoint デスクトップ アプリケーションでは、UI フロー (プレビュー) で一部の要素が正しく機能しない場合があります。 たとえば、[ファイル] メニューのオプション ([空白から開始] など)、またはコントロールの右クリック (Microsoft Word での段落の追加や Microsoft PowerPoint でのスライドのレイアウト変更など) は機能しない場合があります。
+
+## <a name="next-steps"></a>次の手順
+
+- 作成した [UI フローをトリガーする](run-ui-flow.md)方法について学習します。
+
+- UI フローでさらに多くの操作を行う場合は、[入力と出力](inputs-outputs-web.md)パラメーターを使用して UI フローを試すこともできます。

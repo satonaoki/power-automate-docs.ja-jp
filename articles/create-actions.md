@@ -15,15 +15,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 140afe0c93b85363b8dab9658838d985ab9e786c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 027038047dfa978a647ffcb129a16885915d4ce7
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74361477"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194763"
 ---
 # <a name="create-a-custom-action"></a>カスタム アクションの作成
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 システムで一連のコマンドを自動化する際にはカスタム アクションを使用します。 アクションによって、開発者がビジネス プロセスを表現するために使用できるボキャブラリが拡張されます。 "作成する"、"更新する"、"削除する"、"割り当てる" などの主要な動詞はシステムによって提供されており、アクションではこれらの中核となる動詞を使用して、"承認する"、"エスカレートする"、"ルーティングする"、"スケジュールする" などのさらに説明的な動詞を作成します。 ビジネス プロセスの定義が変わった場合に、開発者以外でもカスタム アクションを編集することができ、コードを変更する必要はありません。  
   

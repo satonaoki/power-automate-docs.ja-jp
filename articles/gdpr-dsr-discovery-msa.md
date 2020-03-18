@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2830d08832bad330ec67717234f5a8cb0482d3a9
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5e1dc452bdbe7aa65700d159cf9365812dc50bfb
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74369044"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194142"
 ---
 # <a name="respond-to-gdpr-data-subject-discovery-requests"></a>GDPR データ主体の検出要求に応答する 
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 DSR 要求への応答の最初の手順は、要求の主体である個人データを見つけることです。
 Microsoft アカウント (MSA) での認証を行うユーザーの個人データを含む、Power Automate リソースの概要は次のとおりです。

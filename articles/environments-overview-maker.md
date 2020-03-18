@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 263ebf710d280ebd7c4a6d2846fa859693561476
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 7d62aa0870af1be0e05e0a3799d02cfdfe705e3c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355474"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195430"
 ---
 # <a name="choosing-an-environment"></a>環境の選択
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 この記事で紹介する Power Automate の**環境**を使うと、フロー、ゲートウェイ、接続、その他のリソースを作成して安全に分離できます。
 

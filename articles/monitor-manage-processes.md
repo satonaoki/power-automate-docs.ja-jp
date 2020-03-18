@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: dc0fbe16593396f4d611b98825cf00ddc56efceb
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: e4042b71e6913f1008f506697fa39291b3cbf59a
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74376151"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224287"
 ---
 # <a name="monitor-and-manage-workflow-processes"></a>ワークフロー プロセスの監視と管理
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 プロセスを監視および管理するには、プロセスを探して、状態を評価し、問題に対処するために必要なアクションがあれば実行します。  
   

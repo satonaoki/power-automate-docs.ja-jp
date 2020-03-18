@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e8f7b993b59c269b56dac2f13d4db166ed3e91b7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 28199ab8b2a2dbf18ef89b905b2bdd362ff9e82b
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373069"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194096"
 ---
 # <a name="manage-sequential-approvals-with-power-automate"></a>Power Automate を使用してシーケンシャル承認を管理する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 一部のワークフローでは、最終承認者が承認する前に事前承認が必要です。 たとえば、ある会社には、1000.00 ドルを超える請求書では財務部門による承認の前に事前承認を要求するシーケンシャル承認ポリシーが存在する可能性があります。
 
 このチュートリアルでは、従業員の休暇申請を管理するシーケンシャル承認フローを作成します。

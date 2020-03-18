@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 256e874e2b70844219cd1c21e2ed37f2a96ba78c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: e9f4418ae532c3c6e2f3511ee7ee873695bc8f9f
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74367388"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79191957"
 ---
 # <a name="responding-to-gdpr-data-subject-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の要求への応答
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 この記事では、ユーザーと組織のために EU の一般データ保護規則 (GDPR) について説明します。 この記事では、GDPR に対する Microsoft の対応について説明するだけでなく、現在、お客様が Power Apps、Power Automate、Common Data Service を使用するときに、GDPR コンプライアンスをサポートするために実行できる手順の例を示します。
 

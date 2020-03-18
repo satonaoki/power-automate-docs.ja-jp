@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 94ea624378a58e92441e1c72ce3e0ff72040a7f2
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 56b90ebdf7f3655763b7e40c60b985f06604c47b
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74375139"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194027"
 ---
 # <a name="overview"></a>概要
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 [ソリューション](https://docs.microsoft.com/powerapps/maker/common-data-service/solutions-overview)でフローをホストすると、フローが移植可能になり、フローとそのすべてのコンポーネントを 1 つの環境から別の環境へ簡単に移動できるようになります。 典型的なユース ケースとしては、独立系ソフトウェア ベンダー (ISV) がサンドボックス環境内でフローを開発して、そのフローをテスト環境に移動する場合などが考えられます。 テストした後、ISV はこれらのフローを購入したクライアントに向けて運用環境にフローを移動します。 ソリューション内でフローを作成してからソリューションとそのコンテンツを移動すると、このプロセスははるかに簡単になります。
 

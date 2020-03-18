@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: a96d2e7ee5d0050f5fcbc96afe79429e1aad2426
-ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
+ms.openlocfilehash: 333f5b92df92cc384b9517a9ccf1d6bb0164c07b
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77575038"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194303"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/) を使用するフローを作成することにより、ビジネス データの統合ビューで運用効率を向上させます。 組織の適切な標準ビジネス エンティティ (販売、購買、顧客サービス、生産性など) から成る、このセキュリティで保護されたビジネス データベースをデプロイします。 組織データを 1 つ以上の[カスタム エンティティ](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)に格納します。このエンティティには、Microsoft Excel や Salesforce などの外部データ ソースに比べて、いくつかの利点があります。
 
 たとえば、主に次のような方法で、Power Automate 内で Common Data Service を活用できます。

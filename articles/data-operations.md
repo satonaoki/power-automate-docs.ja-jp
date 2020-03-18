@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ca8633ac8ee3654d8c61b55421a3feead392954c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 0541a89ad0fe5f8d7dae0acfc6f257be7532ef15
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358533"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195102"
 ---
 # <a name="use-data-operations-with-power-automate"></a>Power Automate によるデータ操作を利用する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 このチュートリアルでは、Power Automate で頻繁に使用するデータ操作について説明します。作成、結合、選択、配列のフィルター処理、テーブルの作成、JSON の解析など、フロー作成時のデータ操作に使用できる操作です。
 
 ## <a name="prerequisites"></a>前提条件

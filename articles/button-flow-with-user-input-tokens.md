@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: fe7e8f685d319e11994adaf1926d2d0ab03706d7
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 5a2fa063b5379999a5dcbe37a56271fccf435cae
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358579"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192372"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>ユーザー入力のあるボタン フローの概要
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ボタン フローを作成すると、ボタンをタップするだけで日常的なタスクを実行することができます。 フローの実行時に使用される特定の詳細をユーザーが指定できるようにすることで、フローをカスタマイズできます。 このトピックでは、ユーザーからの入力を受け取るボタン フローを作成する手順、さらにボタン フローを実行して、ユーザー入力を指定する方法を明らかにする手順を説明します。
 
 Power Automate の Web サイトや Power Automate のモバイル アプリでボタン フローを作成できます。 このトピックでは、Web サイトを使用します。

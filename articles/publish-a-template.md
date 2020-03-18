@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2be12487e8f5a023299a8775ec568915fd3f8cc0
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 4aac1ace0e30d5e36d59f0d2bcbb3cb692f7256c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74374633"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195568"
 ---
 # <a name="submit-a-template-to-the-power-automate-gallery"></a>Power Automate ギャラリーにテンプレートを送信する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Power Automate のテンプレートのギャラリーにフロー テンプレートを送信します。 テンプレートを使用することで、ユーザーはフローをより簡単に作成できるだけでなく、フローの恩恵を受ける他のシナリオを想定することもできます。
 

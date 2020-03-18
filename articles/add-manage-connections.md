@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f2e46711637497120872848f239d59651ab875d5
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: b4e087855890d7ca94a8288793494ce1e81826b2
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74358096"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193291"
 ---
 # <a name="manage-connections-in-power-automate"></a>Power Automate で接続を管理する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Power Automate で接続を作成する場合、フローを作成しながら、データに簡単にアクセスできます。 Power Automate には、SharePoint、SQL Server、Office 365、OneDrive for Business、Salesforce、Excel、Dropbox、Twitter など、よく使用される接続が含まれています。 接続は Power Apps と共有されるため、一方の製品で接続を作成すると、その接続は他方の製品にも表示されます。
 
 たとえば、接続を使用すると、次のタスクを実行できます。

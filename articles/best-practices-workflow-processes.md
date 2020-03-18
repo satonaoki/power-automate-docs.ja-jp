@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0b52fad0c5e8e1291dadf7422dafbb5902ee4646
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: f3d02ca92b94752a8bbe6e3458fa8639de917dd8
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74356946"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194004"
 ---
 # <a name="best-practices-for-workflow-processes"></a>ワークフロー プロセスのベスト プラクティス
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 このトピックには、ワークフロー プロセスを作成して管理するためのベスト プラクティスについて説明します。  
   
@@ -38,7 +38,7 @@ ms.locfileid: "74356946"
 ## <a name="avoid-infinite-loops"></a>無限ループを回避する  
  ワークフロー内に無限ループを開始するロジックが作成されてしまい、サーバーのリソースが消費されて、パフォーマンスが影響を受ける可能性があります。 無限ループが発生する可能性のある典型的な状況は、属性が更新されたら開始するよう構成されたワークフローがあり、ワークフローのロジック内でその属性が更新された場合です。 更新アクションが、レコードを更新するのと同じワークフローをトリガーし、そのワークフローを繰り返しトリガーします。  
   
- 作成するワークフローには、無限ループを検出して停止するロジックが含まれます。 ワークフロー プロセスが所定の回数を超えて実行された場合、次のエラーが発生してプロセスは失敗します: **This workflow job was canceled because the workflow that started it included an infinite loop (このワークフロー ジョブは、それを開始したワークフローに無限ループが含まれているため、取り消されました。ワークフローの論理を修正して、やり直してください)** 。 回数の制限は 16 です。  
+ 作成するワークフローには、無限ループを検出して停止するロジックが含まれます。 ワークフロー プロセスが特定のレコードに対して所定の回数を超えて実行された場合、次のエラーが発生してプロセスが失敗します: **このワークフロー ジョブは、それを開始したワークフローに無限ループが含まれているため、取り消されました。ワークフローの論理を修正して、やり直してください)** 。 回数の制限は 16 です。  
   
 <a name="BKMK_UseWorkflowTemplates"></a>   
 ## <a name="use-workflow-templates"></a>ワークフロー テンプレートを使用する  
@@ -62,14 +62,14 @@ ms.locfileid: "74356946"
 ![失敗したワークフローのログを保持するオプション](media/keep-logs-for-workflows.png)
 
 ## <a name="limit-the-number-of-workflows-that-update-the-same-entity"></a>同じエンティティを更新するワークフローの数を制限する
-同じエンティティを更新する複数のワークフローを実行すると、リソース ロックの問題が発生する可能性があります。 営業案件が更新されるたびに関連するアカウントへの更新をトリガーする、複数のワークフローが実行されているとします。 これらのワークフローの複数のインスタンスが実行されて、同じアカウント レコードを同時に更新しようとすると、リソース ロックの問題が発生する可能性があります。 ワークフローのエラーが発生し、**SQL タイムアウト: リソース _リソース名_ のロックを取得できません** などのエラー メッセージが記録されます。 
+同じエンティティを更新する複数のワークフローを実行すると、リソース ロックの問題が発生する可能性があります。 営業案件が更新されるたびに関連するアカウントへの更新をトリガーする、複数のワークフローが実行されているとします。 これらのワークフローの複数のインスタンスが実行されて、同じアカウント レコードを同時に更新しようとすると、リソース ロックの問題が発生する可能性があります。 ワークフローのエラーが発生し、"**SQL タイムアウト: リソース _リソース名_ のロックを取得できません**" などのエラー メッセージが記録されます。 
 
   
 <a name="BKMK_DocumentChangesUsingNotes"></a>   
 ## <a name="use-notes-to-keep-track-of-changes"></a>メモを使用して変更を追跡する  
  ワークフローを編集する際には、[メモ] タブを使用し、実行した内容とその理由を入力してください。 これにより、その変更について他のユーザーが理解できます。  
   
-## <a name="next-steps"></a>次のステップ  
+## <a name="next-steps"></a>次の手順  
  [ワークフロー プロセスの概要](workflow-processes.md)   
  [ワークフロー プロセスの構成](configure-workflow-steps.md)   
  [ワークフロー プロセスの監視と管理](monitor-manage-processes.md)

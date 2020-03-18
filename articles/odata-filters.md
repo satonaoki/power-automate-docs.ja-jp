@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4e0e827b24b81ead79cb1fec73916e625b715eea
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 6a71b3ae1e72588dc6fb21aad83631a91ae1d4ba
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74375829"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193051"
 ---
 # <a name="filter-and-copy-data-with-power-automate"></a>Power Automate を使用したデータのフィルターとコピー
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 このチュートリアルでは、新しい項目または変更された項目のソースを監視し、それらの変更をターゲットにコピーするフローを作成する方法を示します。 ユーザーがある場所にデータを入力する場合に、チームで別の場所または形式のデータが必要な場合、このようなフローを作成できます。
 
 このチュートリアルで Microsoft SharePoint [リスト](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (ソース) から [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) テーブル (ターゲット) にデータをコピーする場合、Power Automate でサポートされる [150 を超えるサービス](https://flow.microsoft.com/connectors/)のいずれでもデータをコピーできます。

@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - maker
-ms.openlocfilehash: d33b1e78678c7029d441bcf00f6c066d7f492a66
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ea98043ee9ab952cfd929a100cb76e42508b84bc
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74359246"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194211"
 ---
 # <a name="create-custom-response-options-for-approval-flows"></a>承認フローのカスタム応答オプションを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 たとえば、従業員が経費報告書を SharePoint にアップロードするたびに承認要が送信され、承認者が承認、要詳細情報、却下の 3 つのオプションのいずれかで応答できるようにするものとします。
 

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: a9042e258c1e99aafc5e20b9d1adce9782dc09ca
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 65d9a93215030905f41e082d38789592a4267404
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74366629"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194349"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Flic スマート ボタン (プレビュー) を押してフローを実行する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Shortcut Labs 社が提供する物理ボタン (Flic と呼ばれる) を押してフローをトリガーします。 たとえば、Flic を押すことで、作業時間の追跡、予定表のブロック、イベントへの来訪者のカウント、または地理的な場所の保存を行うことができます。
 
 > [!IMPORTANT]

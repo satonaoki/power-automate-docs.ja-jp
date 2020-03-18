@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2c8e512c39805296e5885266750b59b49feca482
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ad075ec6c4b00d46f000b86aaa9166e40adda640
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74359200"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194050"
 ---
 # <a name="tutorial-create-a-business-process-flow-to-standardize-processes"></a>チュートリアル:プロセスを標準化する業務プロセス フローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 このチュートリアルでは、Power Apps を使って業務プロセス フローを作成する方法を示します。 業務プロセス フローを使用する理由の詳細については、「[Business process flows overview](business-process-flows-overview.md)」 (業務プロセス フローの概要) を参照してください。 モバイル タスク フローの作成については、「[モバイル タスク フローを作成する](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow)」を参照してください。  
   

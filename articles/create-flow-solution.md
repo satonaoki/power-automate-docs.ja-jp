@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7379cb966be58edfa75cd20c3ad70cf9fff2407a
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: d74cbdb6c03d65a7902a81194491ef67feda6bb2
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74362650"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79192026"
 ---
 # <a name="create-a-flow-in-a-solution"></a>ソリューションにフローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 ソリューション内に作成するフローは、"*ソリューション対応*" フローと呼ばれます。 次の手順に従って、ソリューション対応フローを作成します。
 

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: fbc18e31b571149164b7316bdaa02d2840686995
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: e6a64f60802330857f8e17c9d4ea179426307633
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74376335"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224402"
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>フローへの複数のアクションと詳細オプションの追加
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 同じトリガーに対して 1 つ以上の詳細オプションと複数のアクションを追加して、フローをカスタマイズします。 たとえば、電子メール メッセージを高い優先度で送信する詳細オプションを追加します。 SharePoint リストに項目が追加されたときに電子メールを送信するほか、同じ情報を含むファイルを Dropbox に作成します。
 
 ## <a name="prerequisites"></a>前提条件

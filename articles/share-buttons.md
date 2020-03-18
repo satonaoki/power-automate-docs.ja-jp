@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3209748b03823add7622472665ce70b4cd581b1f
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9b5671096bbecd9221d3849cd656548291acd4c9
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74372747"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194418"
 ---
 # <a name="share-button-flows-in-power-automate"></a>Power Automate でボタン フローを共有する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 Power Automate モバイル アプリでは、[ボタン フロー](introduction-to-button-flows.md) (ボタン) を組織内の他のユーザーまたはグループと共有できます。 ボタンを共有すると、共有するユーザーまたはグループが自分のボタンを実行する場合と同じようにボタンを実行できます。 他のユーザーが共有したボタンへの[リンクを共有する](share-buttons.md#re-share-a-button)こともできます。 いつでもボタンの[共有を停止](share-buttons.md#stop-sharing-a-button)できます。
 
 > このドキュメントで使用されるスクリーンショットは、Android デバイスから取得されています。 iPhone を使用している場合、画像の表示が異なる可能性がありますが、機能は同じです。

@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2faafe936dc9659a50b7e249c75eb9c495101fbf
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 393ae5f6a86363610c26aea78a04748f34dc4f97
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74377600"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193613"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Power Automate を使用した携帯電話からのフローの作成
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 テンプレートを使用して、携帯電話からフローを作成します。テンプレートを見つけるには、サービスの一覧から検索するか、カテゴリを参照するか、キーワードを指定します。 このトピックの手順では、マネージャーからメールを受け取るとプッシュ通知を携帯電話に送信するフローを作成します。
 
 Power Automate に慣れていない場合は、[概要を確認してください](getting-started.md)。

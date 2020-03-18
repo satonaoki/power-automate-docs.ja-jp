@@ -19,15 +19,15 @@ helpviewer_keywords:
 author: msftman
 ms.author: deonhe
 manager: kvivek
-ms.openlocfilehash: ffc9fef64a9eda74d8a834745204fd635125e0c2
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8a5fb3cc698f20f025089524e6198c158f710980
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74357268"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193958"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>ビジネス プロセス フロー属性使用時のベスト プラクティス
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 
 エンティティにおける従来のプロセス関連の属性は非推奨になっています。 ビジネス プロセス フロー エンティティで*アクティブ ステージ* (activestageid) 属性を使用するときのベスト プラクティスをいくつか紹介します。 

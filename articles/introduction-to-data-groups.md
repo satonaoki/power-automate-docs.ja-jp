@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 205857821402a629bebffe005525536ed42f9669
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: ca3271f7c61c6835c856bc363f64882802f1556f
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355244"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195614"
 ---
 # <a name="learn-all-about-data-groups"></a>データ グループについて詳しく学ぶ
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 ## <a name="what-is-a-data-group"></a>データ グループとは
 データ グループは、[データ損失防止 (DLP) ポリシー](prevent-data-loss.md)内のサービスを分類する簡単な方法です。 **[ビジネス データのみ]** グループおよび **[許可されたビジネス データなし]** グループの 2 つのデータ グループが使用可能です。 組織は、特定のデータ グループにどのサービスが配置されるかを自由に決定できます。 サービスを分類するのに良い方法は、組織への影響に基づいて、サービスをグループ内に配置する方法です。 既定では、すべてのサービスが **[許可されたビジネス データなし]** データ グループに配置されます。 DLP ポリシーのプロパティを管理センターから作成または変更する場合に、データ グループ内のサービスを管理します。
 

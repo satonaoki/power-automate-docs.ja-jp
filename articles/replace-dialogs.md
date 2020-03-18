@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b338991cfdbb73a8a0464fd4322714ece82c2ac5
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8d3ce37fee1a4650454cc2c47af0d19fe37da96d
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74373023"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193705"
 ---
 # <a name="replace-dialogs-with-business-process-flows-or-canvas-apps"></a>ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 [ダイアログは非推奨](https://docs.microsoft.com/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated)となりましたので、業務プロセス フローまたはキャンバス アプリに置き換える必要があります。 このトピックでは、これらのオプションのさまざまな機能を説明すると共に、既存のダイアログを、モデル駆動型フォームに埋め込まれた業務プロセス フローおよびキャンバス アプリに置き換えることができる状況について説明します。
 

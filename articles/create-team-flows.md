@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 1343d71bab5819600130496dcc0df01751f15fa6
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 697f41960a62c7da2eee9bc34bb174d39ed2c44b
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74361776"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195070"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 組織内の他のユーザーを所有者として追加することにより、チーム フローを作成します。 チーム フローのすべての所有者は、次の操作を実行できます。
 
 * フローの履歴 (つまり各実行) を表示する。

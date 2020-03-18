@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2808fb064ae0910d184d1f785a528c6f44e601af
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 06781496eecd33801cdd08768c698e2203b1f846
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74360281"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194395"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Common Data Service コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service データベース内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
 

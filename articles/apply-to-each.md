@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3f4ddd361eaad062a7287c1d0b33e00fc320e69e
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9eb1707da3f0aa365750cbed4e69715ce818aaff
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74357912"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79193774"
 ---
 # <a name="use-the-apply-to-each-action-in-power-automate-to-process-a-list-of-items-periodically"></a>Power Automate の Apply to each アクションを使用して項目の一覧を定期的に処理する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 受信トレイに新しいメールが到着したときなど、多くのトリガーはイベントに基づいてフローをすぐに開始できます。 このようなトリガーは便利ですが、定義されているスケジュールでデータ ソースを照会し、データ ソース内の項目のプロパティに基づいて特定のアクションを行うようなフローを実行したいこともあります。 そのような処理のために、スケジュール (1 日 1 回など) に従ってフローを開始し、**Apply to each** などのループ アクションを使って項目の一覧を処理することができます。 たとえば、**Apply to each** を使うと、データベースのレコードや、Microsoft SharePoint の項目の一覧を更新できます。
 
 このチュートリアルでは、15 分ごとに実行して以下の処理を行うフローを作成します。

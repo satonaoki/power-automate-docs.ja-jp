@@ -22,15 +22,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 15cbfdf61a25287714f0244639ec4a3246bd845c
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: a35523209e3db8444da71c0757db29fa21de08b3
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355428"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195407"
 ---
 # <a name="invoke-custom-actions-from-a-workflow"></a>ワークフローからカスタム アクションを呼び出す
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 ワークフローには、ビジネス シナリオをサポートするさまざまな機能があります。 レコードに対する基本的なデータ操作アクション (作成、更新、削除など) をワークフローの中から呼び出すことによって、かなりのビジネス シナリオが解決されます。 しかしながら、ワークフロー内から直接呼び出されるカスタム アクションの力をワークフローの機能と結合する場合、コードを記述する必要なく、まったく新しい範囲のビジネス シナリオがアプリケーションに追加されます。  
   

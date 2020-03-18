@@ -20,15 +20,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 26bed9ab3329bbf0edf8ea055de71b732d7d0746
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 05def202f2a0b0db8a6eebb067406c96221e7d1c
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74355405"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195545"
 ---
 # <a name="responding-to-gdpr-data-subject-discovery-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の検出要求への応答
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 DSR への応答の最初のステップは、要求の主体である個人データを見つけることです。 この最初のステップは、DSR の要求を承諾または拒絶するための組織の要件を DSR が満たしているかどうかを判断するのに役立ちます。 たとえば、問題の個人データを見つけて確認した後、他のユーザーの権利または自由に悪影響を及ぼす可能性があるため要求が組織の要件を満たしていないと判断する可能性があります。
 

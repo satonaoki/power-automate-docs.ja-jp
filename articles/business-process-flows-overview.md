@@ -21,15 +21,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ce726a2f4bfdbd7c57a60e5dcc25eb5cee504bce
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8f4a1fcf0feb893f3eca8ac12b6b7f725aceed10
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "75951501"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194234"
 ---
 # <a name="business-process-flows-overview"></a>業務プロセス フローの概要
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 従業員が入力するデータの一貫性を維持し、従業員が顧客とともに作業するときに常に同じステップが実行されるようにするには、業務プロセス フローを作成します。 たとえば、顧客のサービス要求の処理方法がどの担当者でも同じになるようにしたり、注文前に請求書の承認を得ることを必須にしたりするには、業務プロセス フローを作成するとよいでしょう。 業務プロセス フローで使用される基盤テクノロジは他のプロセスと同じですが、提供される機能は、プロセスを使用する他の機能と大きく異なります。 業務プロセス フローの作成や編集の方法については、[業務プロセス フローの作成](create-business-process-flow.md)に関する記事を参照してください。  
   

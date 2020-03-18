@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 2c02b50289988a6462ed33df92350e9e4286b785
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: aa2b5eb13479f50f88ba7f723c5d1649746c74ec
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74376818"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79196097"
 ---
 # <a name="monitor-activity-in-power-automate-from-your-phone"></a>携帯電話から Power Automate のアクティビティを監視する
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 各フローが成功または失敗した回数の要約を表示します。この回数は、今日、昨日、およびその前の日付に対して表示されます。 また、実行された時間、各ステップの所要時間、失敗したかどうか、失敗した場合はその理由など、各実行の詳細を確認します。
 
 **前提条件**

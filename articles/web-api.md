@@ -10,15 +10,15 @@ ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: 7cce365213f22854b8a3b97808ad7172c3af3409
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74369688"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195775"
 ---
 # <a name="power-automate-web-api"></a>Power Automate Web API
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 今後、すべてのフローは Common Data Service に格納され、[豊富な Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api) が利用されます。
 
@@ -36,10 +36,10 @@ ms.locfileid: "74369688"
 
      ![フロー URL](media/web-api/get-region-name.png "フロー URL")
 
-     | Region (リージョン)         | サブドメイン   |
+     | リージョン         | サブドメイン   |
      | -------------- | ----------- |
      | 米国  | crm         |
-     | 南米  | crm2        |
+     | 南アメリカ  | crm2        |
      | カナダ         | crm3        |
      | ヨーロッパ         | crm4        |
      | アジア太平洋   | crm5        |
@@ -92,7 +92,7 @@ Authorization: Bearer ey...
 
 | プロパティ名     | 説明                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | フローのカテゴリ。 異なる種類は次のとおりです。0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - 業務プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
+| category          | フローのカテゴリ。 次の種類があります。0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - 業務プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
 | statecode         | フローの状態。 状態は **0** - オフ、または **1** - オンです。|
 | workflowuniqueid  | フローのこのインストールの一意識別子。 |
 | workflowid        | すべてのインポート全体でのフローの一意識別子。 |
@@ -104,7 +104,7 @@ Authorization: Bearer ey...
 | _modifiedby_value | フローを最後に更新したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | _createdby_value  | フローを作成したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | type              | フローが実行中のフローか、追加のフローを作成するために使用できるテンプレートかを示します。 1 - フロー、2 - アクティブ化、または 3 - テンプレート。 |
-| 説明       | ユーザーが指定したフローの説明。 |
+| description       | ユーザーが指定したフローの説明。 |
 | clientdata        | connectionReferences とフローの定義を含むオブジェクトの文字列エンコードされた JSON。 |
 
 特定のプロパティを要求する、フローの一覧をフィルター処理するなどの操作も実行できます。詳細については、[データのクエリを実行するための Common Data Service API ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api)に関するページを参照してください。 たとえば、このクエリからは、現在有効な自動フロー、インスタント フロー、またはスケジュールされたフローのみが返されます。
@@ -115,7 +115,7 @@ Accept: application/json
 Authorization: Bearer ey...
 ```
 
-## <a name="create-a-flow"></a>フローを作成する
+## <a name="create-a-flow"></a>フローの作成
 
 フローを作成するには、`workflows` コレクションに対して `POST` を呼び出します。 自動フロー、インスタント フロー、およびスケジュールされたフローの必須のプロパティは、category、name、type、primaryentity、および clientdata です。 このような種類のフローの primaryentity には `none` を使用します。
 
@@ -245,7 +245,7 @@ Content-type: application/json
 
 `AccessMask` パラメーターは、さまざまなアクセス許可レベルに対して次の値を持つフィールドです。
 
-| Name (名前)         | 説明                                          |
+| 名前         | 説明                                          |
 | ------------ | ---------------------------------------------------- |
 | None         | アクセス権がありません。                                           |
 | ReadAccess   | フローを読み取る権利。                          |

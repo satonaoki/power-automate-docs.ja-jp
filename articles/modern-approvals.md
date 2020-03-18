@@ -20,15 +20,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: c174ad7fe18539a7dc1d44acf315d569f4b35a39
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 4892ac2806009a1ed33b8bfb019b551aec6fce70
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74376519"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "79224310"
 ---
 # <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Power Automate を使用して承認ワークフローを作成してテストする
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 Power Automate では、SharePoint、Dynamics 365、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたりドキュメントやプロセスの承認を管理できます。
 
