@@ -17,15 +17,15 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7f6319bd0091c4c857e7df133c36b38a0cd78891
-ms.sourcegitcommit: 52e739e5d53464b80e572928f131890562fc0396
+ms.openlocfilehash: bb8ca7efb83a863f3031dd18d0d9bd67ae3c5c07
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74356831"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79194073"
 ---
 # <a name="add-an-on-demand-workflow-to-a-business-process-flow"></a>業務プロセス フローへのオンデマンド ワークフローの追加
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 業務プロセス フロー内からオンデマンドでワークフローをトリガーすることができます。 たとえば、ステージが完了するたびにアクティビティ (タスク、電子メールなど) が作成されるように、オンデマンド ワークフローを業務プロセス フローに追加できます。 
 
@@ -34,8 +34,8 @@ ms.locfileid: "74356831"
 - オンデマンドのグローバル プロセス。 ワークフローが **[Global Workflows]\(グローバル ワークフロー\)** 領域にドロップされると、プロセスのアクティブ化またはプロセスのアーカイブで (状態が適用済み、完了済み、再アクティブ化済み、または破棄された状態に切り替えられたときに) ワークフローがトリガーされます。 
 
 ワークフローを業務プロセス フローに追加する場合、次の要件に注意してください。
-- ステージに追加されたワークフローの場合: お客様がワークフローを追加するステージの同じエンティティのために作成された、アクティブなオンデマンド ワークフローのみを使用できます。  
-- グローバル ワークフローの場合: 業務プロセス フローのプライマリ エンティティ用に作成されたアクティブなオンデマンド ワークフローのみを使用できます。
+- ステージに追加されたワークフローの場合:ワークフローを追加するステージの同じエンティティのために作成された、アクティブなオンデマンド ワークフローのみを使用できます。  
+- グローバル ワークフローの場合:業務プロセス フローのプライマリ エンティティ用に作成されたアクティブなオンデマンド ワークフローのみを使用できます。
 
 ## <a name="add-an-on-demand-workflow-to-a-business-process-flow-stage"></a>オンデマンド ワークフローを業務プロセス フローのステージに追加する
 
@@ -66,7 +66,7 @@ ms.locfileid: "74356831"
 
 5. 業務プロセス フロー デザイナーのツール バーで **[更新]** を選択します。
  
-## <a name="next-steps"></a>次のステップ
+## <a name="next-steps"></a>次の手順
 [ワークフロー プロセスを使用して、ユーザーの操作を必要としないようにプロセスを自動化する](workflow-processes.md) <br/>
 [チュートリアル: プロセスを標準化する業務プロセス フローを作成する](create-business-process-flow.md) <br/>
 [Dynamics 365 での業務プロセス フローの自動化](https://blogs.msdn.microsoft.com/crm/2017/03/28/business-process-flow-automation-in-dynamics-365/)

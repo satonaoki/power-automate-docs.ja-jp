@@ -14,15 +14,15 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 44220aebd8726c31f94996ec215020688f317223
-ms.sourcegitcommit: 6b8e936cede73c8be8a63bdf77911fb69aced959
+ms.openlocfilehash: 2c889d21336b632edf1f3746cc90846f469ecbd4
+ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "77574983"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "79195936"
 ---
 # <a name="power-automate-us-government"></a>Power Automate 米国政府機関
-[!INCLUDE [view-pending-approvals](includes/cc-rebrand.md)]
+
 
 米国公共部門の進化し続けるユニークな要望に応じて、Microsoft は Power Automate US Government プランを作成しました。 このセクションでは、Power Automate US Government に固有の機能に関する概要を説明します。 この補助セクションと、Power Automate サービスの[概要](https://docs.microsoft.com/flow/getting-started)トピックをお読みになることをお勧めします。 短く表現するために、このサービスは一般に *Flow GCC* と呼ばれます。
 
@@ -169,9 +169,9 @@ Azure AD のアカウント管理サービスは、Microsoft Global Foundation S
 
 商用バージョン | US Government バージョン
 ------ | --------
-https://flow.microsoft.com | https://gov.flow.microsoft.us (GCC) および https://high.flow.microsoft.us (GCC High)
-https://admin.flow.microsoft.com | https://gov.admin.flow.microsoft.us (GCC) および https://high.admin.flow.microsoft.us (GCC High)
-https://flow.microsoft.com/connectors | https://gov.flow.microsoft.us/connectors (GCC) および https://high.flow.microsoft.us/connectors (GCC High)
+[https://flow.microsoft.com](https://flow.microsoft.com) | [https://gov.flow.microsoft.us (GCC)](https://gov.flow.microsoft.us) および [https://high.flow.microsoft.us (GCC High)](https://high.flow.microsoft.us)
+[https://admin.flow.microsoft.com](https://admin.flow.microsoft.com) | [https://gov.admin.flow.microsoft.us (GCC)](https://gov.admin.flow.microsoft.us) および [https://high.admin.flow.microsoft.us (GCC High)](https://high.admin.flow.microsoft.us)
+[https://flow.microsoft.com/connectors](https://flow.microsoft.com/connectors) | [https://gov.flow.microsoft.us/connectors (GCC)](https://gov.flow.microsoft.us/connectors) および [https://high.flow.microsoft.us/connectors (GCC High)](https://high.flow.microsoft.us/connectors)
 
 
 ネットワーク制限を実装しているお客様については、エンド ユーザーのアクセス ポイントで次のドメインへのアクセスを利用できることを確認してください。
