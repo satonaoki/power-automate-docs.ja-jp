@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 0be3b3656cf9683b43d4ba22bc23b537ccc4e597
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: 49586e7035c4a1796ff624667b2562d2a64c576a
+ms.sourcegitcommit: ace3dbcbda208991201b770b9c707ec39faaa0d9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244290"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "79384578"
 ---
 # <a name="edit-desktop-ui-flows"></a>デスクトップ UI フローの編集
 
@@ -53,6 +53,7 @@ ms.locfileid: "78244290"
 
 -  アクション実行後の遅延。 たとえば、PT0S を PT1S に変更することで 1 秒の遅延を追加できます。 これは、ターゲット アプリケーションの応答が遅く、UI フローの次のステップ前に完了しないときに便利です。
 -   ターゲット ユーザー インターフェイス要素の[セレクター](edit-desktop.md#set-the-selector)。
+
 
 ## <a name="add-a-recording"></a>レコーディングの追加
 
@@ -161,6 +162,26 @@ UI フローを複数のセッションで記録することがあります。 �
 セレクターの **elementXPath** の結果を使用する前に、最初の要素 (/Window の前にあるもの全部) を削除します。
 
 UI フローをテストし、セレクターが正しく機能することを確認します。
+
+## <a name="use-advanced-controls"></a>詳細コントロールを使用する
+
+UI フロー内に、**条件**、**スイッチ ケース**、**終了**アクションなどの詳細コントロールを組み込むことができます。
+
+これらの詳細な操作を実行するには、既存の UI フローで次の手順を行います。
+
+1. 作成した UI フローを選択し、 **[その他のコマンド]** ([...]) > **[編集]** を選択します。
+
+1. ロジックを追加する UI フロー ステップの下矢印で、 **[+]**  >  **[アクションの追加]** を選択します。
+
+   ![アクションの追加](../media/edit-desktop/add-action.png)
+
+1. **[組み込み]** を選択し、使用可能なコントロール アクションの 1 つを選択します。
+
+   ![組み込み](../media/edit-desktop/select-built-in.png)
+
+1. 評価する必要がある式を入力します。 動的なコンテンツと式を使用して、条件を評価し、コントロールを切り替えることができます。 また、前の UI フロー ステップで生成された出力を使用することもできます。
+
+   ![条件カード](../media/edit-desktop/condition-card.png)
 
 
 ## <a name="enable-coordinate-based-playback"></a>座標ベースの再生の有効化
