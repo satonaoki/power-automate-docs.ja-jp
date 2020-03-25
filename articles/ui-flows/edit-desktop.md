@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 49586e7035c4a1796ff624667b2562d2a64c576a
-ms.sourcegitcommit: ace3dbcbda208991201b770b9c707ec39faaa0d9
+ms.openlocfilehash: e56c6559c78de3bed4dabddaffb9c02c8be49631
+ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "79384578"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79437295"
 ---
 # <a name="edit-desktop-ui-flows"></a>デスクトップ UI フローの編集
 
@@ -182,6 +182,45 @@ UI フロー内に、**条件**、**スイッチ ケース**、**終了**アク�
 1. 評価する必要がある式を入力します。 動的なコンテンツと式を使用して、条件を評価し、コントロールを切り替えることができます。 また、前の UI フロー ステップで生成された出力を使用することもできます。
 
    ![条件カード](../media/edit-desktop/condition-card.png)
+
+
+## <a name="handle-error-conditions"></a>エラー処理の条件
+
+再生中に予期しない状態が発生し、UI フローが失敗することがあります。 高度なエラー処理機能を使用すると、予期しない状態が発生した場合の代替ステップを作成できます。 
+
+このステップを以下に示します。
+
+1. 職場または学校アカウントを使用して、[Power Automate](https://powerautomate.microsoft.com) にサインインします。
+1. UI フローを表示するには、 **[マイ フロー]**  >  **[UI flows]** の順に選択します。
+1. **[その他のコマンド]** (編集する UI フローの 3 つの垂直ドット) を選択します。
+1. **[編集]** をクリックします。
+1. エラー処理を追加する UI フロー ステップの直前にある下矢印を選択し、 **+** (新しいステップの挿入) を選択します。
+   
+   次の画像では、**PostElementText 1** ステップの前に新しいステップを挿入しています。 これは **PostElementText 1** が失敗した場合に、次に定義する代替ステップが実行されることを意味します。
+
+      ![新しいステップの挿入の画像](../media/edit-desktop/insert-new-step.png) 
+
+1. **[Add a parallel branch]\(パラレル分岐の追加)** を選択します。
+
+    ![並列分岐とその他のオプションの追加を示す画像](../media/edit-desktop/add-parallel-branch.png)
+
+1. UI フローの実行中にエラーが発生した場合に、並列分岐で実行するアクションを選択します。
+
+   **[アプリの記録]** を選択すると、並列分岐の新しい記録を実行できます。または、エラーが発生した場合に UI フローが正常に終了するように **[組み込み]** アクションから **[終了]** を選択します。
+
+    ![並列分岐のオプションを示す画像](../media/edit-desktop/add-parallel-branch.png)
+
+   >[!NOTE]
+   >既定では、並列分岐に追加したアクションは、前のステップが失敗した場合にのみ実行されます。 並列分岐で **[...]** > **[実行条件の構成]** の順に選択して既定の動作を変更することができます。 
+
+      ![[実行条件の構成] が含まれるオプションを示す画像](../media/edit-desktop/configure-run-after.png)
+
+1.  この画面では、並列分岐を実行する条件を選択できます。 4 つのオプションのいずれかを選択できます。
+
+    ![実行条件のオプションを示す画像](../media/edit-desktop/run-after-options.png)
+
+    注意:同じ条件で実行されるメイン分岐と並列分岐の両方のセットを含む UI フローを保存することはできません。
+
 
 
 ## <a name="enable-coordinate-based-playback"></a>座標ベースの再生の有効化
