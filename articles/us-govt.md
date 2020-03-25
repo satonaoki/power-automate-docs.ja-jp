@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 2c889d21336b632edf1f3746cc90846f469ecbd4
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: e74c8789975926600d4d17708a134cefb7fc0722
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195936"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "80082168"
 ---
 # <a name="power-automate-us-government"></a>Power Automate 米国政府機関
 
@@ -225,6 +225,8 @@ Flow US Government の顧客は、Flow の商用バージョンで使用でき�
 - Power Automate US Government フローを SharePoint リスト "*から*" トリガーする
 
 - Power Automate US Government フローを Dynamics 365 GCC "*から*" トリガーする
+
+- [AI Builder](https://docs.microsoft.com/ai-builder/) は、GCC および GCC High テナントではまだ利用できません。
 
 - [承認](./modern-approvals.md)は、GCC および GCC High テナントではまだ利用できません。
 

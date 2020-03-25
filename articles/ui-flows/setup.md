@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 825ebceb042215c379340f1e1b7e2dae6f921c2c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 96c93771129ab0454d03e721a36d429e6cc894d5
+ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79196041"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "79437183"
 ---
 # <a name="set-up-ui-flows"></a>UI フローの設定
 
@@ -87,6 +87,12 @@ UI flows アプリをインストールするには、次の手順のように�
 1. [UI flows のインストーラーをダウンロードします](https://go.microsoft.com/fwlink/?linkid=2102613)。
 1. **Setup.Microsoft.Flow.UIflow.exe** ファイルを開きます。 このファイルは、前の手順でダウンロードした後、**Downloads** フォルダーにあるはずです。
 1. **UI フロー (プレビュー) セットアップ** インストーラーの指示に従って、インストールを完了します。
+
+### <a name="set-data-collection-options"></a>データ収集オプションを設定する
+
+使用状況データを Microsoft に送信しない場合は、インストール時に既定の設定を変更できます。 これを行うには、 **[使用状況データの収集を Microsoft に許可して UI フローを向上させる]** をオフにします。
+
+![データ収集オプションを示す画像](../media/ui-flows-setup/data-collection-settings.png)
 
 > [!WARNING]
 > データ コレクションの設定を変更する必要がある場合は、UI フロー アプリをアンインストールしてから再インストールする必要があります。 最初に UI フロー アプリをアンインストールせずにデータ コレクションの設定を変更すると、UI フローは機能しなくなります。
