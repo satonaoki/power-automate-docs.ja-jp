@@ -20,23 +20,23 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8739d0a3227f74532039d09c0bba8cb18e27982a
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: d17e7884960af0fb4231eac785a17683c1dadd18
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244198"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329852"
 ---
 # <a name="preview-introduction-to-ui-flows"></a>プレビュー:UI フローの概要
 
 [このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
 
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-<br>
-<iframe width="1129" height="635" src="https://www.youtube.com/embed/bZrrdoytTH0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 UI flows により、Robotic Process Automation (RPA: ロボットによるプロセスの自動化) 機能が Power Automate に提供されます。 UI flows を使用すると、Windows および Web アプリケーションで繰り返し発生するタスクを自動化できます。 UI flows は、使いやすい API や完全な API が使用できないアプリケーションのために、ユーザー インターフェイス アクション (クリック、キーボード入力など) を記録して再生します。
+
+<br/>
+
+> [!VIDEO https://www.youtube.com/embed/bZrrdoytTH0]
+
 
 > [!IMPORTANT]
 > - これはプレビュー機能です。

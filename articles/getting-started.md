@@ -20,21 +20,21 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7d4cd1523e19811eb4636d0197a347dbc86de9f8
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: e78ba6de412a067ae21eb4a11a5b1a7d5165448c
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224379"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329893"
 ---
 # <a name="get-started-with-power-automate"></a>Power Automate の概要 
 
-
-
-<br>
-<iframe width="1129" height="635" src="https://www.youtube.com/embed/hCuxuUaGC6Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ようこそ! Power Automate は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
+
+<br/>
+
+> [!VIDEO https://www.youtube.com/embed/hCuxuUaGC6Y]
+
 
 ## <a name="types-of-flows"></a>フローの種類
 
