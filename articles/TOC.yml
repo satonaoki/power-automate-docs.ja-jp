@@ -16,6 +16,20 @@
       href: create-team-flows.md
     - name: Common Data Service を使用するフローを作成する
       href: common-data-model-intro.md
+    - name: ラーニング カタログ
+      items:
+        - name: ラーニング カタログ
+          href: learning-catalog/learning-catalog.md
+        - name: アプリ メーカー
+          href: learning-catalog/learning-catalog-app-maker.md
+        - name: 管理者
+          href: learning-catalog/learning-catalog-administrator.md
+        - name: 開発者
+          href: learning-catalog/learning-catalog-developer.md
+        - name: 機能コンサルタント
+          href: learning-catalog/learning-catalog-functional-consultant.md
+        - name: パートナーのプリセールスの役割
+          href: learning-catalog/learning-catalog-sales.md
 - name: 自動化されたフロー
   items:
     - name: ゼロからフローを作成する
