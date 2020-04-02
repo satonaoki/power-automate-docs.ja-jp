@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 06781496eecd33801cdd08768c698e2203b1f846
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 9c5180fc02a3aea9403dabe28a9f8767354bbe1c
+ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194395"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "80329885"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
 
@@ -71,6 +71,9 @@ Common Data Service コネクタを使用して、Common Data Service データ�
 
 > [!div class="mx-imgBorder"]
 > ![フィルター属性](./media/cds-connector/FilterAttributes.png)
+
+> [!IMPORTANT]
+> [複数選択オプションセット](/powerapps/maker/common-data-service/custom-picklists)は、ワークフロー内では使用できません。 これを含めると、"必須フィールド" の不足を示すエラーが発生します
 
 ## <a name="trigger-privileges"></a>トリガーの権限
 
