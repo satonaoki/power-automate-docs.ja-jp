@@ -102,7 +102,7 @@
       href: custom-controls-business-process-flows.md
     - name: ビジネス プロセス フロー属性のベスト プラクティス
       href: best-practices-entity-attributes.md
-- name: UI フロー (プレビュー)
+- name: UI フロー
   items:
     - name: UI フローの概要
       href: ./ui-flows/overview.md
