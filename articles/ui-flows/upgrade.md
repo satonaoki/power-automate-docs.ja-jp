@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 617f61e1c08f7a4a51bb6916bcadf5e02691d46f
-ms.sourcegitcommit: f7d040ae93eabbc60ce922f497ab47977130d877
+ms.openlocfilehash: b73c550eb22948ea3c0e9ac14adf15674869da61
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79132937"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525068"
 ---
 # <a name="upgrade-ui-flows-app-and-connections-from-previous-releases"></a>以前のリリースから UI フロー アプリと接続をアップグレードする
 
@@ -48,10 +48,7 @@ UI フロー アプリまたはゲートウェイへの接続を更新するま�
     1. 接続の資格情報を入力し、保存します。
 
     >[!IMPORTANT]
-    >「[UI フローの接続とマシンの資格情報をセットアップする](setup.md)」で説明しているように、適切な資格情報を使用するようにしてください。 正しい資格情報を使用すると、確実に接続が更新され、一般公開されている UI フローに対してコード パスが使用されるようになります。
-
- <!-- todo      1. See (Managing UI flows app (Install, update, versions…)) for more
-            details. -->
+    >「[UI フローの接続とマシンの資格情報をセットアップする](setup.md#setup-ui-flows-connections-and-machine-credentials)」で説明しているように、適切な資格情報を使用するようにしてください。 正しい資格情報を使用すると、確実に接続が更新され、一般公開されている UI フローに対してコード パスが使用されるようになります。
 
 ## <a name="next-steps"></a>次の手順
 
