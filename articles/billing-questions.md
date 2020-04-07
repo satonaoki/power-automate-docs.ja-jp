@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 050d4bcd9bea03d41bbd403455ac6a7df9a0e1ff
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: d1c46c6521e3267f5a2b5b8562122c92647211c7
+ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224264"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "80627047"
 ---
 # <a name="billing-and-metering-questions"></a>課金と使用状況の測定に関する質問
 
@@ -93,5 +93,4 @@ Power Automat によりフローの実行がスロットルされます。
   * 250 個のフロー。
   * 15 個のカスタム コネクタ。
   * API あたり 20 個、合計で 100 個の接続。
-* ゲートウェイは、既定の環境でのみインストールできます。
 * Twitter など、特定の外部のコネクタは、接続のスロットルを実装してサービスの品質を制御できます。 スロットルが有効な場合、フローは失敗します。 フローが失敗したら、フローの実行履歴で失敗した実行の詳細を確認します。
