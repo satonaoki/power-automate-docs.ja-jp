@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 959b7876426a78ae86bebe998332fc1846f7421e
-ms.sourcegitcommit: 7821cc858dc3fc51e3a44f1fc0c1f83962de8a2c
+ms.openlocfilehash: ebb723812a8a6805616a8e66deee13aa74618ce2
+ms.sourcegitcommit: 7d6c210192ce68ad0d0b27f67f581e307d5ef606
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "80375820"
+ms.lasthandoff: 04/05/2020
+ms.locfileid: "80669863"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Power Automate における制限と構成
 
@@ -50,11 +50,11 @@ ms.locfileid: "80375820"
 
 ### <a name="retry-policy"></a>再試行ポリシー
 
-| Name (名前) | 制限 |
-| --- | --- |
-| 再試行回数 |90 | 既定値は 4 です。 既定値を変更するにはアクションの設定を使用します | 
-| 再試行の最大遅延 |1 日 | |
-| 再試行の最小遅延 |5 秒 | |
+| Name (名前) | 制限 |ノート|
+| --- | --- | --- |
+| 再試行回数 |90 | 既定値は 2 です。 既定値を変更するには、アクションの設定を使用します。 | 
+| 再試行の最大遅延 |1 日 |  |
+| 再試行の最小遅延 |5 秒 |  |
 
 ## <a name="run-duration-and-retention"></a>実行の継続時間とリテンション期間
 1 つのフロー実行に対する制限は次のとおりです。

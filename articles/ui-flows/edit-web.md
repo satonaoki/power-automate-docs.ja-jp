@@ -20,20 +20,16 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f29873dff5ae842d2f7b86f4f6e3e5c31bf04712
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 74c323f844c6bdc0f4cb1ad3d1a37977070a0a26
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371689"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525149"
 ---
 # <a name="edit-web-ui-flows"></a>Web UI フローの編集
 
-[このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-Web UI フローにより、[Microsoft Edge の次期バージョン](https://www.microsoftedgeinsider.com/)または Google Chrome で実行されている Web サイトが自動化されます。 [Web UI フローを作成](create-web.md)した後で、それを編集する必要がある場合があります。 このドキュメントの手順に従って、Web UI フローを編集する方法を学習します。
+Web UI フローでは、[Microsoft Edge (バージョン 80 以降)](https://www.microsoft.com/edge/) または Google Chrome で実行されている Web サイトが自動化されます。 [Web UI フローを作成](create-web.md)した後で、それを編集する必要がある場合があります。 このドキュメントの手順に従って、Web UI フローを編集する方法を学習します。
 
 ## <a name="edit-in-selenium-ide"></a>Selenium IDE での編集
 

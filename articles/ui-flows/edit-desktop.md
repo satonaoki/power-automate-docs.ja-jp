@@ -13,27 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 03/24/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e56c6559c78de3bed4dabddaffb9c02c8be49631
-ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
+ms.openlocfilehash: 8b0aebaa0e61758d6bc6ebeb3de7b71bde665edc
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79437295"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525098"
 ---
 # <a name="edit-desktop-ui-flows"></a>デスクトップ UI フローの編集
 
-[このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-デスクトップ UI フローにより、Windows デスクトップ アプリケーションが自動化されます。 発生する可能性のある問題、その問題の回避策、このプレビュー リリースではサポートされていないシナリオの詳細については、[既知の問題](create-desktop.md#known-issues-and-solutions)を参照してください。
+デスクトップ UI フローにより、Windows デスクトップ アプリケーションが自動化されます。 発生する可能性のある問題、その問題の回避策、このリリースではサポートされていないシナリオの詳細については、[既知の問題](create-desktop.md#known-issues-and-solutions)を参照してください。
 
 ## <a name="prerequisites"></a>前提条件
 デスクトップ UI フロー。 編集するデスクトップ UI フローがない場合、[今から作成してください](create-desktop.md#create-and-test-desktop-ui-flows)。
@@ -46,7 +42,7 @@ ms.locfileid: "79437295"
 
 -   レコーディングをサポートするアクションの値を編集します。
 -   ステップを削除します。
--   レコーディング全体を削除します。
+-   記録を削除します。
 -   ドラッグ アンド ドロップでアクションの順序を変更します。 レコーディングの整合性を壊す可能性があるため、これは慎重に行ってください。
 
 高度なパラメーターで次を変更できます。
@@ -60,7 +56,7 @@ ms.locfileid: "79437295"
 UI フローを複数のセッションで記録することがあります。 最初のレコーディングが完了したら、次のように進めることができます。
 
 1. [Power Automate](https://flow.microsoft.com) にサインインします。
-1. **[マイフロー]** 、 **[UI フロー (プレビュー)]** の順に選択します。
+1. **[マイフロー]** > **[UI フロー (プレビュー)]** の順に選択します。
 1. 編集する UI フローを選択します。
    ![](../media/edit-desktop/select-ui-flow.png)
 1. **[編集]** をクリックします。 
@@ -111,7 +107,7 @@ UI フローを複数のセッションで記録することがあります。 �
 以下の手順で手動アクションを追加します。
 
 1. [Power Automate](https://flow.microsoft.com) にサインインします。
-1. **[マイフロー]** 、 **[UI フロー (プレビュー)]** の順に選択します。
+1. **[マイフロー]** > **[UI フロー (プレビュー)]** の順に選択します。
 1. 編集する UI フローを選択します。
    ![](../media/edit-desktop/select-ui-flow.png)
 1. **[編集]** をクリックします。 
@@ -169,9 +165,9 @@ UI フロー内に、**条件**、**スイッチ ケース**、**終了**アク�
 
 これらの詳細な操作を実行するには、既存の UI フローで次の手順を行います。
 
-1. 作成した UI フローを選択し、 **[その他のコマンド]** ([...]) > **[編集]** を選択します。
+1. 作成した UI フローを選択し、**[その他のコマンド]** ([...]) > **[編集]** を選択します。
 
-1. ロジックを追加する UI フロー ステップの下矢印で、 **[+]**  >  **[アクションの追加]** を選択します。
+1. ロジックを追加する UI フロー ステップの下矢印で、**[+]** > **[アクションの追加]** を選択します。
 
    ![アクションの追加](../media/edit-desktop/add-action.png)
 
@@ -191,10 +187,10 @@ UI フロー内に、**条件**、**スイッチ ケース**、**終了**アク�
 このステップを以下に示します。
 
 1. 職場または学校アカウントを使用して、[Power Automate](https://powerautomate.microsoft.com) にサインインします。
-1. UI フローを表示するには、 **[マイ フロー]**  >  **[UI flows]** の順に選択します。
+1. UI フローを表示するには、**[マイ フロー]** > **[UI flows]** の順に選択します。
 1. **[その他のコマンド]** (編集する UI フローの 3 つの垂直ドット) を選択します。
 1. **[編集]** をクリックします。
-1. エラー処理を追加する UI フロー ステップの直前にある下矢印を選択し、 **+** (新しいステップの挿入) を選択します。
+1. エラー処理を追加する UI フロー ステップの直前にある下矢印を選択し、**+** (新しいステップの挿入) を選択します。
    
    次の画像では、**PostElementText 1** ステップの前に新しいステップを挿入しています。 これは **PostElementText 1** が失敗した場合に、次に定義する代替ステップが実行されることを意味します。
 

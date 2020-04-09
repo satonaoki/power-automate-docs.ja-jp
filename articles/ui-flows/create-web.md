@@ -20,38 +20,34 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 90951e4244ef7caa75bedc522d1bb032e070dbef
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.openlocfilehash: fb0b3b2dcd615130764d7f4c206e04e191bb1eca
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78244262"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524624"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Web UI フローの作成とテスト
-
-[このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 シンプルな Web UI フローを作成するには、次の手順に従います。
 
 ## <a name="create-a-web-ui-flow"></a>Web UI フローの作成
 
-1. [次期バージョンの Microsoft Edge](https://www.microsoftedgeinsider.com/) または Google Chrome を開き、[Power Automate](https://flow.microsoft.com/) に移動します。
+1. [Microsoft Edge (バージョン 80 以降)](https://www.microsoft.com/edge) または Google Chrome を開き、[Power Automate](https://flow.microsoft.com/) に移動します。
 
 1. 必要に応じて職場または学校アカウントでサインインします。
 
-1. **[マイ フロー]**  >  **[UI フロー (プレビュー)]**  >  **[新規]** を選択します。
+1. **[マイ フロー]** > **[UI フロー]** > **[新規]** を選択します。
 
    ![新しい UI フローの作成](../media/create-windows-ui-flow/create-new.png "新しい UI フローの作成")
 
-1. **[Web アプリ]**  >  **[次へ]** を選択します。
+1. **[Web アプリ]** > **[次へ]** を選択します。
     
    ![Web アプリの選択](../media/create-web-ui-flow/select-web-app.png "Web アプリの選択")
 
 1. **[フロー名]** フィールドに UI フローの名前を入力します。
 
-1. 自動化する Web サイトの URL を **[ベース URL]** フィールドに入力し、 **[レコーダーの起動]** を選択します。
+1. 自動化する Web サイトの URL を **[ベース URL]** フィールドに入力し、**[レコーダーの起動]** を選択します。
 
    ![名前と URL の指定](../media/create-web-ui-flow/give-a-name.png "名前と URL の指定") 
 

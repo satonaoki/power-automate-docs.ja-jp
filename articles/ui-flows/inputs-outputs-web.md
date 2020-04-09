@@ -13,37 +13,35 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/04/2019
+ms.date: 03/30/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 38b6ba7f8fe3ab7a386229b6c9c5ccc300a147de
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 8ea8301c1b50502995cc5081d960df44859458eb
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74371413"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80525009"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Web UI フローで入力と出力を使用する
 
-[このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
+再生中に自動アプリケーションに渡す入力を定義できます。 また、自動アプリケーションからフローに*出力*を渡すこともできます。
 
 ## <a name="define-inputs-for-a-web-ui-flow"></a>Web UI フローの入力を定義する
 
 UI フローの入力を使用すると、データベースや別の UI フローなどの外部ソースからの情報を、自動化するターゲット レガシ ソフトウェアに渡すことができます。
 
-(通常は **store** コマンドを使用して行われる) 初期化の前に使用される (読み取られる) 変数はすべて、入力変数として自動的に処理され、 **[Web の UI フローの実行]** アクション カードに表示されます。
+(通常は **store** コマンドを使用して行われる) 初期化の前に使用される (読み取られる) 変数はすべて、入力変数として自動的に処理され、**[Web の UI フローの実行]** アクション カードに表示されます。
 
 変数は文字列補間を通じて使用できます。たとえば、click コマンドの Target フィールドを "id=\${elementId}" に変更したり、 type コマンドの Value フィールドを "\${inputText}" に変更したりします。
 
 次のスクリーンショットのコマンド **set window size** とコマンド **type** では、初期化されていない変数 \${Width}、\${Height}、\${search} が使用されています。 これらの変数は入力値になります。
 
-![ウィンドウのサイズと種類を設定する](../media/inputs-outputs-web/f05cb445dad212aaf395b66ba969622c.png "ウィンドウのサイズと種類を設定する")
+![ウィンドウのサイズと種類を設定する](../media/inputs-outputs-web/set-window-size.png "ウィンドウのサイズと種類を設定する")
 
 一部のコマンドでは変数を直接使用できます。たとえば、forEach コマンドの Target/Value フィールドは両方とも変数なので、"\${}" で囲む必要はありません。
 
