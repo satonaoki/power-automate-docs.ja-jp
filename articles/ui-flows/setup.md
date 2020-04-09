@@ -13,28 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/04/2020
+ms.date: 03/24/2020
 ms.author: DeonHe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 96c93771129ab0454d03e721a36d429e6cc894d5
-ms.sourcegitcommit: c1c73952bb799a1fe48f2eb4f0c8dc7dd8614ff1
+ms.openlocfilehash: 97456d637dd272a465559d4cee8fb1d17fe3de8d
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "79437183"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524651"
 ---
 # <a name="set-up-ui-flows"></a>UI フローの設定
-
-[このトピックはプレリリース版のドキュメントであり、変更される可能性があります。]
-
-[!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
-
-> [!IMPORTANT]
-> 現在、UI flows 機能はリージョンにロールアウト中です。 お使いの環境に機能が表示されない場合、UI フローを作成できない場合、またはフロー内で実行しようとするとエラーが発生する場合は、しばらくしてからもう一度試してください。
 
 デバイスを使用して UI フローを作成する前に、デバイスがここに記載されている要件を満たしていることを確認する必要があります。
 
@@ -49,7 +42,7 @@ ms.locfileid: "79437183"
 
 - Windows 10 Pro、Windows Server 2016、または Windows Server 2019 が実行されているデバイス。
 
-- [Microsoft Edge](https://www.microsoftedgeinsider.com) または Google Chrome ブラウザー。
+- [Microsoft Edge](https://www.microsoft.com/edge/) (バージョン 80 以降) または Google Chrome ブラウザー。
 
 - [Common Data Service データベース](https://docs.microsoft.com/power-platform/admin/create-database)のある[環境](https://docs.microsoft.com/power-platform/admin/environments-overview)。
 
@@ -70,7 +63,7 @@ UI フローを記録、テスト、実行するには、各コンポーネン�
 
 -   Web UI フロー
 
-    -   右クリック
+    -   右クリックします。
     -   ユーザー セッション情報 (Cookie など) は再生中に再利用されません。 Web サイトで必要なときにサインイン情報を埋め込むには、スクリプトを編集する必要があります。
 
 機能固有の制限事項については、各機能のドキュメントをご覧ください。
@@ -85,28 +78,25 @@ UI flows のインストーラーには、デスクトップ用の UI フロー�
 UI flows アプリをインストールするには、次の手順のようにします。
 
 1. [UI flows のインストーラーをダウンロードします](https://go.microsoft.com/fwlink/?linkid=2102613)。
-1. **Setup.Microsoft.Flow.UIflow.exe** ファイルを開きます。 このファイルは、前の手順でダウンロードした後、**Downloads** フォルダーにあるはずです。
-1. **UI フロー (プレビュー) セットアップ** インストーラーの指示に従って、インストールを完了します。
+1. **Setup.Microsoft.PowerAutomate.UIflow.exe** ファイルを開きます。 このファイルは、前の手順でダウンロードした後、**Downloads** フォルダーにあるはずです。
+1. **UI フロー セットアップ** インストーラーの指示に従い、インストールを完了させます。
 
 ### <a name="set-data-collection-options"></a>データ収集オプションを設定する
 
-使用状況データを Microsoft に送信しない場合は、インストール時に既定の設定を変更できます。 これを行うには、 **[使用状況データの収集を Microsoft に許可して UI フローを向上させる]** をオフにします。
+使用状況データを Microsoft に送信しない場合は、インストール時に既定の設定を変更できます。 これを行うには、**[使用状況データの収集を Microsoft に許可して UI フローを向上させる]** をオフにします。
 
 ![データ収集オプションを示す画像](../media/ui-flows-setup/data-collection-settings.png)
-
-> [!WARNING]
-> データ コレクションの設定を変更する必要がある場合は、UI フロー アプリをアンインストールしてから再インストールする必要があります。 最初に UI フロー アプリをアンインストールせずにデータ コレクションの設定を変更すると、UI フローは機能しなくなります。
 
 ## <a name="activate-the-ui-flows-browser-extension"></a>UI flows ブラウザー拡張機能をアクティブにする 
 
 UI flows のインストーラーが完了すると、拡張機能のアクティブ化を求めるメッセージがブラウザーに表示されます。
 
-- Microsoft Edge で、ブラウザーの右上にある各警告アイコンを選択し、 **[拡張機能の有効化]** を選択します。
--   Google Chrome では、プロンプトが表示されたら、 **[Enable extension]\(拡張機能の有効化\)** を選択します。  
+- [Microsoft Edge](https://www.microsoft.com/edge/) (バージョン 80 以降) で、ブラウザーの右上にある各警告アイコンを選択し、**[拡張機能の有効化]** を選択します。
+-   Google Chrome では、プロンプトが表示されたら、**[Enable extension]\(拡張機能の有効化\)** を選択します。  
 
 > [!TIP]
 > ブラウザーにプロンプトが表示されない場合は、次のことを確認してください。
-> - Microsoft Edge または Google Chrome を使用する必要があります。
+> - [Microsoft Edge](https://www.microsoft.com/edge/) (バージョン 80 以降) または Google Chrome を使用する必要があります。
 > - 場合によっては、拡張機能を手動で有効にする必要があります。 Microsoft Edge の場合は **edge://extensions** に移動し、Google Chrome の場合は **chrome://extensions** に移動します。
 > - Power Automate の UI flows 拡張機能が表示されない場合は、[UI flows インストーラー](https://go.microsoft.com/fwlink/?linkid=2102613)を使用して再インストールできます。
 
@@ -119,9 +109,9 @@ UI flows を使用すると、Power Automate から Selenium IDE スクリプト
 
 Selenium IDE をインストールするには、次の手順のようにします。
 
-1. Microsoft Edge または Google Chrome の次バージョン用の Selenium IDE を[ダウンロードしてインストール](https://go.microsoft.com/fwlink/?linkid=2107665)します。
+1. [Microsoft Edge](https://www.microsoft.com/edge/) (バージョン 80 以降) または Google Chrome の Selenium IDE を[ダウンロードしてインストール](https://go.microsoft.com/fwlink/?linkid=2107665)します。
 
-1. Microsoft Edge で、 **[Allow extensions from other stores]** \(他のストアからの拡張機能を許可する\) を選択し、 **[Add to Chrome]** \(Chrome に追加\) を選択します。
+1. Microsoft Edge (バージョン 80 以降) で、**[Allow extensions from other stores]\(他のストアからの拡張機能を許可する\)** を選択し、**[Add to Chrome]\(Chrome に追加\)** を選択します。
 
 ## <a name="install-the-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイをインストールする
 
@@ -131,6 +121,11 @@ Selenium IDE をインストールするには、次の手順のようにしま�
 >デバイスで UI フローを作成、編集、テストするだけの場合は、ゲートウェイは必要ありません。
 
 必要な場合は、[オンプレミス データ ゲートウェイをインストール](https://docs.microsoft.com/data-integration/gateway/service-gateway-install)します。
+
+
+>[!IMPORTANT]
+>ゲートウェイをインストールすると、既定では、Power Automate によって使用されるリージョンになります。
+
 
 ## <a name="setup-ui-flows-connections-and-machine-credentials"></a>UI フローの接続とマシンの資格情報をセットアップする
 
@@ -144,19 +139,26 @@ Selenium IDE をインストールするには、次の手順のようにしま�
 
    ![接続のスクリーンショット](../media/ui-flows-setup/new-connection.png)
 
-1. "*UI フロー*" を検索し、**[UI フロー (プレビュー)] を選択します。
+1. "*UI フロー*" を検索し、**[UI フロー]** を選択します。
 
    ![検索ボックスのスクリーンショット](../media/ui-flows-setup/search-ui-flow.png)
 
-1. ゲートウェイ*ごとに*、ゲートウェイ情報とデバイスの資格情報を指定します。 
+1. ゲートウェイ情報とデバイスの資格情報を指定します。 
 
     - **ドメインとユーザー名**:デバイス アカウントを指定します。 ローカル アカウントを使用するには、ユーザー名 (“MACHINENAME\\User”、“local\\User” など) または Active Directory アカウント (“DOMAIN\\User” など) を使用します。
     - **パスワード**:アカウントのパスワード。
-    - **ゲートウェイの選択**:構成するいずれかのゲートウェイを選択します。
+    - **ゲートウェイの選択**:使用するゲートウェイを選択します。
 
       ![接続のために資格情報を入力する場所を示すスクリーンショット](../media/ui-flows-setup/credentials-screen.png)
 
 1. **[作成]** を選択します。
+
+## <a name="troubleshoot-missing-gateway"></a>ゲートウェイが見つからない場合のトラブルシューティング
+
+次の理由により、接続の作成中にゲートウェイが一覧に表示されない場合があります。
+
+- ゲートウェイが、Power Automate リージョンとは異なるリージョンにインストールされている可能性があります。 この問題を解決するには、デバイスからゲートウェイをアンインストールしてから、適切な [Power Automate リージョン](../regions-overview.md#region-mappings-for-power-automate-and-gateways)選択して、再インストールします。
+- ゲートウェイがその所有者によって削除されました。
 
 ## <a name="supported-keyboard-layouts"></a>サポート対象のキーボード レイアウト
 
@@ -182,7 +184,7 @@ Selenium IDE をインストールするには、次の手順のようにしま�
 
 ## <a name="supported-languages"></a>サポートされている言語
 
-UI flows で英語以外にサポートされる言語は次のとおりです。
+UI フローで英語以外にサポートされる言語は次のとおりです。
 
 |||||
 ----|-----|-----|--------
@@ -200,8 +202,8 @@ UI flows で英語以外にサポートされる言語は次のとおりです�
 
 ## <a name="uninstall-ui-flows"></a>UI flows をアンインストールする
 
-1. **[スタート]** メニューを開き、 **[設定]**  >  **[アプリ]** を選択します。
-1. **[UI フロー (プレビュー)]** を探して選択します。
+1. **[スタート]** メニューを開き、**[設定]** > **[アプリ]** を選択します。
+1. **[UI フロー]** を検索して選択します。
 1. **[アンインストール]** を選択します。
 
 ## <a name="learn-more"></a>詳細情報

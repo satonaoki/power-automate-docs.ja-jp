@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 8470d927204f1ba40f801c806c34ca0c78336555
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 4c8b2b02cf87abb54a587d9358a4c1f462ceb724
+ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193843"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "80524542"
 ---
 # <a name="faq-for-regions-in-power-automate"></a>Power Automate のリージョンに関する FAQ
 
@@ -56,11 +56,24 @@ ms.locfileid: "79193843"
 
 最適なパフォーマンスのためには、ユーザーに最も近いリージョンに環境を作成します。 たとえば、ユーザーがヨーロッパにいる場合は、ヨーロッパ リージョンに環境を作成します。 ユーザーが米国にいる場合は、米国リージョンに環境を作成します。
 
-## <a name="gateways"></a>ゲートウェイ
-ゲートウェイには次の制限があります。
+## <a name="region-mappings-for-power-automate-and-gateways"></a>Power Automate とゲートウェイのリージョン マッピング
 
-* インド リージョンでは利用できません。
-* 既定の環境でのみサポートされ、カスタム環境ではサポートされていません。
+ゲートウェイがインストールされているリージョンは、Power Automate リージョンにマップする必要があります。 地理的な境界間でのマップはサポートされていません。 
+
+マッピング情報を次に示します。
+
+Power Platform リージョン|ゲートウェイ リージョン
+-----|-----
+米国 (プレビューを含む)|米国中部、米国東部 2、米国東部、米国中北部、米国中南部、米国西部 2、米国中西部、米国西部
+アジア|東アジア、東南アジア
+オーストラリア|オーストラリア東部、オーストラリア南東部
+カナダ|カナダ中部、カナダ東部
+ヨーロッパ|北ヨーロッパ、西ヨーロッパ
+フランス|フランス中部、フランス南部
+インド|インド中部、インド南部、インド西部
+日本|東日本、西日本
+南アメリカ|ブラジル南部
+イギリス|英国南部、英国西部
 
 ## <a name="is-power-automate-available-in-national-clouds"></a>Power Automate は各国のクラウドで使用できますか?
 はい。 [詳細情報](./us-govt.md)
