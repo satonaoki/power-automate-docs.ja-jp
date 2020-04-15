@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,21 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/22/2016
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 6346772d3eba6177577f7c5d7a151174f1a575f9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 218e4fffd1ba86fec1c38a8322774f642ab64001
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193866"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862770"
 ---
-# <a name="build-an-approval-loop-by-using-power-automate-and-the-microsoft-common-data-service"></a>Power Automate と Microsoft Common Data Service を使用して承認ループを作成する
+# <a name="build-an-approval-loop-by-using-power-automate-and-common-data-service"></a>Power Automate と Common Data Service を使用して承認ループを作成する
 
 Common Data Service を使用すると、フローから独立しているデータベースに情報が格納されるフローを作成できます。 その最も良い例が、承認に関するものです。 承認の状態をエンティティに格納すると、フローはそれを基盤にして動作することができます。
 
@@ -140,7 +140,7 @@ Common Data Service を使用すると、フローから独立しているデー
     ![アクションの追加](./media/common-data-model-approve/add-action.png)
 2. **[他のアクションを検索してください]** と表示されているボックスに「**Common Data Service**」と入力するか貼り付けて、 **[Common Data Service - Create object (Common Data Service - オブジェクトの作成)]** をクリックまたはタップします。
    
-    ![Common Data Service のオブジェクトを作成する](./media/common-data-model-approve/cdm-create-object.png)
+    ![Common Data Service でオブジェクトを作成する](./media/common-data-model-approve/cdm-create-object.png)
 3. **[The entity (エンティティ)]** で「**Review**」と入力するか貼り付けて、 **[Review Dropbox files]** をクリックまたはタップします。
    
     ![エンティティを選択する](./media/common-data-model-approve/choose-entity-flow.png)

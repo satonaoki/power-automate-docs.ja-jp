@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/15/2017
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 624475254503f44756d97b1e59cc4896b586ab20
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 99a666c80cb1e6994b774f6b269d657a62996548
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193590"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862494"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -43,7 +43,7 @@ Power Automate は次の 2 種類のユーザーを明確な対象としてい�
 Power Automate では、基幹業務ユーザーがワークフローを自動化する機能が提供されます。 Logic Apps は、Power Automate の強力な機能のみならず、Azure Resource Manager および Azure portal との統合、PowerShell と xPlat CLI、Visual Studio、より多くのコネクタなどの機能も提供する Azure サービスです。 [Logic Apps の詳細については、こちらを参照してください](https://azure.microsoft.com/services/app-service/logic/)。
 
 ### <a name="how-does-power-automate-fit-in-microsofts-overall-business-application-platform-strategy"></a>Power Automate は、Microsoft のビジネス アプリケーション プラットフォーム戦略全体でどのような役割を果たしますか。
-Power Automate は、Power Apps、Common Data Service、Dynamics 365、Office 365 などの強力で柔軟なビジネス アプリケーション プラットフォームの一部です。 Microsoft のお客様、パートナー、および ISV パートナーは、機能的な役割を果たす、または特定の地域に特化した専用のソリューションを、このプラットフォームで、自身の企業や業界専用に構築できます。 ビジネス要件を最もよく理解している基幹業務ユーザーは、データおよびプロセスを簡単に、分析、構成および合理化できるようになります。 プロフェッショナルな開発者は、自動化、分析、アプリの基幹業務を簡単に拡張して、Functions、App Service および Logic Apps などの Azure サービスを活用できます。 API コネクタ、ゲートウェイ、および Microsoft Common Data Service を使用すると、クラウドまたはオンプレミスのいずれかで、既に使用中のサービスやデータからより多くの価値を得ることができるようになります。
+Power Automate は、Power Apps、Common Data Service、Dynamics 365、Office 365 などの強力で柔軟なビジネス アプリケーション プラットフォームの一部です。 Microsoft のお客様、パートナー、および ISV パートナーは、機能的な役割を果たす、または特定の地域に特化した専用のソリューションを、このプラットフォームで、自身の企業や業界専用に構築できます。 ビジネス要件を最もよく理解している基幹業務ユーザーは、データおよびプロセスを簡単に、分析、構成および合理化できるようになります。 プロフェッショナルな開発者は、自動化、分析、アプリの基幹業務を簡単に拡張して、Functions、App Service および Logic Apps などの Azure サービスを活用できます。 API コネクタ、ゲートウェイ、Common Data Service を使用すると、クラウドまたはオンプレミスのいずれかで、既に使用中のサービスやデータから、より多くの価値を引き出すことができるようになります。
 
 ## <a name="functionality"></a>機能
 ### <a name="what-do-i-need-to-use-power-automate"></a>Power Automate を使用するには何が必要ですか。
@@ -98,7 +98,7 @@ Power Automate は最初から 100 以上のデータ ソースに接続でき�
 テンプレートとは、よく使用される一般的なシナリオ用に事前に作成されたフローのことです。 このテンプレートを使用するのに必要なのは、テンプレート内のサービスにアクセスできることと、必要な設定を入力することだけです。
 
 ### <a name="what-data-sources-will-i-be-able-to-connect-to"></a>どのデータ ソースに接続できますか。
-Office 365、Twitter、SharePoint、OneDrive、Dropbox、SQL Server など、Microsoft とサード パーティの 100 以上の標準的なサービスに接続することができます。 Power Apps 向けの Common Data Service や Salesforce などのプレミアム サービスに接続することもできます。
+Office 365、Twitter、SharePoint、OneDrive、Dropbox、SQL Server など、Microsoft とサード パーティの 100 以上の標準的なサービスに接続することができます。 Salesforce や Common Data Service などのプレミアム サービスに接続することもできます。
 
 ### <a name="how-do-i-connect-to-a-rest-api-in-my-flow"></a>フローで REST API に接続する方法を教えてください。
 [カスタム コネクタ](developer/register-custom-api.md)を作成することで、JSON を使用し、10 を超える認証方法のうち少なくとも 1 つをサポートしている任意の REST API に接続できます。
@@ -132,7 +132,7 @@ Power Automate モバイル アプリは、[Android](https://aka.ms/flowmobiledo
 
 フローがオンに戻ったときにどのように反応するかについては、次の表を確認してください。
 
-トリガーの種類|説明
+トリガーの種類|Description
 -------|--------
 ポーリング (**繰り返し**トリガーなど)|フローが再度オンになったときに、未処理/保留中のイベントがすべて処理されます。 保留中の項目を処理しない場合は、フローを削除します。
 Webhook|フローが再度オンになったときに処理されるのは、フローがオンになってから生成される新しいイベントのみです。

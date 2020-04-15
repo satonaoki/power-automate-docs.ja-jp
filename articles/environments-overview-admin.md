@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 11/22/2017
+ms.date: 04/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 7a2ff7c0957e52f076ccc0cc7fdcb4d09109a404
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 0e0b312ce5e962052770eb44fd1a61c2f19c8e4f
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194372"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862701"
 ---
 # <a name="using-environments-within-power-automate"></a>Power Automate 内の環境の使用
 
@@ -89,7 +89,7 @@ ms.locfileid: "79194372"
 2. **[新しい環境]** を選び、必要な情報を指定します。
 
 
-   |     プロパティ     |                                                 説明                                                 |
+   |     プロパティ     |                                                 Description                                                 |
    |------------------|-------------------------------------------------------------------------------------------------------------|
    | 環境名 |              「`Human Resources`」や「`Europe flows`」など、環境の名前を入力します。              |
    |      リージョン      | 環境をホストする場所を選択します。 最高のパフォーマンスを得るには、ユーザーに最も近いリージョンを使用します。 |
@@ -147,7 +147,7 @@ ms.locfileid: "79194372"
     ロールを編集または削除するための既存のアクセス許可セットとオプションがすべて表示されます。
 
     **[新しいアクセス許可セット]** を選び、新しいアクセス許可セットを作成します。
-1. データを保存するために **[データベースの作成]** を選んだ場合、このデータベースは Common Data Service の一部です。 **[セキュリティ]** タブをクリックすると、ロール ベースのセキュリティを適用できる**Dynamics 365 インスタンス管理センター**に移動するように求められます。
+1. データを保存するために **[データベースの作成]** を選択した場合、このデータベースは Common Data Service の一部になります。 **[セキュリティ]** タブをクリックすると、ロール ベースのセキュリティを適用できる**Dynamics 365 インスタンス管理センター**に移動するように求められます。
 ![Dynamics のセキュリティ設定](./media/environments-overview-admin/Security-Link-D365.png)
 
 1. 環境/インスタンス内のユーザーの一覧からユーザーを選びます。
@@ -173,7 +173,7 @@ ms.locfileid: "79194372"
 
 はい、ある環境からフローをエクスポートして、別の環境にインポートできます。
 
-### <a name="which-license-includes-the-common-data-service"></a>どのライセンスに Common Data Service が含まれていますか。
+### <a name="which-license-includes-common-data-service"></a>Common Data Service は、どのライセンスに含まれますか。
 
 Common Data Service を使用してデータベースを作成する権限は、Microsoft Power Apps Plan 2 のみに含まれています。 ただし、すべての有料プラン (Power Automate Plan 1 と 2、Microsoft Power Apps プラン 1 と 2) には、Common Data Service を使用する権限が含まれています。
 
@@ -181,7 +181,7 @@ Common Data Service を使用してデータベースを作成する権限は、
 
 課金に関してよく寄せられる質問に対する回答については、[課金についての質問](billing-questions.md)に関するドキュメントをご覧ください。
 
-### <a name="can-the-common-data-service-be-used-outside-of-an-environment"></a>Common Data Service は、環境の外部でも使用できますか。
+### <a name="can-common-data-service-be-used-outside-of-an-environment"></a>Common Data Service は、環境の外部でも使用できますか。
 
 いいえ。 Common Data Service には環境が必要です。 詳細は、[こちらを](common-data-model-intro.md)参照してください。
 

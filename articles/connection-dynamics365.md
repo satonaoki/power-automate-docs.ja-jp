@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/06/2017
+ms.date: 04/06/2020
 ms.author: matp
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f341adb319c20a201525bb6b7a8a0c54e2da5ea3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 9f6f7554d73c0b14a26905ca1f3a706ab03797cd
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195039"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862540"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365 (オンライン) を使用したフローの作成
 
@@ -34,7 +34,7 @@ Dynamics 365 コネクタを使用すると、Dynamics 365 またはその他の
 Power Automate で、お気に入りのアプリとサービスの間に自動化されたワークフローを設定し、ファイルの同期、通知の受信、データの収集などを行うことができます。 詳しくは、「[Power Automate の概要](getting-started.md)」をご覧ください。
 
 > [!IMPORTANT] 
-> フロー トリガーを起動するには、フローと共に Common Data Service エンティティが使用する**変更の追跡**を有効にする必要があります。 詳細情報: [変更の追跡を有効にしてデータ同期を制御する](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
+> Power Automate トリガーを呼び出すには、フローで使用される Common Data Service エンティティで **Change Tracking** が有効にされている必要があります。 詳細情報: [変更の追跡を有効にしてデータ同期を制御する](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>テンプレートからフローを作成する
 さまざまなテンプレートが用意されています。このいずれかを使用してフローを作成することができます。次に例を示します。

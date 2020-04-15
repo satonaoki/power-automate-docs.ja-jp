@@ -13,24 +13,24 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/06/2019
+ms.date: 04/06/2020
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 9c5180fc02a3aea9403dabe28a9f8767354bbe1c
-ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
+ms.openlocfilehash: 3fcf12f42f01d0777a5caeac6308e14b439da002
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329885"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862655"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
 
 
-Common Data Service コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service データベース内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
+Common Data Service コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service 内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
 
 ## <a name="initiate-a-flow-from-common-data-service"></a>Common Data Service からフローを開始する
 

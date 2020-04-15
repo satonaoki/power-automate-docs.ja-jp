@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
+manager: KVivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/28/2017
+ms.date: 04/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4c8b2b02cf87abb54a587d9358a4c1f462ceb724
-ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
+ms.openlocfilehash: a87845247f57e58edf7170dc3e8da721db7d275e
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524542"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862517"
 ---
 # <a name="faq-for-regions-in-power-automate"></a>Power Automate のリージョンに関する FAQ
 
@@ -52,7 +52,8 @@ ms.locfileid: "80524542"
 * フランス
 
 ## <a name="what-features-are-specific-to-a-given-region"></a>リージョン固有の機能
-環境は複数の異なるリージョンに作成でき、その地理的な場所にバインドされます。 環境にフローを作成すると、そのフローはその地理的な場所のデータセンターにデプロイされます。 これは、共通データ モデル、フロー、接続、ゲートウェイ、アプリ、カスタム コネクタなど、その環境で作成するすべての項目に適用されます。
+
+環境は複数の異なるリージョンに作成でき、その地理的な場所にバインドされます。 環境にフローを作成すると、そのフローはその地理的な場所のデータセンターにデプロイされます。 これは、Common Data Model、フロー、接続、ゲートウェイ、アプリ、カスタム コネクタなど、その環境で作成するすべての項目に適用されます。
 
 最適なパフォーマンスのためには、ユーザーに最も近いリージョンに環境を作成します。 たとえば、ユーザーがヨーロッパにいる場合は、ヨーロッパ リージョンに環境を作成します。 ユーザーが米国にいる場合は、米国リージョンに環境を作成します。
 

@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,25 +13,25 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/22/2016
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 333f5b92df92cc384b9517a9ccf1d6bb0164c07b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: ac149bcd62da4ee737f23f894e1f99773f843ada
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194303"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862609"
 ---
-# <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service を使用するフローの作成
+# <a name="create-a-flow-that-uses-common-data-service"></a>Common Data Service を使用するフローを作成する
 
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/) を使用するフローを作成することにより、ビジネス データの統合ビューで運用効率を向上させます。 組織の適切な標準ビジネス エンティティ (販売、購買、顧客サービス、生産性など) から成る、このセキュリティで保護されたビジネス データベースをデプロイします。 組織データを 1 つ以上の[カスタム エンティティ](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)に格納します。このエンティティには、Microsoft Excel や Salesforce などの外部データ ソースに比べて、いくつかの利点があります。
 
-たとえば、主に次のような方法で、Power Automate 内で Common Data Service を活用できます。
+たとえば、主に次のような方法で、Power Automate 内で Common Data Service を利用します。
 
 * データのインポート、データのエクスポート、データに基づくアクションの実行 (通知の送信など) を行うフローを作成します。 この方法は完全な同期サービスではないことに注意してください。単に各エンティティに基づいてデータを内外に移動できるだけです。
   
@@ -45,7 +45,7 @@ ms.locfileid: "79194303"
 * [Power Automate](https://flow.microsoft.com) と [Power Apps](https://make.powerapps.com) にサインアップします。
   
     問題が発生した場合は、所有するアカウントの種類が [Power Automate](sign-up-sign-in.md) と [Power Apps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/) でサポートされているかどうかと、組織によってサインアップがブロックされていないことを確認してください。
-* 今までに Common Data Service を使用したことがない場合は、[powerapps.com](https://web.powerapps.com/#/entities) の **[エンティティ]** タブを開き、 **[自分のデータベースを作成]** をクリックまたはタップしてください。
+* 今までに Common Data Service を使用したことがない場合は、[powerapps.com](https://web.powerapps.com/#/entities) の **[エンティティ]** タブを開き、 **[自分のデータベースを作成]** をクリックまたはタップします。
 
 ## <a name="sign-in-to-your-environment"></a>環境へのサインイン
 1. [Power Automate ポータル](https://flow.microsoft.com)を開き、右上隅の **[サインイン]** をクリックまたはタップします。

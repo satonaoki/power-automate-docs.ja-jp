@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: msftman
-manager: anneta
+manager: KVivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/27/2018
+ms.date: 04/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: abf7be642e1c8e62db54bd7b5472ce29a330ad3a
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b99d5433d159908bb136519107211b77b33e9228
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193544"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862586"
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>全員が承認する必要のある承認フローを作成する
 
@@ -85,7 +85,7 @@ ms.locfileid: "79193544"
    >
 1. 次の表を参考にして、 **[Start an approval]\(承認を開始する\)** カードを設定します。
 
-   | フィールド | 説明 |
+   | フィールド | Description |
    | --- | --- |
    |  Approval type (承認の種類) |**[割り当て済みリストの任意のユーザー]** を使って、どの承認者でも要求を承認または拒否できることを示します。 </p>**[割り当て済みリストのすべてのユーザー]** を使って、全員が同意した場合にのみ要求は承認され、1 人でも拒否すると要求は拒否されることを示します。 |
    |  タイトル |承認要求のタイトルです。 |
@@ -140,5 +140,5 @@ SharePoint リストに項目が追加されるか項目が変更されるたび
 * [1 人の承認者による最新の承認](modern-approvals.md)
 * [シーケンシャルな最新の承認](sequential-modern-approvals.md)
 * [並列の最新の承認](parallel-modern-approvals.md)
-* [承認と Microsoft Common Data Service](common-data-model-approve.md)
+* [承認と Common Data Service](common-data-model-approve.md)
 * [外出先で要求を承認する](mobile-approvals.md)

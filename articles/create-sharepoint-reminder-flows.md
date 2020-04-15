@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/30/2019
+ms.date: 04/06/2020
 ms.author: deonhe
-ms.openlocfilehash: 414c14b02b0543dc3992253192020b7453b9e2e0
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 75fa66b3be68ef86a78448b9b5868581cb0a9b0f
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192900"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801397"
 ---
 # <a name="sharepoint-remind-me"></a>SharePoint の通知を受け取る
 
@@ -35,9 +35,13 @@ SharePoint のリストとライブラリを使用すると、カスタム メ�
 ## <a name="create-a-reminder-flow"></a>リマインダー フローを作成する
 
  1. 現在のビューに少なくとも 1 つの DateTime 列を含む [SharePoint リスト](https://support.office.com/article/Create-a-list-in-SharePoint-0D397414-D95F-41EB-ADDD-5E6EFF41B083)を作成します。 
- 1. **[フロー]**  >  **[リマインダーを設定する]**  >  **[Date deactivated]** (これは、リマインダー対象の DateTime を含む列です) を選択します。
+ 1. **[自動化]**  >  **[リマインダーを設定する]**  > **Date deactivated** (これは、リマインダー対象の DateTime を含む列です) を選択します。
 
      ![リマインダー フローを選択する](media/create-sharepoint-reminder-flows/select-reminder-flow.png)
+
+1. 場合によっては、この Power Automate テンプレートで使用されるサービスにサインインする必要があります。
+     
+1. **[続行]** を選択します。
 
 1. **[リマインダーを設定する]** カードで、 **[フロー名]** と、DateTime 列のエントリの何日前にリマインダー アラートを受け取るかを指定します。
 

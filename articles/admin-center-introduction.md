@@ -20,12 +20,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 0908540147d867b944101f01431a111e81adf33c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 0d95fdb71366e0c065f790ad8709539a1f909e95
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193475"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862724"
 ---
 # <a name="the-admin-center"></a>管理センター
 
@@ -36,7 +36,7 @@ ms.locfileid: "79193475"
 
 ## <a name="access-the-admin-center"></a>管理センターにアクセスする
 
-* Power Automate 管理センターへは https://admin.flow.microsoft.com からアクセスします。
+* [Power Automate 管理センター](https://admin.flow.microsoft.com)を表示します。
 
 ## <a name="environments"></a>環境
 

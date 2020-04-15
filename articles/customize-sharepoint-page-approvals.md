@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/29/2019
+ms.date: 04/06/2020
 ms.author: deonhe
-ms.openlocfilehash: fee8eedddd39226d01ee4dde72bc66fcdfcdfda6
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 5fa6c10245c5fbc974ae96dd926c8e5b193aaab4
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194188"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801514"
 ---
 # <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Power Automate による SharePoint ページの承認の管理
 
@@ -40,9 +40,15 @@ SharePoint サイト管理者は、Power Automate を使用して、新規また
 
     ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/pages.png)
 
-1. **[フロー]** を選択し、 **[ページの承認フローの構成]** を選択します。
+1. **[自動化]**  >  **[Power Automate]**  >  **[ページの承認フローの構成]** を選択します。
     
     ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/select-page-approval-flow.png)
+
+1. **[フローの作成]** を選択します。
+
+1. 場合によっては、この Power Automate テンプレートで使用されるサービスにサインインする必要があります。
+
+1. **[続行]** を選択します。
 
 1. **フロー名**を指定し、 **[承認者]** ボックスに少なくとも 1 つの名前を入力して、 **[作成]** を選択します。
     

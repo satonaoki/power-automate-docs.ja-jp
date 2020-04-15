@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -13,21 +13,24 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/31/2018
+ms.date: 04/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 51f8d56a7dd5c94a782c67569dea686f21f7c754
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 7f4da4123d5623348513d9b14a75d1f03b3e17dc
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193820"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862747"
 ---
 # <a name="release-notes"></a>リリース ノート
+
+>[!NOTE]
+>リリース計画は[こちら](https://docs.microsoft.com/dynamics365/release-plans/)で追跡されるようになりました。
 
 ## <a name="top-questions"></a>よくある質問
 1. フローでエラーが発生しました。 解決するにはどうすればよいですか。
@@ -92,7 +95,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 ### <a name="release-2018-07-23"></a>2018 年 7 月 23 日リリース
 
 - **Excel からのフローの構築と実行** - 新しい **[フロー]** ボタン (リボンの **[データ]** タブからアクセス) を使用して、Power Automate から Excel のテーブル データ上でオートメーションを作成してトリガーできます。 データ処理またはデータのコピー/インポートを自動化します。
-- **業務プロセス フローの作成** - 業務プロセス フローとは、Common Data Service に基づく、ステートフルかつヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
+- **ビジネス プロセス フローの作成** - ビジネス プロセス フローとは、Common Data Service に基づく、ステートフルでヒューマン インタラクティブな新しい種類のフローです。 これらの新しいフローを使用して、ユーザーが従う一連のステージと手順を定義します。 ユーザーは、必要に応じて、前に進んだり後ろに戻ったりできます。
 - **Outlook Web App での Microsoft To-Do のフローの作成** - Outlook Web App で \@メンションされたユーザーには、フローを作成するためのショートカットが表示されます。 このフローでは、電子メールのコンテンツに基づき、Microsoft To-Do で \@メンションされたユーザーのタスクが自動的に作成されます。
 - **SharePoint ビューのサポート** - SharePoint コネクタで、トリガーとアクションでの特定の SharePoint ビューの選択がサポートされるようになりました。 これによって列が、選択したビュー内にあるフィールドのみにフィルター処理されます。
 - **4 つの新しいコネクタ** - 追加 Azure IoT Central - 拡張性の高い IoT SaaS (サービスとしてのソフトウェア) ソリューション - Survey 123、LMS365、ProjectWise Design Integration。
@@ -147,7 +150,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 
 ### <a name="release-2018-04-04"></a>2018 年 4 月 4 日リリース
 
-- **Common Data Service での承認** - 最新バージョンの Common Data Service に最新の承認が構築されます。 つまり、Common Data Service コネクタとの間で送受信する承認の状態を読み取るフローを構築できるということです。
+- **Common Data Service での承認** - 最新バージョンの Common Data Service を基にして、先進的な承認が構築されます。 つまり、Common Data Service コネクタとの間で送受信する承認の状態を読み取るフローを構築できるということです。
 - **Apply to each によるエラーの検出** - ループ内に大量の項目がある場合でも、フロー実行ビューでエラーのループに直接移動します。
 - **承認の再割り当て** - 受け取った承認を組織内の別のユーザーに割り当てて、承認を委任することができます。 
 - **会議室の一覧** - Office 365 の Outlook Connector で、組織の会議室データを取得するアクションが追加されました。
@@ -597,7 +600,7 @@ Power Automate の統合を含む、新しい SharePoint Online の最新のリ�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/visual-studio-team-services-enhancements-to-sharepoint-and-o365-outlook-and-boolean-control/)。
 
 ### <a name="release-2016-08-08"></a>2016 年 8 月 8 日リリース
-Power Automate に統合された Microsoft Common Data Service のパブリック プレビュー。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/flow-and-common-data-model/)。
+Power Automate に統合された Common Data Service のパブリック プレビュー。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/flow-and-common-data-model/)。
 
 ### <a name="release-2016-08-05"></a>2016 年 8 月 5 日リリース
 * **オンプレミスの SharePoint** - SharePoint Online と同様に、定義済みのテンプレートを使用するかテンプレートを一から作成することで、オンプレミスの SharePoint のリストとドキュメント ライブラリに関するフローを作成できます。
@@ -654,6 +657,9 @@ Power Automate に統合された Microsoft Common Data Service のパブリッ�
 * フローのチェックと実行すべてについて、履歴を確認することができます。
 * フローを保存するときに、トリガー アクションを実行するだけで、[実行中のフローを即座に確認](see-a-flow-run.md)できます。
 * Flow に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](https://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
+
+>[!NOTE]
+>リリース計画は[こちら](https://docs.microsoft.com/dynamics365/release-plans/)で追跡されるようになりました。
 
 ## <a name="next-steps"></a>次の手順
 このリリース ノートまたは[よく寄せられる質問](frequently-asked-questions.md)に記載されていない問題がある場合は、[コミュニティに参加](https://go.microsoft.com/fwlink/?LinkID=787467)して質問するか、[サポートにお問い合わせください](https://go.microsoft.com/fwlink/?LinkID=787479)。

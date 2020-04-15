@@ -14,18 +14,18 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/17/2018
+ms.date: 4/07/2020
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 39291e74b16727abe04c20c16eddeaa6d9871091
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 16d92a2d8aad6e39ff5e2eb446438dc769b1baf8
+ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195683"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "80862678"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の削除要求への応答
 
@@ -50,7 +50,7 @@ Power Automate では、組織の日常業務の重要な一部であるオー�
 
 \* これらの各リソースには、個人データを含む "作成者" および "変更者" のレコードが含まれます。 セキュリティ上の理由から、これらのレコードはリソースが削除されるまで保持されます。
 
-**Common Data Service データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service データベースにレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+** Common Data Service データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service にレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
 
 手動での確認が必要なデータとリソースのため、Power Automate では特定のユーザーの個人データの検索または変更を行う以下のエクスペリエンスが提供されています。
 
@@ -77,7 +77,7 @@ Power Automate では、組織の日常業務の重要な一部であるオー�
 |カスタム コネクタのアクセス許可|Power Automate 作成者ポータル| ||
 |承認履歴|Microsoft Power Apps 作成者ポータル*|||
 
-*Common Data Service の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service データベース インスタンス内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+\* Common Data Service の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service 内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
 
 \*\* 管理者は、Power Automate 管理センターからアクセス権を割り当てられている場合、Power Automate 作成者ポータルからのみ、これらのリソースにアクセスできます。
 
@@ -278,7 +278,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 ユーザーには環境内のアクセス許可 (環境管理者、環境作成者など) を割り当てることができ、アクセス許可は "ロールの割り当て" として Power Automate サービスに格納されます。
 
-Common Data Service の導入により、環境内にデータベースが作成された場合、これらの "ロールの割り当て" が、Common Data Service データベース インスタンス内のレコードとして格納されます。
+Common Data Service の導入により、環境内にデータベースが作成された場合、これらの "ロールの割り当て" が、Common Data Service 内のレコードとして格納されます。
 
 環境でのユーザーのアクセス許可の削除について詳しくは、「[Power Automate 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
 

@@ -14,18 +14,18 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2019
+ms.date: 04/06/2020
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7458b3cb08ca1ce3e29a9d0d29e1bec91d46f7ea
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 4b1c10fd0365f370f1cd408528f6555a14d8fbbf
+ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193199"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "80801477"
 ---
 # <a name="create-flows-from-the-onedrive-for-business-launch-panel"></a>OneDrive for Business の起動パネルからフローを作成する
 
@@ -43,7 +43,7 @@ ms.locfileid: "79193199"
 1. OneDrive for Business にサインインします。
 1. フローを作成するファイルを検索して選択します。
 1. **アクションの表示**リンク (3 つの点) を選択します。
-1. **[フロー]**  >  **[フローの作成]** を選択します。
+1. **[自動化]**  >  **[Power Automate]**  >  **[フローの作成]** を選択します。
 
      ![フローの作成](./media/onedrive-launch-panel/create-flow.png) 
 
