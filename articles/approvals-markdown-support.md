@@ -243,9 +243,9 @@ Use _emphasis_ in comments to express **strong** opinions and point out ~~correc
 
 **結果:**
 
-Use _emphasis_ in comments to express **strong** opinions and point out <s>corrections</s>   
-**_Bold, italicized text_**    
-**~~Bold, strike-through text~~**  
+コメントに_強調_を使用して**強力**な意見を表現し、<s>修正</s>を指摘します   
+**_太字、斜体のテキスト_**    
+**~~太字、取り消し線テキスト~~**  
 
 
 ## <a name="special-characters"></a>特殊文字
