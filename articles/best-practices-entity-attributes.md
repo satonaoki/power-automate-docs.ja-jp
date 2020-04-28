@@ -19,12 +19,12 @@ helpviewer_keywords:
 author: msftman
 ms.author: deonhe
 manager: kvivek
-ms.openlocfilehash: 8a5fb3cc698f20f025089524e6198c158f710980
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b9a4a2968a251efd360a043d23e837eaeb746e4e
+ms.sourcegitcommit: 71f9b72d551887324c92b122dadd1b4dd584bc4b
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193958"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "82081194"
 ---
 # <a name="best-practices-in-using-business-process-flow-attributes"></a>ビジネス プロセス フロー属性使用時のベスト プラクティス
 
@@ -45,7 +45,7 @@ ms.locfileid: "79193958"
 バージョン 9.0 以降では、ビジネス プロセス フローごとに、通常はビジネス プロセス フロート同じ名前で独自の Common Data Service エンティティが作成されます。 ビジネス プロセス フローについて報告するには、報告対象のビジネス プロセス フローのエンティティを選択し、前と同じようにビューとグラフを作成します。
 
 今回の例では、次の手順で**リードから営業案件への営業プロセス**エンティティに移動します。
-1. https://make.powerapps.com に移動します。
+1. [https://make.powerapps.com](https://make.powerapps.com) に移動します。
 1. **[データ]** を選択します。
 1. **[エンティティ]** を選択します。
 1. フィルターを **[すべて]** に設定します。
