@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ebb723812a8a6805616a8e66deee13aa74618ce2
-ms.sourcegitcommit: 7d6c210192ce68ad0d0b27f67f581e307d5ef606
+ms.openlocfilehash: 478949c1d0579e399f4125e67c1e40103d889900
+ms.sourcegitcommit: e709e8c4a62df6fdb0ca06f3f8afb5c639c76632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/05/2020
-ms.locfileid: "80669863"
+ms.lasthandoff: 04/26/2020
+ms.locfileid: "82159540"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Power Automate における制限と構成
 
@@ -61,13 +61,16 @@ ms.locfileid: "80669863"
 
 | 名前 | 制限 | ノート |
 | --- | --- | --- |
-| 実行の継続時間 |30 日 |承認などの保留ステップを含むワークフローが含まれます。 30 日後、すべての保留ステップがタイムアウトになります。タイムアウトになった承認は、承認センターから削除されます。 タイムアウトになった要求を承認しようとすると、エラー メッセージが表示されます。 |
+| 実行の継続時間 |30 日 |承認などの保留ステップを含むワークフローが含まれます。 30 日後、すべての保留ステップがタイムアウトになります。 |
 | ストレージのリテンション期間 |30 日 |これは、実行の開始時点からです。 |
 | 最小繰り返し間隔 |1 分 | |
 | 最大繰り返し間隔 |500 日 | |
 | 実行履歴の最大リテンション期間 |28 日。GDPR ごとの規則。 | |
 |最小延期間隔 - 無料のプラン 1 ライセンス|5 秒||
 |最小延期間隔-プラン 2 ライセンス|1 秒||
+
+>[!TIP]
+>個々のコネクタにも独自の制限があります。
 
 ## <a name="looping-and-debatching-limits"></a>ループおよびバッチ解除の制限
 1 つのフロー実行に対する制限は次のとおりです。 日単位の制限については、「[要求の制限と割り当て](https://aka.ms/platformlimits)」を参照してください。

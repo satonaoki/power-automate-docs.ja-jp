@@ -14,12 +14,12 @@ search.app:
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: e74c8789975926600d4d17708a134cefb7fc0722
-ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
+ms.openlocfilehash: 78e90d05ba57cc73264a2914de06feb3be3dd640
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "80082168"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153373"
 ---
 # <a name="power-automate-us-government"></a>Power Automate 米国政府機関
 
@@ -97,7 +97,7 @@ Microsoft 管理者による Power Automate US Government の顧客コンテン�
 
 Power Automate のサポートとサービスに関するエンジニアリング スタッフは、Power Automate US Government でホストされる顧客コンテンツに継続的にアクセスすることができません。 顧客コンテンツにアクセスできるようになる一時的なアクセス許可の昇格を要求したスタッフは、必ず最初に次の身元調査をパスする必要があります。
 
-|Microsoft 職員の審査と身元調査 <sup>1</sup>| 説明|
+|Microsoft 職員の審査と身元調査 <sup>1</sup>| Description|
 |---------------------------------------------------------------|-----------------------------------|
 | 米国市民権| 米国市民権の確認 |
 | 職歴調査| 7 年間の職歴の確認|
@@ -182,10 +182,10 @@ Azure AD のアカウント管理サービスは、Microsoft Global Foundation S
 * .azure.us
 * .usgovcloudapi.net
 * .microsoftonline.com
-* . microsoft.com
+* .microsoft.com
 * .windows.net
-* . azureedge.net
-* . azure.net
+* .azureedge.net
+* .azure.net
 * .crm9.dynamics.com
 
 ユーザーおよび管理者がお客様のテナント内に作成できる Common Data Service インスタンスにアクセスできるようにするには、AzureCloud.usgovtexas および AzureCloud.usgovvirginia に対する [IP 範囲](https://www.microsoft.com/download/confirmation.aspx?id=57063)を参照してください。 

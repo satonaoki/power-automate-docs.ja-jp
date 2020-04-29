@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/21/2017
+ms.date: 11/15/2019
 ms.author: deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 697f41960a62c7da2eee9bc34bb174d39ed2c44b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: b4479c2df6b8c7a1d5c269a8e0a48f15c1dda275
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195070"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153585"
 ---
 # <a name="create-team-flows"></a>チーム フローを作成する
 
@@ -55,7 +55,7 @@ ms.locfileid: "79195070"
 チーム フローを作成するには、またはチーム フローに所有者を追加するには、次の手順に従います。
 
 1. [Power Automate](https://flow.microsoft.com) にサインインし、 **[マイ フロー]** を選択します。
-2. 変更するフローの人のアイコンを選びます。
+2. **[その他のコマンド]** を選択し、共有するフローに **[共有]** を選択します。
    
     ![[チーム] アイコン](./media/create-team-flows/addowner1.png)
 3. 所有者として追加するユーザーまたはグループの名前、メール アドレス、またはグループ名を入力します。
@@ -86,18 +86,16 @@ SharePoint の一覧の編集アクセス権を持つすべてのユーザーが
 > 
 > 
 
-1. 変更するフローの人のアイコンを選びます。
+1. **[その他のコマンド]** を選択し、共有するフローに **[共有]** を選択します。
    
-    ![ユーザー選択アイコン](./media/create-team-flows/removeowner1.png)
+    ![ユーザー選択アイコン](./media/create-team-flows/addowner1.png)
 2. 削除する所有者の **[削除]** アイコンを選びます。
    
     ![[削除] を選択](./media/create-team-flows/removeowner2.png)
 3. 確認ダイアログ ボックスで、 **[この所有者を削除する]** を選びます。
    
     ![削除の確認](./media/create-team-flows/removeowner3.png)
-4. 削除の完了 &mdash; これで、削除したユーザーまたはグループはフローの所有者として一覧に表示されなくなります。
-   
-    ![ユーザーの削除終了](./media/create-team-flows/removeowner4.png)
+4. これで、削除したユーザーまたはグループはフローの所有者として一覧に表示されなくなります。
 
 
 ## <a name="update-connection-owner"></a>接続の所有者の更新

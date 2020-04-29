@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4633df9687662c49757dd9cbb4d1d88892dfbe51
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 5b7ca2db5a4f04e60484eb758faaa3938fcc60c9
+ms.sourcegitcommit: 5b1965a0c319c4294b7dc0c829120ed1f4f90444
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193636"
+ms.lasthandoff: 04/25/2020
+ms.locfileid: "82153403"
 ---
 # <a name="use-markdown-in-power-automate-approval-requests"></a>Power Automate の承認要求で Markdown を使用する
 
@@ -35,14 +35,16 @@ ms.locfileid: "79193636"
 > [!IMPORTANT]
 > 承認要求電子メールは、*アクション可能メッセージ*です。 [Microsoft Outlook クライアント](https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages)でアクション可能メッセージがサポートされない場合、承認要求は HTML 形式で表示されます。 
 
+> [!IMPORTANT]
+> すべての Markdown レンダラーの実装は異なります。 詳細については、「[クライアント サポート](#client-support)」のセクションを参照してください。
+
 ## <a name="headers"></a>ヘッダー
 
 ヘッダーを使用してコメントに構造を与えます。 ヘッダーは長いコメントをセグメント化して、読みやすくします。
 
 見出しを設定するには、行をハッシュ文字 `#` で始めます。 行の先頭のハッシュ文字を増やすと (例: `####`)、注釈を小見出しで整理できます。 最大 6 レベルの見出しがサポートされています。
 
-**例:**
-
+**例:**  
 ```Markdown
 # This is a H1 header
 ## This is a H2 header
@@ -51,33 +53,34 @@ ms.locfileid: "79193636"
 ##### This is a H5 header
 ```
 
-**結果:**
-
+**結果:**  
 ![フローのエクスポート](./media/approvals-markdown-support/mrkdown-headers.png)
 
 ## <a name="paragraphs-and-line-breaks"></a>段落と改行
 
-段落や改行で分割することにより、テキストを読みやすくします。 新しい段落を始めるには、改行の前に 2 つのスペースを入力するか、連続して 2 つの改行を入力します。   
+段落や改行で分割することにより、テキストを読みやすくします。 改行の前に 2 つの space を入力して、ほとんどのクライアントが新しい行から始まるようにします。  
    
-**例**
-
-Enter キーを使ってテキスト間に行を追加します。
-これによってテキストにより適切な間隔が空き、読みやすくなります。
+**例:**  
+```Markdown
+This is line 1.(space, space)
+Now text will appear on the next line.
+```
 
 **結果:**    
-Enter キーを使ってテキスト間に行を追加します。      
-これによってテキストにより適切な間隔が空き、読みやすくなります。
+This is line 1.  
+Now text will appear on the next line. 
 
+**例 2**  
+```Markdown
+This is line 1.(space, space)  
 
-**例 2**
-
-行の末尾の前にスペースを 2 つ追加します。(スペース、スペース)     
-これによって段落間に空白が追加されます。
+Line 2 has extra space before it.
+```
 
 **結果:**  
-行の末尾の前にスペースを 2 つ追加します。   
+This is line 1.  
 
-これによって段落間に空白が追加されます。
+Line 2 has extra space before it.
   
 
 ## <a name="lists"></a>リスト
@@ -88,43 +91,36 @@ Enter キーを使ってテキスト間に行を追加します。
 
 ### <a name="ordered-or-numbered-lists"></a>順序ありリストまたは番号付きリスト
 
-**例:**
-
+**例:**  
 ```Markdown
 0. First item.
 0. Second item.
 0. Third item.
 ```
 
-**結果:**
-
+**結果:**  
 1. First item.
 2. Second item.
 3. Third item.
 
 ### <a name="bullet-lists"></a>箇条書きリスト
 
-**例:**
-
-<pre>
-
+**例:**  
+```Markdown
 - Item 1
 - Item 2
 - Item 3
+```
 
-</pre>
-
-**結果:**
-
+**結果:**  
 - Item 1
 - Item 2
 - Item 3
 
 ### <a name="nested-lists"></a>入れ子になったリスト
 
-**例:**
-<pre>
-
+**例:**  
+```Markdown
 1. First item.
    - Item 1
    - Item 2
@@ -133,11 +129,9 @@ Enter キーを使ってテキスト間に行を追加します。
    - Nested item 1
    - Nested item 2
    - Nested item 3
-
-</pre>
+```
 
 **結果:**  
-
 1. First item.
 
     - Item 1
@@ -159,37 +153,13 @@ HTTP および HTTPS の URL は、リンクとして自動的に書式設定さ
 [Link Text](Link URL)
 ```
 
-**例:**
-<pre>
-&#91;Power Automate](https://flow.microsoft.com)
-</pre>
-
-**結果:**
-
+**例:**  
+```Markdown
 [Power Automate](https://flow.microsoft.com)
+```
 
-### <a name="anchor-links"></a>アンカー リンク
-
-HTML としてレンダリングされるときは、すべての見出しにアンカー ID が割り当てられます。 ID は見出しテキストであり、スペースはダッシュ (-) に置き換えられ、すべてが小文字になります。
-
-**例:**
-
-<pre>
-###Link to a heading in the page
-</pre>
-
-<br/>
-
-**結果:**
-
-セクションに対するアンカー リンクの構文。
-
-<pre>
-[Link to a heading in the page](#link-to-a-heading-in-the-page)
-</pre> 
-<br/>
-ID はすべて小文字であり、リンクは大文字と小文字が区別されるため、見出し自体では大文字が使用されていても、必ず小文字のみを使います。
-
+**結果:**  
+[Power Automate](https://flow.microsoft.com)
 
 ## <a name="tables"></a>テーブル
 
@@ -199,23 +169,18 @@ ID はすべて小文字であり、リンクは大文字と小文字が区別�
 - テーブルのセルはパイプ文字 `|` を使って区切ります 
 - テーブルの最初の 2 行は、列の見出しと、テーブルの要素の配置を設定します
 - テーブルの見出しと本文を分けるときにコロン (`:`) を使って列の配置 (左、中央、右) を指定します 
-- 新しい行を開始するには、HTML の改行タグ (`<br/>`) を使用します (Wiki 内では機能しますが、他の場所では機能しません)  
+- 新しい行を開始するには、HTML 改行タグ (`<br/>`) を使用します
 - 各行は必ず CR または LF で終了してください。 
 
-**例:**
-
-```
+**例:**  
+```Markdown
 | Heading 1 | Heading 2 | Heading 3 |  
 |-----------|:-----------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
 | Cell B1 | Cell B2 | Cell B3<br/>second line of text |  
 ```
 
-
-
-
 **結果:**  
-
 | Heading 1 | Heading 2 | Heading 3 |  
 |-----------|:---------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
@@ -231,22 +196,17 @@ ID はすべて小文字であり、リンクは大文字と小文字が区別�
 
 これらの要素を組み合わせて、複数の強調をテキストに適用できます。    
 
-**例:**
-
-<pre>
+**例:**  
+```Markdown
 Use _emphasis_ in comments to express **strong** opinions and point out ~~corrections~~ 
 **_Bold, italicized text_**  
 **~~Bold, strike-through text~~**
-</pre>
+```
 
-<br/>
-
-**結果:**
-
+**結果:**  
 コメントに_強調_を使用して**強力**な意見を表現し、<s>修正</s>を指摘します   
 **_太字、斜体のテキスト_**    
 **~~太字、取り消し線テキスト~~**  
-
 
 ## <a name="special-characters"></a>特殊文字
 
@@ -289,3 +249,17 @@ Use _emphasis_ in comments to express **strong** opinions and point out ~~correc
 
 </tbody>
 </table>
+
+## <a name="client-support"></a>クライアント サポート
+
+すべてのクライアントが markdown を同じように受け取るわけではなく、まったく受け取らない場合もあります。 Power Automate チームは、可能な場合にはいつでもクライアント所有者と連携して、これらの制限に対処していますが、解決できない場合もあります。 クライアント全体の既知の制限事項について説明した表を次に示します。
+
+| 特徴 | PA ポータル | PA モバイル アプリ | Outlook デスクトップ | Outlook Web | Teams | Teams Mobile |  
+|---------|--------|---------------|-----------------|-------------|-------|--------------|
+| **ヘッダー** | はい | はい | はい | はい | " **_いいえ_** " | " **_いいえ_** " |
+| **番号付きリスト** | はい | はい | " **_いいえ_** " | はい | はい | はい |
+| **入れ子になった番号付きリスト** | はい | はい | " **_いいえ_** " | はい | はい | はい |
+| **テーブル** | はい | はい | はい | はい | " **_いいえ_** " | " **_いいえ_** " |
+| **イメージ** | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " |
+| **強制改行** | はい | はい | " **_いいえ_** " (代わりに空白行を使用) | はい | はい | はい |
+| **空白行** | " **_いいえ_** " | " **_いいえ_** " | はい | はい | " **_いいえ_** " | はい |
