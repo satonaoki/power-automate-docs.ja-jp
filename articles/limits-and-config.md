@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 03/26/2020
+ms.date: 04/26/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 478949c1d0579e399f4125e67c1e40103d889900
-ms.sourcegitcommit: e709e8c4a62df6fdb0ca06f3f8afb5c639c76632
+ms.openlocfilehash: 06230d493fd43a9d9e23f4faebd6e1c6dc8d8045
+ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/26/2020
-ms.locfileid: "82159540"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82189590"
 ---
 # <a name="limits-and-configuration-in-power-automate"></a>Power Automate における制限と構成
 
@@ -156,3 +156,6 @@ graph.microsoft.com </br>graph.windows.net</br>|https|プロファイルの写�
 *.azureedge.net|https|Power Automate CDN にアクセスします。
 nps.onyx.azure.net|https|NPS (Net Promoter Score) にアクセスします。
 webshell.suite.office.com|https|ヘッダーと検索のための Office にアクセスします。 詳細については、[Office 365 の URL と範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)に関するページを参照してください。
+
+### <a name="approval-email-delivery"></a>承認電子メール配信
+承認電子メール ルーティングの詳細については、[承認電子メール配信に関する記事](https://go.microsoft.com/fwlink/?linkid=2128304)を参照してください。
