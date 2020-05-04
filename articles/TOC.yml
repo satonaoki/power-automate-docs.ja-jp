@@ -44,6 +44,8 @@
       href: flows-teams.md
     - name: Teams でアダプティブ カードのフローを作成する
       href: create-adaptive-cards-teams.md
+    - name: Common Data Service を使ってフローを作成する (現在の環境)
+      href: connection-cds-native.md
     - name: Common Data Service を使ってフローを作成する
       href: connection-cds.md
     - name: Dynamics 365 でフローを作成する
@@ -258,7 +260,7 @@
           href: ./developer/sample-work-business-process-flows.md
     - name: カスタム Common Data Service ワークフロー アクティビティ
       href: ./developer/custom-cds-for-apps-workflow-activities.md
-- name: 管理
+- name: Administration
   items:
     - name: 組織における Flow の Q & A
       href: organization-q-and-a.md
