@@ -13,24 +13,27 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/06/2020
+ms.date: 04/26/2020
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 3fcf12f42f01d0777a5caeac6308e14b439da002
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 18719ac34d84298dd813b0241d00b652ae172ef6
+ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862655"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "82727905"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
 
+>[!IMPORTANT]
+>Common Data Service に接続するために使用できるコネクタが 3 つあります。 [Common Data Service (現在の環境) コネクタ](./connection-cds-native.md) の使用をお勧めします。 この記事で紹介されている **Common Data Service コネクタ**と、[Dynamics 365 コネクタ](https://docs.microsoft.com/connectors/dynamicscrmonline/)は、推奨コネクタを使用できない場合に使用できます。
 
-Common Data Service コネクタを使用して、Common Data Service データベース内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service 内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
+
+Common Data Service コネクタを使用して、Common Data Service 内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service 内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
 
 ## <a name="initiate-a-flow-from-common-data-service"></a>Common Data Service からフローを開始する
 
@@ -72,9 +75,6 @@ Common Data Service コネクタを使用して、Common Data Service データ�
 > [!div class="mx-imgBorder"]
 > ![フィルター属性](./media/cds-connector/FilterAttributes.png)
 
-> [!IMPORTANT]
-> [複数選択オプションセット](/powerapps/maker/common-data-service/custom-picklists)は、ワークフロー内では使用できません。 これを含めると、"必須フィールド" の不足を示すエラーが発生します
-
 ## <a name="trigger-privileges"></a>トリガーの権限
 
 レコードに対する作成、更新、または削除に基づいてトリガーされるフローを作成するには、コールバック登録エンティティに対する作成、読み取り、書き込み、削除のユーザー レベル権限がユーザーに必要です。 さらに、定義されたスコープによっては、ユーザーは同じエンティティに対して少なくともそのレベルの読み取りを必要とする場合があります。  環境のセキュリティの[詳細については、こちらを参照してください](https://docs.microsoft.com/power-platform/admin/database-security)。
@@ -115,11 +115,4 @@ Common Data Service にデータを書き込むには、次のいずれかのア
 > 数秒以内に発生する 2 つの更新がある場合には、バージョン管理された最新のコンテンツを使用してフローが複数回トリガーされる可能性があります。
 
 ご使用の環境内にシステム ジョブのバックログがある場合、フローの実行が遅延することがあります。  この遅延が発生した場合、フローは、フローを呼び出すシステム ジョブが実行されたときにトリガーされます。
-
-### <a name="call-any-common-data-service-action"></a>Common Data Service アクションを呼び出す
-
-自動化されたワークフローでは、Common Data Service のすべてのアクションを呼び出すことができます。 これには、販売注文の処理から Microsoft Excel ファイルのエクスポートまで、すべてのものが含まれます。
-
- ![すべてのアクション](./media/cds-connector/all-actions.png "すべてのアクション")
-
 

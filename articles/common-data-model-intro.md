@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 04/27/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: ac149bcd62da4ee737f23f894e1f99773f843ada
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 7138d8f0aefc06799f5023204126e1a95494ba20
+ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862609"
+ms.lasthandoff: 05/02/2020
+ms.locfileid: "82727967"
 ---
 # <a name="create-a-flow-that-uses-common-data-service"></a>Common Data Service を使用するフローを作成する
 
@@ -48,7 +48,7 @@ ms.locfileid: "80862609"
 * 今までに Common Data Service を使用したことがない場合は、[powerapps.com](https://web.powerapps.com/#/entities) の **[エンティティ]** タブを開き、 **[自分のデータベースを作成]** をクリックまたはタップします。
 
 ## <a name="sign-in-to-your-environment"></a>環境へのサインイン
-1. [Power Automate ポータル](https://flow.microsoft.com)を開き、右上隅の **[サインイン]** をクリックまたはタップします。
+1. [Power Automate](https://flow.microsoft.com) を開き、右上隅の **[サインイン]** をクリックまたはタップします。
    
     **注**: **[サインイン]** ボタンを表示するには、左上のメニューを開く必要がある場合があります。
    

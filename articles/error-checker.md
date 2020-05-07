@@ -1,6 +1,6 @@
 ---
-title: Power Automate チェッカーでエラーを見つけて修正する | Microsoft Docs
-description: Power Automate チェッカーを使用すると、エラーの検出と修正をすばやく行うことができます。
+title: Power Automate のフロー チェッカーでエラーを見つけて修正する | Microsoft Docs
+description: Power Automate のフロー チェッカーで、エラーをすばやく見つけて修正します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -20,28 +20,28 @@ search.app:
 - Powerplatform
 search.audienceType:
 - flowmaker
-ms.openlocfilehash: 229ebd44dfed2bd234bfc86ed9ab27cb438274fa
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: 2f1dd4beffdcf31a1070928195dbd3895e479e3d
+ms.sourcegitcommit: 9cca2a2fca8371ab883b12011c1c4485ceb9c761
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195361"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "82200376"
 ---
-# <a name="the-power-automate-checker"></a>Power Automate チェッカー
+# <a name="find-and-fix-errors-with-flow-checker"></a>フロー チェッカーでエラーを見つけて修正する
 
 
-Power Automate チェッカーを使用すると、フローを設計する際にベスト プラクティスに確実に従うことができるので、フローの品質のレベルが上がります。 このチェッカーを実行すると、"使用するフローの実装のどの領域でパフォーマンスまたは信頼性のリスクが生じるか" といった質問に対する分析情報を得ることができます。
+Power Automate のフロー チェッカーを使用すると、フロー設計時にベスト プラクティスに確実に従うことができるので、フローの品質レベルが向上します。 このチェッカーを実行すると、"使用するフローの実装のどの領域でパフォーマンスまたは信頼性のリスクが生じるか" といった質問に対する分析情報を得ることができます。
 
 チェッカーでは、識別した各問題について、フロー内の特定の出現箇所が示され、お客様はその箇所について改善を検討する必要があります。 さらに、それらの改善を実装する方法については、以下の詳細なガイダンスに従ってください。
 
 このチェッカーは常にアクティブであり、デザイナーのコマンド バーに表示されます。 ご利用のフロー内で 1 つまたは複数のエラー、潜在的なエラー、または警告を検出すると、このチェッカーでは赤色のドットが表示されます。
 
-![チェッカー](media/checker/checker-in-designer.png "チェッカー")
+![フロー チェッカー](media/checker/checker-in-designer.png "フロー チェッカー")
 
 
 ## <a name="view-errors-or-warnings-in-the-checker"></a>チェッカーでエラーまたは警告を表示する
 
-フローのデザイン中に、[フロー チェッカー] ボタンを選択すると、チェッカーが開かれて、エラーと警告が表示されます。 
+フローの設計中に、 **[フロー チェッカー]** ボタンを選択すると、チェッカーが開き、エラーと警告が表示されます。 
 
 エラーまたは警告がある場合は、フローを保存するときにもチェッカーが自動的に開かれます。  チェッカーが開かれると、ご利用のフロー内のすべてのエラーと警告が表示されます。 各セクションでは、エラーまたは警告が発生するアクションがチェッカーによって呼び出されます。 
 
