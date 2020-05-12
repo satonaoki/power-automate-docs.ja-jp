@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/30/2019
+ms.date: 05/07/2020
 ms.author: deonhe
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: d1c46c6521e3267f5a2b5b8562122c92647211c7
-ms.sourcegitcommit: 855ee8b55aebe7b8e202006c39debfff02df1d30
+ms.openlocfilehash: a8b4ee39a7d40df41a1c8012a33860a77a51a092
+ms.sourcegitcommit: 8714786a5b632dfd60099871629cf369a31c4125
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80627047"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82895861"
 ---
 # <a name="billing-and-metering-questions"></a>課金と使用状況の測定に関する質問
 
@@ -90,7 +90,6 @@ Power Automat によりフローの実行がスロットルされます。
 ## <a name="other-limits-and-caveats"></a>その他の制限と注意事項
 
 * 各アカウントには次の制限があります。
-  * 250 個のフロー。
   * 15 個のカスタム コネクタ。
   * API あたり 20 個、合計で 100 個の接続。
 * Twitter など、特定の外部のコネクタは、接続のスロットルを実装してサービスの品質を制御できます。 スロットルが有効な場合、フローは失敗します。 フローが失敗したら、フローの実行履歴で失敗した実行の詳細を確認します。
