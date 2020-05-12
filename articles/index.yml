@@ -1,9 +1,9 @@
 ### YamlMime:Landing
-title: Power Automate に関するドキュメント
-summary: Power Automate は、お気に入りのアプリとサービス間の自動ワークフローを作成し、ファイルの同期、通知の受信、データ収集などを行うサービスです。
+title: Power Automate ドキュメント
+summary: Power Automate は、よく使うアプリやサービスとの間で自動ワークフローを作成し、ファイルの同期、通知の受信、データの収集などを実行できるようにするためのサービスである。
 metadata:
-  title: Power Automate に関するドキュメント
-  description: Power Automate のドキュメント内で強調表示されている領域にアクセスできます
+  title: Power Automate ドキュメント
+  description: Power Automate のドキュメントで、強調表示されている領域にアクセスできます
   services: service
   ms.service: flow
   ms.subservice: subservice
@@ -16,8 +16,8 @@ metadata:
   ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
   ms.translationtype: HT
   ms.contentlocale: ja-JP
-  ms.lasthandoff: 03/21/2020
-  ms.locfileid: "80082120"
+  ms.lasthandoff: 03/26/2020
+  ms.locfileid: "3295867"
 landingContent:
 - title: Power Automate について
   linkLists:
@@ -25,13 +25,13 @@ landingContent:
     links:
     - text: Power Automate とは
       url: /power-automate/getting-started
-    - text: Power Automate にサインアップする
+    - text: Power Automate にサインアップ
       url: /power-automate/sign-up-sign-in
     - text: Power Automate に関する FAQ
       url: /power-automate/frequently-asked-questions
   - linkListType: learn
     links:
-    - text: Power Automate について学習する
+    - text: Power Automate の学習
       url: https://docs.microsoft.com/learn/browse/?products=power-automate&term=Power%20Automate
   - linkListType: video
     links:
@@ -49,11 +49,11 @@ landingContent:
       url: /power-automate/get-started-logic-flow
     - text: ボタン フロー
       url: /power-automate/introduction-to-button-flows
-    - text: フローをスケジュールする
+    - text: スケジュールされたフロー
       url: /power-automate/run-scheduled-tasks
     - text: 承認フロー
       url: /power-automate/modern-approvals
-    - text: 業務プロセス フロー
+    - text: ビジネス プロセス フロー
       url: /power-automate/business-process-flows-overview
   - linkListType: concept
     links:
@@ -121,11 +121,11 @@ landingContent:
       url: /power-automate/fix-flow-failures
     - text: Power Automate チェッカーを使用する
       url: /power-automate/error-checker
-    - text: Power Automate コミュニティ
+    - text: Power Automate のコミュニティ
       url: https://powerusers.microsoft.com/t5/Microsoft-Power-Automate/ct-p/MPACommunity
     - text: Power Automate ブログ
       url: https://flow.microsoft.com/en-us/blog/
-    - text: Power Automate ライセンス
+    - text: Power Automateライセンス
       url: /power-automate/billing-questions
-    - text: Power Automate US Government プラン
+    - text: Power Automate 米国政府機関プラン
       url: /power-automate/us-govt

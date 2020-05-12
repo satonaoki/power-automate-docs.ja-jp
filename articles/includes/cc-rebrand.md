@@ -1,4 +1,4 @@
 > [!NOTE]
-> Microsoft Flow が Power Automate になりました。 詳細については、この[ブログ](https://aka.ms/flow-now-pa)を参照してください。
+> Microsoft Flow は、現在は Power Automate です。 詳細については、この[ブログ](https://aka.ms/flow-now-pa)を参照してください。
 > 
-> このコンテンツは、今後のブランドの変更を反映して更新されます。
+> このコンテンツは、今後のブランド変更を反映して更新されます。
