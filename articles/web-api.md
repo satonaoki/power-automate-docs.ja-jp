@@ -3,19 +3,19 @@ title: フローが Common Data Service に格納され、豊富な Web API を�
 description: フローが Common Data Service に格納され、豊富な Web API を使用するようになりました。
 author: stepsic-microsoft-com
 ms.reviewer: deonhe
-ms.date: 03/05/2019
+ms.date: 04/28/2020
 ms.topic: article
 ms.prod: ''
 ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.openlocfilehash: ebcd4951abae85f843ddaf34c8ce222eb1a83c33
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195775"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82852752"
 ---
 # <a name="power-automate-web-api"></a>Power Automate Web API
 
@@ -48,6 +48,7 @@ ms.locfileid: "79195775"
      | インド          | crm8        |
      | 米国政府  | crm9        |
      | イギリス | crm11       |
+     |アラブ首長国連邦 |   crm15|
 
 Online Management API の [[インスタンスの取得]](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com/instances/getinstances) メソッドを使用して、利用できるインスタンスの一覧をプログラムで取得することもできます。
 
@@ -90,7 +91,7 @@ Authorization: Bearer ey...
 
 上記のように、`workflows` に対して `GET` を呼び出すことでワークフローの一覧を取得できます。 各ワークフローには多くのプロパティがありますが、関連性の高いものは次のとおりです。
 
-| プロパティ名     | 説明                                              |
+| プロパティ名     | Description                                              |
 | ----------------- | -------------------------------------------------------- |
 | category          | フローのカテゴリ。 次の種類があります。0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - 業務プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
 | statecode         | フローの状態。 状態は **0** - オフ、または **1** - オンです。|
@@ -141,7 +142,7 @@ Content-type: application/json
 
 次の 3 つのプロパティがあります。
 
-| プロパティ名  | 説明                                                 |
+| プロパティ名  | Description                                                 |
 | -------------- | ----------------------------------------------------------- |
 | connectionName | 接続を特定します。 **Connections** ページに移動し、接続の URL からコピーすることで、connectionName を確認することができます。 |
 | source         | `Embedded` または `Invoker` です。 `Invoker` はインスタント フロー (ユーザーがボタンを選択してフローを実行したフロー) の場合にのみ有効であり、エンド ユーザーが接続を提供することを示します。 この場合、connectionName は設計時にのみ使用されます。 接続が `Embedded` の場合は、指定した connectionName が常に使用されることを意味します。 |
@@ -245,7 +246,7 @@ Content-type: application/json
 
 `AccessMask` パラメーターは、さまざまなアクセス許可レベルに対して次の値を持つフィールドです。
 
-| 名前         | 説明                                          |
+| 名前         | Description                                          |
 | ------------ | ---------------------------------------------------- |
 | None         | アクセス権がありません。                                           |
 | ReadAccess   | フローを読み取る権利。                          |
@@ -309,7 +310,7 @@ Content-type: application/json
 
 ソリューションをインポートするには、`ImportSolution` アクションを呼び出します。
 
-| プロパティ名                    | 説明                               |
+| プロパティ名                    | Description                               |
 | -------------------------------- | ----------------------------------------- |
 | OverwriteUnmanagedCustomizations | Common Data Service にこのようなフローの既存のインスタンスがある場合、インポートするには、このフラグを `true` に設定する必要があります。 それ以外の場合は上書きされません。 |
 | PublishWorkflows                 | インポート時にクラシック Common Data Service ワークフローをアクティブ化するかどうかを示します。 この設定は他の種類のフローには適用されません。 |

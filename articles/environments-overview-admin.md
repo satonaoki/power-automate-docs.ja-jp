@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 - Powerplatform
 search.audienceType:
 - admin
-ms.openlocfilehash: 0e0b312ce5e962052770eb44fd1a61c2f19c8e4f
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: e1c2a93fb011b6f20ecaf79fb0bf95212a2506d4
+ms.sourcegitcommit: 2c9cffb59ef2382648a80966ebbf0fe8eafebe64
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862701"
+ms.lasthandoff: 05/09/2020
+ms.locfileid: "83002608"
 ---
 # <a name="using-environments-within-power-automate"></a>Power Automate 内の環境の使用
 
@@ -175,9 +175,7 @@ ms.locfileid: "80862701"
 
 ### <a name="which-license-includes-common-data-service"></a>Common Data Service は、どのライセンスに含まれますか。
 
-Common Data Service を使用してデータベースを作成する権限は、Microsoft Power Apps Plan 2 のみに含まれています。 ただし、すべての有料プラン (Power Automate Plan 1 と 2、Microsoft Power Apps プラン 1 と 2) には、Common Data Service を使用する権限が含まれています。
-
-[Power Automate の価格](https://flow.microsoft.com/pricing/)に関するページにアクセスして、適切なプランを選んでください。
+Common Data Service には、Power Automate のどの[ライセンス](https://flow.microsoft.com/pricing)でもアクセスできます。
 
 課金に関してよく寄せられる質問に対する回答については、[課金についての質問](billing-questions.md)に関するドキュメントをご覧ください。
 

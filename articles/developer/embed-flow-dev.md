@@ -13,25 +13,25 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2019
+ms.date: 05/05/2020
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.openlocfilehash: 9ab8c2c7c0b830aa908a7445757418d4ff073921
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74364628"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82852732"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Power Automate と Web サイトおよびアプリを統合する
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
 *フロー ウィジェット*を使用してアプリまたは Web サイトに Power Automate を埋め込むと、ユーザーは簡単に個人的なタスクや仕事のタスクを自動化できるようになります。
 
-フロー ウィジェットは、ホスト ドキュメント内にある iFrame です。 このドキュメントは Power Automate デザイナー内のページを指します。 これらのウィジェットによって Power Automate の特定の機能がサードパーティ製アプリケーションに統合されます。
+フロー ウィジェットは、ホスト ドキュメント内にある iFrame です。 このドキュメントは Power Automate デザイナー内のページを指します。 フロー ウィジェットによって Power Automate の特定の機能がサードパーティ製アプリケーションに統合されます。
 
 ウィジェットはシンプルにすることができます。 たとえば、ホストと iFrame の間で通信せずにテンプレートの一覧をレンダリングするようなウィジェットです。 ウィジェットは複雑にすることもできます。 たとえば、テンプレートからフローをプロビジョニングし、ホストとウィジェットの間の双方向通信によってフローをトリガーするようなウィジェットです。
 
@@ -51,10 +51,10 @@ ms.locfileid: "74364628"
 &pagesize={number of templates}&destination={destination}&category={category}"></iframe>
 ```
 
-| パラメーター | 説明 |
+| パラメーター | Description |
 | --- | --- |
 | locale |テンプレート ビューを表す 4 文字の言語と地域コード。 たとえば、`en-us` は英語 (米国) を表し、`de-de` はドイツ語を表します。 |
-| search term |ビューに表示するテンプレートの検索語句。 たとえば、Wunderlist のテンプレートを表示するには、`wunderlist` を検索します。 |
+| search term |ビューに表示するテンプレートの検索語句。 たとえば、SharePoint のテンプレートを表示するには、`SharePoint` を検索します。 |
 | number of templates |ビューに表示するテンプレートの数。 |
 | destination |ユーザーがテンプレートを選択したときに開くページ。 テンプレートの詳細を表示するには `details` を入力し、Power Automate デザイナーを開くには `new` を入力します。 |
 | category |フィルター処理で所与のテンプレート カテゴリに絞り込みます。 | 
@@ -65,18 +65,17 @@ ms.locfileid: "74364628"
 
 ### <a name="passing-additional-parameters-to-the-flow-template"></a>フロー テンプレートに追加のパラメーターを渡す
 
-ユーザーが Web サイトやアプリで特定のコンテキストにいる場合、そのコンテキストをフローに渡すことができます。 たとえば、ユーザーが Wunderlist で特定のリストを表示している間に、"*リストに項目が追加されたときに通知を受け取る*" テンプレートを開くとします。 次の手順でリスト ID を "*パラメーター*" としてフローに渡します。
+ユーザーが Web サイトやアプリで特定のコンテキストにいる場合、そのコンテキストをフローに渡すことができます。 たとえば、ユーザーが SharePoint で特定のリストを表示している間に、"*項目が作成されたとき*" テンプレートを開くとします。 次の手順でリスト ID を "*パラメーター*" としてフローに渡します。
 
 1. フロー テンプレートを発行する前に、そのテンプレートでパラメーターを定義します。 パラメーターは、`@{parameters('parameter_name')}` のような形式にします。
 1. iframe src のクエリ文字列でパラメーターを渡します。 たとえば、**listName** というパラメーターがある場合は、`&parameters.listName={the name of the list}` を追加します。
 
 ### <a name="full-sample"></a>完全なサンプル
 
-ドイツの Wunderlist テンプレートを上位 4 つ表示し、**myCoolList** のユーザーを開始するには、次のコードを使用します。
+ドイツの SharePoint テンプレートを上位 4 つ表示し、**myCoolList** のユーザーを開始するには、次のコードを使用します。
 
 ```html
-<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
-&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
+<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=sharepoint%20&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
 
 ## <a name="use-the-authenticated-flow-widgets"></a>認証済みのフロー ウィジェットを使用する
@@ -104,7 +103,7 @@ Power Automate ウィジェットは、Power Automate を参照する iframe を
 
 ### <a name="js-sdk-details"></a>JS SDK の詳細
 
-Power Automate チームから、サードパーティ製アプリケーションに Flow ウィジェットを統合する目的で JS SDK が提供されます。 Flow JS SDK は Flow サービスのパブリック リンクとして利用でき、これによって、ホスト アプリケーションはウィジェットからのイベントを処理し、ウィジェットにアクションを送信することで Flow アプリケーションとやり取りできます。 ウィジェットのイベントとアクションはウィジェットの種類に固有です。
+Power Automate チームから、サードパーティ製アプリケーションに Flow ウィジェットを統合する目的で JS SDK が提供されます。 Flow JS SDK は Flow サービスのパブリック リンクトして利用できます。また、この SDK によって、ホスト アプリケーションはウィジェットからのイベントを処理し、ウィジェットにアクションを送信することで Flow アプリケーションとやり取りできます。 ウィジェットのイベントとアクションはウィジェットの種類に固有です。
 
 ### <a name="widget-initialization"></a>ウィジェット初期化
 
@@ -123,7 +122,7 @@ var sdk = new MsFlowSdk({
 }); 
 ```
 
-| 名前     | 必須/省略可能 | 説明                                                    | 
+| 名前     | 必須/省略可能 | Description                                                    | 
 |----------|-------------------|----------------------------------------------------------------| 
 | `hostName` | 省略可能          | Power Automate のホスト名 (例: https://flow.microsoft.com )        | 
 | `locale`   | 省略可能          | ウィジェットのクライアント ロケール (指定されていない場合は `en-Us`) | 
@@ -233,7 +232,7 @@ templatesSettings?: {
 };
  ```
 
-| パラメーター |必須/省略可能 | 説明                                                                        
+| パラメーター |必須/省略可能 | Description                                                                        
 |-----------|-------------------|-----------------| 
 |`defaultParams` | 省略可能          | テンプレートからフローを作成するときに使用するデザイン時パラメーター。例: <br /> ``` defaultParams: {'parameters.sharepoint.site': 'https://microsoft.sharepoint.com/teams/ProcessSimple', 'parameters.sharepoint.list': 'b3a5baa8-fe94-44ca-a6f0-270d9f821668'   } ```| 
 | `destination` | 省略可能          | 有効な値は "new" または "details" です。 "details" に設定されると、テンプレートからフローを作成するとき、詳細ページが表示されます。     |
@@ -254,7 +253,7 @@ ApprovalCenter ウィジェットに適用されます。
     hideLink?: boolean
 };
  ```
-| パラメーター | 必須/省略可能 | 説明 | 
+| パラメーター | 必須/省略可能 | Description | 
 |------------|-------------------|--------------| 
 | `hideLink`| 省略可能 | `true` に設定されると、ウィジェットは送受信済みの承認リンクを非表示にします。 | 
 | `autoNavigateToDetails`| 省略可能 | `true` に設定されると、承認が 1 つだけ存在するとき、ウィジェットによって承認詳細が自動的に開きます | 

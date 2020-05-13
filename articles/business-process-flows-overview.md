@@ -1,7 +1,7 @@
 ---
 title: 業務プロセス フローの概要 | MicrosoftDocs
 ms.custom: ''
-ms.date: 12/12/2019
+ms.date: 05/06/2019
 ms.reviewer: ''
 ms.service: flow
 author: MSFTMAN
@@ -21,12 +21,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: a6e936b833f6b1e1d6cf6e050031969d41e40de6
-ms.sourcegitcommit: 31692af25f91af60cf77572edcb0c986602dc9a6
+ms.openlocfilehash: 9d3ded6a38d45fa97a206abdf0ee5d89d2255124
+ms.sourcegitcommit: 7a42629c7bc15208c5a9d692ab89616fc0aa40cb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "80624843"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82973070"
 ---
 # <a name="business-process-flows-overview"></a>業務プロセス フローの概要
 
@@ -47,7 +47,7 @@ ms.locfileid: "80624843"
   
  ![ステージを含むビジネス プロセス](media/business-process-stages.png "ステージを含むビジネス プロセス")  
   
- 各ステージには、ステップのグループが含まれます。 各ステップはフィールドとなっており、データを入力できるようになっています。 次のステージに進むには、**[次のステージ]** ボタンをクリックします。 あるステップを必須にし、対応するフィールドにデータを入力しないと次のステージに進めないようにすることもできます。 これは一般的に「ステージ ゲーティング」と呼ばれます。  
+ 各ステージには、ステップのグループが含まれます。 各ステップはフィールドとなっており、データを入力できるようになっています。 次のステージに進むには、 **[次のステージ]** ボタンをクリックします。 あるステップを必須にし、対応するフィールドにデータを入力しないと次のステージに進めないようにすることもできます。 これは一般的に「ステージ ゲーティング」と呼ばれます。  
   
  業務プロセス フローは、データ入力エクスペリエンスの能率化や各ステージへの移動の制御は行いますが、条件ビジネス ロジックやオートメーションの実装は行っていないため、他のタイプのプロセスと比べて比較的シンプルです。 それでも、他のプロセスやカスタマイズと組み合わせたときは、従業員の時間の節約、トレーニング コストの削減、プロセス利用者の増加の点で、重要な役割を果たします。  
 
@@ -139,7 +139,7 @@ ms.locfileid: "80624843"
  業務プロセス フローのカスタム エンティティを有効にするには、エンティティ定義内で **[Business process flows (fields will be created)]\(業務プロセス フロー (フィールドが作成されます)\)** チェック ボックスをオンにします。 この操作は、元に戻せないことに注意してください。  
   
 > [!NOTE]
->  移動した先の業務プロセス フローのステージに `Social Activity` エンティティが含まれている場合、**[次のステージ]** ボタンを選択すると、**[作成]** オプションが表示されます。 **[作成]** を選択すると、**[ソーシャル活動]** フォームが読み込まれます。 しかし、`Social Activity` は、アプリ ユーザー インターフェイスからの `Create` に対しては有効ではないため、フォームを保存することはできず、[予期しないエラー] というエラー メッセージが表示されます。  
+>  移動した先の業務プロセス フローのステージに `Social Activity` エンティティが含まれている場合、 **[次のステージ]** ボタンを選択すると、 **[作成]** オプションが表示されます。 **[作成]** を選択すると、 **[ソーシャル活動]** フォームが読み込まれます。 しかし、`Social Activity` は、アプリ ユーザー インターフェイスからの `Create` に対しては有効ではないため、フォームを保存することはできず、[予期しないエラー] というエラー メッセージが表示されます。  
   
 <a name="BPF_MaxNumbers"></a>   
 ### <a name="maximum-number-of-processes-stages-and-steps"></a>プロセス、ステージ、およびステップの最大数  
@@ -163,9 +163,9 @@ Dynamics 365 (オンライン) バージョン 9.0 アップデートに導入�
 
 ![[lead-to-opportunity process]\(潜在顧客を営業案件売り上げにつなげるプロセス\) エンティティが表示されているソリューション エクスプローラー](media/bpf-lead-solution-explorer.png)
 
-既定の業務プロセス フローのビューにアクセスするには、まずソリューション エクスプローラーを開き、**[エンティティ]** を展開します。次に、必要なプロセス (**[Lead To Opportunity Sales Process]\(潜在顧客を営業案件売り上げにつなげるプロセス\)** など) を展開し、**[ビュー]** を選択して、必要なビューを選択します。
+既定の業務プロセス フローのビューにアクセスするには、まずソリューション エクスプローラーを開き、 **[エンティティ]** を展開します。次に、必要なプロセス ( **[Lead To Opportunity Sales Process]\(潜在顧客を営業案件売り上げにつなげるプロセス\)** など) を展開し、 **[ビュー]** を選択して、必要なビューを選択します。
 
-いくつかの既定のビューは、グラフとして表示できます (**[Active Opportunity Sales Process]\(アクティブな営業案件売り上げプロセス\)** ビューなど)。 
+いくつかの既定のビューは、グラフとして表示できます ( **[Active Opportunity Sales Process]\(アクティブな営業案件売り上げプロセス\)** ビューなど)。 
 
 ![[Active Opportunity Sales Process]\(アクティブな営業案件売り上げプロセス\) ビュー](media/bpf-default-view.png)
 
@@ -189,11 +189,11 @@ Dynamics 365 (オンライン) バージョン 9.0 アップデートに導入�
 ### <a name="limitations-of-using-business-process-flow-entities"></a>業務プロセス フロー エンティティの使用に関する制限
 
 - 現在のところ、業務プロセス フローに基づいてエンティティのカスタム フォームを作成することはできません。
-- ソリューションに業務プロセス フロー エンティティが含まれる場合、この業務プロセス フロー エンティティは、エクスポートする前に、手動でソリューションに追加しておく必要があります。 そうしないと、業務プロセス フロー エンティティがソリューション パッケージに含まれません。 詳細情報: [ソリューション コンポーネントの追加](/powerapps/maker/model-driven-apps/create-solution#add-solution-components)
+- ソリューションに業務プロセス フロー エンティティが含まれる場合、この業務プロセス フロー エンティティは、エクスポートする前に、手動でソリューションに追加しておく必要があります。 そうしないと、業務プロセス フロー エンティティがソリューション パッケージに含まれません。 詳細については、[エンティティの作成および編集](https://docs.microsoft.com/powerapps/maker/common-data-service/create-edit-entities-solution-explorer)に関するページを参照してください。
 - モデル駆動型アプリにプロセス エンティティを追加すると、機能が制限される可能性があります。 詳細については、[ビジネス プロセス フローの作成と編集](https://docs.microsoft.com/power-automate/create-business-process-flow)に関するページを参照してください。 
 
 ### <a name="next-steps"></a>次の手順  
- [業務プロセス フローに関する短いビデオ (4:49) を見る](https://go.microsoft.com/fwlink/p/?linkid=842226)   
- [業務プロセス フローを作成する](create-business-process-flow.md)   
+ [業務プロセス フローに関する短いビデオ (4:49) を見る](https://go.microsoft.com/fwlink/p/?linkid=842226)  
+ [業務プロセス フローを作成する](create-business-process-flow.md)  
  [分岐を使用して業務プロセス フローを強化する](enhance-business-process-flows-branching.md) <br/>
  [ホワイト ペーパー: Dynamics 365 によるプロセスの有効化](https://download.microsoft.com/download/C/3/B/C3B46E35-9445-43B9-800B-474E022EE352/Process%20Enablement%20with%20Microsoft%20Dynamics%20CRM%202013.pdf)</br>

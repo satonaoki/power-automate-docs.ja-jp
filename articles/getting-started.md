@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: e78ba6de412a067ae21eb4a11a5b1a7d5165448c
-ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
+ms.openlocfilehash: bd7d85dc2ec30147202c2838f00c7de6c7c587ad
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "80329893"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82852654"
 ---
 # <a name="get-started-with-power-automate"></a>Power Automate の概要 
 
@@ -46,7 +46,7 @@ Power Automate は Power Platform の柱の 1 つです。 わずかなコード
 | [ボタン フロー](introduction-to-button-flows.md)              | モバイル デバイスでいつでも、どこからでも繰り返しタスクを実行します。                        |                                                                                        |
 | [スケジュールされたフロー](run-scheduled-tasks.md)                    | スケジュールに合わせて 1 つまたは複数のタスクを実行するフローを作成します。             |                                                                                        |
 | [業務プロセス フロー](business-process-flows-overview.md) | ユーザーが実行することで求められる結果を導く一連の手順を定義します。                 | 人的プロセス                                                                        |
-| [UI フロー (プレビュー)](ui-flows/overview.md)                                                | レガシ ソフトウェアの手動手順を記録し、再生を自動化します。                    | 自動化に API を利用できないデスクトップと Web アプリケーション。    |
+| [UI フロー](ui-flows/overview.md)                                                | レガシ ソフトウェアの手動手順を記録し、再生を自動化します。                    | 自動化に API を利用できないデスクトップと Web アプリケーション。    |
 
 フローはすべて、Power Automate の **[マイ フロー]** タブで作成し、管理できます。
 

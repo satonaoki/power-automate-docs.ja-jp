@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 7f4da4123d5623348513d9b14a75d1f03b3e17dc
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 82e175f463e9cbc264b6ac388e90eaa3433211b4
+ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862747"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "82852681"
 ---
 # <a name="release-notes"></a>リリース ノート
 
@@ -61,7 +61,7 @@ Power Automate でリリースされた新機能の詳細については、以�
 ### <a name="release-2018-09-24"></a>2018 年 9 月 24 日リリース
 
 - **ヘルプとサポートへの管理者アクセス** - Power プラットフォームの管理センターで Power Automate のサポート チケットを開き、ワークフローの失敗に関する追加の詳細を指定します。
-- **Flow コミュニティの再設計** - Flow コミュニティで必要な情報をより簡単に検索できるようになりました。
+- **Flow Power Automate の再設計** - Power Automate コミュニティで必要な情報をより簡単に検索できるようになりました。
 - **Microsoft Teams コネクタの機能強化** - チャネルに新しいメッセージがあるときにフローを実行できるようにする、Microsoft Teams 用の新しいトリガー。
 - **SharePoint アクションの追加** - ファイルの移動を始めとする新しいアクションが SharePoint コネクタに追加されました。
 - **新しい管理者の分析レポート** - 環境とテナントに関する広範な分析がビジネス アプリケーション プラットフォームの管理センターに追加されました。
@@ -242,7 +242,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 ### <a name="release-2017-11-02"></a>2017 年 11 月 2 日リリース
 
 - **監査ログ** - Power Automate 監査イベントを、すべてのテナントの Office 365 セキュリティ/コンプライアンス センターで使用できるようになりました。
-- **フロー ウィジェットの修正** - ウィジェットにボタンが読み込まれなくなる Flow モバイル アプリの問題を修正しました。
+- **フロー ウィジェットの修正** - ウィジェットにボタンが読み込まれなくなる Power Automate モバイル アプリの問題を修正しました。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/security-and-compliance-center/)。
 
@@ -274,7 +274,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 ### <a name="release-2017-09-25---q3-update-for-power-automate"></a>2017 年 9 月 25 日リリース - Power Automate の第 3 四半期更新プログラム
 
 - **最初のリリースでの SharePoint のより深い統合** - レビュー フロー用の新しい "標準" 送信と、初期リリース テナントのフローを実行するときに入力を収集するためのフロー パネルがあります。
-- **Dynamics 365 アプリ** - Dynamics 365 Sales や Dynamics 365 Customer Service などの Dynamics 365 アプリの UI に、フローが統合されました。
+- **Dynamics 365 アプリ** - Dynamics 365 Sales や Dynamics 365 Customer Service などの Dynamics 365 アプリの UI に、Power Automate が統合されました。
 - **Microsoft セキュリティ センター** - Power Automate が Microsoft セキュリティ センターに一覧表示され、HIPAA、ISO、SOC などの認定が示されます。
 - **使用状況の分析** - すべてのフローには、基本的な使用状況分析機能を備えた Power BI ダッシュボードが埋め込まれています。
 - **初期リリースでの監査ログ** - 初期リリース テナントのすべてのフロー管理イベントが、Office 365 セキュリティ/コンプライアンス センターに記録されます。
@@ -296,7 +296,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 
 
 ### <a name="release-2017-08-25"></a>2017 年 8 月 25 日リリース
-* **SharePoint 用のドキュメント プロパティおよびその他** - [SharePoint ドキュメント ライブラリのプロパティの読み取りおよび設定](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/)を行い、SharePoint アイテムへのリンクなど追加のフィールドを使用できます。
+* **SharePoint 用のドキュメント プロパティおよびその他**- [SharePoint ドキュメント ライブラリのプロパティの読み取りおよび設定](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/)を行い、SharePoint アイテムへのリンクなど追加のフィールドを使用できます。
 * **フロー コレクション** - フロー コレクションは、ロールごと、または縦方向で整理された一連のテンプレート コレクションです。
 * **ボタンの再共有** - ボタンを同僚と共有すると、同僚はそのボタンを他のユーザーと再共有することができます。
 * **ボタンからのリストの収集** - ユーザーがボタンをタップしたときに、選択対象とするオプションのドロップダウン リストを定義できます。
@@ -357,7 +357,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/seven-connectors-and-html/)。
 
 ### <a name="release-2017-06-04"></a>2017 年 6 月 4 日リリース
-* **Windows Phone 用のバージョンの一般公開** - [ Windows Phone 用の Power Automate モバイル アプリがリリースされ一般公開されました](https://flow.microsoft.com/blog/announcing-flow-windows-phone-app/)。
+* **Windows Phone 用のバージョンの一般公開**- [ Windows Phone 用の Power Automate モバイル アプリがリリースされ一般公開されました](https://flow.microsoft.com/blog/announcing-flow-windows-phone-app/)。
 * **フローの失敗に関する電子メール** - フローが失敗すると、電子メールによる通知が届きます。 このような失敗に関する電子メールは、週に 1 回だけ送信されます。ユーザー側でメールの配信のオンまたはオフを設定できます。
 * **テーブルに対するアクションを選択する** - 新しい [アクションの選択] を使用することで、テーブルに含める列セットを変更することができます。
 * **Microsoft Forms コネクタ** - Microsoft Forms が Office 365 Education に新たに組み込まれました。これにより、教師および生徒は、迅速かつ容易に独自のクイズを作成し、調査、アンケート、登録などを行うことができます。
@@ -367,7 +367,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/microsoft-forms-tables-flow-failures/)。
 
 ### <a name="release-2017-05-23"></a>2017 年 5 月 23 日リリース
-* **Microsoft Teams コネクタ** - [Microsoft Teams](https://flow.microsoft.com/blog/introducing-the-microsoft-teams-connector-for-flow/) は、Office 365 のチャットベースのワークスペースです。複数の人々、会話、コンテンツをまとめる機能があり、チームに必要なツールも用意されているため、共同作業が簡単になり、より多くの成果を達成できるようになります。
+* **Microsoft Teams コネクタ**- [Microsoft Teams](https://flow.microsoft.com/blog/introducing-the-microsoft-teams-connector-for-flow/) は、Office 365 のチャットベースのワークスペースです。複数の人々、会話、コンテンツをまとめる機能があり、チームに必要なツールも用意されているため、共同作業が簡単になり、より多くの成果を達成できるようになります。
 * **iOS と Android のウィジェット** - Power Automate ウィジェットは、ホーム画面から直接、簡単にすばやくボタンをトリガーできるようになるボタン ショートカットです。
 * **"エラー処理" 手順の作成** - アクションが失敗した後に実行する 1 つまたは複数の手順を定義します。 たとえば、Dynamics 365 でレコードを作成するフローに失敗した場合に、すぐに通知を取得することができます。
 * **整数および浮動小数点の変数** - 特定のロジック セットを実行する回数をカウントするために、フロー実行内のカウンターを初期化し、インクリメントまたはデクリメントします。
@@ -415,7 +415,7 @@ Power Automate プレビュー プログラムは、Power Automate の今後の�
 ### <a name="release-2017-04-11"></a>2017 年 4 月 11 日リリース
 * **テーブルおよび一覧を構築する新しいアクション** - アイテムの一覧を処理することができる、New Create HTML Table、Create CSV Table、および Join のアクション (以前の Apply-to-each に代わるもの)。
 * **任意の場所へのステップの挿入** - ドラッグ アンド ドロップをしなくても、ワークフローの任意の場所に新しいステップを挿入できるようになりました。
-* **4 つの新しいサービス** - Flow では、10 から 8 の Scheduling、Act!、Inoreader、および Computer Vision API をサポートするようになりました。 Computer Vision API を使用すると、イメージを処理してテキスト コンテンツを取得したり (OCR と呼ばれる)、コンテンツに基づいてイメージに自動的にタグ付けしたりできます。
+* **4 つの新しいサービス** - Power Automate で、10 から 8 の Scheduling、Act!、Inoreader、および Computer Vision API がサポートされるようになりました。 Computer Vision API を使用すると、イメージを処理してテキスト コンテンツを取得したり (OCR と呼ばれる)、コンテンツに基づいてイメージに自動的にタグ付けしたりできます。
 
 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/html-tables-csvs-computer-vision/)。
 
@@ -592,7 +592,7 @@ Power Automate はだれでも利用できるようになりました。当初�
 Power Automate の統合を含む、新しい SharePoint Online の最新のリスト機能をプレビューできるようになりました。 このリリースの[詳細や質問についてはこちらをご覧ください](https://flow.microsoft.com/blog/microsoft-flow-integration-with-sharepoint-modern-lists-preview/)。
 
 ### <a name="release-2016-08-13"></a>2016 年 8 月 13 日リリース
-* **Visual Studio Team Services** - Flow を使用して、O365 のメール、Slack、Trello、Wunderlist などのさまざまなサービスに VSTS を接続できるようになりました。
+* **Visual Studio Team Services** - Power Automate を使用して、O365 のメール、Slack、Trello などのさまざまなサービスに VSTS を接続できるようになりました。
 * **SharePoint の機能強化** - SharePoint リストは、単純なオブジェクト (単一行のテキスト、日付と時刻など) から複雑なオブジェクト (ユーザー、グループ、参照、選択肢など) まで、幅広いデータ型をサポートします。
 * **O365 Outlook 接続のテスト** - ユーザーが新しい O365 Outlook 接続を作成するたびに、接続がテストされ、接続が使用できる状態であるかどうかが確認されます。
 * **ブール型コントロール** - さらに、ブール型入力フィールドに入力する値を明確にするために、ブール型コントロールも追加されました (たとえば、[When a new email arrives (新しいメールが届いたとき)] トリガーの [Has Attachments (添付ファイルあり)])。
@@ -656,7 +656,7 @@ Power Automate に統合された Common Data Service のパブリック プレ�
 * フローをカスタマイズした後、[独自のテンプレートをギャラリーに発行](publish-a-template.md)できます。
 * フローのチェックと実行すべてについて、履歴を確認することができます。
 * フローを保存するときに、トリガー アクションを実行するだけで、[実行中のフローを即座に確認](see-a-flow-run.md)できます。
-* Flow に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](https://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
+* Power Automate に関する意見を交換したり[提案](https://go.microsoft.com/fwlink/?LinkID=787474)したりするための[新しいコミュニティ](https://go.microsoft.com/fwlink/?LinkID=787467)を利用できます。
 
 >[!NOTE]
 >リリース計画は[こちら](https://docs.microsoft.com/dynamics365/release-plans/)で追跡されるようになりました。

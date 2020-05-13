@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: sunayv
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: b797fc6e4a2e7835a7322f9fc55d50c96d113031
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: b1ad11b90b9682f68c6c8f22d350313f0c2edb75
+ms.sourcegitcommit: 7a42629c7bc15208c5a9d692ab89616fc0aa40cb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862563"
+ms.lasthandoff: 05/08/2020
+ms.locfileid: "82973116"
 ---
 # <a name="choosing-an-environment"></a>環境の選択
 
@@ -49,7 +49,10 @@ Common Data Service への接続を使用するフローを作成する。|フ�
 人事部門向けのフローを作成する。 人事部門のユーザーのみがそのフローにアクセスできるようにする必要があります。|環境を作成し、人事部のユーザーのみをそこに追加します。 フローおよびフローが使う他のリソースを、この環境に置きます。
 フローを使って SharePoint のデータを表示するユーザーがヨーロッパにいる。|ヨーロッパに環境を作成し、フローと SharePoint 接続をその中に作成します。 このヨーロッパの環境では、すべてのリソースがヨーロッパに存在するため (データのローカリティ)、ヨーロッパのユーザーは最高のパフォーマンスを得られます。
 
-環境を作成するには、Power Automate 管理者である必要があります。 管理者は、環境にアクセスできるユーザーを制御します。 環境の作成と管理の方法について詳しくは、[環境の管理](environments-overview-admin.md)に関するトピックをご覧ください。
+**[Who can create production environments]\(運用環境を作成できるユーザー\)** の既定の設定が **[Everyone]\(すべてのユーザー\)** から **[Only specific admins]\(特定の管理者のみ\)** に変更されている場合を除き、適切にライセンスを付与されたユーザーは既定で、Power Platform 管理センターで環境を作成できます。
+
+
+環境の作成と管理の方法について詳しくは、[環境の管理](environments-overview-admin.md)に関するトピックをご覧ください。
 
 ## <a name="switching-environments"></a>環境を切り替える
 
@@ -83,7 +86,6 @@ Power Automate では、環境を簡単に切り替えることができます�
 
 フローをホストする環境を選ぶときは、次のことを考慮してください。
 
-* ゲートウェイは、既定の環境にのみ作成できます。 したがって、ゲートウェイを使ってフローをオンプレミスのデータに接続する場合は、既定の環境を使う必要があります。
 * Common Data Service は、特定の環境に結び付けられています。 そのため、Common Data Service を使用するフローを作成する場合は、データベースがホストされている環境にフローを作成する必要があります。
 * 自分がリソースを編集できるすべての環境が表示されます。 ただし、フローを作成する必要があるすべての環境への作成者としての追加は、管理者に依頼する必要があります。
 

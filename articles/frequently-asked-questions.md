@@ -13,19 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/07/2020
+ms.date: 05/07/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 99a666c80cb1e6994b774f6b269d657a62996548
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.openlocfilehash: 5b646d486666b92f0496f7bb5c3f851cc8ab56f0
+ms.sourcegitcommit: 8714786a5b632dfd60099871629cf369a31c4125
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862494"
+ms.lasthandoff: 05/07/2020
+ms.locfileid: "82895848"
 ---
 # <a name="frequently-asked-questions"></a>よく寄せられる質問
 
@@ -113,7 +113,7 @@ Office 365、Twitter、SharePoint、OneDrive、Dropbox、SQL Server など、Mic
 * 手動で実行できるフローでは、組織の他のユーザーまたはグループにフローの実行のみを許可することができます。
 
 ### <a name="how-many-flows-can-i-have"></a>所有できるフローの数を教えてください。
-Power Automate には最大 50 のフローが付属します。 さらに必要な場合は、リクエストすることが可能です。
+保持する[ライセンスの種類](https://flow.microsoft.com/pricing)によっては、数に制限なくフローを作成できます。
 
 ### <a name="where-do-i-get-started-with-power-automate"></a>Power Automate はどこから開始できますか。
 次のリソースから開始できます。
