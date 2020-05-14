@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 7b39474bbc59ba059fd73f2edc7f9b5750edbec2
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868758"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298310"
 ---
 # <a name="overview-of-adaptive-cards-for-microsoft-teams"></a>Microsoft Teams 向けアダプティブ カードの概要
 
@@ -88,9 +88,9 @@ ms.locfileid: "75868758"
  
 - Power Automate では、Microsoft アダプティブ カード固有の機能とサービスを使用して、任意のホスト内のカードが処理されます。 この記事は、フローの操作に関連する詳細を明確にすることを目的としています。 [アダプティブ カードの作成](https://docs.microsoft.com/adaptive-cards/)については、完全なドキュメントもご覧ください。
  
-## <a name="learn-more"></a>詳細情報 
+## <a name="learn-more"></a>詳細はこちら 
  
 - [アダプティブ カードを初めて](https://docs.microsoft.com/power-automate/create-adaptive-cards)作成する
-- [Microsoft Teams コネクタ](https://docs.microsoft.com/connectors/teams/)に関する完全なドキュメント
+- [Microsoft Teams コネクタ](https://docs.microsoft.com/connectors/teams/) に関する完全なドキュメント
 - [アダプティブ カードの IO](https://docs.microsoft.com/adaptive-cards) に関する完全なドキュメント 
 

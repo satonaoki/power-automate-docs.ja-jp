@@ -21,23 +21,23 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: b19a5b58db4680786ade089731846f0f8000d164
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868229"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297298"
 ---
 # <a name="create-a-poll-sample"></a>アンケート作成サンプル
 
-**アンケート作成**サンプルは、Microsoft Teams に投票を送信するように設計されたアダプティブ カード入力フォームです。 このカードの表示テキストを置き換えて、投票用にカスタマイズします。 このアダプティブ カードを使うと、カード コンシューマーの投票の値で提供された回答または投票数に応じて、さまざまなデシジョン パスを使用できます。
+**アンケート作成** サンプルは、Microsoft Teams に投票を送信するように設計されたアダプティブ カード入力フォームです。 このカードの表示テキストを置き換えて、投票用にカスタマイズします。 このアダプティブ カードを使うと、カード コンシューマーの投票の値で提供された回答または投票数に応じて、さまざまなデシジョン パスを使用できます。
 
 ![投票サンプル](media/adaptive-cards/poll.png)
 
 *入力/出力とノート*
 
-| 動的トークンの名前 | プレースホルダー テキスト | 注:                                            |
+| 動的トークンの名前 | プレースホルダー テキスト | 注意:                                            |
 |--------------------|------------------|---------------------------------------------------|
-| タイトル              |                  | 表示テキスト                                      |
+| 敬称              |                  | 表示テキスト                                      |
 | acHeaderTagLine    |                  | 表示テキスト                                      |
 | acHeader           |                  | 表示テキスト                                      |
 | acPollQuestion     |                  | 表示テキスト                                      |

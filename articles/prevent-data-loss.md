@@ -25,7 +25,7 @@ ms.sourcegitcommit: e709e8c4a62df6fdb0ca06f3f8afb5c639c76632
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/26/2020
-ms.locfileid: "82159563"
+ms.locfileid: "3299366"
 ---
 # <a name="data-loss-prevention-dlp-policies"></a>データ損失防止 (DLP) ポリシー
 
@@ -34,11 +34,11 @@ ms.locfileid: "82159563"
 
 ## <a name="whats-a-data-loss-prevention-policy"></a>データ損失防止ポリシーとは
 
-組織のデータは、その成功に不可欠です。 そのデータは、意思決定のために容易に利用できる必要がありますが、アクセスすべきではないユーザーと共有されることがないように保護する必要があります。 このデータを保護するため、Power Automate では、ビジネス データにアクセスして共有できるコンシューマー コネクタを定義するポリシーを作成して適用できます。 データの共有方法を定義するこれらのポリシーは、データ損失防止 (DLP) ポリシーと呼ばれます。
+組織のデータは、その成功に不可欠です。 意思決定のためにデータをすぐに使用できる必要がありますが、アクセス権のないユーザーと共有されないように保護する必要があります。 このデータを保護するため、Power Automate には、ビジネス データにアクセスして共有できるコンシューマー コネクタを定義するポリシーを作成し、適用する機能が用意されています。 データを共有する方法を定義するこれらのポリシーは、データ損失防止 (DLP) ポリシーと呼ばれます。
 
 ## <a name="why-create-a-dlp-policy"></a>DLP ポリシーを作成する理由
 
-DLP ポリシーを作成して、ビジネス データにアクセスして共有できるコンシューマー コネクタを明確に定義します。 たとえば、Power Automate を使っている組織は、SharePoint のビジネス データが Twitter フィードに自動的に発行されることを望まない場合があります。 これを防ぐには、SharePoint データがツイートのソースとして使用されるのをブロックする DLP ポリシーを作成します。
+DLP ポリシーを作成して、ビジネス データにアクセスして共有できるコンシューマー コネクタを明確に定義します。 たとえば、Power Automate を使用する組織は、SharePoint のビジネス データが Twitter フィードに自動的に公開したくない場合があります。 これを防ぐには、SharePoint データがツイートのソースとして使用されるのをブロックする DLP ポリシーを作成します。
 
 ## <a name="benefits-of-a-dlp-policy"></a>DLP ポリシーの利点
 
@@ -54,17 +54,17 @@ DLP ポリシーを作成して、ビジネス データにアクセスして共
     アクセス許可の詳細については、[環境に関する記事](environments-overview-admin.md)をご覧ください。
 
 
-## <a name="create-a-dlp-policy"></a>DLP ポリシーを作成する
+## <a name="create-a-dlp-policy"></a>DLP ポリシーの作成
 
 ### <a name="prerequisites-for-creating-dlp-policies"></a>DLP ポリシー作成の前提条件
 
 DLP ポリシーを作成するには、少なくとも 1 つの環境へのアクセス許可が必要です。
 
-会社の SharePoint サイトのデータが Twitter に発行されるのを防ぐ DLP ポリシーを作成するには、次の手順のようにします。
+会社の SharePoint サイトのデータが Twitter に公開されるのを防ぐ DLP ポリシーを作成するには、次の手順のようにします。
 
 1. [Power Automate 管理センター](https://admin.flow.microsoft.com) (管理センター) にサインインします。
 
-1. [データ ポリシー] タブを選び、 **[新しいポリシー]** リンクを選びます。
+1. [データ ポリシー] タブを選び、**[新しいポリシー]** リンクを選びます。
 
     ![サインイン](./media/prevent-data-loss/create-policy-1.png)
 1. **[データ グループ]** タブを選びます。
@@ -90,7 +90,7 @@ DLP ポリシーを作成するには、少なくとも 1 つの環境へのア�
 
     ![追加の選択](./media/prevent-data-loss/create-policy-5.png)
 
-1. **[コネクタの追加]** ページで、 **[SharePoint]** コネクタと **[Salesforce]** コネクタを選びます。
+1. **コネクタの追加** ページで、**SharePoint** と **Salesforce** コネクタを選びます。
 
    ![コネクタの選択](./media/prevent-data-loss/create-policy-6.png)
 
@@ -206,7 +206,7 @@ DLP ポリシーの作成と変更は、テナントと環境の管理者だけ�
 
 ## <a name="add-custom-and-http-connectors-with-powershell"></a>PowerShell を使用してカスタム コネクタと HTTP コネクタを追加する
 
-PowerShell を使用し、ポリシーにカスタム コネクタや HTTP コネクタのサポートを追加するには、最新の Power Apps PowerShell スクリプトを[ダウンロード](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell)してインポートし、コマンドレットの "New-AdminDlpPolicy"、"Set-AdminDlpPolicy"、"Add-CustomConnectorToPolicy"、"Remove-CustomConnectorFromPolicy" を使用してポリシーを変更します。 参照として 'Get-Help -detailed' コマンドレットを使用します。
+PowerShell を使用して、カスタム コネクタや HTTP コネクタのサポートをポリシーに追加するには、最新の Power Apps PowerShell スクリプトを [ダウンロード](https://docs.microsoft.com/powerapps/administrator/powerapps-powershell) してインポートしてから、次のコマンドレット 'New-AdminDlpPolicy'、'Set-AdminDlpPolicy'、'Add-CustomConnectorToPolicy'、'Remove-CustomConnectorFromPolicy' を使用し、ポリシーを変更します。 参照として 'Get-Help -detailed' コマンドレットを使用します。
 
 
 > [!IMPORTANT]
@@ -214,9 +214,9 @@ PowerShell を使用し、ポリシーにカスタム コネクタや HTTP コ�
 
 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * [環境に関する詳細](environments-overview-admin.md)
-* [Power Automate の詳細](getting-started.md)
+* [Power Automate に関する詳細](getting-started.md)
 * [管理センターの詳細](admin-center-introduction.md)
 * [データ統合の詳細](https://docs.microsoft.com/common-data-service/entity-reference/dynamics-365-integration)

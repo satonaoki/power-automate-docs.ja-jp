@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0d310eb96a69f66b8f45718554f36ba8b2a51989
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868735"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297936"
 ---
 # <a name="image-share-sample"></a>画像共有のサンプル 
 
@@ -35,9 +35,9 @@ ms.locfileid: "75868735"
 
 *入力/出力とノート*
 
-| 動的トークンの名前 (入力) | プレースホルダー テキスト   | ノート                                              |
+| 動的トークンの名前 (入力) | プレースホルダー テキスト   | メモ​​                                              |
 |-----------------------------|--------------------|-----------------------------------------------------|
-| acphotoTitle                | {acphotoTitle}     | 表示テキスト                                        |
+| acphotoTitle                | {acphotoTitle}     | テキストの表示                                        |
 | acTimestamp                 | {acTimestamp]      | 表示日/時刻                                   |
 | acImageThumbnail            | {acImageThumbnail} | 表示する画像 <br>有効な URL に置き換える必要があります|
 | acAltText                   | {acAltText}        | アクセシビリティの代替テキスト                      |

@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 167f9321dba853e801102bed2ebe7e8902437d71
-ms.sourcegitcommit: 26cda5060446812f3725ccd4fe435839088f50fa
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "78253182"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298486"
 ---
 # <a name="use-input-method-editors-imes-in-ui-flows"></a>UI フローでの入力方式エディター (IME) の使用
 
@@ -42,7 +42,7 @@ ms.locfileid: "78253182"
 
    ![コントロールの選択](../media/use-ime/select-control.png)
 
-1. レコーダーで **[入力の使用]** を選択し、 **[静的テキストの追加]** を選択します。
+1. レコーダーで **[入力の使用]** を選択し、**[静的テキストの追加]** を選択します。
 
    ![[静的テキストの追加] の選択](../media/use-ime/add-static-text.png)
 
@@ -59,7 +59,7 @@ ms.locfileid: "78253182"
    ![再生テキスト](../media/use-ime/playback-text.png)
 
    >[!TIP]
-   >Web デザイナーで、 **[Insert text input]** \(テキスト入力の挿入\) アクションを展開して、テキストを確認または編集します。
+   >Web デザイナーで、**[Insert text input]** \(テキスト入力の挿入\) アクションを展開して、テキストを確認または編集します。
 
    ![テキスト入力の挿入](../media/use-ime/insert-text-input.png)
 
@@ -68,7 +68,7 @@ ms.locfileid: "78253182"
 
 **[静的テキストの追加]** オプションを使用せずにテキスト入力を記録した場合、各キーボード操作が記録され、時系列で再生されます。 これには、すべての英語またはインターナショナル キーボード レイアウトの CTRL、ALT、Windows などの特殊キーがすべて含まれます。
 
-デザイナーでは、 **[Replay keystroke]** \(キーボード操作の再生\) アクションの下の[仮想キー](https://docs.microsoft.com/windows/win32/inputdev/virtual-key-codes)形式で記録情報を確認および編集できます。 
+デザイナーでは、**[Replay keystroke]** \(キーボード操作の再生\) アクションの下の[仮想キー](https://docs.microsoft.com/windows/win32/inputdev/virtual-key-codes)形式で記録情報を確認および編集できます。 
 
 ![仮想キー](../media/use-ime/virtual-key.png)
 
@@ -82,7 +82,7 @@ ms.locfileid: "78253182"
 
 1. **[入力の使用]** は、テキスト型のコントロールに対してのみ使用できます。 現在 **[入力の使用]** では、コンボ ボックス、ドロップダウン、リスト ビューなど、他の種類のコントロールにはテキストを入力できません。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [UI フローの設定](setup.md)方法について学習します。 
 - ワークフローを自動化するために使用できる[さまざまな種類のフロー](..\getting-started.md#types-of-flows)の詳細について学習する。

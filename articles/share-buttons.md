@@ -21,32 +21,32 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9b5671096bbecd9221d3849cd656548291acd4c9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194418"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296924"
 ---
 # <a name="share-button-flows-in-power-automate"></a>Power Automate でボタン フローを共有する
 
 Power Automate モバイル アプリでは、[ボタン フロー](introduction-to-button-flows.md) (ボタン) を組織内の他のユーザーまたはグループと共有できます。 ボタンを共有すると、共有するユーザーまたはグループが自分のボタンを実行する場合と同じようにボタンを実行できます。 他のユーザーが共有したボタンへの[リンクを共有する](share-buttons.md#re-share-a-button)こともできます。 いつでもボタンの[共有を停止](share-buttons.md#stop-sharing-a-button)できます。
 
-> このドキュメントで使用されるスクリーンショットは、Android デバイスから取得されています。 iPhone を使用している場合、画像の表示が異なる可能性がありますが、機能は同じです。
+> このドキュメントで使用されているスクリーンショットは、Android デバイスから取得されています。 iPhone を使用している場合、画像の表示が異なる可能性がありますが、機能は同じです。
 > 
 > 
 
 [次の手順](share-buttons.md#use-shared-buttons)に従って、他のユーザーと共有されているボタンを使用します。
 
 ## <a name="prerequisites"></a>前提条件
-ボタンを共有するには、次のものが必要です。
+ボタンを共有するには、次が必要になります。
 
 * [Power Automate](https://flow.microsoft.com) にアクセスできるアカウント。
 * 共有するフロー。
-* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリがインストールされたモバイル デバイス。
+* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 向けの Power Automate モバイル アプリがインストールされたモバイル デバイス。
 * ボタンを共有する組織内のグループまたはユーザー。
 
 ## <a name="share-a-button"></a>ボタンを共有する
-Power Automate モバイル アプリの **[ボタン]** タブからボタンを共有することができます。
+Power Automate モバイル アプリの **ボタン** タブからボタンを共有できます。
 
 1. 共有するボタンの横にある小さなアイコンをタップします。
    
@@ -64,9 +64,9 @@ Power Automate モバイル アプリの **[ボタン]** タブからボタン�
    
     ![ボタンの共有](./media/share-buttons/share-button-flows-invite-others-done.png)
 
-## <a name="require-users-to-use-their-own-connections"></a>ユーザーに自分の接続を使用するよう要求する
+## <a name="require-users-to-use-their-own-connections"></a>ユーザー独自の接続を使用することをユーザーに要求する
 > [!NOTE]
-> ボタンを共有する場合、ボタンを共有したユーザーに、ボタンで使用されるすべての接続の使用を許可することができます。 また、そのユーザーに自分の接続を使用するよう要求することもできます。 接続の使用を他のユーザーに許可する場合、他のユーザーはその接続で資格情報にアクセスしたり、他のフローで再利用したりすることはできません。
+> ボタンを共有する場合、ボタンを共有したユーザーに、ボタンで使用されるすべての接続の使用を許可することができます。 独自の接続を使用することをユーザーに要求することもできます。 接続の使用を他のユーザーに許可する場合、他のユーザーはその接続で資格情報にアクセスしたり、他のフローで再利用したりすることはできません。
 > 
 > 
 
@@ -80,11 +80,11 @@ Power Automate モバイル アプリの **[ボタン]** タブからボタン�
    
     ![ボタンの共有](./media/share-buttons/share-button-select-connection-provided-by-user.png)
    
-    選択内容はいつでも表示または変更できます。 これを行うには、 **[フロー]** タブ、共有したフロー、 **[ユーザーと接続]** 、 **[接続]** タブ、管理するボタンの **[編集]** の順に選択します。
+    選択内容はいつでも表示または変更できます。 これを行うには、**[フロー]** タブ、共有したフロー、**[ユーザーと接続]**、**[接続]** タブ、管理するボタンの **[編集]** の順に選択します。
    
     ![ボタンの共有](./media/share-buttons/share-button-flows-conn-provided-by-user.png)
 
-## <a name="view-the-list-of-button-users"></a>ボタンのユーザーの一覧を表示する
+## <a name="view-the-list-of-button-users"></a>ボタン ユーザーの一覧を表示する
 **[ボタン]** タブから次の手順を実行することで、ボタンが共有されているすべてのグループまたはユーザーを表示することができます。
 
 1. 該当するボタンの横にある小さなアイコンをタップします。
@@ -93,13 +93,13 @@ Power Automate モバイル アプリの **[ボタン]** タブからボタン�
     ![ボタンのユーザーを表示する](./media/share-buttons/share-button-flows-button-users-list.png)
 
 ## <a name="stop-sharing-a-button"></a>ボタンの共有を停止する
-ボタンの共有を停止するには、 **[ボタンのユーザー]** タブで次の手順を実行します。
+ボタンの共有を停止するには、**[ボタンのユーザー]** タブで次の手順を実行します。
 
 1. 今後は共有したくないボタンの横にある小さなアイコンをタップします。
 2. **[ボタンのユーザー]** ページで、ボタンの共有を停止するユーザーまたはグループをタップします。
    
     ![ボタンの共有を停止する](./media/share-buttons/share-button-flows-remove-user-list.png)
-3. ユーザーのページが表示されたら、 **[ユーザーの削除]** をタップします。
+3. ユーザーのページが表示されたら、**[ユーザーの削除]** をタップします。
    
     ![ボタンの共有を停止する](./media/share-buttons/share-button-flows-remove-user.png)
 4. 削除の操作が完了するまで待ちます。 **[Button users]** (ボタンのユーザー) ページが更新され、削除したユーザーまたはグループが一覧に含まれていないことを確認します。
@@ -107,17 +107,17 @@ Power Automate モバイル アプリの **[ボタン]** タブからボタン�
     ![ボタンの共有を停止する](./media/share-buttons/share-button-flows-remove-user-result.png)
 
 ## <a name="monitor-the-run-history"></a>実行履歴を監視する
-すべての実行履歴は、ボタンの共有相手により開始された実行も含めて、Power Automate モバイル アプリのボタンの作成者の **[アクティビティ]** タブにのみ表示されます。
+すべての実行履歴は、ボタンの共有相手により開始された実行も含めて、Power Automate モバイル アプリのボタンの作成者の **アクティビティ** タブにのみ表示されます。
 
 ## <a name="use-shared-buttons"></a>共有ボタンを使用する
-他のユーザーから共有されたボタンを実行するには、 **[ボタンの追加]** ページから **[ボタン]** タブにボタンを追加する必要があります。
+誰かがあなたと共有したボタンを実行するには、先に **[ボタンの追加]** ページの **[ボタン]** タブにそのボタンを追加する必要があります。
 
 1. **[ボタン]** タブの **[GET MORE (さらに表示)]** (または表示されている場合は **[新しいボタンが使用可能です]** バナー) をタップします。
    
     ![自分が新しいボタンの共有相手になった場合](./media/share-buttons/share-button-flows-banner.png)
 2. 使用するボタンをタップします。
    
-    タップされたボタンは、Power Automate アプリの **[ボタン]** タブにすぐに追加されます。 追加されると、 **[ボタン]** タブに表示されている他のボタンと同様に、そのタブからボタンを使用できます。
+    タップされたボタンは、Power Automate アプリの **ボタン** タブにすぐに追加されます。 追加されると、**[ボタン]** タブに表示されている他のボタンと同様に、そのタブからボタンを使用できます。
    
     ![自分が新しいボタンの共有相手になった場合](./media/share-buttons/share-button-flows-buttons-shared-with-me.png)
 
@@ -138,10 +138,10 @@ Power Automate モバイル アプリの **[ボタン]** タブからボタン�
     ![ボタンを削除する](./media/share-buttons/share-button-flows-added-shared-button.png)
 2. 表示されるメニューで **[削除]** をタップします。
 
-これで完了です。 そのボタンは、Power Automate アプリの **[ボタン]** タブに表示されなくなります。
+これで終了です。 そのボタンは、Power Automate アプリの **ボタン** タブに表示されなくなります。
 
 > [!NOTE]
-> 共有ボタンを削除したあとで、削除したボタンを再度追加する必要がある場合は、 **[ボタン]** タブで **[GET MORE (さらに表示)]** を選択します。
+> 共有ボタンを削除したあとで、削除したボタンを再度追加する必要がある場合は、**[ボタン]** タブで **[GET MORE (さらに表示)]** を選択します。
 > 
 > 
 

@@ -1,6 +1,6 @@
 ---
 title: カスタム コネクタのコンテンツのリンク | Microsoft Docs
-description: カスタム コネクタの作成、使用、共有、認定に関するコンテンツのリンク集。
+description: カスタム コネクタを作成、使用、共有、および認定するコンテンツにリンクします。
 services: ''
 suite: flow
 documentationcenter: ''
@@ -19,16 +19,16 @@ search.app:
 search.audienceType:
 - developer
 ms.openlocfilehash: ea408b3275a576ef76870143ee181b32111338ee
-ms.sourcegitcommit: 835b005284b9ae21ae1742a7d36b574ba3884bef
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "74364283"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297232"
 ---
 # <a name="custom-connectors-in-power-automate"></a>Power Automate のカスタム コネクタ
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
-コードを記述しなくても、[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps)、[Power Automate](https://flow.microsoft.com)、および [Power Apps](https://powerapps.microsoft.com) を使用してワークフローやアプリを作成できます。 データとビジネス プロセスの統合を容易にするために、[180 種類以上のコネクタ](https://docs.microsoft.com/connectors/)を提供しています。Microsoft のサービスおよび製品用だけでなく、GitHub、Salesforce、Twitter などのサービス用も用意されています。 
+[Azure Logic Apps](https://azure.microsoft.com/services/logic-apps)、[Power Automate](https://flow.microsoft.com)、[Power Apps](https://powerapps.microsoft.com) では、コードを一切書かずにワークフローやアプリを作成することができます。 データとビジネス プロセスの統合を容易にするために、[180 種類以上のコネクタ](https://docs.microsoft.com/connectors/)を提供しています。Microsoft のサービスおよび製品用だけでなく、GitHub、Salesforce、Twitter などのサービス用も用意されています。 
 
 しかし、場合によっては、事前に作成されているコネクタでは利用できない API やサービス、システムを呼び出す必要がでてくることがあります。 より具体的なシナリオに対応する場合、独自のトリガーとアクションを持つ*カスタム コネクタ*を作成できます。 カスタム コネクタ用の基本的なチュートリアルと上級者向けのチュートリアル一式を、コネクタのドキュメント サイトにご用意しました。 まずは[カスタム コネクタの概要](https://docs.microsoft.com/connectors/custom-connectors/)から始めることをお勧めしますが、以下に示すトピックに直接進んで特定の分野について詳しく見ていくこともできます。
 
@@ -38,7 +38,7 @@ ms.locfileid: "74364283"
 
 * [カスタム コネクタを最初から作成する](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
 
-* [フローから作成したカスタム コネクタを使用する](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-flow)
+* [フローからカスタム コネクタを使用する](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-flow)
 
 * [組織内のカスタム コネクタを共有する](https://docs.microsoft.com/connectors/custom-connectors/share)
 

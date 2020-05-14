@@ -1,28 +1,28 @@
 ---
-title: フローが Common Data Service に格納され、豊富な Web API を使用するようになりました
-description: フローが Common Data Service に格納され、豊富な Web API を使用するようになりました。
+title: フローは Common Data Service に格納され、豊富な Web API を使用する
+description: フローは Common Data Service に格納され、豊富な Web API を使用します。
 author: stepsic-microsoft-com
 ms.reviewer: deonhe
-ms.date: 04/28/2020
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: business-applications
 ms.technology: ''
 ms.author: stepsic
 audience: Power user
-ms.openlocfilehash: ebcd4951abae85f843ddaf34c8ce222eb1a83c33
-ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
+ms.openlocfilehash: f446b1b4147b8531ee808447a18058628c2ac0cf
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82852752"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298354"
 ---
 # <a name="power-automate-web-api"></a>Power Automate Web API
 
 
-今後、すべてのフローは Common Data Service に格納され、[豊富な Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api) が利用されます。
+今後、すべてのフローは Common Data Service に格納され、[豊富な Web API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/perform-operations-web-api) を利用します。
 
-このコンテンツでは、Power Automate の **[ソリューション]** タブに含まれるフローの管理について説明しています。 現在、 **[マイ フロー]** 以下のフローはこのような API ではサポートされていません。
+このコンテンツでは、Power Automate の **ソリューション** タブに含まれるフローの管理について説明しています。 現在、**[マイ フロー]** 以下のフローはこのような API ではサポートされていません。
 
 ## <a name="compose-http-requests"></a>HTTP 要求を作成する
 
@@ -36,25 +36,24 @@ ms.locfileid: "82852752"
 
      ![フロー URL](media/web-api/get-region-name.png "フロー URL")
 
-     | リージョン         | サブドメイン   |
+     | 地域         | サブドメイン   |
      | -------------- | ----------- |
      | 米国  | crm         |
-     | 南アメリカ  | crm2        |
+     | 南米  | crm2        |
      | カナダ         | crm3        |
      | ヨーロッパ         | crm4        |
      | アジア太平洋   | crm5        |
      | オーストラリア      | crm6        |
      | 日本          | crm7        |
      | インド          | crm8        |
-     | 米国政府  | crm9        |
-     | イギリス | crm11       |
-     |アラブ首長国連邦 |   crm15|
+     |  US Government  | crm9        |
+     | 英国 | crm11       |
 
 Online Management API の [[インスタンスの取得]](https://docs.microsoft.com/rest/api/admin.services.crm.dynamics.com/instances/getinstances) メソッドを使用して、利用できるインスタンスの一覧をプログラムで取得することもできます。
 
 Web API に対する各要求で、`Accept` および `Content-type` ヘッダーを `application/json` に設定する必要があります。
 
-最後に、`Authorization` ヘッダーに Azure AD ベアラー トークンを設定します。 Common Data Service の Azure AD ベアラー トークンを取得する方法については、[こちら](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth)を参照してください。 たとえば、次の要求があります。
+最後に、`Authorization` ヘッダーに Azure AD ベアラー トークンを設定します。 Common Data Service の Azure AD ベアラー トークンを取得する方法について [説明](https://docs.microsoft.com/powerapps/developer/common-data-service/authenticate-oauth) します。 たとえば、次の要求があります。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows
@@ -91,9 +90,9 @@ Authorization: Bearer ey...
 
 上記のように、`workflows` に対して `GET` を呼び出すことでワークフローの一覧を取得できます。 各ワークフローには多くのプロパティがありますが、関連性の高いものは次のとおりです。
 
-| プロパティ名     | Description                                              |
+| プロパティ名     | 内容                                              |
 | ----------------- | -------------------------------------------------------- |
-| category          | フローのカテゴリ。 次の種類があります。0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - 業務プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
+| category          | フローのカテゴリ。 次の種類があります: 0 - クラシック Common Data Service ワークフロー、1 - クラシック Common Data Service ダイアログ、2 - ビジネス ルール、3 - クラシック Common Data Service アクション、4 - ビジネス プロセス フロー、5 - 自動化されたインスタント フローまたはスケジュールされたフロー。 |
 | statecode         | フローの状態。 状態は **0** - オフ、または **1** - オンです。|
 | workflowuniqueid  | フローのこのインストールの一意識別子。 |
 | workflowid        | すべてのインポート全体でのフローの一意識別子。 |
@@ -101,14 +100,14 @@ Authorization: Bearer ey...
 | _ownerid_value    | フローを所有するユーザーまたはチームの一意識別子。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | modifiedon        | フローの最終更新日時。 |
 | ismanaged         | フローがマネージド ソリューションを介してインストールされたかどうかを示します。 |
-| name              | フローに付けた表示名。 |
+| 名前              | フローに付けた表示名。 |
 | _modifiedby_value | フローを最後に更新したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
 | _createdby_value  | フローを作成したユーザー。 これは、Common Data Service での systemusers エンティティの ID です。 |
-| type              | フローが実行中のフローか、追加のフローを作成するために使用できるテンプレートかを示します。 1 - フロー、2 - アクティブ化、または 3 - テンプレート。 |
-| description       | ユーザーが指定したフローの説明。 |
+| 種類              | フローが実行中のフローか、追加のフローを作成するために使用できるテンプレートかを示します。 1 - フロー、2 - アクティブ化、または 3 - テンプレート。 |
+| 説明       | ユーザーが指定したフローの説明。 |
 | clientdata        | connectionReferences とフローの定義を含むオブジェクトの文字列エンコードされた JSON。 |
 
-特定のプロパティを要求する、フローの一覧をフィルター処理するなどの操作も実行できます。詳細については、[データのクエリを実行するための Common Data Service API ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api)に関するページを参照してください。 たとえば、このクエリからは、現在有効な自動フロー、インスタント フロー、またはスケジュールされたフローのみが返されます。
+また、[データのクエリを実行するための Common Data Service API ドキュメント](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/query-data-web-api) で説明されているように、特定のプロパティを要求する、フローの一覧をフィルター処理するなどの操作も実行できます。 たとえば、このクエリからは、現在有効な自動フロー、インスタント フロー、またはスケジュールされたフローのみが返されます。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/workflows?$filter=category eq 5 and statecode eq 1
@@ -142,11 +141,11 @@ Content-type: application/json
 
 次の 3 つのプロパティがあります。
 
-| プロパティ名  | Description                                                 |
+| プロパティ名  | 内容                                                 |
 | -------------- | ----------------------------------------------------------- |
 | connectionName | 接続を特定します。 **Connections** ページに移動し、接続の URL からコピーすることで、connectionName を確認することができます。 |
-| source         | `Embedded` または `Invoker` です。 `Invoker` はインスタント フロー (ユーザーがボタンを選択してフローを実行したフロー) の場合にのみ有効であり、エンド ユーザーが接続を提供することを示します。 この場合、connectionName は設計時にのみ使用されます。 接続が `Embedded` の場合は、指定した connectionName が常に使用されることを意味します。 |
-| id             | コネクタの識別子。 id は常に `/providers/Microsoft.PowerApps/apis/` で始まり、次にコネクタ名が含まれます。これは、接続の URL からコピーするか、 **[コネクタ]** ページからコネクタを選択してコピーして取得できます。 |
+| ソース         | `Embedded` または `Invoker` です。 `Invoker` はインスタント フロー (ユーザーがボタンを選択してフローを実行したフロー) の場合にのみ有効であり、エンド ユーザーが接続を提供することを示します。 この場合、connectionName は設計時にのみ使用されます。 接続が `Embedded` の場合は、指定した connectionName が常に使用されることを意味します。 |
+| ID             | コネクタの識別子。 id は常に `/providers/Microsoft.PowerApps/apis/` で始まり、次にコネクタ名が含まれます。これは、接続の URL からコピーするか、**[コネクタ]** ページからコネクタを選択してコピーして取得できます。 |
 
 `POST` 要求を実行すると、新しいフローの `workflowid` を含む `OData-EntityId` ヘッダーを受け取ります。
 
@@ -180,7 +179,7 @@ Content-type: application/json
 }
 ```
 
-### <a name="delete-a-flow"></a>フローを削除する
+### <a name="delete-a-flow"></a>フローの削除
 
 単純な `DELETE` の呼び出しを使用してフローを削除します。
 
@@ -195,7 +194,7 @@ Authorization: Bearer ey...
 
 ## <a name="get-all-users-with-whom-a-flow-is-shared"></a>フローが共有されているすべてのユーザーを取得する
 
-アクセス権を持つユーザーを一覧表示するには、Common Data Service の*関数*を使用します。 この関数は、`Target` の 1 つのパラメーターを受け取ります。
+アクセス権を持つユーザーを一覧表示するには、Common Data Service の *関数* を使用します。 この関数は、`Target` の 1 つのパラメーターを受け取ります。
 
 ```http
 GET https://org00000000.crm0.dynamics.com/api/data/v9.1/RetrieveSharedPrincipalsAndAccess(Target=@tid)?@tid={'@odata.id':'workflows(00000000-0000-0000-0000-000000000002)'}
@@ -246,10 +245,10 @@ Content-type: application/json
 
 `AccessMask` パラメーターは、さまざまなアクセス許可レベルに対して次の値を持つフィールドです。
 
-| 名前         | Description                                          |
+| 件名         | 内容                                          |
 | ------------ | ---------------------------------------------------- |
-| None         | アクセス権がありません。                                           |
-| ReadAccess   | フローを読み取る権利。                          |
+| いいえ​​         | アクセス権がありません。                                           |
+| 読み取りアクセス権   | フローを読み取る権利。                          |
 | WriteAccess  | フローを更新する権利。                        |
 | DeleteAccess | フローを削除する権利。                        |
 | ShareAccess  | フローを共有する権利。                         |
@@ -310,7 +309,7 @@ Content-type: application/json
 
 ソリューションをインポートするには、`ImportSolution` アクションを呼び出します。
 
-| プロパティ名                    | Description                               |
+| プロパティ名                    | 内容                               |
 | -------------------------------- | ----------------------------------------- |
 | OverwriteUnmanagedCustomizations | Common Data Service にこのようなフローの既存のインスタンスがある場合、インポートするには、このフラグを `true` に設定する必要があります。 それ以外の場合は上書きされません。 |
 | PublishWorkflows                 | インポート時にクラシック Common Data Service ワークフローをアクティブ化するかどうかを示します。 この設定は他の種類のフローには適用されません。 |

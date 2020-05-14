@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams にアダプティブ カードを投稿するフローを作成する方法 | Microsoft Docs
-description: アダプティブ カードを使用して、美しく書式設定されたコンテンツを Microsoft Teams に投稿するフローを作成する方法について説明します。
+title: Microsoft Teams にアダプティブ カードを投稿するフローの作成方法を理解する | Microsoft Docs
+description: アダプティブ カードを使用して、充実したフォーマットのされたコンテンツを Microsoft Teams に投稿するフローの作成方法について説明します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: 3ba5f24bf24f57242441fab2770bce881bc78b69
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192119"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297386"
 ---
 <!--from editor: I notice that adaptive cards is capitalized on the page opened by the link in the first paragraph. But the screenshots in this file don't show it being capitalized. So I'm unsure if it should change.-->
 
@@ -32,16 +32,16 @@ ms.locfileid: "79192119"
 
 ## <a name="create-a-flow-that-posts-adaptive-cards-to-a-team"></a>アダプティブ カードをチームに投稿するフローを作成する
 
-次の手順に従って、戦略と計画チームの一般チャネルにアダプティブ カードを投稿するフローを作成します。 作成するフローでは、 **[独自のアダプティブ カードをフロー ボットとしてチャネルに投稿する (プレビュー)]** アクションを使用して、アダプティブ カードのコンテンツをチームのチャネルに毎週投稿します。
+次の手順に従って、戦略と計画チームの一般チャネルにアダプティブ カードを投稿するフローを作成します。 作成するフローでは、**[独自のアダプティブ カードをフロー ボットとしてチャネルに投稿する (プレビュー)]** アクションを使用して、アダプティブ カードのコンテンツをチームのチャネルに毎週投稿します。
 
 1. Microsoft Teams にサインインします。
-1. 左側のナビゲーションバーで **[Teams]** アイコンを選択し、 **[戦略と計画]** チームを選択します。
+1. 左側のナビゲーションバーで **[Teams]** アイコンを選択し、**[戦略と計画]** チームを選択します。
 
     ![チームの選択](media/create-adaptive-cards-teams/select-teams-team.png)
 
 1. 画面の上部にある **[フロー]** タブを選択します。
 1. **+** (一から作成) アイコンを選択します。
-1. 「**繰り返し**」を検索し、 **[繰り返し]** トリガーを選択します。
+1. 「**繰り返し**」を検索し、**[繰り返し]** トリガーを選択します。
 
     ![繰り返しカード](media/create-adaptive-cards-teams/select-recurrence.png)
 
@@ -50,11 +50,11 @@ ms.locfileid: "79192119"
     ![繰り返しカード](media/create-adaptive-cards-teams/recurrence-card.png)
     
 1. **[新しいステップ]** を選択します。
-1. 「**アダプティブ**」を検索し、 **[Microsoft Teams]** を選択してから、 **[独自のアダプティブ カードをフロー ボットとしてチャネルに投稿する (プレビュー)]** アクションを選択します。
+1. **アダプティブ** を検索し、 **Microsoft Teams** を選択します。続いて**独自のアダプティブ カードをフローのボットとしてチャネルに投稿する (プレビュー) アクション** を選択します。
 
    ![アダプティブ カード](media/create-adaptive-cards-teams/select-adaptive-post-message-action.png)
 
-1. **[独自のアダプティブ カードをフロー ボットとしてチャネルに投稿する (プレビュー)]** カードで、 **[チーム]** 、 **[チャネル]** 、 **[メッセージ]** を指定して、アダプティブ カードの**メッセージ**の投稿先になるチームとチャネルを示します。
+1. **[独自のアダプティブ カードをフロー ボットとしてチャネルに投稿する (プレビュー)]** カードで、**[チーム]**、**[チャネル]**、**[メッセージ]** を指定して、アダプティブ カードの**メッセージ**の投稿先になるチームとチャネルを示します。
 
    ![アダプティブ カード](media/create-adaptive-cards-teams/adaptive-card-message.png)
 
@@ -139,7 +139,7 @@ ms.locfileid: "79192119"
 
 ![フローを実行する](media/create-adaptive-cards-teams/flow-run-result.png)
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 - [アダプティブ カードのサンプル](https://adaptivecards.io/samples/)の使用を開始する。
 - 簡単な方法で[アダプティブ カードのコンテンツ](https://adaptivecards.io)を作成する。

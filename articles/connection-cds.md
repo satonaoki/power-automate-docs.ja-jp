@@ -1,6 +1,6 @@
 ---
-title: Common Data Service を使用して自動化されたフローを作成する | Microsoft Docs
-description: Common Data Service 接続と Power Automate を使用してワークフローを作成します
+title: Common Data Serviceで自動フローを作成する | Microsoft Docs
+description: Common Data Service の接続と Power Automate を使用してワークフローを作成する
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,15 +25,15 @@ ms.sourcegitcommit: e58c8e6954c8e666497a66dc945fdc16c7c845a9
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 05/02/2020
-ms.locfileid: "82727905"
+ms.locfileid: "3331085"
 ---
 # <a name="create-an-automated-flow-by-using-common-data-service"></a>Common Data Service を使用して自動化されたフローを作成する
 
 >[!IMPORTANT]
->Common Data Service に接続するために使用できるコネクタが 3 つあります。 [Common Data Service (現在の環境) コネクタ](./connection-cds-native.md) の使用をお勧めします。 この記事で紹介されている **Common Data Service コネクタ**と、[Dynamics 365 コネクタ](https://docs.microsoft.com/connectors/dynamicscrmonline/)は、推奨コネクタを使用できない場合に使用できます。
+>Common Data Service に接続できるコネクタは 3 つ存在します。 推奨される [Common Data Service（現在の環境）コネクタ](./connection-cds-native.md) を使用してください。 この記事に記載している **Common Data Serviceコネクタ**、[Dynamics 365 Connector](https://docs.microsoft.com/connectors/dynamicscrmonline/) は、推奨コネクタが使用できない場合にご利用いただけます。
 
 
-Common Data Service コネクタを使用して、Common Data Service 内の作成イベントと更新イベントによって開始されるフローを作成できます。 さらに、Common Data Service 内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
+Common Data Service コネクタを使用すると、Common Data Service 内で作成、更新されるイベントによって開始するフローを作成できます。 さらに、Common Data Service 内のレコードに対して、作成、更新、取得、削除のアクションを実行できます。
 
 ## <a name="initiate-a-flow-from-common-data-service"></a>Common Data Service からフローを開始する
 
@@ -48,7 +48,7 @@ Common Data Service コネクタを使用して、Common Data Service 内の作�
 > [!div class="mx-imgBorder"]
 > ![トリガーの選択](./media/cds-connector/Triggers.png)
 
-選択したトリガーについて環境を選択する必要がある場合は、`(Current)` を選択できます。これにより、Power Automate を実行する環境内のデータベースが常に使用されます。 フローが特定の環境におけるイベントに基づいて常にトリガーされるようにする場合は、その環境を選択します。
+選択したトリガーが環境の選択をする必要がある場合は、 `(Current)` を選択できます。これにより、Power Automate を実行する環境内のデータベースが常に使用されます。 フローが特定の環境におけるイベントに基づいて常にトリガーされるようにする場合は、その環境を選択します。
 
 > [!div class="mx-imgBorder"]
 > ![環境の選択](./media/cds-connector/Environments.png)
@@ -58,12 +58,12 @@ Common Data Service コネクタを使用して、Common Data Service 内の作�
 > [!div class="mx-imgBorder"]
 > ![スコープの選択](./media/cds-connector/Scopes.png)
 
-|スコープ|トリガーのタイミング|
+|Scope|トリガーのタイミング|
 | --- | --- |
-|部署|自分の部署が所有しているレコードに対して、アクションが実行される|
-|組織|組織内またはデータベース内の任意のユーザーによってアクションが実行される|
+|部署 |自分の部署が所有しているレコードに対して、アクションが実行される|
+|組織全体|組織内またはデータベース内の任意のユーザーによってアクションが実行される|
 |部署配下|自分の部署または配下の部署が所有しているレコードに対して、アクションが実行される|
-|ユーザー|自分が所有しているレコードに対して、アクションが実行される|
+|ユーザー |自分が所有しているレコードに対して、アクションが実行される|
 
 レコードが更新されたときに実行されるトリガーには、フィルター処理の属性も使用できます。 これにより、定義されているいずれかの属性が更新されたときにのみフローが実行されることが確実になります。
 
@@ -81,12 +81,12 @@ Common Data Service コネクタを使用して、Common Data Service 内の作�
 
 ## <a name="write-data-into-common-data-service"></a>Common Data Service にデータを書き込む
 
-Common Data Service にデータを書き込むには、次のいずれかのアクションを使用します。
+Common Data Service にデータを書き込むには、次のいずれかのアクションを使用します：
 
-- 新しいレコードの作成
+- 新しいレコードを作成します
 - レコードの更新
 
-特定のユーザーが新しいアカウント レコードを作成したときのフォローアップ タスクを作成する例を次に示します。  
+特定のユーザーが新しいアカウント レコードを作成したときのフォロー アップ タスクを作成する例を次に示します。  
 
 > [!div class="mx-imgBorder"]
 > ![フォローアップ タスク](./media/cds-connector/Regarding.png)
@@ -101,7 +101,7 @@ Common Data Service にデータを書き込むには、次のいずれかのア
 | --- | --- |
 | 関連 | 関連 = レコードの ID (アカウント ID など) と一覧から選択した関連の種類。 |
 | 顧客 | レコードの ID と一覧から選択した顧客の種類を表します。 |
-| 所有者 | システム ユーザーまたはチームの ID と、一覧から選択した顧客の種類を表します。 |
+| 所有者  | システム ユーザーまたはチームの ID と、一覧から選択した顧客の種類を表します。 |
 
 ### <a name="enable-upsert-behavior"></a>upsert 動作を有効にする
 

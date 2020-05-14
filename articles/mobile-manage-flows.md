@@ -21,20 +21,20 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: ce9a943f50ef5c8cc69e5dbf8fde796a75e4cdf9
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195811"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296748"
 ---
-# <a name="manage-flows-in-power-automate-from-your-phone"></a>携帯電話から Power Automate のフローを管理する
+# <a name="manage-flows-in-power-automate-from-your-phone"></a>携帯電話からの Power Automate のフローを管理する
 
 作成したすべてのフローの一覧と、各フローのイベントとアクションを表示します。また、そのフローを有効または無効にしたり、実行履歴を確認したりします。
 
 **前提条件**
 
-* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリを、[サポートされているデバイス](getting-started.md#use-the-mobile-app)にインストールします。 このトピックのグラフィックは iPhone バージョンのアプリを示していますが、Android および Windows Phone の場合もこれに似ています。
-* フローをまだ準備していない場合は、[Power Automate 用の Web サイト](https://flow.microsoft.com/)で作成してください。 より簡単にテストできるように、外部イベントが発生するのを待つのではなく、自分でトリガーできるフローを使用します。
+* [対応している デバイス](getting-started.md#use-the-mobile-app)に、[Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、[Windows Phone](https://aka.ms/flowmobilewindows) 向けの Power Automate モバイル アプリをインストールします 。 このトピックのグラフィックは iPhone バージョンのアプリを示していますが、 Android および Windows Phone の場合にも共通しています。
+* フローをまだ準備していない場合は、[Power Automate の Web サイト](https://flow.microsoft.com/) 上で作成してください。 より簡単にテストできるように、外部イベントが発生するのを待つのではなく、自分でトリガーできるフローを使用します。
 
 このチュートリアルのフローは、特定のアドレスからメールを受信したときに実行されます。
 
@@ -46,7 +46,7 @@ ms.locfileid: "79195811"
 
 ![Slack へのメッセージの送信](./media/mobile-manage-flows/create-event.png)
 
-**注:** モバイル アプリから[フロー アクティビティを監視](mobile-monitor-activity.md)することもできます。
+**注**: モバイル アプリから[フロー アクティビティを監視](mobile-monitor-activity.md)することもできます。
 
 ## <a name="manage-a-flow"></a>フローの管理
 1. モバイル アプリを開き、画面下部にある **[自分のフロー]** をタップして、フローの一覧を表示します。
@@ -58,7 +58,7 @@ ms.locfileid: "79195811"
    
     ![フローの管理オプション](./media/mobile-manage-flows/flow-details.png)
 3. **[Enable flow (フローを有効にする)]** をタップして、フローを有効または無効にします。
-4. **[See flow (フローを表示)]** をタップして、そのフローのイベントとアクションを表示します。次に、各イベントまたはアクションをタップして展開し、 **[Back (戻る)]** をタップします。
+4. **[See flow (フローを表示)]** をタップして、そのフローのイベントとアクションを表示します。次に、各イベントまたはアクションをタップして展開し、**[Back (戻る)]** をタップします。
    
     ![フローのイベントとアクション](./media/mobile-manage-flows/flow-event-action.png)
 5. **[Run history (実行履歴)]** をタップして、フローの成功、失敗、またはその両方を表示します。

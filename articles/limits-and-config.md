@@ -13,47 +13,44 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/28/2020
+ms.date: 04/26/2020
 ms.author: stepsic
 search.app:
 - Flow
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4e130133affb2d1a458842d2bd9f9e22ff2b27a3
-ms.sourcegitcommit: 7a42629c7bc15208c5a9d692ab89616fc0aa40cb
+ms.openlocfilehash: 06230d493fd43a9d9e23f4faebd6e1c6dc8d8045
+ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/08/2020
-ms.locfileid: "82973093"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "3299410"
 ---
-# <a name="limits-and-configuration-in-power-automate"></a>Power Automate における制限と構成
+# <a name="limits-and-configuration-in-power-automate"></a>Power Automate における制限事項と構成
 
 このトピックでは、現時点でのフローに関する制限事項と構成の詳細について説明します。
-
->[!TIP]
->利用可能なさまざまなプランの詳細については、[価格](https://flow.microsoft.com/pricing)に関するページをご覧ください。
 
 ## <a name="request-limits"></a>要求の制限
 1 つの送信要求に対する制限は次のとおりです。
 
 ### <a name="timeout"></a>タイムアウト
 
-| 名前 | 制限 |
+| 件名 | 制限 |
 | --- | --- |
 | 同期呼び出しの要求タイムアウト |120 秒 |
 | 非同期呼び出しの要求タイムアウト|構成可能。 最大 30 日。 |
 
 ### <a name="message-size"></a>メッセージ サイズ
 
-| 名前 | 制限 | ノート |
+| 件名 | 制限 | メモ​​ |
 | --- | --- | --- |
 | メッセージ サイズ |100 MB |100 MB を完全にサポートしていない API もあります。 |
 | 式の評価の制限 |131,072 文字 |`@concat()`、`@base64()`、`string` は、この制限を超えることはできません。 |
 
 ### <a name="retry-policy"></a>再試行ポリシー
 
-| Name (名前) | 制限 |ノート|
+| 件名 | 制限 |メモ​​|
 | --- | --- | --- |
 | 再試行回数 |90 | 既定値は 2 です。 既定値を変更するには、アクションの設定を使用します。 | 
 | 再試行の最大遅延 |1 日 |  |
@@ -62,7 +59,7 @@ ms.locfileid: "82973093"
 ## <a name="run-duration-and-retention"></a>実行の継続時間とリテンション期間
 1 つのフロー実行に対する制限は次のとおりです。
 
-| 名前 | 制限 | ノート |
+| 件名 | 制限 | メモ​​ |
 | --- | --- | --- |
 | 実行の継続時間 |30 日 |承認などの保留ステップを含むワークフローが含まれます。 30 日後、すべての保留ステップがタイムアウトになります。 |
 | ストレージのリテンション期間 |30 日 |これは、実行の開始時点からです。 |
@@ -73,12 +70,12 @@ ms.locfileid: "82973093"
 |最小延期間隔-プラン 2 ライセンス|1 秒||
 
 >[!TIP]
->個々のコネクタにも独自の制限があります。
+>個々のコネクタにも独自の制限がある場合があります。
 
 ## <a name="looping-and-debatching-limits"></a>ループおよびバッチ解除の制限
 1 つのフロー実行に対する制限は次のとおりです。 日単位の制限については、「[要求の制限と割り当て](https://aka.ms/platformlimits)」を参照してください。
 
-| 名前 | 制限 | ノート |
+| 件名 | 制限 | メモ​​ |
 | --- | --- | --- |
 | 各項目に適用する - Office 365 ライセンスおよび無料ライセンス|5,000 |必要に応じて、フィルター アクションを使って大きい配列をフィルター処理できます。 |
 | 各項目に適用する - プラン 1、プラン 2、ユーザーごと、フローごとの各ライセンス|100,000 |必要に応じて、フィルター アクションを使って大きい配列をフィルター処理できます。 |
@@ -88,26 +85,26 @@ ms.locfileid: "82973093"
 | Apply to each 並列処理 |50 |既定では、ループは順序どおりに実行されます (基本的に並列処理は 1 です)。 並列では最大 50 まで構成できます。 |
 | 5 分ごとのアクション実行数 – 無料、Office 365、プラン 1 の各ライセンスと試用版 | 2,000 | 必要に応じて、複数のフローにワークロードを分散することもできます。 |
 |5 ごとのアクションの実行 – 有料プラン 2、ユーザーごと、フローごとの各ライセンス|100,000|必要に応じて、複数のフローにワークロードを分散することもできます。|
-| アクションの同時発信呼び出し – 無料、Office 365、プラン 1 の各ライセンスと試用版 | ~500 | 必要に応じて、同時要求の数を減らすか、継続時間を短縮します。 |
+| アクションの同時発信呼び出し – 無料版、Office 365、プラン 1 の各ライセンスと試用版 | ~500 | 必要に応じて、同時要求の数を減らすか、継続時間を短縮します。 |
 | アクションの同時発信呼び出し – プラン 2、ユーザーごと、フローごとの各ライセンス | ~2,500 | 必要に応じて、同時要求の数を減らすか、継続時間を短縮します。 | 
 
 ## <a name="throughput-limits"></a>スループットの制限
 
-|名前|制限|ノート|
+|件名|制限|メモ​​|
 |---|---|---|
-|ランタイム エンドポイント - 5 分ごとに許可される読み取り呼び出し回数 – 無料、Office 365、プラン 1 の各ライセンスと試用版|6,000||
+|ランタイム エンドポイント - 5 分ごとに許可される読み取り呼び出し回数 – 無料版、Office 365、プラン 1 の各ライセンスと試用版|6,000||
 |ランタイム エンドポイント - 5 分ごとに許可される読み取り呼び出し回数 – 有料プラン 2、ユーザーごと、フローごとの各ライセンス|60,000||
-|ランタイム エンドポイント: 5 分ごとの Invoke 呼び出し – 無料、Office 365、プラン 1 の各ライセンスと試用版|4,500||
+|ランタイム エンドポイント: 5 分ごとの通話呼び出し – 無料版、Office 365、プラン 1 の各ライセンスと試用版|4,500||
 |ランタイム エンドポイント: 5 分ごとの Invoke 呼び出し回数 – 有料プラン 2、ユーザーごと、フローごとの各ライセンス|45,000||
-|5 分ごとに許可されるスループットの量 – 無料、Office 365、プラン 1 の各ライセンスと試用版|600 MB||
+|5 分ごとに許可されるスループットの量 – 無料版、Office 365、プラン 1 の各ライセンスと試用版|600 MB||
 |5 分ごとに許可されるスループットの量 – 有料プラン 2、ユーザーごと、フローごとの各ライセンス|6 GB||
-|1 時間ごとの生成が許可されたコンテンツ フローの量 (アクションの入力/出力) - Office 365、プラン 1、プラン 2、ユーザーごと、フローごとの各ライセンス|200 GB||
+|1 時間ごとの生成が許可されたコンテンツ フローの量 (アクションの入力/出力) - 無料版、Office 365、プラン 1、プラン 2、ユーザーごと、フローごとの各ライセンス|200 GB||
 
 
 ## <a name="definition-limits"></a>定義の制限
 1 つのフローに対する制限は次のとおりです。
 
-| 名前 | 制限 | ノート |
+| 件名 | 制限 | メモ​​ |
 | --- | --- | --- |
 | ワークフローごとのアクション |500|必要に応じて、入れ子になったワークフローを追加してこの機能を拡張できます。 |
 | 許可されるアクションの入れ子の深さ |8 |必要に応じて、入れ子になったワークフローを追加してこの機能を拡張できます。 |
@@ -115,11 +112,11 @@ ms.locfileid: "82973093"
 | `action`/`trigger` 名の制限 |80 | |
 | `description` の長さの制限 |256 | |
 
-## <a name="sharepoint-limits"></a>SharePoint に関する制限
-Power Automate および Power Apps で、Microsoft SharePoint を使用する方法には、[制限](https://docs.microsoft.com/connectors/sharepointonline/#limits)があります。
+## <a name="sharepoint-limits"></a>SharePoint の制限
+Microsoft SharePoint で Power Automate と Power Apps の使用をするに当たっては、[制限](https://docs.microsoft.com/connectors/sharepointonline/#limits)があります。
 
 ## <a name="ip-address-configuration"></a>IP アドレスの構成
-Power Automate の要求の送信元の IP アドレスは、フローを使用している[環境](environments-overview-admin.md)が置かれている[リージョン](regions-overview.md)によって異なります。 現在、フローのシナリオで使用可能な FQDN は発行されていません。
+Power Automate  の要求の送信元の IP アドレスは、フローを使用している [環境](environments-overview-admin.md) が置かれている [リージョン](regions-overview.md) によって異なります。 現在、フローのシナリオで使用可能な FQDN は発行されていません。
 
 >[!IMPORTANT]
 > フローによる一部の呼び出しは、[ロジック アプリ](https://docs.microsoft.com/azure/logic-apps/logic-apps-limits-and-config#configuration-ip-addresses) に関するドキュメントに記載された IP アドレスから発信される場合があります。 このような呼び出し例としては、HTTP や HTTP + OpenAPI などがあります。
@@ -130,7 +127,7 @@ Power Automate の要求の送信元の IP アドレスは、フローを使用�
 ### <a name="connectors"></a>コネクタ
 フロー内のコネクタからの呼び出し (たとえば SQL API や SharePoint API) は、以下に示す IP アドレスから送られてきます。
 
-| リージョン | 送信 IP |
+| 地域 | 送信 IP |
 | --- | --- |
 | アジア太平洋 | 13.75.36.64 から 13.75.36.79、13.67.8.240 から 13.67.8.255、52.175.23.169、52.187.68.19 |
 | オーストラリア  | 13.70.72.192 から 13.70.72.207、13.72.243.10、13.77.50.240 から 13.77.50.255、13.70.136.174 |
@@ -138,9 +135,8 @@ Power Automate の要求の送信元の IP アドレスは、フローを使用�
 | ヨーロッパ | 13.69.227.208 から 13.69.227.223、52.178.150.68、13.69.64.208 から 13.69.64.223、52.174.88.118、137.117.161.181 |
 | インド  | 104.211.81.192 から 104.211.81.207、52.172.211.12、40.78.194.240 から 40.78.194.255、13.71.125.22、104.211.146.224 から 104.211.146.239、104.211.189.218 |
 | 日本 | 13.78.108.0 から 13.78.108.15、13.71.153.19、40.74.100.224 から 40.74.100.239、104.215.61.248 |
-| 南アメリカ | 191.233.203.192 から 191.233.203.207、104.214.19.48 から 104.214.19.63、13.65.86.57、104.41.59.51 |
-| アラブ首長国連邦 | 40.120.8.0 から 40.120.8.31、20.37.74.192 から 20.37.74.207、20.45.67.28|
-| イギリス | 51.140.148.0 から 51.140.148.15、51.140.80.51、51.140.211.0 から 51.140.211.15、51.141.47.105 |
+| 南米 | 191.233.203.192 から 191.233.203.207、104.214.19.48 から 104.214.19.63、13.65.86.57、104.41.59.51 |
+| 英国 | 51.140.148.0 - 51.140.148.15、51.140.80.51、51.140.211.0 - 51.140.211.15、51.141.47.105 |
 | 米国 | 13.89.171.80 から 13.89.171.95、52.173.245.164、40.71.11.80 から 40.71.11.95、40.71.249.205、40.70.146.208 から 40.70.146.223、52.232.188.154、52.162.107.160 から 52.162.107.175、52.162.242.161、40.112.243.160 から 40.112.243.175、104.42.122.49|
 | プレビュー (米国)  | 13.71.195.32 から 13.71.195.47、52.161.102.22、13.66.140.128 から 13.66.140.143、52.183.78.157 |
 
@@ -155,11 +151,11 @@ management.azure.com|https|Azure Resource Manager にアクセスします。
 login.microsoft.com</br>login.windows.net</br>login.microsoftonline.com</br>secure.aadcdn.microsoftonline-p.com|https|Active Directory Authentication Library (ADAL) にアクセスします。
 graph.microsoft.com </br>graph.windows.net</br>|https|プロファイルの写真などのユーザー情報を取得するために、Azure AD Graph API にアクセスします。
 *.azure-apim.net|https|コネクタのランタイムにアクセスします。
-*.flow.microsoft.com|https|Power Automate サイトにアクセスします。
-*.powerapps.com|https|Power Apps サイトにアクセスします。
-*.azureedge.net|https|Power Automate CDN にアクセスします。
+*.flow.microsoft.com|https|Power Automate のサイトににアクセスする。
+*.powerapps.com|https|Power Apps のサイトににアクセスする。
+*.azureedge.net|https|Power Automate CDN にアクセスする。
 nps.onyx.azure.net|https|NPS (Net Promoter Score) にアクセスします。
-webshell.suite.office.com|https|ヘッダーと検索のための Office にアクセスします。 詳細については、[Office 365 の URL と範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online)に関するページを参照してください。
+webshell.suite.office.com|https|ヘッダーと検索のための Office にアクセスします。 詳細については、[Office 365 の URL と範囲](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) を参照してください
 
-### <a name="approval-email-delivery"></a>承認電子メール配信
-承認電子メール ルーティングの詳細については、[承認電子メール配信に関する記事](https://go.microsoft.com/fwlink/?linkid=2128304)を参照してください。
+### <a name="approval-email-delivery"></a>承認メールの送信
+承認メールのルーティングに関する詳細については、[承認メールの送信に関する記事](https://go.microsoft.com/fwlink/?linkid=2128304) を参照してください。

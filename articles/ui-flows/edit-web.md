@@ -25,11 +25,11 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525149"
+ms.locfileid: "3298750"
 ---
 # <a name="edit-web-ui-flows"></a>Web UI フローの編集
 
-Web UI フローでは、[Microsoft Edge (バージョン 80 以降)](https://www.microsoft.com/edge/) または Google Chrome で実行されている Web サイトが自動化されます。 [Web UI フローを作成](create-web.md)した後で、それを編集する必要がある場合があります。 このドキュメントの手順に従って、Web UI フローを編集する方法を学習します。
+Web UI フローでは、[Microsoft Edge (バージョン 80 以降) ](https://www.microsoft.com/edge/) または Google Chrome で実行されている Web サイトが自動化されます。 [Web UI フローを作成](create-web.md)した後で、それを編集する必要がある場合があります。 このドキュメントの手順に従って、Web UI フローを編集する方法を学習します。
 
 ## <a name="edit-in-selenium-ide"></a>Selenium IDE での編集
 
@@ -50,7 +50,7 @@ Selenium IDE で特定できるセレクターの例を次に示します。
 
 この高度な機能を使用すると、\${foo.bar} のような構文を使用して、foo オブジェクトの bar プロパティにアクセスできます。 store コマンドの value プロパティとして foo を使用して、foo の bar プロパティに書き込むこともできます。 \${foo[0]} のような構文を使用して、foo 配列内のインデックス 0 の項目にアクセスすることもできます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Web UI フローの作成](create-web.md)
 - [UI フローの実行](run-ui-flow.md)

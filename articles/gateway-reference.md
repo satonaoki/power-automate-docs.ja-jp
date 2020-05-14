@@ -1,6 +1,6 @@
 ---
 title: オンプレミス データ ゲートウェイ | Microsoft Docs
-description: この記事は Power Automate のオンプレミス データ ゲートウェイの概要です。
+description: この記事では、Power Automate のオンプレミス データ ゲートウェイの概要をご紹介します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,16 +21,16 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 2a0e2d3ff9fb39019ef4b8f37a7715229844c388
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224356"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297738"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>オンプレミス データ ゲートウェイとは
 
 
-オンプレミス データ ゲートウェイはブリッジとして機能し、オンプレミス データ (クラウド内に存在しないデータ) といくつかの Microsoft クラウド サービスとの間でデータをすばやく安全に転送できます。 そのようなクラウド サービスには、Power BI、Power Apps、Power Automate、Azure Analysis Services、Azure Logic Apps があります。 ゲートウェイを使用することにより、組織はオンプレミス ネットワーク上のデータベースやその他のデータソースを維持しながら、そのオンプレミス データをクラウド サービスで安全に使用することができます。
+オンプレミス データ ゲートウェイはブリッジとして機能し、オンプレミス データ (クラウド内に存在しないデータ) といくつかの Microsoft クラウド サービスとの間でデータをすばやく安全に転送できます。 これらのクラウド サービスには、Power BI、Power Apps、Power Automate、Azure Analysis Services、Azure Logic Apps が含まれています。 ゲートウェイを使用することにより、組織はオンプレミス ネットワーク上のデータベースやその他のデータソースを維持しながら、そのオンプレミス データをクラウド サービスで安全に使用することができます。
 
 ## <a name="how-the-gateway-works"></a>ゲートウェイのしくみ
 
@@ -55,6 +55,6 @@ ms.locfileid: "79224356"
 3. 他のネットワーク要件も管理および操作できる[ゲートウェイ管理者を追加](/data-integration/gateway/service-gateway-manage)します。
 4. エラーが発生した場合にゲートウェイの[トラブルシューティング](/data-integration/gateway/service-gateway-tshoot)を行います。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [オンプレミス データ ゲートウェイのインストール](/data-integration/gateway/service-gateway-install)

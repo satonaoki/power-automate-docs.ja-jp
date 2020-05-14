@@ -1,5 +1,5 @@
 ---
-title: Markdown を使用して Power Automate の承認を書式設定する | Microsoft Docs
+title: Markdown を使用して Power Automate の承認の書式設定を行う | Microsoft Docs
 description: Markdown を使用して Power Automate の承認要求を書式設定する方法を説明します。
 services: ''
 suite: flow
@@ -25,32 +25,32 @@ ms.sourcegitcommit: 28adfdffc00c149bc46fab85b7307e4e819000c8
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/28/2020
-ms.locfileid: "82189613"
+ms.locfileid: "3299388"
 ---
-# <a name="use-markdown-in-power-automate-approval-requests"></a>Power Automate の承認要求で Markdown を使用する
+# <a name="use-markdown-in-power-automate-approval-requests"></a>Power Automate の承認リクエストで Markdown を使用する
 
 
 この記事では、[Markdown](https://en.wikipedia.org/wiki/Markdown) 構文を使って、承認要求に豊富な書式設定を追加する方法について説明します。
 
 > [!IMPORTANT]
-> 承認要求電子メールは、*アクション可能メッセージ*です。 [Microsoft Outlook クライアント](https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages)でアクション可能メッセージがサポートされない場合、承認要求は HTML 形式で表示されます。 
+> 承認要求電子メールは、*アクション可能メッセージ*です。 [Microsoft Outlook  クライアント](https://docs.microsoft.com/outlook/actionable-messages/#outlook-version-requirements-for-actionable-messages) でアクション可能メッセージがサポートされない場合、承認要求は HTML 形式で表示されます。 
 
 > [!IMPORTANT]
-> すべての Markdown レンダラーの実装は異なります。 詳細については、「[クライアント サポート](#client-support)」のセクションを参照してください。
+> すべての Markdown レンダラーには異なる実装がされています。 詳細は、[クライアント サポート](#client-support) セクションを参照してください。
 
 ## <a name="client-support"></a>クライアント サポート
 
-クライアント間の Markdown サポートに整合性がありません。 Power Automate チームはこれらの不整合に対処しますが、不整合は残ります。 次の表は、サポートされているクライアントの既知の制限を示しています。
+クライアント間の Markdown のサポートに一貫性がありません。 Power Automate チームはこれらの不整合に対処するために取り組みますが、不整合は残ります。 次の表に、対応しているクライアント間の既知の制約を示します。
 
-| 特徴 | Power Automate | Power Automate モバイル アプリ | Outlook デスクトップ | Outlook Web | Teams | Teams モバイル アプリ |  
+| 機能 | Power Automate | Power Automate モバイル アプリ | Outlook デスクトップ | Outlook Web | チーム  | Teams mobile アプリ |  
 |---------|--------|---------------|-----------------|-------------|-------|--------------|
-| **ヘッダー** | はい | はい | はい | はい | " **_いいえ_** " | " **_いいえ_** " |
-| **番号付きリスト** | はい | はい | " **_いいえ_** " | はい | はい | はい |
-| **入れ子になった番号付きリスト** | はい | はい | " **_いいえ_** " | はい | はい | はい |
-| **テーブル** | はい | はい | はい | はい | " **_いいえ_** " | " **_いいえ_** " |
-| **イメージ** | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " | " **_いいえ_** " |
-| **強制改行** | はい | はい | " **_いいえ_** " (代わりに空白行を使用) | はい | はい | はい |
-| **空白行** | " **_いいえ_** " | " **_いいえ_** " | はい | はい | " **_いいえ_** " | はい |
+| **ヘッダー** | 有効 | 有効 | 有効 | 有効 | **_No_** | **_No_** |
+| **番号付きリスト** | 有効 | 有効 | **_No_** | 有効 | 有効 | 有効 |
+| **ネストされた番号付きリスト** | 有効 | 有効 | **_No_** | 有効 | 有効 | 有効 |
+| **テーブル** | 有効 | 有効 | 有効 | 有効 | **_No_** | **_No_** |
+| **画像** | **_No_** | **_No_** | **_No_** | **_No_** | **_No_** | **_No_** |
+| **強制改行** | 有効 | 有効 | **_番号_**（代わりに空白行を使用してください） | 有効 | 有効 | 有効 |
+| **空白行** | **_No_** | **_No_** | 有効 | 有効 | **_No_** | 有効 |
 
 ## <a name="headers"></a>ヘッダー
 
@@ -58,7 +58,7 @@ ms.locfileid: "82189613"
 
 見出しを設定するには、行をハッシュ文字 `#` で始めます。 行の先頭のハッシュ文字を増やすと (例: `####`)、注釈を小見出しで整理できます。 最大 6 レベルの見出しがサポートされています。
 
-**例:**  
+**用例:**  
 ```Markdown
 # This is a H1 header
 ## This is a H2 header
@@ -72,17 +72,17 @@ ms.locfileid: "82189613"
 
 ## <a name="paragraphs-and-line-breaks"></a>段落と改行
 
-段落や改行で分割することにより、テキストを読みやすくします。 改行の前に 2 つの space を入力して、ほとんどのクライアントが新しい行から始まるようにします。  
+段落や改行で分割することにより、テキストを読みやすくします。 改行の前に 2 つのスペースを入力すると、ほとんどのクライアントで強制的に新規行を開始させます。  
    
-**例:**  
+**用例:**  
 ```Markdown
 This is line 1.(space, space)
 Now text will appear on the next line.
 ```
 
-**結果:**    
-This is line 1.  
-Now text will appear on the next line. 
+**結果: **   
+これは 1 行目です。  
+テキストが次の行に表示されます。 
 
 **例 2**  
 ```Markdown
@@ -92,9 +92,9 @@ Line 2 has extra space before it.
 ```
 
 **結果:**  
-This is line 1.  
+これは 1 行目です。  
 
-Line 2 has extra space before it.
+行 2 の前には余分なスペースがあります。
   
 
 ## <a name="lists"></a>リスト
@@ -105,7 +105,7 @@ Line 2 has extra space before it.
 
 ### <a name="ordered-or-numbered-lists"></a>順序ありリストまたは番号付きリスト
 
-**例:**  
+**用例:**  
 ```Markdown
 0. First item.
 0. Second item.
@@ -119,7 +119,7 @@ Line 2 has extra space before it.
 
 ### <a name="bullet-lists"></a>箇条書きリスト
 
-**例:**  
+**用例:**  
 ```Markdown
 - Item 1
 - Item 2
@@ -133,7 +133,7 @@ Line 2 has extra space before it.
 
 ### <a name="nested-lists"></a>入れ子になったリスト
 
-**例:**  
+**用例:**  
 ```Markdown
 1. First item.
    - Item 1
@@ -167,7 +167,7 @@ HTTP および HTTPS の URL は、リンクとして自動的に書式設定さ
 [Link Text](Link URL)
 ```
 
-**例:**  
+**用例:**  
 ```Markdown
 [Power Automate](https://flow.microsoft.com)
 ```
@@ -183,10 +183,10 @@ HTTP および HTTPS の URL は、リンクとして自動的に書式設定さ
 - テーブルのセルはパイプ文字 `|` を使って区切ります 
 - テーブルの最初の 2 行は、列の見出しと、テーブルの要素の配置を設定します
 - テーブルの見出しと本文を分けるときにコロン (`:`) を使って列の配置 (左、中央、右) を指定します 
-- 新しい行を開始するには、HTML 改行タグ (`<br/>`) を使用します
+- 新しい行を開始するには、HTMLブレーク タグ（`<br/>`）を使用してください
 - 各行は必ず CR または LF で終了してください。 
 
-**例:**  
+**用例:**  
 ```Markdown
 | Heading 1 | Heading 2 | Heading 3 |  
 |-----------|:-----------:|-----------:|  
@@ -195,7 +195,7 @@ HTTP および HTTPS の URL は、リンクとして自動的に書式設定さ
 ```
 
 **結果:**  
-| Heading 1 | Heading 2 | Heading 3 |  
+| 見出し 1 | 見出し 2 | 見出し 3 |  
 |-----------|:---------:|-----------:|  
 | Cell A1 | Cell A2 | Cell A3 |  
 | Cell B1 | Cell B2 | Cell B3<br/>テキストの 2 行目 |  
@@ -210,7 +210,7 @@ HTTP および HTTPS の URL は、リンクとして自動的に書式設定さ
 
 これらの要素を組み合わせて、複数の強調をテキストに適用できます。    
 
-**例:**  
+**用例:**  
 ```Markdown
 Use _emphasis_ in comments to express **strong** opinions and point out ~~corrections~~ 
 **_Bold, italicized text_**  
@@ -219,7 +219,7 @@ Use _emphasis_ in comments to express **strong** opinions and point out ~~correc
 
 **結果:**  
 コメントに_強調_を使用して**強力**な意見を表現し、<s>修正</s>を指摘します   
-**_太字、斜体のテキスト_**    
+**_太字、斜体のテキスト_**   
 **~~太字、取り消し線テキスト~~**  
 
 ## <a name="special-characters"></a>特殊文字

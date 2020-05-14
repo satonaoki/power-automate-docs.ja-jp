@@ -16,21 +16,21 @@ ms.workload: na
 ms.date: 01/04/2020
 ms.author: deonhe
 ms.openlocfilehash: b1ecc0240dba1866ea3468647d06637397d73170
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868298"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296506"
 ---
 # <a name="acronyms-form-sample"></a>頭字語フォームのサンプル
 
-**頭字語フォーム**サンプルは、頭字語を収集して、Common Data Service に格納するよう設計されたアダプティブ カード入力フォームです。 これらの頭字語は、この継続的なデータ収集によってどこからでも照会することができます。
+**頭字語フォーム** のサンプルは、頭字語を収集して、Common Data Service に格納するよう設計されたアダプティブ カードの入力フォームです。 これらの頭字語は、この継続的なデータ収集によってどこからでも照会することができます。
 
 ![頭字語ロガー](media/adaptive-cards/acronym-logger.png)
 
 *入力/出力とノート*
 
-| 動的トークンの名前 | プレースホルダー テキスト                        | 注:              |
+| 動的トークンの名前 | プレースホルダー テキスト                        | 注意:              |
 |--------------------|-----------------------------------------|---------------------|
 | {acAcronym}        | 頭字語の省略形を入力します  | 応答の**出力** |
 | {acDefinition}     | 上記の頭字語の定義を入力します | 応答の**出力** |

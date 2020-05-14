@@ -1,6 +1,6 @@
 ---
-title: Microsoft Teams でフローを作成および管理する方法を学習する | Microsoft Docs
-description: フローを作成して管理することで、要求に応じてメッセージを投稿したり、ユーザーやチャンネルを @mention したり、応答オプションを使用してカードを投稿したりできます。
+title: Microsoft Teams におけるフローの作成と管理の概要 | Microsoft Docs
+description: フローを作成して管理することで、要求に応じてメッセージの投稿、ユーザーやチャンネルへの @mention 、応答オプションを使用したカードの投稿ができます。
 services: ''
 suite: flow
 documentationcenter: na
@@ -16,23 +16,23 @@ ms.workload: na
 ms.date: 04/29/2019
 ms.author: deonhe
 ms.openlocfilehash: 1fbd0c6b1f6a7cd453f6c1a336f5ce450e236c5e
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195660"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296836"
 ---
-# <a name="power-automate-in-teams"></a>Teams での Power Automate
+# <a name="power-automate-in-teams"></a>Teams の Power Automate
 
 
 ### <a name="prerequisites"></a>前提条件
 
-1. Microsoft Teams にアクセスできること。
+1. Microsoft Teams へのアクセス。
 1. Power Automate へのアクセス。
 
-## <a name="install-the-power-automate-app-in-teams"></a>Power Automate アプリを Teams にインストールする
+## <a name="install-the-power-automate-app-in-teams"></a>Teams で Power Automate アプリをインストールする
 
-Microsoft Teams に Power Automate アプリをインストールするには、次の手順に従います。
+この手順に従って Microsoft Teams に Power Automate アプリをインストールします。
 
 1. Microsoft Teams にサインインします。
 
@@ -44,20 +44,20 @@ Microsoft Teams に Power Automate アプリをインストールするには、
 
     ![[Flow] アプリを選択](media/flows-teams/select-flow-app.png)
 
-1. **[インストール]** を選択します。
+1. **インストール**を選択します。
 
     ![[インストール] ボタン](media/flows-teams/select-install.png)
 
-1. これで Power Automate がインストールされました。
+1. Power Automate がインストールされました。
 
-    ![インストール済み](media/flows-teams/flow-installed.png)
+    ![インストール完了](media/flows-teams/flow-installed.png)
 
 
 ## <a name="create-a-flow-in-teams"></a>Teams でフローを作成する
 
 1. Microsoft Teams にサインインします。
 
-1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、 **[Flow]** アプリを選択します。
+1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、**[Flow]** アプリを選択します。
 
     ![追加されたアプリのアイコン](media/flows-teams/added-apps-icon.png)
 
@@ -70,7 +70,7 @@ Microsoft Teams に Power Automate アプリをインストールするには、
 
     ![Flow のランディング ページ](media/flows-teams/flow-landing-page.png)
 
-    名前|目的
+    件名|目的
     ----|-----|
     会話|Flow ボットとやりとりします。
     フロー|フローを作成して管理します。
@@ -78,13 +78,13 @@ Microsoft Teams に Power Automate アプリをインストールするには、
     バージョン情報|Power Automate のバージョンおよびその他の情報を表示します。
 
 
-    これで、Power Automate デザイナーで作成したすべてのフローが表示されます (存在する場合)。 
+    以上で、Power Automate のデザイナーで作成したすべてのフローが表示されます (存在する場合)。 
 
-    また、Power Automate デザイナーで行う場合と同様に、カスタム テンプレートまたは空のテンプレートからフローを作成することもできます。 
+    また、 Power Automate デザイナーで行う場合と同様に、カスタム テンプレートまたは空のテンプレートからフローを作成することもできます。 
 
 ## <a name="manage-approvals"></a>承認を管理する
 
-Power Automate で行う場合と同様に、Microsoft Teams でも[承認](modern-approvals.md)を管理することができます。 承認を管理するには、次の手順に従います。
+Power Automate と同様に、Microsoft Teams では [承認](modern-approvals.md) を管理できます。 承認を管理するには、次の手順に従います。
 
 1. Microsoft Teams にサインインします。
 1. **[承認]** タブを選択します。
@@ -93,18 +93,18 @@ Power Automate で行う場合と同様に、Microsoft Teams でも[承認](mode
 
     次のサブタブが表示されます。
 
-    タブ|目的
+    タブ​​|目的
     ----|-----|
-    受信済み|お客様が受信済みであり、お客様からのアクションを保留にしている承認要求を一覧表示します。
-    送信済み|お客様が送信済みであり、他のお客様からのアクションを保留にしている承認要求を一覧表示します。
+    受け取り済み|お客様が受信済みであり、お客様からのアクションを保留にしている承認要求を一覧表示します。
+    送信日時|お客様が送信済みであり、他のお客様からのアクションを保留にしている承認要求を一覧表示します。
     履歴|受信済みまたは送信済みの承認要求を一覧表示します。
     承認フローを作成する|承認フローを作成します。
 
-1. 詳細については、 **[受信済み]** タブ、 **[送信済み]** タブ、または **[履歴]** タブを選択します。
+1. 詳細については、**[受信済み]** タブ、**[送信済み]** タブ、または **[履歴]** タブを選択します。
 
     ![[承認] タブ](media/flows-teams/approvals-tab-2.png)
 
-1. 承認フローを作成するには、 **[承認フローの作成]** を選択します。
+1. 承認フローを作成するには、**[承認フローの作成]** を選択します。
 
     ![[承認] タブ](media/flows-teams/approvals-tab-3.png)
 
@@ -116,7 +116,7 @@ Power Automate で行う場合と同様に、Microsoft Teams でも[承認](mode
 > ボットを使用すると、スケジュールによってトリガーされるフロー、またはユーザーの入力なしで手動でトリガーされるフローを一覧表示し、実行することができます。
 
 1. Microsoft Teams にサインインします。
-1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、 **[Flow]** アプリを選択します。
+1. ナビゲーション バーで **[さらに追加されたアプリ]** リンク (...) を選択してから、**[Flow]** アプリを選択します。
 
     ![追加されたアプリのアイコン](media/flows-teams/added-apps-icon.png)
     

@@ -1,6 +1,6 @@
 ---
 title: 管理者分析の共有レポートとコネクタ レポートの概要 | Microsoft Docs
-description: 管理者分析の Power Automate 用の共有レポートとコネクタ レポートの概要
+description: Power Automate で使用する管理者分析レポートの共有とコネクターについての概要。
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,11 +21,11 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 9c7ed87d62ff6fc7370d5b57053239c8bfbeb591
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193452"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296814"
 ---
 # <a name="sharing-and-connectors-admin-analytics-reports"></a>管理者分析の共有レポートとコネクタ レポート
 
@@ -38,7 +38,7 @@ ms.locfileid: "79193452"
 
 ## <a name="view-shared-flows-reports"></a>共有フロー レポートの表示
 
-1. [Power プラットフォーム管理センター](https://admin.powerplatform.microsoft.com/)にサインインします。
+1. [Power Platform 管理センター](https://admin.powerplatform.microsoft.com/)にサインインします。
 1. 左側にあるナビゲーション バーから **[分析]** を選択します。
 1. **[共有]** タブを選択し、組織で共有されているフローの一覧を表示します。
  
@@ -47,7 +47,7 @@ ms.locfileid: "79193452"
 
 ## <a name="view-connectors-report"></a>コネクタ レポートの表示
 
-1. [Power プラットフォーム管理センター](https://admin.powerplatform.microsoft.com/)にサインインします。
+1. [Power Platform 管理センター](https://admin.powerplatform.microsoft.com/)にサインインします。
 1. 左側にあるナビゲーション バーから **[分析]** を選択します。
 1. **[コネクタ]** タブを選択し、組織で使用されているコネクタの一覧を表示します。
  
@@ -66,7 +66,7 @@ ms.locfileid: "79193452"
 
     ![フィルターの変更](media/admin-analytics-report/filters-detail.png)
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 [Power Automate の概要](getting-started.md)
 

@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 1df42c58cb02f8d62e016b071b3ce556b06a0efe
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195890"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298398"
 ---
 # <a name="design-flows-in-microsoft-visio"></a>Microsoft Visio でフローを設計する
 
@@ -37,13 +37,13 @@ Power Automate デザイナーは、ロジックのあらゆる細部を構成�
 
 ## <a name="prerequisites"></a>前提条件
 
-- Power Automate アカウント。
+- Power Automate アカウント
 - Microsoft Visio デスクトップ アプリ (英語版)。
 - Microsoft Visio の使用に関する専門知識。
 
 ## <a name="design-a-workflow-in-visio"></a>Visio でワークフローを設計する
 
-1. [Power Automate](https://flow.microsoft.com) にサインインします。
+1. [Power Automate](https://flow.microsoft.com) にサインインする。
 1. 左側パネルから **[テンプレート]** を選択します。
 
      ![左側パネルからテンプレートを選択します。](./media/visio-flows/templates-from-left-panel.png)
@@ -75,7 +75,7 @@ Power Automate デザイナーは、ロジックのあらゆる細部を構成�
 Power Automate にエクスポートできるように次の手順でワークフローを準備します。
 
 1. **[プロセス]** タブを選択します。
-1. アイコンの **[Power Automate]** グループから **[エクスポートの準備]** を選択します。
+1. アイコンの **Power Automate** グループから **エクスポートの準備** を選択します。
 
    ![[エクスポートの準備] アイコンを選択する](./media/visio-flows/prepare-export-icon.png)
    
@@ -83,17 +83,17 @@ Power Automate にエクスポートできるように次の手順でワーク�
 
    ![[エクスポートの準備] グループ](./media/visio-flows/prepare-export-group.png)
 
-1. **[エクスポートの準備]** グループの **[Flow のマッピング]** タブで、BPMN 図を Power Automate にマッピングします。 
+1. **エクスポートの準備** グループの **Flow のマッピング** タブで、BPMN 図を Power Automate にマッピングします。 
 
-1. **[エクスポートの準備]** グループの **[トリガーとアクション]** タブで、各図形を選択したら、Power Automate でその図形を表わすトリガーまたはアクションを選択することで、BPMN 図を Power Automate のトリガーとアクションにマッピングします。
+1. **エクスポートの準備** グループの **トリガーとアクション** タブで、各図形を選択したら、Power Automate でその図形を表わすトリガーまたはアクションを選択することで、BPMN 図を Power Automate のトリガーとアクションにマッピングします。
 
 **[エクスポートの準備]** コントロールに問題が残っていなければ、ワークフローはいつでもエクスポートできます。
 
 ![問題なし](./media/visio-flows/prepare-export-no-issues.png) 
 
 ## <a name="export-your-workflow"></a>ワークフローをエクスポートする
-1. **[Flow にエクスポート]** ボタンを選択し、ワークフロー図を Power Automate にエクスポートします。
-1. フローに名前を付け、 **[フローの作成]** ボタンを選択します。
+1. **Flow にエクスポート** ボタンを選択し、ワークフロー図を Power Automate にエクスポートします。
+1. フローに名前を付け、**[フローの作成]** ボタンを選択します。
    
    ![フローを作成する](./media/visio-flows/export-create-flow.png)
 
@@ -106,7 +106,7 @@ Power Automate にエクスポートできるように次の手順でワーク�
 >[!TIP]
 > Visio の共有機能とコメント機能を利用して複数の関係者と共同作業すれば、ワークフローが短期間で完成します。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 - [Power Automate の概要](getting-started.md) 
 - [複数ステップのフローの作成](multi-step-logic-flow.md)

@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524624"
+ms.locfileid: "3298838"
 ---
 # <a name="create-and-test-your-web-ui-flows"></a>Web UI フローの作成とテスト
 
@@ -33,7 +33,7 @@ ms.locfileid: "80524624"
 
 ## <a name="create-a-web-ui-flow"></a>Web UI フローの作成
 
-1. [Microsoft Edge (バージョン 80 以降)](https://www.microsoft.com/edge) または Google Chrome を開き、[Power Automate](https://flow.microsoft.com/) に移動します。
+1. [Microsoft Edge （バージョン80以降）](https://www.microsoft.com/edge) 、または Google Chrome を開き、[Power Automate](https://flow.microsoft.com/) に移動します。
 
 1. 必要に応じて職場または学校アカウントでサインインします。
 
@@ -54,7 +54,7 @@ ms.locfileid: "80524624"
    Selenium IDE が起動します。
 
    >[!TIP] 
-   >ヒント:同じタブ内で、複数の HTTP または HTTPS Web サイト間でアクションを記録できます。  
+   >ヒント: 同じタブ内で、複数の HTTP または HTTPS Web サイト間でアクションを記録できます。  
 
 1. Selenium IDE で、画面の右上にある赤色の **[REC]** ボタンを選択してレコーダーを起動します。
 
@@ -106,7 +106,7 @@ Selenium IDE の記録は現在のユーザーのプロファイルで実行さ�
 
 -   多要素認証 (MFA) はサポートされていません。MFA を必要としないテナントを使用してください。
 
--   次の Selenium IDE コマンドはサポートされていません:Run、AnswerOnNextPrompt、ChooseCancelOnNextConfirmation、ChooseCancelOnNextPrompt、ChooseOkOnNextConfirmation、Debugger、ClickAt、DoubleClickAt、Echo、MouseOut、MouseUpAt、および MouseDownAt。
+-   次の Selenium IDE コマンドはサポートされていません: Run、AnswerOnNextPrompt、ChooseCancelOnNextConfirmation、ChooseCancelOnNextPrompt、ChooseOkOnNextConfirmation、Debugger、ClickAt、DoubleClickAt、Echo、MouseOut、MouseUpAt、および MouseDownAt。
 
 -   右クリックはサポートされていません 
 
@@ -119,7 +119,7 @@ Selenium IDE の記録は現在のユーザーのプロファイルで実行さ�
 
 -   Selenium IDE での直接再生は、意図したとおりに動作しない場合があります。 ただし、UI フロー インフラストラクチャによる実行時の再生は正常に動作します。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [UI フロー](run-ui-flow.md)の実行方法について学習します。
 

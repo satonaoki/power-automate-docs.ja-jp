@@ -1,6 +1,6 @@
 ---
-title: Power Automate のラーニング カタログ
-description: Power Automate 用のすべてのトレーニング オプションを示します
+title: Power Automate のための学習カタログ
+description: Power Automate のすべてのトレーニング オプションを検索します
 author: loreleishannonmsft
 ms.topic: article
 ms.date: 03/17/2020
@@ -10,11 +10,11 @@ ms.sourcegitcommit: c86134235a4e3a819800c77fbc50034cfd8714c2
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 03/27/2020
-ms.locfileid: "80330138"
+ms.locfileid: "3298574"
 ---
-# <a name="learning-catalog-for-power-automate"></a>Power Automate のラーニング カタログ
+# <a name="learning-catalog-for-power-automate"></a>Power Automate のための学習カタログ
 
-Power Apps のユーザーとして、自分のロールの適切なオンライン トレーニング、個人ワークショップ、イベントを検索します。
+Power Apps のユーザーとしてのあなたの役割に適したオンライン トレーニング、対面研修、イベントを検索します。
 
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
@@ -22,11 +22,11 @@ Power Apps のユーザーとして、自分のロールの適切なオンライ
     :::column:::
 <!-- ![Universal Windows Platform (UWP)](images/platform-uwp.png)  -->  
 
-    ### <a name="business-and-technical-decision-makers"></a>ビジネスおよび技術に関する意思決定者
+    ### <a name="business-and-technical-decision-makers"></a>業務および技術面の意思決定者
 
     新しいテクノロジに投資するかどうかを決定する必要がありますか。 
 
-    [ビジネスおよび技術に関する意思決定者向けラーニング カタログ](learning-catalog-bdm.md#)
+    [業務および技術面の意思決定者の学習カタログ](learning-catalog-bdm.md#)
 
         :::column-end:::
     :::column:::
@@ -37,7 +37,7 @@ Power Apps のユーザーとして、自分のロールの適切なオンライ
 
     [アプリ作成者向けラーニング カタログ](learning-catalog-app-maker.md#)
 
-    [開始するには](learning-catalog-app-maker.md#get-started)
+    [はじめに](learning-catalog-app-maker.md#get-started)
 
     [フローの作成](learning-catalog-app-maker.md#create-flows)
 
@@ -52,7 +52,7 @@ Power Apps のユーザーとして、自分のロールの適切なオンライ
 
     コードを記述して他のデータ ソースと統合したり、システムのコア機能を拡張したり、複雑なアプリケーションを構築したりする必要がありますか。
 
-    [開発者向けラーニング カタログ](learning-catalog-developer.md)
+    [開発者学習カタログ](learning-catalog-developer.md)
 
         :::column-end:::
     :::column:::
@@ -61,7 +61,7 @@ Power Apps のユーザーとして、自分のロールの適切なオンライ
 
     システムとデータのフロー、プロビジョニング、およびセキュリティ保護を 24 時間維持する必要がありますか。
 
-    [管理者向けラーニング カタログ](learning-catalog-administrator.md)
+    [管理者の学習カタログ](learning-catalog-administrator.md)
 
     :::column-end:::
 :::row-end:::
@@ -81,7 +81,7 @@ Power Apps のユーザーとして、自分のロールの適切なオンライ
 
     あなたはビジネス ドメインの実装の専門家ですか。 
 
-    [アプリケーションの機能コンサルタントのラーニング カタログ](learning-catalog-functional-consultant.md)
+    [機能アプリケーション コンサルタント学習カタログ](learning-catalog-functional-consultant.md)
 
     [はじめに](learning-catalog-functional-consultant.md#get-started)
 

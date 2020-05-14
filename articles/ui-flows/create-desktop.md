@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525080"
+ms.locfileid: "3298860"
 ---
 # <a name="create-and-test-desktop-ui-flows"></a>デスクトップ UI フローの作成とテスト
 
@@ -38,7 +38,7 @@ ms.locfileid: "80525080"
 
 1. UI フローを作成するために、[デバイスの準備ができている](setup.md#prerequisites)ことを確認します。
 
-1. [Microsoft Edge (バージョン 80 以降)](https://www.microsoftedgeinsider.com) または Google Chrome を使用して [Power Automate](https://flow.microsoft.com) を開き、お使いのデバイスと同じ職場または学校アカウントでサインインします。
+1. [Microsoft Edge  (バージョン 80 以降) ](https://www.microsoftedgeinsider.com) または Google Chrome を使用して [Power Automate](https://flow.microsoft.com) を開き、ご利用のデバイスと同じ職場、または学校のアカウントを使用してサイン インします。
 
 1. **[マイ フロー]** > **[UI フロー]** > **[新規]** を選択します。
 
@@ -54,18 +54,18 @@ ms.locfileid: "80525080"
 
 1. 下部にある **[次へ]** を選択して、オプションの **[入力の設定]** 画面をスキップします。このチュートリアルでは入力を使用しません。
 
-1.  **[パッケージのダウンロード]** を選択します。
+1.  **パッケージのダウンロード**を選択します。
 1.  **Setup.Microsoft.PowerAutomate.UIflow.exe** ファイルを開きます。 このファイルは、前の手順でダウンロードした後、**Downloads** フォルダーにあるはずです。
 1.  UI フロー セットアップ インストーラーの指示に従い、インストールを完了させます。
 
     UI flows のインストーラーが完了すると、拡張機能のアクティブ化を求めるメッセージがブラウザーに表示されます。
 
-1. Microsoft Edge (バージョン 80 以降) で、ブラウザーの右上にある各警告アイコンを選択し、**[拡張機能の有効化]** を選択します。
+1. Microsoft Edge (バージョン 80 以降) で、ブラウザーの右上にある各警告アイコンを選択し、**拡張機能の有効化** を選択します。
 1. Google Chrome では、プロンプトが表示されたら、**[Enable extension]\(拡張機能の有効化\)** を選択します。
 
    > [!TIP]
    > ブラウザーにプロンプトが表示されない場合は、次のことを確認してください。
-   > - Microsoft Edge (バージョン 80 以降) または Google Chrome ブラウザーを使用する必要があります。
+   > - Microsoft Edge (バージョン 80 以降) または Google Chrome ブラウザ を使用します。
    > - [Microsoft Edge (バージョン 80 以降)](https://www.microsoft.com/store/collections/edgeextensions/pc) または [Google Chrome](https://chrome.google.com/webstore/category/extensions) の拡張機能の更新が必要となる場合があります。
 
    拡張機能をインストールしたら、続行します。
@@ -110,7 +110,7 @@ ms.locfileid: "80525080"
 
     ![記録されたステップの表示](../media/create-windows-ui-flow/show-recorded-steps.png "記録されたステップの表示")
 
-1. **[次へ]** を選択します。 
+1. **次へ** を選択します。 
 
 1. **[次へ]** を選択して、オプションの **[出力の設定]** のステップをスキップします。このチュートリアルでは出力を使用しません。
 
@@ -150,7 +150,7 @@ ms.locfileid: "80525080"
 
 -   Microsoft Office 2016 およびそれ以前。 
 
--   Microsoft Office Online。
+-   Microsoft Office online。
 
 ### <a name="unsupported-configurations"></a>サポートされていない構成
 
@@ -160,7 +160,7 @@ ms.locfileid: "80525080"
 
 -   メイン ウィンドウのタイトルが同一である、アプリケーションの複数のインスタンス。
 
--   同じタイトルを持つアプリケーション ウィンドウ (たとえば、Microsoft Outlook で同時にアクティブになっている **[無題 – メッセージ (HTML)]** という複数の新しいメール ウィンドウ)。
+-   同じタイトルを持つアプリケーション ウィンドウ (たとえば、Microsoft Outlook  で同時にアクティブになっている **無題 – メッセージ (HTML)** という複数の新しいメール ウィンドウ)。
 
 -   特定の 1 台のデバイスでの、複数の同時記録セッション。
 
@@ -168,7 +168,7 @@ ms.locfileid: "80525080"
 
 -   記録したデバイスとはキーボード レイアウトが異なるデバイスでの再生。
 
--   Microsoft Flow を使用しているブラウザーが別のデバイスまたは別の Windows セッションに存在する状態での、デバイスまたは Windows セッションでの記録。
+-   Microsoft Flow を使用しているブラウザーが別のデバイスまたは別の Windows セッションに存在する状態での、デバイスまたは Windows セッションを記録すること。
 
 ### <a name="unsupported-action-types-and-behaviors"></a>サポートされていないアクションの種類と動作
 
@@ -187,13 +187,13 @@ ms.locfileid: "80525080"
 -   記録する前にアプリを開くこと。
 
 
-## <a name="unreliable-behaviors-and-workarounds-for-microsoft-office-desktop"></a>Microsoft Office (デスクトップ) の信頼性の低い動作と回避策
+## <a name="unreliable-behaviors-and-workarounds-for-microsoft-office-desktop"></a>Microsoft Office  (デスクトップ) の信頼性の低い動作と回避策
 
 - 再生中、リボンが自動非表示に設定されている場合に発生する可能性のある問題を回避するには、再生を開始する前にリボンをピン留めします。
-- クリックしてドラッグする方法で項目を選択しないでください。 たとえば、Shift キーを押しながらクリックして Microsoft Excel のセルを選択したり、Microsoft Word または Microsoft PowerPoint でマウスをドラッグしてテキストを選択したりしないでください。
-- Microsoft Word および Microsoft PowerPoint デスクトップ アプリケーションでは、UI フローで一部の要素が正しく機能しない場合があります。 たとえば、**[ファイル]** メニューのオプション ([空白から開始] など)、またはコントロールの右クリック (Microsoft Word での段落の追加や Microsoft PowerPoint でのスライドのレイアウト変更など) は機能しない場合があります。
+- クリックしてドラッグする方法で項目を選択しないでください。 たとえば、Shift キーを押しながらクリックして Microsoft Excel のセルを選択する、Microsoft Word または Microsoft PowerPoint でマウスをドラッグしてテキストを選択するなどの操作はしないでください。
+- Microsoft Word および Microsoft PowerPoint デスクトップ アプリケーションでは、UI のフローで一部の要素が正しく機能しない場合があります。 たとえば、**ファイル** メニューのオプション ([空白から開始] など)、またはコントロールの右クリック (Microsoft Word での段落の追加や Microsoft PowerPoint でのスライドのレイアウト変更など) が機能しない場合があります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - 作成した [UI フローをトリガーする](run-ui-flow.md)方法について学習します。
 

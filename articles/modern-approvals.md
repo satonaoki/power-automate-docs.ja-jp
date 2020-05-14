@@ -1,6 +1,6 @@
 ---
-title: 承認ワークフローの自動化の簡略化 | Microsoft Docs
-description: SharePoint、Dynamics CRM、Salesforce、One Drive for Business、Zendesk、または WordPress と統合される承認ワークフローを自動化します。
+title: 承認ワークフローの自動化の簡略化  | Microsoft Docs
+description: SharePoint、Dynamics CRM、Salesforce、OneDrive for Business、Zendesk、または WordPress と統合される承認ワークフローを自動化します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,22 +21,22 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 4892ac2806009a1ed33b8bfb019b551aec6fce70
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224310"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297782"
 ---
-# <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Power Automate を使用して承認ワークフローを作成してテストする
+# <a name="create-and-test-an-approval-workflow-with-power-automate"></a>Power Automate での承認ワークフローを作成し、テストします
 
 
 Power Automate では、SharePoint、Dynamics 365、Salesforce、OneDrive for Business、Zendesk、WordPress など、複数のサービスにわたりドキュメントやプロセスの承認を管理できます。
 
-承認ワークフローを作成するには、 **[承認 - 承認を開始]** アクションを任意のフローに追加します。 このアクションを追加すると、フローでドキュメントまたはプロセスの承認を管理できるようになります。 たとえば、請求書、作業指示書または販売見積りを承認する、ドキュメントの承認フローを作成できます。 また、休暇申請、超過作業時間、出張計画を承認する、プロセスの承認フローを作成することもできます。
+承認ワークフローを作成するには、**[承認 - 承認を開始]** アクションを任意のフローに追加します。 このアクションを追加すると、フローでドキュメントまたはプロセスの承認を管理できるようになります。 たとえば、請求書、作業指示書または販売見積りを承認する、ドキュメントの承認フローを作成できます。 また、休暇申請、超過作業時間、出張計画を承認する、プロセスの承認フローを作成することもできます。
 
-承認者は、受信トレイ、Power Automate Web サイトの[承認センター](https://flow.microsoft.com/manage/approvals/received/)、または Power Automate アプリから要求に対応できます。
+承認者は、受信トレイ、 Power Automate  Web サイトの [承認センター](https://flow.microsoft.com/manage/approvals/received/) 、または Power Automate アプリから要求に対応できます。
 
-## <a name="create-an-approval-flow"></a>承認フローを作成する
+## <a name="create-an-approval-flow"></a>承認フローの作成
 ここで、作成し、テストするフローの概要を次に示します。
 
    ![フローの概要](./media/modern-approvals/create-flow-overview.png)
@@ -46,18 +46,18 @@ Power Automate では、SharePoint、Dynamics 365、Salesforce、OneDrive for Bu
 1. 誰かが SharePoint Online リストで休暇申請を作成したときに開始されます。
 2. 休暇申請を承認センターに追加し、それを承認者に電子メールで送信します。
 3. 休暇を申請したユーザーに、承認者の決定内容を含む電子メールを送信します。
-4. SharePoint Online リストを決定コメントによって更新します。
+4. SharePoint Online リストを事前承認者の決定とコメントによって更新します。
 
 ## <a name="prerequisites"></a>前提条件
 このチュートリアルを完了するには、以下にアクセスする必要があります。
 
 [!INCLUDE [prerequisites-for-modern-approvals](includes/prerequisites-for-modern-approvals.md)]
 
-SharePoint Online リストで次の列を作成します。
+SharePoint Online リストで次の列を作成します：
 
-   ![SharePoint Online リストの列。](./media/modern-approvals/sharepoint-list-fields.png)
+   ![SharePoint Online リストの列](./media/modern-approvals/sharepoint-list-fields.png)
 
-SharePoint Online リストの名前と URL をメモします。 後で **[SharePoint - 項目が作成されたとき]** トリガーを構成するときに、この項目が必要になります。
+SharePoint Online リストの名前と URL をメモします。 これらの項目は、後で **SharePoint - 新しい項目が作成されたとき** トリガーを構成する際に使用します。
 
 ## <a name="create-your-flow-from-the-blank-template"></a>空白のテンプレートからフローを作成する
 [!INCLUDE [sign-in-and-create-flow-from-blank-template](includes/sign-in-and-create-flow-from-blank-template.md)]
@@ -72,16 +72,16 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 
 ## <a name="add-a-profile-action"></a>プロファイル アクションの追加
 
-1. **[新しいステップ]** を選択し、 **[アクションの追加]** を選択します。
+1. **[新しいステップ]** を選択してから、**[アクションの追加]** を選択します。
    
     ![新しいステップ](./media/modern-approvals/select-sharepoint-add-action.png)
 2. **[アクションの選択]** 検索ボックスに「**プロファイル**」と入力します。
    
     ![プロファイルの検索](./media/modern-approvals/search-for-profile.png)
-3. 検索して、 **[Office 365 ユーザー - 私のプロファイルの取得]** アクションを選択します。
+3. **Office 365 ユーザー - 自分のプロファイルの取得** アクションを検索して選択します。
    
     ![Office ユーザーの選択](./media/modern-approvals/select-my-profile.png)
-4. フローの名前を指定し、 **[フローの作成]** を選択してこれまでに行った作業を保存します。
+4. フローの名前を指定し、**[フローの作成]** を選択してこれまでに行った作業を保存します。
    
     ![フローの保存](./media/modern-approvals/save.png)
 
@@ -90,11 +90,11 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 [!INCLUDE [add-an-approval-action](includes/add-an-approval-action.md)]
 
 > [!NOTE]
-> このアクションを実行すると、 **[担当者]** ボックス内の電子メール アドレスに承認要求が送信されます。
+> このアクションを実行すると、**[担当者]** ボックス内の電子メール アドレスに承認要求が送信されます。
 >
 > シナリオで必要な場合は、Common Data Service を使用する承認要求にファイルを添付できます。
 
-## <a name="add-a-condition"></a>条件の追加
+## <a name="add-a-condition"></a>条件を追加します
 
 [!INCLUDE [add-approval-condition-response](includes/add-approval-condition-response.md)]
 
@@ -111,7 +111,7 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 [!INCLUDE [add-action-to-update-sharepoint-with-approval](includes/add-action-to-update-sharepoint-with-approval.md)]
 
 > [!NOTE]
-> **[サイト アドレス]** 、 **[リスト名]** 、 **[ID]** 、および **[タイトル]** は必須です。
+> **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
 >
 >
 
@@ -128,7 +128,7 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 [!INCLUDE [add-action-to-update-sharepoint-with-rejection](includes/add-action-to-update-sharepoint-with-rejection.md)]
 
    > [!NOTE]
-   > **[サイト アドレス]** 、 **[リスト名]** 、 **[ID]** 、および **[タイトル]** は必須です。
+   > **[サイト アドレス]**、**[リスト名]**、**[ID]**、および **[タイトル]** は必須です。
    >
    >
 
@@ -151,7 +151,7 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 
 ## <a name="create-long-running-approvals"></a>長期にわたる承認の作成
 
-フローが 30 日以上実行される可能性が高い場合は、Common Data Service に承認を保存することを検討してください。 これにより、元のフローの実行がタイムアウトした後でも、承認要求への応答に対して動作するフローを作成できるようになります。これを行うには、2 つのフローを使用します。1 つは承認要求を送信し、もう 1 つは **[Create an approval (v2)]\(承認の作成 (v2)\)** アクションに基づいて承認要求への応答に対しビジネス ロジックを実行するフローです。 [長期にわたる承認](https://docs.microsoft.com/business-applications-release-notes/april19/microsoft-flow/long-lived-approvals-other-approval-improvements)の詳細についてご確認ください。
+フローが 30 日以上実行される可能性が高い場合は、Common Data Service に承認を保存することを検討してください。 これにより、元のフローの実行がタイムアウトした後でも、承認リクエストへの応答に基づいて動作するフローを作成できます。これを行うには、**承認を作成する（v2）** アクションに基づいて、2 つのフローを使用します。1 つは承認リクエストを送信し、もう 1 つは承認リクエストへの応答に基づいてビジネスロジックを実行します。 [長期にわたる承認](https://docs.microsoft.com/business-applications-release-notes/april19/microsoft-flow/long-lived-approvals-other-approval-improvements)の詳細についてご確認ください。
 
 >[!TIP]
 > 最新の電子メール クライアントを使用している場合、要求が引き続き必要かどうかを気にする必要はありません。これは、Power Automate によって承認が完了していることを示すように電子メールが自動的に更新されるためです。
@@ -167,19 +167,19 @@ SharePoint Online リストの名前と URL をメモします。 後で **[Shar
 >いつでも **[履歴]** タブを選択して、取り消した承認要求を表示できます。
 
 >[!NOTE]
-> 取り消し機能は、 **[Create an approval (v2)]\(承認の作成 (v2)\)** アクションでサポートされています。
+> 取り消し機能は、**[Create an approval (v2)]\(承認の作成 (v2)\)** アクションでサポートされています。
 
 ## <a name="request-approvals-from-guest-users"></a>ゲスト ユーザーからの承認の要求
 
-組織外のユーザーに承認要求を送信できます。 これを行うには、[他のテナントのユーザーをゲストとして招待](https://docs.microsoft.com/azure/active-directory/b2b/add-user-without-invite)して、Azure Active Directory (Azure AD) ゲスト ユーザーを使用します。
+組織外のユーザーに承認要求を送信できます。 これを行うには、[他のテナントのユーザーをゲストとして招待する](https://docs.microsoft.com/azure/active-directory/b2b/add-user-without-invite) を使用して、Azure Active Directory（Azure AD）ゲストユーザーを使用します。
 
 ゲストにロールを割り当てると、承認プロセスに参加するために必要なアクセス許可がゲストに付与されます。
 
 これでフローの作成およびテストが終了したので、フローの使い方を他のユーザーに知らせてください。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 * [承認待ちの要求](approve-reject-requests.md)を表示し、管理する
 * [シーケンシャル承認フロー](sequential-modern-approvals.md)を作成する
 * [並列承認フローを作成する](parallel-modern-approvals.md)
-* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリをインストールします。
+* [Android](https://aka.ms/flowmobiledocsandroid) 向けの Power Automate モバイル アプリ、[iOS](https://aka.ms/flowmobiledocsios)、[Windows Phone](https://aka.ms/flowmobilewindows) をインストールします。

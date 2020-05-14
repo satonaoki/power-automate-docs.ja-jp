@@ -1,5 +1,5 @@
 ---
-title: Power Automate で AI Builder を使う | Microsoft Docs
+title: Power Automate で AI Builder を使用する | Microsoft Docs
 description: Power Automate で AI Builder を使用します。
 services: ''
 suite: flow
@@ -21,23 +21,23 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: 77a1fbe61247a3264693ad0f6bb5d3205ad20239
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195913"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298464"
 ---
-# <a name="use-ai-builder-in-power-automate"></a>Power Automate で AI Builder を使う
+# <a name="use-ai-builder-in-power-automate"></a>Power Automate で AI Builder を使用する
 
 
 
-AI Builder は Power Platform の新しい機能であり、自動化されたプロセスにインテリジェンスを追加し、結果を予測し、ビジネスのパフォーマンスを向上させることができます。 AI Builder は、ポイントアンドクリック操作により Microsoft AI の機能を利用できるターンキー ソリューションであり、Power Apps と Power Automate に直接統合されています。 詳細情報: [AI Builder とは](/ai-builder/)
+AI Builder は Power Platform の新しい機能であり、自動化されたプロセスにインテリジェンスを追加し、結果を予測し、ビジネスのパフォーマンスを向上させることができます。 AI Builder は、ポイント アンド クリック操作により Microsoft AI の力をもたらすターンキー ソリューションであり、Power Apps と Power Automate に直接統合されています。 詳しくは、「[AI Builder とは](/ai-builder/)」を参照してください。
 
-[Power Automate](https://flow.microsoft.com) の左側のナビゲーション ペインにある **[AI Builder]** オプションを使うことで、AI モデルを作成できます。 詳細情報: [AI モデルの種類](/ai-builder/model-types)
+[Power Automate](https://flow.microsoft.com) の左側のナビゲーション ウィンドウにある **AI Builder** オプションを使うことで、AI モデルを作成できます。 詳しくは、「[AI モデルの種類](/ai-builder/model-types)」をご覧ください
 
-![Power Automate で AI Builder を使う](./media/use-ai-builder/ai_builder.png "Power Automate での AI Builder")
+![Power Automate で AI Builder を使用する](./media/use-ai-builder/ai_builder.png "Power Automate 内の AI Builder")
 
 
-フローで AI Builder モデルを使って、組織にインテリジェンスを追加します。 詳細情報: [Power Automate で AI Builder を使用する](/ai-builder/use-in-flow-overview)
+フローで AI Builder モデルを使って、組織にインテリジェンスを追加します。 詳細: [Power Automate で AI Builder を使用する](/ai-builder/use-in-flow-overview)
 
 

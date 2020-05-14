@@ -1,5 +1,5 @@
 ---
-title: ガイド プロセスで Common Data Service ダイアログを使用する (非推奨) | Microsoft Docs
+title: ガイド プロセスで Common Data Service ダイアログを使用する (非推奨) | MicrosoftDocs
 description: ダイアログは、プロセスからユーザーに指示するためにステップバイステップのスクリプトを使用することによって、情報を収集および処理する同期または対話型のプロセスです。
 ms.custom: ''
 ms.date: 10/31/2017
@@ -17,30 +17,30 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 69b8d448a3bb2636f4804fe75645467ca6bd081d
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195867"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298420"
 ---
 # <a name="use-common-data-service-dialogs-for-guided-processes-deprecated"></a>ガイド プロセスで Common Data Service ダイアログを使用する (非推奨)
 
 
-[ダイアログは非推奨となっています](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated)。 ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える必要があります。 詳細情報: [ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える](replace-dialogs.md) 
+[ダイアログは非推奨となっています](/dynamics365/get-started/whats-new/customer-engagement/important-changes-coming#dialogs-are-deprecated)。 ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える必要があります。 詳細: [ダイアログから業務プロセス フローまたはキャンバス アプリへの置き換え](replace-dialogs.md) 
 
-ダイアログは、プロセスからユーザーに指示するためにステップバイステップのスクリプトを使用することによって、情報を収集および処理する Common Data Service で同期または対話型のプロセスです。 たとえば、サポート案件の解決とサポート案件のエスカレーションにおけるご自分のサービス担当者向けのガイドとして指定するダイアログを作成できます。 同様に、営業案件の見込み評価、リード スコアリングなど、営業プロセスを標準化するためのダイアログを作成できます。
+Common Data Service のダイアログは、手順ごとのスクリプトによってユーザーをプロセスに誘導することで情報の収集と処理を行う、同期したプロセスまたは対話型のプロセスです。 たとえば、サービス担当者向けにサポート案件の解決やエスカレーションをガイドするダイアログを作成できます。 また、営業案件の見込み評価や潜在顧客の採点などの営業プロセスを標準化するダイアログを作成することもできます。
 
 ## <a name="differences-between-workflows-and-dialogs"></a>ワークフローとダイアログの違い
 
-次の表では、Common Data Service のワークフローとダイアログの違いに関する情報を示しています。  
+次の表に、Common Data Service のワークフローとダイアログの違いに関する情報を示します。  
 
 
 | ワークフロー     |    ダイアログ      |
 |---------------|--------------|
-|                                                                                                  ユーザーが開始、または自動化することができます。                                                                                                   |                                                                                          ユーザーが開始する必要があります。                                                                                          |
-|                                  非同期プロセスまたはリアルタイム プロセスで、実行を完了するためにユーザーの入力を必要としません。 非同期プロセスはバックグラウンドで実行されますが、リアルタイム プロセスは直ちに実行されます。                                   | 実行を完了するためにユーザーの入力を必要とするリアルタイム プロセスです。 これらのプロセスを実行すると、ウィザードに似たインターフェイスが表示されるため、プロセスを実行するために適切な選択を行うことができます。 |
-|                                                    非同期ワークフローの実行に関する詳細を格納するエンティティは `AsyncOperation` ですが、`Process` がリアルタイム ワークフローに使用されます。                                                     |                                                       実行中のダイアログによって生成される情報を格納するエンティティは、`ProcessSession` エンティティです。                                                       |
-|                  トリガーはワークフローでサポートされます。 サポートされるトリガーの一覧については、[プロセスでサポートされている種類、トリガー、エンティティ](/dynamics365/customer-engagement/developer/supported-types-triggers-entities-actions-processes)に関するページを参照してください。                   |                                                                                   トリガーはダイアログではサポートされていません。                                                                                    |
+|                                                                                                  ユーザーが開始することも、自動化することもできます。                                                                                                   |                                                                                          ユーザーが開始する必要があります。                                                                                          |
+|                                  非同期プロセスまたはリアルタイム プロセスで、完了まで実行するためにユーザー入力は必要ありません。 非同期プロセスはバックグラウンドで実行され、一方、リアルタイム プロセスをすばやく実行されます。                                   | リアルタイム プロセスでは、完了まで実行するためにユーザー入力が必要です。 これらのプロセスを実行すると、ウィザード風のインターフェイスが表示されるので、プロセスを実行するために適切な選択を行うことができます。 |
+|                                                    非同期実行するワークフローの実行に関する詳細を保存するエンティティは `AsyncOperation`で、一方 `Process` はリアルタイム ワークフローで使用されます。                                                     |                                                       ダイアログの実行によって生成される情報を保存するエンティティは、`ProcessSession` エンティティです。                                                       |
+|                  ワークフローに対するトリガーがサポートされています。 サポートされるトリガーの一覧については、[プロセスでサポートされている種類、トリガー、エンティティ](/dynamics365/customer-engagement/developer/supported-types-triggers-entities-actions-processes)に関するページを参照してください。                   |                                                                                   ダイアログに対するトリガーはサポートされていません。                                                                                    |
   
 ### <a name="see-also"></a>関連項目
 [ダイアログを業務プロセス フローまたはキャンバス アプリに置き換える](replace-dialogs.md)

@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 01/04/2020
 ms.author: deonhe
 ms.openlocfilehash: 902510ac5c2dd61fbcaae7c1dad771588e431873
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868206"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297650"
 ---
 # <a name="metadata-update-card-sample"></a>メタデータ更新カードのサンプル
 
@@ -37,15 +37,15 @@ ms.locfileid: "75868206"
 
 *入力/出力とノート*
 
-| 動的トークンの名前 (入力) | プレースホルダー テキスト    | ノート                                     |
+| 動的トークンの名前 (入力) | プレースホルダー テキスト    | メモ​​                                     |
 |-----------------------------|---------------------|--------------------------------------------|
-| acHeader                    | {Header}            | 表示テキスト                               |
-| acSubHeader                 | {SubHeader}         | 表示テキスト                               |
-| acDescription               | ラテン語テキスト          | 表示テキスト                               |
-| acFact1                     | {acFact1}           | 表示テキスト                               |
-| acFact2                     | {acFact2}           | 表示テキスト                               |
-| acFact3                     | {acFact3}           | 表示テキスト                               |
-| acColumnSetHeader           | ヘッダー 1 から 3 | 表示テキスト <br>  列セット ヘッダーの表示テキスト                               |
+| acHeader                    | {Header}            | テキストの表示                               |
+| acSubHeader                 | {SubHeader}         | テキストの表示                               |
+| acDescription               | ラテン語テキスト          | テキストの表示                               |
+| acFact1                     | {acFact1}           | テキストの表示                               |
+| acFact2                     | {acFact2}           | テキストの表示                               |
+| acFact3                     | {acFact3}           | テキストの表示                               |
+| acColumnSetHeader           | ヘッダー 1 から 3 | テキストの表示 <br>  列セット ヘッダーの表示テキスト                               |
 | acColumnSet                 | 列 1 から 3 | 配列または列の値に置き換えます。       |
 
 

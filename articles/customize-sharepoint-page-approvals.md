@@ -1,6 +1,6 @@
 ---
-title: Power Automate による SharePoint ページの承認の管理 | Microsoft Docs
-description: Power Automate を使用して SharePoint ページの承認を管理する方法について説明します。
+title: Power Automate を使用した SharePoint ページの管理 | Microsoft Docs
+description: Power Automate を使用した SharePoint ページの管理を説明します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -20,27 +20,27 @@ ms.sourcegitcommit: c43c98cc777780d42d15e287233c040771a6e147
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/07/2020
-ms.locfileid: "80801514"
+ms.locfileid: "3298992"
 ---
-# <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Power Automate による SharePoint ページの承認の管理
+# <a name="manage-sharepoint-page-approvals-with-power-automate"></a>Power Automate を使用して SharePoint ページを管理する
 
 
-SharePoint サイト管理者は、Power Automate を使用して、新規または更新されたサイト ページが発行される前に承認を求めるようにすることができます。
+SharePoint のサイト管理者は、Power Automate を使用して、新規または更新されたサイト ページが発行される前に承認を求めることができます。
 
-この記事では、フローを使用してサイトへの変更が公開される前に承認されるように求めるように、SharePoint サイトの構成方法を学習します。
+この記事では、SharePoint サイトでフローを使用して、サイトへの変更を公開前に承認の要求を設定する方法を説明します。
 
-## <a name="configure-sharepoint-for-page-approvals"></a>ページの承認用に SharePoint を構成する
+## <a name="configure-sharepoint-for-page-approvals"></a>SharePoint を構成してページの承認をする
 
 ### <a name="prerequisites"></a>前提条件 
 
-この記事のアクティビティを実行するには、SharePoint サイトの管理者である必要があります。
+この記事のアクティビティを実行するには、 SharePoint サイトの管理者である必要があります。
 
 1. サイト管理者として SharePoint にサインインします。
 1. ナビゲーション バーから **[ページ]** を選択します。
 
     ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/pages.png)
 
-1. **[自動化]**  >  **[Power Automate]**  >  **[ページの承認フローの構成]** を選択します。
+1. **自動化** > **Power Automate** > **ページの承認フローの構成** を選択します。
     
     ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/select-page-approval-flow.png)
 
@@ -48,15 +48,15 @@ SharePoint サイト管理者は、Power Automate を使用して、新規また
 
 1. 場合によっては、この Power Automate テンプレートで使用されるサービスにサインインする必要があります。
 
-1. **[続行]** を選択します。
+1. **続行** を選択します。
 
-1. **フロー名**を指定し、 **[承認者]** ボックスに少なくとも 1 つの名前を入力して、 **[作成]** を選択します。
+1. **フロー名**を指定し、**[承認者]** ボックスに少なくとも 1 つの名前を入力して、**[作成]** を選択します。
     
     ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/flow-name-approvers-create.png)
 
-これだけです。 これで、ページが追加または変更されるたびに、フローにリストされている**承認者**に承認要求が送信されます。
+OK! これで、ページが追加または変更されるたびに、フローにリストされている**承認者**に承認要求が送信されます。
 
-ページの承認フローは他のフローと同様で、 **[マイ フロー]** タブに一覧表示されます。
+ページの承認フローは他のフローと同様で、**[マイ フロー]** タブに一覧表示されます。
 
 ![ページの承認フローの選択](media/customize-sharepoint-page-approvals/page-approval-flow-success.png)
 
@@ -74,13 +74,13 @@ SharePoint サイト管理者は、Power Automate を使用して、新規また
     
 ## <a name="approve-a-page"></a>ページを承認する
 
-承認者は、ページの承認要求があるたびにメールを受信します。 要求はメールで直接承認することも (メール クライアントでアクション可能メッセージがサポートされている場合)、メールからページを開いて確認してから SharePoint でページを承認することもできます。
+承認者は、ページの承認要求があるたびにメールを受信します。 メールで直接リクエストを承認するか（メールクライアントがアクション可能なメッセージに対応している場合）、メールからページを開いて確認してから SharePoint でページを承認することもできます。
 
 ## <a name="customize-page-approval-flows"></a>ページの承認フローをカスタマイズする
 
-ページの承認ではバックグラウンドで Power Automate が使用されるため、サイト所有者がページの承認フローを使用して、フロー内の任意のカスタム ビジネス ロジックを変更および追加できます。 フローを変更するには、サイト所有者が **[フロー]** 選択し、ページ ライブラリで **[フローの表示]** を選択してページの承認フローを見つけることができます。
+ページの承認ではバックグラウンドで Power Automate が使用しているため、サイト所有者はページの承認フローを使用して、フロー内の任意のカスタム ビジネス ロジックを変更、追加することができます。 フローを変更するには、サイト所有者が **[フロー]** 選択し、ページ ライブラリで **[フローの表示]** を選択してページの承認フローを見つけることができます。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 - [ページの承認フロー](https://support.office.com/article/page-approval-flow-a8b2e689-d4a1-4639-8028-333c0ece30d9)
 - [ページの承認を構成する](https://support.office.com/article/configure-page-approval-14ce6976-a0a7-427b-b4ab-d28d344a5222)

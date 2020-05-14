@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 0d0157c4e0d392dd8493e5aeca4e97531c95213d
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868160"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297276"
 ---
 # <a name="candidate-feedback-sample"></a>応募者のフィードバックのサンプル
 
@@ -37,12 +37,12 @@ ms.locfileid: "75868160"
 
      ![応募者のフィードバック フォーム](media/adaptive-cards/candidate-form.png)
 
-"*入力/出力と注*"
+*入力/出力とノート*
 
-| 動的トークンの名前 | プレースホルダー テキスト | 注:              |
+| 動的トークンの名前 | プレースホルダー テキスト | 注意:              |
 |--------------------|------------------|---------------------|
-| {acFullName}       | {acFullName}     | 表示テキスト        |
-| {acComments}       | {acComments}     | 表示テキスト        |
+| {acFullName}       | {acFullName}     | テキストの表示        |
+| {acComments}       | {acComments}     | テキストの表示        |
 | {acDecision}       |                  | 応答の**出力** |
 | {acFollowUp}       |                  | 応答の**出力** |
 

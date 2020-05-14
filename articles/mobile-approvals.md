@@ -21,20 +21,20 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 513200d18ac2a845cd63a6d269513f3bcb45118c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193981"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297628"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-power-automate"></a>Power Automate を使用してモバイル デバイスで要求を承認する
 
-フローによって承認者として識別された場合、Power Automate 用のモバイル アプリがインストール済みであると、承認を要求されるたびにプッシュ通知を受け取ります。
+フローが承認者として識別した場合で、かつ Power Automate 用のモバイル アプリがインストール済みの場合は、承認を要求されるたびにプッシュ通知が届きます。
 
 この記事では、Power Automate 用のモバイル アプリで承認要求を管理するときに、発生する可能性があるいくつかの一般的なシナリオについて説明します。
 
 > [!NOTE]
-> このトピックで示すイメージは、Android デバイスからのものですが、iOS でのエクスペリエンスもほぼ同じです。
+> このトピックで示すイメージは、Android デバイスからのものですが、iOS でのエクスペリエンスにも共通する物です。
 > 
 > 
 
@@ -46,7 +46,7 @@ ms.locfileid: "79193981"
 * 承認待ちの要求。
 
 ## <a name="view-pending-requests"></a>承認待ちの要求を表示する
-1. Power Automate 用のモバイル アプリを開きます。
+1. Power Automate のモバイル アプリを開きます。
    
     ![モバイル アプリを起動する](./media/mobile-approvals/open-app.png)
 2. 右上隅の **[承認]** を選択します。
@@ -81,6 +81,6 @@ ms.locfileid: "79193981"
 ## <a name="reject-requests-and-leave-an-optional-comment"></a>要求を却下し、必要に応じてコメントを残す
 [要求を承認する手順](mobile-approvals.md#approve-requests-and-leave-an-optional-comment)に従いますが、2 番目の手順で **[却下]** を選択します。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 [最新の承認フローを作成する](modern-approvals.md)。
 

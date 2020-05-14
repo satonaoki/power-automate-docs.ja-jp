@@ -21,21 +21,21 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 393ae5f6a86363610c26aea78a04748f34dc4f97
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193613"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296770"
 ---
-# <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Power Automate を使用した携帯電話からのフローの作成
+# <a name="create-a-flow-from-your-phone-by-using-power-automate"></a>Power Automate を使用して携帯電話からフローを作成する
 
 テンプレートを使用して、携帯電話からフローを作成します。テンプレートを見つけるには、サービスの一覧から検索するか、カテゴリを参照するか、キーワードを指定します。 このトピックの手順では、マネージャーからメールを受け取るとプッシュ通知を携帯電話に送信するフローを作成します。
 
 Power Automate に慣れていない場合は、[概要を確認してください](getting-started.md)。
 
 ## <a name="prerequisites"></a>前提条件
-* [Power Automate 用のアカウント](sign-up-sign-in.md)。
-* [サポートされているデバイス](getting-started.md#use-the-mobile-app)上の [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 用の Power Automate モバイル アプリ。 このトピックのグラフィックは iPhone バージョンのアプリを示していますが、インターフェイスは Android デバイスまたは Windows Phone も似ています。
+* [Power Automate の取引先企業](sign-up-sign-in.md)。
+* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、[Windows Phone](https://aka.ms/flowmobilewindows) 向けの Power Automate モバイル アプリがインストールされた [対応している デバイス](getting-started.md#use-the-mobile-app)。 このトピックのグラフィックは iPhone バージョンのアプリを示していますが、インターフェイスは Android デバイスまたは Windows Phone にも共通しています。
 * このトピックで示すテンプレートを使用するには、以下も必要になります。
   
   * Office 365 の資格情報。
@@ -55,7 +55,7 @@ Power Automate に慣れていない場合は、[概要を確認してくださ�
        ![[Browse (参照)] タブ](./media/mobile-create-flow/browse-tab.png)
      
      このチュートリアルでは、マネージャーからメールを受け取るとプッシュ通知を送信するテンプレートを開きます。
-2. サービスの一覧で、 **[See sll (すべて表示)]** をタップします。
+2. サービスの一覧で、**[See sll (すべて表示)]** をタップします。
    
     ![サービスの一覧を表示](./media/mobile-create-flow/list-services.png)
 3. **[Push notification (プッシュ通知)]** のアイコンをタップします。
@@ -64,14 +64,14 @@ Power Automate に慣れていない場合は、[概要を確認してくださ�
 4. 検索バーに「**email**」と入力し、マネージャーからメッセージを受け取るとプッシュ通知を送信するテンプレートをタップします。
    
     ![テンプレートの選択](./media/mobile-create-flow/choose-template.png)
-5. 選択したテンプレートの詳細が示されている画面で、 **[Use this template (このテンプレートを使用する)]** をタップします。
+5. 選択したテンプレートの詳細が示されている画面で、**[Use this template (このテンプレートを使用する)]** をタップします。
    
     ![テンプレートの確認](./media/mobile-create-flow/confirm-template.png)
 
 ## <a name="finish-the-flow"></a>フローの完了
-1. メッセージが表示されたら、 **[サインイン]** をタップし、Office 365 Outlook か Office 365 ユーザー、またはその両方の資格情報を指定します。
+1. メッセージが表示されたら、**サインイン** をタップし、 Office 365 Outlook か Office 365 ユーザー、またはその両方の資格情報を指定します。
    
-    ![Office 365 へのサインイン](./media/mobile-create-flow/office-signin.png)
+    ![Office 365 にサインインする](./media/mobile-create-flow/office-signin.png)
    
     他のフローを作成するときと同じ接続を使用できます。
 2. 右上隅で **[次へ]** をタップします。
@@ -92,7 +92,7 @@ Power Automate に慣れていない場合は、[概要を確認してくださ�
    
     フローが作成され、そのフローを一時停止または削除するまで、マネージャーからのメールがチェックされます。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [フロー アクティビティを監視](mobile-monitor-activity.md)します。
 * [フローを管理](mobile-manage-flows.md)します。
 

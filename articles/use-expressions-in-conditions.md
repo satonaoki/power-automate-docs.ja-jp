@@ -19,11 +19,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3c1eb0f208f964f2a41e26ca831c60edef0d747c
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195972"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298442"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>複数の値を確認する条件で式を使用する
 
@@ -33,15 +33,15 @@ ms.locfileid: "79195972"
 
 条件では、次の論理式をあらゆる組み合わせで利用できます。
 
-式|説明|例
+Expression|内容|例
 --------|-----------|-------
-|[and](#use-the-and-expression)|2 つの引数を受け取り、両方の値が true の場合は true を返します。<br><b>注:</b>両方の引数をブール値にする必要があります。|次の式は、false を返します。 <br>and(greater(1,10),equals(0,0))
-|[or](#use-the-or-expression)|2 つの引数を受け取り、どちらかの引数が true の場合は true を返します。 <br><b>注:</b>両方の引数をブール値にする必要があります。|次の式は、true を返します。<br>or(greater(1,10),equals(0,0))
-|次の値に等しい|2 つの値が等しい場合に true を返します。|たとえば、parameter1 が someValue のとき、次の式は true を返します。<br>equals(parameters('parameter1'), 'someValue')
-|[less](#use-the-less-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも小さい場合、true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>less(10,100)
-|lessOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも小さい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>lessOrEquals(10,10)
-|[greater](#use-the-greater-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも大きい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greater(10,10)
-|greaterOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも大きい場合は true を返します。 <br><b>注:</b>サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greaterOrEquals(10,100)
+|[と](#use-the-and-expression)|2 つの引数を受け取り、両方の値が true の場合は true を返します。<br><b>注</b>: 両方の引数をブール値にする必要があります。|次の式は、false を返します。 <br>and(greater(1,10),equals(0,0))
+|[または](#use-the-or-expression)|2 つの引数を受け取り、どちらかの引数が true の場合は true を返します。 <br><b>注</b>: 両方の引数をブール値にする必要があります。|次の式は、true を返します。<br>or(greater(1,10),equals(0,0))
+|が次の値と等しい|2 つの値が等しい場合に true を返します。|たとえば、parameter1 が someValue のとき、次の式は true を返します。<br>equals(parameters('parameter1'), 'someValue')
+|[未満](#use-the-less-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも小さい場合、true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>less(10,100)
+|lessOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも小さい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、true を返します。<br>lessOrEquals(10,10)
+|[より大きい](#use-the-greater-expression)|2 つの引数を受け取り、最初の引数が 2 番目の引数よりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greater(10,10)
+|greaterOrEquals|2 つの引数を受け取り、最初の引数が 2 番目の引数と等しいかそれよりも大きい場合は true を返します。 <br><b>注</b>: サポートされる型は整数、浮動小数点数、文字列です。|次の式は、false を返します。<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|オブジェクト、配列、文字列が空の場合は true を返します。|次の式は、true を返します。<br>empty('')
 |not|逆のブール値を返します。 |次の式は、true を返します。<br>not(contains('200 Success','Fail'))
 |if|式の結果が true か false の場合、特定の値を返します。|次の式は、"yes" を返します。<br>if(equals(1, 1), 'yes', 'no')
@@ -63,12 +63,12 @@ ms.locfileid: "79195972"
 
 ![サンプルのスプレッドシート](./media/use-expressions-in-conditions/spreadsheet-table.png)
 
-先のスプレッドシートの場合、Power Automate を利用して、*Status* 列が *completed* または *unnecessary* に設定されているすべての行を削除します。
+先のスプレッドシートの場合、Power Automate を利用し、たとえば、*状態* 列が *完了済み* または *不要* に設定されているすべての行を削除します。
 
 フローを作成してみましょう。
 
 ### <a name="start-with-a-blank-flow"></a>空のフローから始める
-1. [Power Automate](https://flow.microsoft.com) にサインインします。
+1. [Power Automate](https://flow.microsoft.com) にサインインする。
 
     ![サインイン](includes/media/modern-approvals/sign-in.png)
 2. **[自分のフロー]** タブを選択します。
@@ -79,7 +79,7 @@ ms.locfileid: "79195972"
     ![一から作成する](includes/media/modern-approvals/blank-template.png)
 
 ### <a name="add-a-trigger-to-your-flow"></a>トリガーをフローに追加する
-1. **[スケジュール]** を探し、 **[スケジュール - 繰り返し]** トリガーを選択します。
+1. **[スケジュール]** を探し、**[スケジュール - 繰り返し]** トリガーを選択します。
 
     ![スケジュール トリガー](includes/media/schedule-trigger/schedule-trigger.png)
 2. 一日一回実行するようにスケジュールを設定します。
@@ -87,15 +87,15 @@ ms.locfileid: "79195972"
     ![スケジュールの設定](includes/media/schedule-trigger/set-schedule.png)
 
 ### <a name="select-the-spreadsheet-and-get-all-rows"></a>スプレッドシートを選択し、すべての行を取得する
-1. **[新しいステップ]**  >  **[アクションの追加]** を選択します。
+1. **[新しいステップ]** > **[アクションの追加]** を選択します。
 
     ![新しいステップ](includes/media/new-step/action.png)
-2. **[行]** を探し、 **[Excel - 行の取得]** を選択します。
+2. **[行]** を探し、**[Excel - 行の取得]** を選択します。
 
-    注意:使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、 **[Google スプレッドシート - 行の取得]** を選択します。
+    注: 使用しているスプレッドシートに対応する "行の取得" アクションを選択します。 たとえば、Google スプレッドシートを使用している場合、**[Google スプレッドシート - 行の取得]** を選択します。
 
     ![行を取得する](includes/media/new-step/get-excel-rows.png)
-3. **[ファイル名]** ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
+3. [**ファイル名**] ボックスのフォルダー アイコンを選択し、データが含まれるスプレッドシートを探し、選択します。
 
     ![スプレッドシートを選択する](includes/media/new-step/select-spreadsheet.png)
 4. **[テーブル名]** 一覧のデータを含むテーブルを選択します。
@@ -103,13 +103,13 @@ ms.locfileid: "79195972"
     ![テーブルを選択する](includes/media/new-step/select-table.png)
 
 ### <a name="check-the-status-column-of-each-row"></a>各行の status 列を確認する
-1. **[新しい手順]**  >  **[その他]**  >  **[それぞれへの適用の追加]** の順に選択します。
+1. **[新しい手順]** > **[その他]** > **[それぞれへの適用の追加]** の順に選択します。
 
     ![テーブルを選択する](includes/media/new-step/apply-to-each.png)
 2. **Value** トークンを **[以前の手順から出力を選択]** ボックスに追加します。
 
     ![テーブルを選択する](includes/media/apply-to-each/add-value-token.png)
-3. **[条件の追加]**  >  **[詳細設定モードで編集]** の順に選択します。
+3. **[条件の追加]** > **[詳細設定モードで編集]** の順に選択します。
 4. 次の **or** 式を追加します。 この **or** 式はテーブル内の各行の値を確認します (式内でアクセスされるとき、行は項目として認識されます)。 **status** 列の値が *completed* **か** *unnecessary* の場合、**or** 式は "true" として評価します。
 
     **or** 式は次のように表示されます。
@@ -122,7 +122,7 @@ ms.locfileid: "79195972"
 
 ### <a name="delete-matching-rows-from-the-spreadsheet"></a>一致する行をスプレッドシートから削除する
 1. 条件の **[IF YES, DO NOTHING]** 分岐で **[アクションの追加]** を選択します。
-2. **[行の削除]** を探し、 **[Excel - 行の削除]** を選択します。
+2. **[行の削除]** を探し、**[Excel - 行の削除]** を選択します。
 
     ![行の削除のイメージ](includes/media/new-step/select-delete-excel-row.png)
 3. **[ファイル名]** ボックスで、削除するデータが含まれるスプレッドシート ファイルを探し、選択します。
@@ -132,7 +132,7 @@ ms.locfileid: "79195972"
     ![スプレッドシート ファイル](includes/media/new-step/delete-excel-row.png)
 
 ### <a name="name-the-flow-and-save-it"></a>フローに名前を付け、保存する
-1. フローに名前を付け、 **[フローの作成]** ボタンを選択します。
+1. フローに名前を付け、**[フローの作成]** ボタンを選択します。
 
     ![フローを保存する](./media/use-expressions-in-conditions/name-and-save.png)
 
@@ -199,11 +199,11 @@ Status 列が "completed" か "unnecessary" の行からデータがすべて削
 
 |          評価する条件          | 使用する式 |                    例                     |
 |-----------------------------------------|-------------------|------------------------------------------------|
-|   全額が支払われたか?    |      greater      |   @greater(item()?['Due'], item()?['Paid'])    |
-| 期日到達まで 1 日未満になっているか? |       less        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
+|   全額が支払われたか?    |      より大きい      |   @greater(item()?['Due'], item()?['Paid'])    |
+| 期日到達まで 1 日未満になっているか? |       未満        | @less(item()?['DueDate'], addDays(utcNow(),1)) |
 
 ## <a name="combine-the-greater-and-less-expressions-in-an-and-expression"></a>and 式の中で greater 式と less 式を組み合わせます
-**greater** 式を利用し、全額を支払っていない同僚を特定します。**less** 式を利用し、期日到達まで 1 日未満になっているか判定します。 次に、 **[電子メールの送信]** アクションを利用し、期日到達まで 1 日未満になっても全額を支払っていない同僚に催促のメールを送信します。
+**greater** 式を利用し、全額を支払っていない同僚を特定します。**less** 式を利用し、期日到達まで 1 日未満になっているか判定します。 次に、**[電子メールの送信]** アクションを利用し、期日到達まで 1 日未満になっても全額を支払っていない同僚に催促のメールを送信します。
 
 このスプレッドシート テーブルは次のようになります。
 
@@ -215,4 +215,4 @@ Status 列が "completed" か "unnecessary" の行からデータがすべて削
 
 ## <a name="use-functions-in-expressions"></a>式で関数を使用する
 
-いくつかの式は、フローの実行が開始するときにまだ存在していない可能性があるランタイム アクションから値を取得します。 式でこの値を参照したり使用したりするには、ワークフロー定義言語で提供される関数を使用します。 詳細情報: [Power Automate でのワークフロー定義言語の関数リファレンス](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)
+いくつかの式は、フローの実行が開始するときにまだ存在していない可能性があるランタイム アクションから値を取得します。 式でこの値を参照したり使用したりするには、ワークフロー定義言語で提供される関数を使用します。 詳細: [Power Automate でのワークフロー定義言語の関数リファレンス](https://docs.microsoft.com/azure/logic-apps/workflow-definition-language-functions-reference)

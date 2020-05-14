@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 33c2e0e6a3a35e23d0889cd19908a055cc7f5f5e
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79193567"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297672"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-power-automate"></a>Power Automate でオンプレミス データ ゲートウェイを管理する
 
@@ -38,7 +38,7 @@ ms.locfileid: "79193567"
 * 作成するカスタム コネクタ
 * DB2
 * ファイル システム
-* Azure AD での http
+* HTTP と Azure AD
 * Informix
 * MySQL
 * Oracle Database
@@ -48,11 +48,11 @@ ms.locfileid: "79193567"
 * Teradata (プレビュー)
 
 > [!IMPORTANT]
-> Microsoft SharePoint データ ゲートウェイは、HTTP トラフィックと HTTPS トラフィックの両方をサポートするようになりました。
+> Microsoft SharePoint  データ ゲートウェイは、HTTP トラフィックと HTTPS トラフィックの両方をサポートするようになりました。
 
 ## <a name="prerequisites"></a>前提条件
 
-* Power Automate への[サインアップ](sign-up-sign-in.md)で使用したユーザー名とパスワード。
+* Power Automate の[新規登録](sign-up-sign-in.md)に使用したユーザー名とパスワード
 * ゲートウェイの管理者アクセス許可。
 
   インストールするゲートウェイごとに、これらのアクセス許可が既定で与えられます。 また、別のゲートウェイの管理者がそのゲートウェイのこれらのアクセス許可を与えることができます。
@@ -67,12 +67,12 @@ ms.locfileid: "79193567"
 
 ## <a name="view-your-gateways"></a>ゲートウェイを表示する
 
-[Power Automate Web サイト](https://flow.microsoft.com)の右上隅にある歯車アイコンを選択して、 **[ゲートウェイ]** を選択します。
+[Power Automate Web サイト](https://flow.microsoft.com) の右上隅にある歯車アイコンを選択し、 **ゲートウェイ** を選択します。
 
 ![管理対象のゲートウェイ][1]
 
 > [!NOTE]
-> ゲートウェイへのアクセス権限を作成した場合、または Power Apps でゲートウェイへのアクセス権限が付与されている場合、Power Automate の **[ゲートウェイ]** 一覧にそのゲートウェイが表示されます。
+> Power Apps におけるゲートウェイへのアクセス権限を作成した場合、Power Automate の **ゲートウェイ** 一覧にそのゲートウェイが表示されます。
 
 ## <a name="cluster-your-gateways"></a>ゲートウェイをクラスター化する
 
@@ -88,9 +88,9 @@ ms.locfileid: "79193567"
 1. **[ゲートウェイ]** を選択します。
 1. ご利用のゲートウェイのいずれかを選択します。
 1. **[このクラスター内のすべてのアクティブなゲートウェイで要求を配布します]** を選択します。
-1. **[適用]** を選択して変更を保存します。
+1. **適用**を選択して、変更を適用します。
 
-詳細については、[ゲートウェイの概要](gateway-reference.md)に関するページを参照してください。
+詳細については、[ゲートウェイの概要](gateway-reference.md)に関する記事を参照してください。
 
 <!-- Image references -->
 [1]: ./media/manage-gateway/view-gateways.png

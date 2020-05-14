@@ -1,6 +1,6 @@
 ---
 title: フローを作成してタスクを自動化する | Microsoft Docs
-description: フローを作成して、イベント (SharePoint リストに行を追加するなど) が発生したときに 1 つ以上のアクション (メールの送信など) を自動的に実行します。
+description: フローを作成して、イベント (SharePoint  リストに行を追加するなど) が発生したときに 1 つ以上のアクション (メールの送信など) を自動的に実行します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,18 +21,18 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 9b0d2986e33aa65f9c5a0abc06d3beda116dbdc1
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79192095"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298090"
 ---
 # <a name="create-a-flow-in-power-automate"></a>Power Automate でフローを作成する
 
 
 > [!VIDEO https://www.youtube.com/embed/Gt3CMhLAQqE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF]
 
-イベントによってトリガーされた後は 1 つまたは複数のタスクを自動的に実行するフローを作成します。 たとえば、指定したキーワードが含まれるツイートを誰かが送信したときにメールで通知するフローを作成するとします。 この例では、ツイートの送信がイベント、メールの送信がアクションになります。
+イベントによってトリガーされた後は 1 つまたは複数のタスクを自動的に実行するフローを作成します。 たとえば、指定したキーワードを含むツイートを送信した場合にメールで通知するというフローを作成するとします。 この例では、ツイートの送信がイベント、メールの送信がアクションになります。
 
 ## <a name="prerequisites"></a>前提条件
 
@@ -44,29 +44,29 @@ ms.locfileid: "79192095"
 
 最初に、どのようなイベントまたは*トリガー*でフローを開始するのか選択する必要があります。
 
-1. [flow.microsoft.com](https://flow.microsoft.com) で、上部のナビゲーション バーの **[自分のフロー]** を選択し、 **[一から作成]** を選択します。
+1. [flow.microsoft.com](https://flow.microsoft.com) で、上部のナビゲーション バーの **[自分のフロー]** を選択し、**[一から作成]** を選択します。
 
     ![左側のナビゲーション バーのフロー オプション](./media/get-started-logic-flow/create-logic-flow.png)
-1. 画面の下部にある **[Search hundreds of connectors and triggers]\(多数のコネクタやトリガーを検索する\)** ボックスをオンにして、 **[Search all connectors and triggers]\(すべてのコネクタとトリガーを検索する\)** ボックスに「**Twitter**」と入力し、 **[Twitter - When a new tweet is posted]\(Twitter - 新しいツイートが投稿されたら\)** を選びます。
+1. 画面の下部にある **[Search hundreds of connectors and triggers]\(多数のコネクタやトリガーを検索する\)** ボックスをオンにして、**[Search all connectors and triggers]\(すべてのコネクタとトリガーを検索する\)** ボックスに「**Twitter**」と入力し、**[Twitter - When a new tweet is posted]\(Twitter - 新しいツイートが投稿されたら\)** を選びます。
 
     ![Twitter イベント](./media/get-started-logic-flow/twitter-search.png)
 
    >[!TIP]
-   >コネクタでは、さまざまな種類の認証がサポートされています。 たとえば、SQL Server では、Azure AD、SQL Server 認証、Windows 認証、SQL 接続文字列がサポートされています。 ユーザーは、コネクタの構成時に使用する認証の種類を選択します。
+   >コネクタでは、さまざまな種類の認証がサポートされています。 たとえば、SQL Server では、 Azure AD、SQL Server 認証、Windows 認証、SQL 接続文字列がサポートされています。 ユーザーは、コネクタの構成時に使用する認証の種類を選択します。
 
-1. 自分の Twitter アカウントを Power Automate にまだ接続していない場合、 **[Sign in to Twitter]\(Twitter にサインイン\)** を選択し、資格情報を入力してください。
+1. Power Automate にまだ Twitter アカウントを接続していない場合は、**Twitter にサインインする** を選択し、資格情報を入力します。
 
 1. **[検索文字列]** ボックスに、検索するキーワードを入力します。
 
     ![Twitter キーワード](./media/get-started-logic-flow/twitter-keyword.png)
 
-## <a name="specify-an-action"></a>アクションの指定
+## <a name="specify-an-action"></a>アクションを指定する
 
-1. **[新しいステップ]** を選択し、 **[アクションの追加]** を選択します。
+1. **[新しいステップ]** を選択してから、**[アクションの追加]** を選択します。
 
     ![アクションの追加](./media/get-started-logic-flow/add-action-icon.png)
 
-1. **[すべてのコネクタとアクションを検索する]** と表示されているボックスで、「**メールの送信**」と入力するか貼り付けて、 **[Office 365 Outlook - 電子メールの送信]** を選択します。
+1. **すべてのコネクタとアクションを検索する** ボックスに、**メールの送信** と入力または貼り付けて、**Office 365 - 電子メールを送信** を選びます。
 
     ![アクションの一覧](./media/get-started-logic-flow/send-email.png)
 
@@ -75,15 +75,15 @@ ms.locfileid: "79192095"
 1. 表示されたフォームの **[To]** (宛先) ボックスに電子メール アドレスを入力するか貼り付けます。次に、表示された連絡先の一覧から名前を選択します。
 
     ![空の電子メール メッセージ](./media/get-started-logic-flow/blank-email.png)
-1. **[Subject]** (件名) ボックスに「**New tweet from: (新しいツイートの送信元:)** 」と入力するか貼り付け、空白を入力します。
+1. **[Subject]** (件名) ボックスに「**New tweet from: (新しいツイートの送信元:)**」と入力するか貼り付け、空白を入力します。
 
     ![プレースホルダーが含まれる件名](./media/get-started-logic-flow/message-token.png)
-1. トークンの一覧で、 **[ツイート作成者]** トークンを選択し、そのプレースホルダーを追加します。
+1. トークンの一覧で、**[ツイート作成者]** トークンを選択し、そのプレースホルダーを追加します。
 
-    ![パラメーターの追加](./media/get-started-logic-flow/add-parameter.png)
-1. **[本文]** ボックスを選び、 **[ツイート テキスト]** トークンを選んでそのプレースホルダーを追加します。
+    ![パラメーターを追加する](./media/get-started-logic-flow/add-parameter.png)
+1. **[本文]** ボックスを選び、**[ツイート テキスト]** トークンを選んでそのプレースホルダーを追加します。
 1. (任意) トークン、その他のコンテンツ、またはその両方を電子メールの本文に追加します。
-1. 画面上部でフローに名前を付けて、 **[フローの作成]** を選択します。
+1. 画面上部でフローに名前を付けて、**[フローの作成]** を選択します。
 
     ![[フローの作成] ボタンの選択](./media/get-started-logic-flow/create-button.png)
 1. **[完了]** を選んでフローの一覧を更新します。
@@ -103,19 +103,19 @@ ms.locfileid: "79192095"
 1. [flow.microsoft.com](https://flow.microsoft.com) で、上部のナビゲーション バーの **[自分のフロー]** を選択します。
 1. フローの一覧で、次のいずれかを実行します。
 
-   * フローを一時停止するには、 **[オフ]** に切り替えます。
+   * フローを一時停止するには、**[オフ]** に切り替えます。
 
        ![フローの一時停止](./media/get-started-logic-flow/pause-flow.png)
-   * フローを再開するには、 **[オン]** に切り替えます。
+   * フローを再開するには、**[オン]** に切り替えます。
 
        ![フローの再開](./media/get-started-logic-flow/resume-flow.png)
    * フローを編集するには、編集するフローに対応している鉛筆アイコンを選択します。
 
        ![フローの選択](./media/get-started-logic-flow/select-flow.png)
-   * フローを削除するには、 **[...]** アイコンを選択し、 **[削除]** を選択し、表示されたメッセージ ボックスで **[削除]** を選択します。
+   * フローを削除するには、**[...]** アイコンを選択し、**[削除]** を選択し、表示されたメッセージ ボックスで **[削除]** を選択します。
 
        ![削除アイコン](./media/get-started-logic-flow/delete-icon.png)
-   * フローの実行履歴を表示するには、 **[マイ フロー]** ページからフローを選択します。ページの **[実行履歴]** セクションに履歴が表示されます。
+   * フローの実行履歴を表示するには、**[マイ フロー]** ページからフローを選択します。ページの **[実行履歴]** セクションに履歴が表示されます。
 
        ![実行履歴](./media/get-started-logic-flow/run-history.png)
 
@@ -126,7 +126,7 @@ ms.locfileid: "79192095"
 >
 >
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 * フローに、さまざまな通知方法などの[ステップを追加](multi-step-logic-flow.md)します。
 * アクションを毎日、特定の日付に、または一定時間 (分) 後に実行する場合は、[スケジュールに従ってタスクを実行](run-scheduled-tasks.md)します。

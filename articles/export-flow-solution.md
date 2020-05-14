@@ -21,13 +21,13 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 32f8269bce8e36774bf937683776f97fc618d41a
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194947"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296550"
 ---
-# <a name="export-a-solution"></a>ソリューションをエクスポートする
+# <a name="export-a-solution"></a>ソリューションのエクスポート
 
 
 次の手順に従って、ソリューションとその依存関係を新しい環境に移動します。
@@ -42,13 +42,13 @@ ms.locfileid: "79194947"
 1. 任意の名前でソリューションを保存します。
 
    > [!NOTE]
-   > 現在、 **[マネージドとして]** はサポートされていません。
+   > 現在、**[マネージドとして]** はサポートされていません。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 <!--from editor: Do you want to add Remove a solution-aware flow to this list?-->
 
-* [ソリューションを作成する](./overview-solution-flows.md)
+* [ソリューションの作成](./overview-solution-flows.md)
 * [ソリューションにフローを作成する](./create-flow-solution.md)
-* [ソリューションをインポートする](./import-flow-solution.md)
+* [ソリューションのインポート](./import-flow-solution.md)
 * [ソリューション対応フローを編集する](./edit-solution-aware-flow.md)

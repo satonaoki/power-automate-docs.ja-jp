@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: d2a7cbf1f3bb582853583a790e2bd26f319655d3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79195729"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297496"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>ボタン トリガー トークンの概要
 
@@ -40,32 +40,32 @@ ms.locfileid: "79195729"
 | パラメーター | 説明 |
 | --- | --- |
 | 市区町村 |フローを実行しているデバイスが位置する市区町村。 |
-| 国/地域 |フローを実行しているデバイスが位置する国/地域。 |
-| 完全な住所 |フローを実行しているデバイスが位置する完全な住所。 |
+| 国/地域 |フローを実行しているデバイスが位置する国または地域。 |
+| Full address |フローを実行しているデバイスがある完全な住所。 |
 | 緯度 |フローを実行しているデバイスが位置する緯度。 |
 | 経度 |フローを実行しているデバイスが位置する経度。 |
-| 郵便番号 |フローを実行しているデバイスが位置する郵便番号。 |
-| 州 |フローを実行しているデバイスが位置する都道府県。 |
-| 番地 |フローを実行しているデバイスが位置する番地。 |
-| タイムスタンプ |フローを実行しているデバイスが位置する地域の時間。 |
-| Date |フローを実行しているデバイスが位置する地域の日付。 |
+| PostalCode |フローを実行しているデバイスが位置する場所の郵便番号。 |
+| 都道府県 |フローを実行しているデバイスが位置する都道府県。 |
+| 住所 |フローを実行しているデバイスが位置する番地。 |
+| タイムスタンプ |フローを実行しているデバイスがあるエリアの時刻。 |
+| 日付 |フローを実行しているデバイスがあるエリアでの日付。 |
 | ユーザー名 |フローを実行しているデバイスにサインインしているユーザーのユーザー名。 |
-| ユーザーの電子メール |フローを実行しているデバイスにサインインしているユーザーのメール アドレス。 |
+| User email |フローを実行しているデバイスにサインインしているユーザーのメール アドレス。 |
 
 ## <a name="create-a-button-flow-that-uses-trigger-tokens"></a>トリガー トークンを使用するボタン フローを作成する
 ボタンを作成するときに、トリガー トークンを使用してボタンに豊富な機能を追加できます。
 
-このチュートリアルでは、Android デバイスでボタン フローを作成します。 このボタン フローは、トリガー トークンを使用して "**在宅勤務**" の電子メールの日付と完全な住所を上司に送信します。
+このチュートリアルでは、 Android デバイスでボタン フローを作成します。 このボタン フローは、トリガー トークンを使用して "**在宅勤務**" の電子メールの日付と完全な住所を上司に送信します。
 
-このチュートリアルでは Android デバイスのスクリーンショットが使用されますが、iOS デバイスおよび Windows Phone デバイスでの表示もこれに似ています。
+このチュートリアルでは Android デバイスのスクリーンショットが使用されますが、iOS デバイスおよび Windows Phone デバイスでも共通しています。
 
 ### <a name="prerequisites"></a>前提条件
-* 職場または学校のメール アドレス、もしくは Power Automate にアクセスできる [Microsoft アカウント](https://account.microsoft.com/about?refd=www.microsoft.com)。
-* [Android](https://aka.ms/flowmobiledocsandroid)、[iOS](https://aka.ms/flowmobiledocsios)、または [Windows Phone](https://aka.ms/flowmobilewindows) 向けの Power Automate モバイル アプリ。
+* 職場または学校のメール アドレス、または Power Automate へのアクセス権を持つ [Microsoft アカウント](https://account.microsoft.com/about?refd=www.microsoft.com)
+* [Android](https://aka.ms/flowmobiledocsandroid) 向けの Power Automate モバイル アプリ、[iOS](https://aka.ms/flowmobiledocsios)、[Windows Phone](https://aka.ms/flowmobilewindows)。
 
 開始手順:
 
-1. Flow を起動し、 **[参照]**   を選択します  
+1. Flow を起動し、**[参照]**  を選択します  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/1.png)  
 2. **[ボタン]** カテゴリの下にある **[Send a 'Working from home today' email to your manager]** ('本日在宅勤務' のメールをマネージャーに送信する) サービスを選択します   
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/2.png)  
@@ -73,19 +73,19 @@ ms.locfileid: "79195729"
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/3.png)  
 4. **[Send an email]** (電子メールを送信する) カードの **[編集]** を選択します  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/3-5.png)  
-5. **[件名]** テキスト ボックスをタップし、"WFH" テキストの後ろのテキスト ボックスに「**today -** 」と入力します。 テキスト ボックスをタップしたときにパラメーター/トークンの一覧も開いていることを確認してください。 次のステップでは、このトークンの 1 つを使って電子メールの件名に日付を追加します。  
+5. **[件名]** テキスト ボックスをタップし、"WFH" テキストの後ろのテキスト ボックスに「**today -**」と入力します。 テキスト ボックスをタップしたときにパラメーター/トークンの一覧も開いていることを確認してください。 次のステップでは、このトークンの 1 つを使って電子メールの件名に日付を追加します。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/4.png)  
-6. カーソルを [件名] テキスト ボックスに置いた状態で、パラメーターの **[manual]** (手動) 一覧にスクロールして、 **[日付]** をタップします。 日付パラメーターが **[件名]** テキスト ボックスに表示されていることを確認します。  
+6. カーソルを [件名] テキスト ボックスに置いた状態で、パラメーターの **[manual]** (手動) 一覧にスクロールして、**[日付]** をタップします。 日付パラメーターが **[件名]** テキスト ボックスに表示されていることを確認します。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/6.png)  
 7. **[本文]** テキスト ボックスにスクロールし、既定のメッセージが表示されたらタップして、追加のトークンが含められるようにします。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/7.png)  
 8. **[完全な住所]** パラメーターをタップしてから **[作成]** をタップします。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/8.png)  
-9. **[完了]** をタップします。 これで、ボタン フローが作成されました。  
+9. **[完了]** をタップします。 これでボタン フローが作成されました。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/9.png)  
 
 ## <a name="run-the-button-flow"></a>ボタン フローを実行する
-**注**:このボタン フローにより、ご自分の現在の場所が電子メールで送信されます。  
+**注**: このボタン フローは電子メールを使用して、現在の場所を送信します。  
 
 1. 画面の下部にある **[ボタン]** カテゴリをタップします。 使用が許可されているボタンの一覧が表示されます。 今作成したボタン フローを表すボタンをタップします。  
    ![ボタン トリガー トークン](./media/introduction-to-button-trigger-tokens/10.png)  
@@ -96,6 +96,6 @@ ms.locfileid: "79195729"
 
 おめでとうございます。日付と完全な住所の両方のトリガー トークンを使用するボタン フローが作成されました。 
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 * [ボタン フローを共有する](share-buttons.md)
 * [ボタン フローについて](introduction-to-button-flows.md)

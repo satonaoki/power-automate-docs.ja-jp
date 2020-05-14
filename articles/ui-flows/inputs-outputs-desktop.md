@@ -25,19 +25,19 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80524794"
+ms.locfileid: "3298794"
 ---
 # <a name="use-inputs-and-outputs-in-desktop-ui-flows"></a>デスクトップ UI フローで入力と出力を使用する
 
 入力を使用すると、データベースやサポートされている任意のコネクタなどの外部ソースからの情報を、UI フローで自動化されるレガシ ソフトウェアに渡すことができます。
 
-たとえば、SharePoint リストの顧客情報を、レガシ会計ソフトウェアへの入力のソースとして使用できます。
+たとえば、SharePoint リストの顧客情報を、従来の会計ソフトウェアへの入力のソースとして使用できます。
 
 ## <a name="define-inputs-in-the-ui-flows-wizard"></a>UI フロー ウィザードで入力を定義する
 
 1. **[新しい入力]** を選択します。
 
-   ![新規の選択](../media/inputs-outputs-desktop/select-new.png)
+   ![新規を選択](../media/inputs-outputs-desktop/select-new.png)
 
 1. 入力に名前、サンプル データ、説明を追加します。
 
@@ -70,7 +70,7 @@ ms.locfileid: "80524794"
     
     ![入力の場所の選択](../media/inputs-outputs-desktop/select-location-for-input.png)
 
-1. Power Automate の**ステップの記録と編集**で、入力を使用するアクションを展開して、選択されているものを表示します。
+1. Power Automate の **ステップの記録と編集** で、入力を使用するアクションを展開して、選択されているものを表示します。
 
    ![アクションの展開](../media/inputs-outputs-desktop/expand-actions.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "80524794"
 
 出力を使用すると、UI フローで自動化されるレガシ ソフトウェアからの情報を、データベースや[サポートされている任意のコネクタ](https://flow.microsoft.com/connectors/)などの外部宛先に渡すことができます。
 
-たとえば、レガシ会計ソフトウェアの顧客情報を抽出して、SharePoint リストに追加することができます。
+たとえば、従来の会計ソフトウェアの顧客情報を抽出して、SharePoint リストに追加することができます。
 
 出力は、UI フローを記録するときにのみ作成できます。
 
@@ -102,7 +102,7 @@ ms.locfileid: "80524794"
 
    ![名前と説明の指定](../media/inputs-outputs-desktop/name-description.png)
 
-1. **[保存]** を選択します。 
+1. **保存**を選択します。 
 
 これで、出力がウィザードの専用領域で使用できるようになりました。
 
@@ -111,7 +111,7 @@ ms.locfileid: "80524794"
 各出力には次のものがあります。
 
 -  記録中に定義された出力名。
--  説明:このフィールドは、記録中に多くの出力を定義し、それらを後で簡単に識別できるようにする場合に非常に便利です。
+-  説明: このフィールドは、記録中に多くの出力を定義し、それらを後続の処理で簡単に識別できるようにする場合に非常に便利です。
 -  アクション名: UI フローで出力が定義されているアクション。
 
 ## <a name="delete-an-output-from-a-ui-flow"></a>UI フローから出力を削除する
@@ -138,7 +138,7 @@ UI フローをテストすることで、変更と適切な再生動作を検�
 
    ![正常な実行](../media/inputs-outputs-desktop/successful-run.png)
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 - [Web UI フローのトリガー](run-ui-flow.md)方法について学習します。
 

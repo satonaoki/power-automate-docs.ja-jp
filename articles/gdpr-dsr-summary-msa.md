@@ -1,6 +1,6 @@
 ---
 title: Microsoft アカウント (MSA) に対する GDPR データ主体の要求の概要 | Microsoft Docs
-description: Power Automate に対する GDPR データ主体の要求に応答する方法を説明します。
+description: Power Automate に対する GPDR データ主体の要求に応答する方法を説明します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -21,11 +21,11 @@ search.app:
 search.audienceType:
 - admin
 ms.openlocfilehash: c785a900b0b92a22efc7559674965d5a105a5f51
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194786"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298046"
 ---
 # <a name="respond-to-gdpr-data-subject-rights-dsrs-requests"></a>GDPR データ主体の権利 (DSR) の要求に応答する
 
@@ -34,14 +34,14 @@ ms.locfileid: "79194786"
 
 ## <a name="prerequisites"></a>前提条件
 
-この記事の手順を行うには、[Power Automate の無料ライセンス](https://flow.microsoft.com/pricing/)がある MSA が必要です。
+この記事の手順を行うには、 [Power Automate の無料ライセンス](https://flow.microsoft.com/pricing/) のある MSA が必要です。
 
 >[!TIP]
-> また、GDPR のコンプライアンス情報は、[Azure Active Directory アカウント](gdpr-dsr-summary.md)での認証を行うユーザーにも使用できます。
+> また、GDPR のコンプライアンス情報は、[Azure Active Directory  アカウント](gdpr-dsr-summary.md) での認証を行うユーザーにも使用できます。
 >
 >
 
-## <a name="respond-to-dsrs-for-power-automate-customer-data"></a>Power Automate 顧客データに対する DSR に応答する
+## <a name="respond-to-dsrs-for-power-automate-customer-data"></a>Power Automate の顧客データの DSR への対応
 
 個人データへのアクションを実行するようコントローラーに対してデータ主体で正式に要求することを、データ主体の権利 (DSR) の要求と呼びます。 GDPR では、個人データを、**識別された自然人または識別可能な自然人に関連するすべてのデータ**として定義します。 GDPR は、ユーザー (データ主体と呼ばれます) に、雇用主、機関、組織 (データ コントローラーまたは単にコントローラーと呼ばれます) によって収集された個人データを管理する権限を付与します。 これには以下の権限が含まれます。
 
@@ -55,14 +55,14 @@ ms.locfileid: "79194786"
 
 このガイドに記載されているプロセスの概要を次に示します。
 
-1. **検出**:検索と探索のツールを使って、DSR 要求の対象である可能性がある顧客データを簡単に検索します。 収集したドキュメントがアクションを行うためのコントローラー ガイドラインを満たしているかどうかを判断するには、次の手順で示されている 1 つ以上の DSR アクションを実行します。 詳細については、[Power Automate での Microsoft アカウントに対する DSR 検出ドキュメント](gdpr-dsr-discovery-msa.md)に関するページを参照してください。 または、DSR 要求への応答に関するコントローラーのガイドラインを要求が満たしていないと判断する場合もあります。
+1. **検出**: 検索と探索のツールを使って、DSR 要求の対象である可能性がある顧客データを簡単に検索します。 収集したドキュメントがアクションを行うためのコントローラー ガイドラインを満たしているかどうかを判断するには、次の手順で示されている 1 つ以上の DSR アクションを実行します。 詳細については、[Power Automate  での Microsoft アカウントに対する DSR 検出ドキュメント](gdpr-dsr-discovery-msa.md) を参照してください。 または、DSR 要求への応答に関するコントローラーのガイドラインを要求が満たしていないと判断する場合もあります。
 
-1. **アクセス**:Microsoft のクラウドに存在する個人データを取得し、要求された場合は、データ主体が使用できるように個人データのコピーを作成します。
+1. **アクセス**: Microsoft のクラウドに存在する個人データを取得し、要求された場合は、データ主体が使用できるように個人データのコピーを作成します。
 
-1. **修正**:必要に応じて、個人データを変更するか、個人データに対して他の要求されたアクションを実施します。
+1. **修正**: 必要に応じて、個人データを変更するか、個人データに対して他の要求されたアクションを実施します。
 
-1. **制限**:さまざまなオンライン サービスに対するライセンスを削除するか、または可能な場合は目的のサービスをオフにすることで、個人データの処理を制限します。 また、Microsoft のクラウドからデータを削除して、オンプレミスの場所や別の場所にデータを保持することもできます。
+1. **制限**: さまざまなオンライン サービスに対するライセンスを削除するか、または可能な場合は目的のサービスをオフにすることで、個人データの処理を制限します。 また、Microsoft のクラウドからデータを削除して、オンプレミスの場所や別の場所にデータを保持することもできます。
 
-1. **[削除]** : Microsoft のクラウドに存在する個人データを完全に削除します。 [Microsoft アカウント用の個人データの削除](gdpr-dsr-delete-msa.md)に関する詳細。 [Microsoft アカウントの削除](gdpr-dsr-accountclose-msa.md)に関する詳細。
+1. **削除**: Microsoft のクラウドに存在する個人データを完全に削除します。 [Microsoft アカウント用の個人データの削除](gdpr-dsr-delete-msa.md)に関する詳細。 [Microsoft アカウントの削除](gdpr-dsr-accountclose-msa.md)に関する詳細。
 
-1. **Export**:個人データの (コンピューターが判読できる形式の) 電子コピーを提供します。 [Microsoft アカウント用の個人データのエクスポートに関する詳細](gdpr-dsr-export-msa.md)。
+1. **エクスポート**: 個人データの (コンピューターが判読できる形式の) 電子コピーを提供します。 [Microsoft アカウント用の個人データのエクスポートに関する詳細](gdpr-dsr-export-msa.md)。

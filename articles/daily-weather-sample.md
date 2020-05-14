@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 01/04/2020
 ms.author: deonhe
 ms.openlocfilehash: 8f7128104d3cb8aae361b6dd574822f503893e35
-ms.sourcegitcommit: e3543e32e4e8e8163bef0565e27b657eabbdc741
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75868183"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297078"
 ---
 # <a name="daily-weather-report-sample"></a>日単位の天気予報のサンプル
 
@@ -30,15 +30,15 @@ ms.locfileid: "75868183"
 
 *入力/出力とノート*
 
-| 動的トークンの名前     | プレースホルダー テキスト | ノート                                                                         |
+| 動的トークンの名前     | プレースホルダー テキスト | メモ​​                                                                         |
 |------------------------|------------------|--------------------------------------------------------------------------------|
-| {acCityState}          | テンプレートを参照     | 表示テキスト <br>  変数は、市区町村、都道府県、または郵便番号の値を保持するために使用できます。                                                                   |
-| {acDailySummary}       | テンプレートを参照     | 表示テキスト                                                                   |
-| {acCurrentDateTime}    | テンプレートを参照     | 表示テキスト                                                                   |
-| {acUrlConditionsImage} | テンプレートを参照     | 表示テキスト  <br> テンプレートのコメントを参照。有効な URL に置き換える必要があります。                                                                 |
-| {acCurrentTemperature} | テンプレートを参照     | 表示テキスト                                                                   |
-| {actempHi}             | テンプレートを参照     | 表示テキスト                                                                   |
-| {actempLow}            | テンプレートを参照     | 表示テキスト                                                                   |
+| {acCityState}          | テンプレートを参照     | テキストの表示 <br>  変数は、市区町村、都道府県、または郵便番号の値を保持するために使用できます。                                                                   |
+| {acDailySummary}       | テンプレートを参照     | テキストの表示                                                                   |
+| {acCurrentDateTime}    | テンプレートを参照     | テキストの表示                                                                   |
+| {acUrlConditionsImage} | テンプレートを参照     | テキストの表示  <br> テンプレートのコメントを参照。有効な URL に置き換える必要があります。                                                                 |
+| {acCurrentTemperature} | テンプレートを参照     | テキストの表示                                                                   |
+| {actempHi}             | テンプレートを参照     | テキストの表示                                                                   |
+| {actempLow}            | テンプレートを参照     | テキストの表示                                                                   |
 
 
 ``` json

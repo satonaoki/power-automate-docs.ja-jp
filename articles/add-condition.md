@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 3be9b2414a0f30581763622de0c7d49cb694e3b3
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "79224241"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3296682"
 ---
 # <a name="add-a-condition-to-a-flow"></a>フローへの条件の追加
 
@@ -36,15 +36,15 @@ ms.locfileid: "79224241"
 
 * テンプレートから[フローを作成する](get-started-logic-template.md) - このチュートリアルでは、例として[こちらのテンプレートを使用](https://flow.microsoft.com/galleries/public/templates/e78571e5c70e4806a18eeacba5a897c8/)します
 
-## <a name="add-a-condition"></a>条件の追加
+## <a name="add-a-condition"></a>条件を追加します
 
-1. [Power Automate](https://flow.microsoft.com) で、上部のナビゲーション バーの **[自分のフロー]** を選択します。
+1. [Power Automate](https://flow.microsoft.com) にて、上部のナビゲーションの **マイ フロー** を選択します。
 
     まだサインインしていない場合は、サインインしなければならない場合があります。
 
 1. フローの一覧で、作成したフローのいずれかを選択します。
 
-    このチュートリアルでは、Twitter トリガーと SharePoint アクションを使用した例を取り上げます。
+    このチュートリアルでは、Twitter のトリガーと SharePoint のアクションを使用した例を説明します。
 
 1. **[フローの編集]** を選択します。
 
@@ -60,13 +60,13 @@ ms.locfileid: "79224241"
 
 1. **[Retweet count (リツイート数)]** を選択してボックスに追加します。
 
-1. **[条件]** カードの真ん中のボックスで、 **[次の値以上]** を選択します。
+1. **[条件]** カードの真ん中のボックスで、**[次の値以上]** を選択します。
 
 1. 右側のボックスに「**10**」を入力します。
 
     ![パラメーターが設定されている [オブジェクト名] ボックス](./media/add-condition/specify-condition.png)
 
-1. 条件で使用するアクションのヘッダーを選択し ( **[項目の作成]** など)、 **[はいの場合]** というテキストの下にドラッグします。
+1. 条件で使用するアクションのヘッダーを選択し (**[項目の作成]** など)、**[はいの場合]** というテキストの下にドラッグします。
 
     カーソルを放すと、アクションはそのボックスに移動します。
 
@@ -80,6 +80,6 @@ ms.locfileid: "79224241"
 
 **[詳細設定モードで編集]** を選択して、さらに詳細な条件を記述することもできます。 *ワークフロー定義言語*のすべての式を詳細設定モードで使用することができます。 使用可能なすべての式は[こちら](https://msdn.microsoft.com/library/azure/mt643789.aspx)をご覧ください。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 詳細設定モードで条件に[式を使用する](use-expressions-in-conditions.md)方法について説明します。

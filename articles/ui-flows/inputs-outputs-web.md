@@ -25,7 +25,7 @@ ms.sourcegitcommit: bba5bd4ae3879b6bf1521d8ed636374fe09709e7
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/01/2020
-ms.locfileid: "80525009"
+ms.locfileid: "3298706"
 ---
 # <a name="use-inputs-and-outputs-in-web-ui-flows"></a>Web UI フローで入力と出力を使用する
 
@@ -37,9 +37,9 @@ UI フローの入力を使用すると、データベースや別の UI フロ�
 
 (通常は **store** コマンドを使用して行われる) 初期化の前に使用される (読み取られる) 変数はすべて、入力変数として自動的に処理され、**[Web の UI フローの実行]** アクション カードに表示されます。
 
-変数は文字列補間を通じて使用できます。たとえば、click コマンドの Target フィールドを "id=\${elementId}" に変更したり、 type コマンドの Value フィールドを "\${inputText}" に変更したりします。
+変数は文字列補間を通じて使用できます。たとえば、click コマンドの Target フィールドを "id=\${elementId}" に変更することができます。 type コマンドの Value フィールドを "\${inputText}" に変更することができます。
 
-次のスクリーンショットのコマンド **set window size** とコマンド **type** では、初期化されていない変数 \${Width}、\${Height}、\${search} が使用されています。 これらの変数は入力値になります。
+次のスクリーンショットのコマンド **ウィンドウ サイズを設定** とコマンド **タイプ**では、初期化されていない変数 \${Width}、\${Height}、 \${search} が使用されています。 これらの変数は入力値になります。
 
 ![ウィンドウのサイズと種類を設定する](../media/inputs-outputs-web/set-window-size.png "ウィンドウのサイズと種類を設定する")
 
@@ -67,7 +67,7 @@ Selenium スクリプトで定義されている変数はすべて、自動的�
 
 [Execute script](https://www.seleniumhq.org/selenium-ide/docs/en/api/commands/#execute-script) (スクリプトの最後に 'return' 構文を追加して、格納するオブジェクトを返します)。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [Web UI フローの作成](create-web.md)方法について学習します。
 - [Web UI フローのトリガー](run-ui-flow.md)方法について学習します。

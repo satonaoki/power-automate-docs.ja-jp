@@ -1,6 +1,6 @@
 ---
 title: Power Automate と Web サイトおよびアプリを統合する | Microsoft Docs
-description: Power Automate エクスペリエンスを Web サイトまたはアプリに埋め込みます。
+description: Web サイトまたはアプリに Power Automate エクスペリエンスを埋め込む。
 services: ''
 suite: flow
 documentationcenter: na
@@ -13,23 +13,23 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 05/05/2020
+ms.date: 01/31/2019
 ms.author: Deonhe
 search.app:
 - Flow
 search.audienceType:
 - developer
-ms.openlocfilehash: 9ab8c2c7c0b830aa908a7445757418d4ff073921
-ms.sourcegitcommit: 4b9261984a554dfccb0d0d77f3d5fdca60e26433
+ms.openlocfilehash: 6ca077b6a7b0d04f184ddf8a716dd677713e0667
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 05/06/2020
-ms.locfileid: "82852732"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3297694"
 ---
 # <a name="integrate-power-automate-with-websites-and-apps"></a>Power Automate と Web サイトおよびアプリを統合する
 [!INCLUDE [view-pending-approvals](../includes/cc-rebrand.md)]
 
-*フロー ウィジェット*を使用してアプリまたは Web サイトに Power Automate を埋め込むと、ユーザーは簡単に個人的なタスクや仕事のタスクを自動化できるようになります。
+*フロー ウィジェット*  を使用してアプリまたは Web サイトに Power Automate を埋め込むことで、ユーザーは簡単に個人的なタスクや仕事のタスクを自動化できるようになります。
 
 フロー ウィジェットは、ホスト ドキュメント内にある iFrame です。 このドキュメントは Power Automate デザイナー内のページを指します。 フロー ウィジェットによって Power Automate の特定の機能がサードパーティ製アプリケーションに統合されます。
 
@@ -44,43 +44,44 @@ ms.locfileid: "82852732"
 認証されていないテンプレート ウィジェットを使用するには、iframe を使用してホスト アプリケーションに直接埋め込みます。 JS SDK やアクセス トークンは必要ありません。 
 
 ### <a name="show-templates-for-your-scenarios"></a>シナリオに応じたテンプレートの表示
-開始するには、次のコードを追加し、Web サイトに Power Automate テンプレートを表示します。
+開始するには、次のコードを追加し、Web サイトに Power Automate テンプレートを表示します：
 
 ```html
 <iframe src="https://flow.microsoft.com/{locale}/widgets/templates/?q={search term}
 &pagesize={number of templates}&destination={destination}&category={category}"></iframe>
 ```
 
-| パラメーター | Description |
+| パラメーター | 内容 |
 | --- | --- |
-| locale |テンプレート ビューを表す 4 文字の言語と地域コード。 たとえば、`en-us` は英語 (米国) を表し、`de-de` はドイツ語を表します。 |
-| search term |ビューに表示するテンプレートの検索語句。 たとえば、SharePoint のテンプレートを表示するには、`SharePoint` を検索します。 |
+| ロケール |テンプレート ビューを表す 4 文字の言語と地域コード。 たとえば、`en-us` は英語 (米国) を表し、`de-de` はドイツ語を表します。 |
+| search term |ビューに表示するテンプレートの検索語句。 たとえば、Wunderlist のテンプレートを表示するには、`wunderlist` を検索します。 |
 | number of templates |ビューに表示するテンプレートの数。 |
-| destination |ユーザーがテンプレートを選択したときに開くページ。 テンプレートの詳細を表示するには `details` を入力し、Power Automate デザイナーを開くには `new` を入力します。 |
+| destination |ユーザーがテンプレートを選択したときに開くページ。 テンプレートの詳細を表示するには  `details` と入力し、Power Automate デザイナーを開くには `new` と入力します。 |
 | category |フィルター処理で所与のテンプレート カテゴリに絞り込みます。 | 
 | parameters.{name} |フローに渡す追加のコンテキスト。 |
 
 
-宛先パラメーターが `new` の場合、ユーザーがテンプレートを開くと、Power Automate デザイナーが開きます。 ユーザーはデザイナーでフローを作成できます。 ウィジェットのすべての機能を利用する場合、次のセクションをご覧ください。
+宛先パラメーターが `new` の場合、ユーザーがテンプレートを開くと、 Power Automate デザイナーが開きます。 ユーザーはデザイナーでフローを作成できます。 ウィジェットのすべての機能を利用する場合、次のセクションをご覧ください。
 
 ### <a name="passing-additional-parameters-to-the-flow-template"></a>フロー テンプレートに追加のパラメーターを渡す
 
-ユーザーが Web サイトやアプリで特定のコンテキストにいる場合、そのコンテキストをフローに渡すことができます。 たとえば、ユーザーが SharePoint で特定のリストを表示している間に、"*項目が作成されたとき*" テンプレートを開くとします。 次の手順でリスト ID を "*パラメーター*" としてフローに渡します。
+ユーザーが Web サイトやアプリで特定のコンテキストにいる場合、そのコンテキストをフローに渡すことができます。 たとえば、ユーザーが Wunderlist で特定のリストを表示している間に、"*リストに項目が追加されたときに通知を受け取る*" テンプレートを開くとします。 次の手順でリスト ID を "*パラメーター*" としてフローに渡します。
 
 1. フロー テンプレートを発行する前に、そのテンプレートでパラメーターを定義します。 パラメーターは、`@{parameters('parameter_name')}` のような形式にします。
 1. iframe src のクエリ文字列でパラメーターを渡します。 たとえば、**listName** というパラメーターがある場合は、`&parameters.listName={the name of the list}` を追加します。
 
 ### <a name="full-sample"></a>完全なサンプル
 
-ドイツの SharePoint テンプレートを上位 4 つ表示し、**myCoolList** のユーザーを開始するには、次のコードを使用します。
+ドイツの Wunderlist テンプレートを上位 4 つ表示し、**myCoolList** のユーザーを開始するには、次のコードを使用します。
 
 ```html
-<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=sharepoint%20&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
+<iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
+&pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
 
 ## <a name="use-the-authenticated-flow-widgets"></a>認証済みのフロー ウィジェットを使用する
 
-次の表は、ユーザー認証アクセス トークンを使用し、ウィジェットの全機能をサポートする Power Automate ウィジェットの一覧です。 Power Automate の JavaScript Software 開発者キット (JS SDK) を使用し、ウィジェットを埋め込み、必要なユーザー アクセス トークンを提供する必要があります。
+次の表は、ユーザー認証アクセス トークンを使用し、ウィジェットの全機能をサポートする Power Automate ウィジェットの一覧です。 Power Automate の Javascript Software 開発者キット (JS SDK) を使用し、ウィジェットを埋め込み、必要なユーザー アクセス トークンを提供する必要があります。
 
 | ウィジェットの種類    | サポートされている機能                                                                                                                  | 
 |----------------|------------------------------------------------------------------------------------------------------------------------------------| 
@@ -97,7 +98,7 @@ ms.locfileid: "82852732"
 
 ## <a name="widget-architecture"></a>ウィジェット アーキテクチャ
 
-Power Automate ウィジェットは、Power Automate を参照する iframe をホスト アプリケーションに埋め込むことで動作します。 Power Automate ウィジェットから要求されるアクセス トークンはホストから提供されます。 Power Automate の JS SDK によって、ホスト アプリケーションでウィジェットのライフサイクルを初期化し、管理できるようになります。
+Power Automate ウィジェットは、 Power Automate を参照する iFrame をホスト アプリケーションに埋め込むことで動作します。 Power Automate ウィジェットから要求されるアクセス トークンはホストから提供されます。 Power Automate の JS SDK によって、ホスト アプリケーションはウィジェットのライフサイクルを初期化し、管理できます。
 
 ![ウィジェット アーキテクチャ](../media/embed-flow-dev/Architecture.png)
 
@@ -122,10 +123,10 @@ var sdk = new MsFlowSdk({
 }); 
 ```
 
-| 名前     | 必須/省略可能 | Description                                                    | 
+| 件名     | 必須/省略可能 | 内容                                                    | 
 |----------|-------------------|----------------------------------------------------------------| 
-| `hostName` | 省略可能          | Power Automate のホスト名 (例: https://flow.microsoft.com )        | 
-| `locale`   | 省略可能          | ウィジェットのクライアント ロケール (指定されていない場合は `en-Us`) | 
+| `hostName` | 任意          | Power Automate ホスト名、例:  https://flow.microsoft.com        | 
+| `locale`   | 任意          | ウィジェットのクライアント ロケール (指定されていない場合は `en-Us`) | 
 
 
 JS SDK インスタンスが作成されると、Power Automate ウィジェットを初期化し、ホスト アプリケーションの親要素に埋め込むことができます。 それを行うには、次の HTML div を追加します。
@@ -134,7 +135,7 @@ JS SDK インスタンスが作成されると、Power Automate ウィジェッ�
 <div id="flowDiv" class="flowContainer"></div>
 ```
 
-次に、JS SDK `renderWidget()` メソッドを使用して、Power Automate ウィジェットを初期化します。 必ずウィジェットの種類と対応する設定を指定してください。
+続いて、`renderWidget()` メソッドを使用して、Power Automate ウィジェットを初期化します。 必ずウィジェットの種類と対応する設定を指定してください。
 
 ```javascript
 var widget = sdk.renderWidget('<widgettype>', {
@@ -163,17 +164,17 @@ var widget = sdk.renderWidget('<widgettype>', {
 
 `renderWidget()` のパラメーターは次のようになります。 
 
-| パラメーター        | 必須/省略可能 | 説明                                                                                 | 
+| パラメーター        | 必須/省略可能 | 内容                                                                                 | 
 |------------------|-------------------|---------------------------------------------------------------------------------------------| 
-| `container`        | 必須          | ウィジェットが埋め込まれるホスト ページの DIV 要素の ID。                   | 
-| `environmentId`    | 省略可能          | ウィジェットには環境 ID が必要です。ID を指定しない場合、既定の環境が使用されます。 | 
-| `flowsSettings`    | 省略可能          | Power Automate 設定オブジェクト                                                                        | 
-| `templateSettings` | 省略可能          | テンプレート設定オブジェクト                                                                    | 
-| `approvalSettings` | 省略可能          | 承認設定オブジェクト                                                                    | 
+| `container`        | 必要な領域          | ウィジェットが埋め込まれるホスト ページの DIV 要素の ID。                   | 
+| `environmentId`    | 任意          | ウィジェットには環境 ID が必要です。Id を指定しない場合、既定の環境が使用されます。 | 
+| `flowsSettings`    | 任意          | Power Automate 設定オブジェクト                                                                        | 
+| `templateSettings` | 任意          | テンプレート設定オブジェクト                                                                    | 
+| `approvalSettings` | 任意          | 承認設定オブジェクト                                                                    | 
 
 ### <a name="access-tokens"></a>アクセス トークン
 
-JS SDK `renderWidget()` の実行後、JS SDK によって Power Automate ウィジェット URL を指し示す iframe が初期化されます。 この URL には、クエリ文字列パラメーターのすべての設定が含まれています。 ホスト アプリケーションは、ウィジェットを初期化する前に、ユーザーの Power Automate アクセス トークン (Azure Active Directory JWT と対象ユーザー https://service.flow.microsoft.com) ) を取得する必要があります。 ウィジェットにより、ホストにアクセス トークンを要求する `GET_ACCESS_TOKEN` イベントが発生します。 ホストはイベントを処理し、トークンをウィジェットに渡す必要があります。
+`renderWidget()` の実行後、JS SDK によって iFrame が初期化され、それが Power Automate ウィジェットの URL を指し示します。 この URL には、クエリ文字列パラメーターのすべての設定が含まれています。 ホスト アプリケーションは、ウィジェットを初期化する前に、ユーザーの Power Automate アクセス トークン (Azure Active Directory JWT と対象ユーザー https://service.flow.microsoft.com) を取得する必要があります。 ウィジェットにより、ホストにアクセス トークンを要求する `GET_ACCESS_TOKEN` イベントが発生します。 ホストはイベントを処理し、トークンをウィジェットに渡す必要があります。
 
 ```javascript
 widget.listen("GET_ACCESS_TOKEN", function(requestParam, widgetDoneCallback) {
@@ -200,7 +201,7 @@ widget.listen("WIDGET_READY", function() {
 
 ### <a name="flowssettings"></a>FlowsSettings 
 
-FlowsSettings を使用すると、Power Automate ウィジェットの機能をカスタマイズできます。
+FlowsSettings を使用し、Power Automate ウィジェットの機能をカスタマイズできます。
 
 ```javascript
 flowsSettings?: {
@@ -210,11 +211,11 @@ flowsSettings?: {
 };
  ```
 
-| パラメーター | 必須/省略可能 | 説明 | 
+| パラメーター | 必須/省略可能 | 内容 | 
 |-----------|-------------------|-------------| 
-| `createFromBlankTemplateId` | 必須 | ユーザーが Flow ウィジェットで **[一から作成]** ボタンを選択したとき、テンプレートの GUID を使用します | 
-| `flowsFilter` | 省略可能 | Power Automate ウィジェットでは、フローを一覧表示するときに、指定されたフィルターが適用されます。 たとえば、特定の SharePoint サイトを参照するフローを表示します。 <br /> ```flowFilter: "operations/any(operation: operation/sharepoint.site eq 'https://microsoft.sharepoint.com/teams/ProcessSimple' )"   ``` |                 
-| `tab` | 省略可能 | Power Automate ウィジェットにアクティブ タブが既定で表示されるようにします。 <br /> たとえば、 <br /> ```tab:'sharedFlows' ``` の場合、[チーム] タブが表示されます。<br /> ``` tab:'myFlows' ``` の場合、[マイ フロー] タブが表示されます。 |   
+| `createFromBlankTemplateId` | 必要な領域 | ユーザーが Flow ウィジェットで **[一から作成]** ボタンを選択したとき、テンプレートの GUID を使用します | 
+| `flowsFilter` | 任意 | Power Automate ウィジェットは、フローを一覧表示するとき、指定されたフィルターを適用します。 たとえば、特定の SharePoint サイトを参照するフローを表示します。 <br /> ```flowFilter: "operations/any(operation: operation/sharepoint.site eq 'https://microsoft.sharepoint.com/teams/ProcessSimple' )"   ``` |                 
+| `tab` | 任意 | Power Automate ウィジェットに表示するようにアクティブ タブを既定値に設定します。 <br /> たとえば、 <br /> ```tab:'sharedFlows' ``` の場合、[チーム] タブが表示されます。<br /> ``` tab:'myFlows' ``` の場合、[マイ フロー] タブが表示されます。 |   
 
 ### <a name="templatessettings"></a>TemplatesSettings 
 
@@ -232,13 +233,13 @@ templatesSettings?: {
 };
  ```
 
-| パラメーター |必須/省略可能 | Description                                                                        
+| パラメーター |必須/省略可能 | 内容                                                                        
 |-----------|-------------------|-----------------| 
-|`defaultParams` | 省略可能          | テンプレートからフローを作成するときに使用するデザイン時パラメーター。例: <br /> ``` defaultParams: {'parameters.sharepoint.site': 'https://microsoft.sharepoint.com/teams/ProcessSimple', 'parameters.sharepoint.list': 'b3a5baa8-fe94-44ca-a6f0-270d9f821668'   } ```| 
-| `destination` | 省略可能          | 有効な値は "new" または "details" です。 "details" に設定されると、テンプレートからフローを作成するとき、詳細ページが表示されます。     |
-| `pageSize` | 省略可能          | 表示するテンプレートの数。 既定サイズ = 6 | 
-| `searchTerm` | 省略可能          | 指定された検索語句に一致するテンプレートを表示します| 
-| `templateCategory` | 省略可能          | 特定のカテゴリのテンプレートを表示します| 
+|`defaultParams` | 任意          | テンプレートからフローを作成するときに使用するデザイン時パラメーター。例: <br /> ``` defaultParams: {'parameters.sharepoint.site': 'https://microsoft.sharepoint.com/teams/ProcessSimple', 'parameters.sharepoint.list': 'b3a5baa8-fe94-44ca-a6f0-270d9f821668'   } ```| 
+| `destination` | 任意          | 有効な値は "new" または "details" です。 "details" に設定されると、テンプレートからフローを作成するとき、詳細ページが表示されます。     |
+| `pageSize` | 任意          | 表示するテンプレートの数。 既定サイズ = 6 | 
+| `searchTerm` | 任意          | 指定された検索語句に一致するテンプレートを表示します| 
+| `templateCategory` | 任意          | 特定のカテゴリのテンプレートを表示します| 
  
 ### <a name="approvalcentersettings"></a>ApprovalCenterSettings
 
@@ -253,14 +254,14 @@ ApprovalCenter ウィジェットに適用されます。
     hideLink?: boolean
 };
  ```
-| パラメーター | 必須/省略可能 | Description | 
+| パラメーター | 必須/省略可能 | 内容 | 
 |------------|-------------------|--------------| 
-| `hideLink`| 省略可能 | `true` に設定されると、ウィジェットは送受信済みの承認リンクを非表示にします。 | 
-| `autoNavigateToDetails`| 省略可能 | `true` に設定されると、承認が 1 つだけ存在するとき、ウィジェットによって承認詳細が自動的に開きます | 
-| `approvalsFilter`| 省略可能 | 承認を一覧表示するとき、承認ウィジェットは指定の承認フィルターを適用します。例:  承認を一覧表示するとき、承認ウィジェットは指定の承認フィルターを適用します。例: <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
-| `tab`| 省略可能 | Flow ウィジェットに表示するようにアクティブ タブを既定値に設定します。 <br/> 有効な値 : "receivedApprovals"、"sentApprovals" | 
-| `showSimpleEmptyPage`| 省略可能 | 承認がないとき、空のページが表示されます | 
-| `hideInfoPaneCloseButton` | 省略可能 | 情報ウィンドウの [閉じる] ボタンを非表示にします (あるいは、ホストに [閉じる] ボタンが既にあります) | 
+| `hideLink`| 任意 | `true` に設定されると、ウィジェットは送受信済みの承認リンクを非表示にします。 | 
+| `autoNavigateToDetails`| 任意 | `true` に設定されると、承認が 1 つだけ存在するとき、ウィジェットによって承認詳細が自動的に開きます | 
+| `approvalsFilter`| 任意 | 承認ウィジェットでは、承認を一覧表示するときに、指定の承認フィルターが適用されます。次に例を示します。 <br/> ``` approvalsFilter: 'properties/itemlink eq \'https://microsoft.sharepoint.com/teams/ProcessSimple/_layouts/15/listform.aspx?PageType=4&ListId=737e30a6-5bc4-4e9c-bcdc-d34c5c57d938&ID=3&ContentTypeID=0x010010B708969A9C16408696FD23801531C6\'' ```  <br/> <br/>``` approvalsFilter: 'properties/itemlinkencoded eq \'{Your base64 encoded item link url} \'' ```|
+| `tab`| 任意 | Flow ウィジェットに表示するようにアクティブ タブを既定値に設定します。 <br/> 有効な値 : "receivedApprovals"、"sentApprovals" | 
+| `showSimpleEmptyPage`| 任意 | 承認がないとき、空のページが表示されます | 
+| `hideInfoPaneCloseButton` | 任意 | 情報ウィンドウの [閉じる] ボタンを非表示にします (あるいは、ホストに [閉じる] ボタンが既にあります) | 
 
 <!-- why isn't this: hideInfoPaneCloseButton listed in the approvalCenterSettings? call since other optionals are there -->
 
@@ -268,7 +269,7 @@ ApprovalCenter ウィジェットに適用されます。
 
 Power Automate ウィジェットは、ホストがウィンドウのライフサイクル イベントを待ち受けることを許可するイベントに対応しています。 Power Automate ウィジェットは、2 種類のイベントに対応しています: 一方向通知イベント (Widget\_Ready など) と、ウィジェットから発生し、ホストからデータを取得するイベント (Get\_Access\_Token)。 ホストは widget.listen() メソッドを使用し、ウィジェットから発生する特定のイベントを待ち受ける必要があります。
 
-### <a name="usage"></a>使用
+### <a name="usage"></a>使用法
 
 ```javascript
 widget.listen("<WIDGET_EVENT>", function() {
@@ -278,7 +279,7 @@ widget.listen("<WIDGET_EVENT>", function() {
 
 ### <a name="supported-events-by-widget-type"></a>サポートされるイベント (ウィジェットの種類別)
 
-| ウィジェットのイベント      | 詳細                                                         | 
+| ウィジェットのイベント      | 詳細情報                                                         | 
 |-------------------|-----------------------------------------------------------------| 
 | `WIDGET_READY`      | ウィジェットが正常にロードされた                                      | 
 | `WIDGET_RENDERED`   | ウィジェットがロードされ、UI レンダリングが完了した                      | 
@@ -287,7 +288,7 @@ widget.listen("<WIDGET_EVENT>", function() {
 
 ### <a name="runtime-widget"></a>ランタイム ウィジェット
 
-| ウィジェットのイベント                    | 詳細                                     | データ                                              | 
+| ウィジェットのイベント                    | 詳細情報                                     | データ​​                                              | 
 |---------------------------------|---------------------------------------------|-----------| 
 | `RUN_FLOW_STARTED`                | トリガーされ、フロー実行が開始された      |           | 
 | `RUN_FLOW_COMPLETED`              | フロー実行が正常にトリガーされた             |           | 
@@ -298,7 +299,7 @@ widget.listen("<WIDGET_EVENT>", function() {
 
 ### <a name="flow-creation-widget"></a>フロー作成ウィジェット
 
-| ウィジェットのイベント             | 詳細                                  | データ  | 
+| ウィジェットのイベント             | 詳細情報                                  | データ​​  | 
 |--------------------------|------------------------------------------|-------| 
 | `FLOW_CREATION_FAILED`     | フローの作成失敗                     |       | 
 | `WIDGET_CLOSE`             | ホストがウィジェットを閉じると発生  |       | 
@@ -307,7 +308,7 @@ widget.listen("<WIDGET_EVENT>", function() {
 
 ### <a name="approval-widget"></a>承認ウィジェット
 
-| ウィジェットのイベント                      | 詳細                             | 
+| ウィジェットのイベント                      | 詳細情報                             | 
 |-----------------------------------|-------------------------------------| 
 | `RECEIVED_APPROVAL_STATUS_CHANGED`  | 受信した承認ステータスが変わった  | 
 | `SENT_APPROVAL_STATUS_CHANGED`      | 送信した承認ステータスが変わった      | 
@@ -357,7 +358,7 @@ widget.notify('triggerFlow', { flowName: flowName, implicitData:implicitData });
 
 ### <a name="runtime-widget"></a>ランタイム ウィジェット
 
-| ウィジェットのアクション                               | 詳細                                                      | パラメーター インターフェイス  | 
+| ウィジェットのアクション                               | 詳細情報                                                      | パラメーター インターフェイス  | 
 |---------------------------------------------|--------------------------------------------------------------|----------------------| 
 | `triggerFlow`                                 | フロー実行をトリガーする                                          | `{ flowName: string, implicitData?: string } `| 
 | `triggerFlowByTemplate`                       | テンプレートによってフロー実行をトリガーする                              | `{ templateId: string, implicitData?: string, designTimeParameters?: Record<string, any> }` |
@@ -366,7 +367,7 @@ widget.notify('triggerFlow', { flowName: flowName, implicitData:implicitData });
 
 ### <a name="flow-creation-widget"></a>フロー作成ウィジェット
 
-| ウィジェットのアクション                               | 詳細                                                      | パラメーター インターフェイス  | 
+| ウィジェットのアクション                               | 詳細情報                                                      | パラメーター インターフェイス  | 
 |---------------------------------------------|--------------------------------------------------------------|----------------------| 
 | `createFlowFromTemplate`                      | 選択したテンプレートのフローを作成する                     | `{ templateName: string, designTimeParameters?: Record<string, any> }`| 
 | `createFlowFromTemplateDefinition`            | 選択したテンプレート定義のフローを作成する          | `{ templateDefinition: string }` | 
@@ -374,9 +375,9 @@ widget.notify('triggerFlow', { flowName: flowName, implicitData:implicitData });
 
 ### <a name="approval-widget"></a>承認ウィジェット
 
-| ウィジェットのアクション  | 詳細                                           | パラメーター インターフェイス  | 
+| ウィジェットのアクション  | 詳細情報                                           | パラメーター インターフェイス  | 
 |----------------|---------------------------------------------------|----------------------| 
-| `closeInfoPane`  | 承認詳細を表示している情報ウィンドウを閉じる  | 該当なし                  | 
+| `closeInfoPane`  | 承認詳細を表示している情報ウィンドウを閉じる  | なし                  | 
 
 ## <a name="configuring-your-client-application"></a>クライアント アプリケーションを構成する
 
@@ -390,21 +391,21 @@ Flow サービス スコープ (委任されたアクセス許可) でクライ�
 
 次の手順に従って 1 つまたは複数の委任されたアクセス許可を選択します。
 
-1.  行きます https://portal.azure.com 
-2.  **[Azure Active Directory]** を選択します。
+1.  https://portal.azure.com に移動 
+2.  **Azure Active Directory** を選択します。
 3.  **[管理]** の下で **[アプリの登録]** を選択します。
 4.  Flow サービス スコープに対して構成するサードパーティ製アプリケーションを入力します。
-5.  **[設定]** を選択します。
+5.  **設定**を選択します。
       ![ウィジェット アーキテクチャ](../media/embed-flow-dev/AAD-App-Settings.png)
-6. **[API アクセス]** の下で **[必要なアクセス許可]** を選択します。
-7. **[追加]** を選択します。
-8. **[API を選択する]** を選択します。
+6. **API アクセス**/ 配下で **必要なアクセス許可** を選択します
+7. **追加** を選択します。
+8. **API を選択します**を選択します。
       ![ウィジェット アーキテクチャ](../media/embed-flow-dev/AAD-App-Select-an-API.png)
-9. **Power Automate サービス** を検索して選択します。 注意:Power Automate サービスを表示するには、テナントで少なくとも 1 人の AAD ユーザーが Flow ポータル (<https://flow.microsoft.com>) にサインインしている必要があります。
-10. アプリケーションに必要な Flow スコープを選択し、 **[保存]** を選択します。
+9. **Power Automate サービス** を探して選択します。 注意：Power Automate サービスを表示するには、テナントで少なくとも 1 人の AAD ユーザーが Flow ポータル (<https://flow.microsoft.com>) にサイン インしている必要があります
+10. アプリケーションに必要な Flow スコープを選択し、**[保存]** を選択します。
       ![ウィジェット アーキテクチャ](../media/embed-flow-dev/AAD-App-DelegatedPermissions.png)
 
-これで、JWT トークンに "scp" クレームの委任されたアクセス許可が含まれる Flow サービス トークンがアプリケーションに与えられます。
+これで、JWT トークンに \'scp' クレームの委任されたアクセス許可が含まれる Flow サービス トークンがアプリケーションに与えられます。
 
 ## <a name="sample-application-embedding-flow-widgets"></a>フロー ウィジェット埋め込みのサンプル アプリケーション 
 
@@ -412,16 +413,16 @@ Flow サービス スコープ (委任されたアクセス許可) でクライ�
 
 ### <a name="registering-an-aad-app"></a>AAD アプリを登録する
 
-1.  [Azure portal](https://portal.azure.com/) にサインインします。
-2.  左のナビゲーション ウィンドウで、 **[Azure Active Directory]** を選択し、 **[アプリの登録 (プレビュー)]** 、[新規登録] の順に選択します。
+1.  [Azure ポータル](https://portal.azure.com/)にサインインします。
+2.  左のナビゲーション ウィンドウで、**Azure Active Directory** を選択し、[**アプリの登録**  (プレビュー) \> 新規登録] を選択します。
 3.  **[アプリケーションの登録]** ページが表示されたら、アプリケーションの名前を入力します。
 4.  **[サポートされているアカウントの種類]** で、任意の組織ディレクトリで **[アカウント]** を選択します。
-5.  **[リダイレクト URL]** セクションの下で、Web プラットフォームを選択し、Web サーバーに基づいてアプリケーションの URL に値を設定します。  この値を http://localhost:30662/ に構成し、サンプル アプリを実行します。
-6.  **[登録]** を選択します。
+5.  **リダイレクト URL** セクションの配下で、Web プラットフォームを選択し、Web サーバーに基づいてアプリケーション\' URL に値を設定します。  この値を http://localhost:30662/ に構成し、サンプル アプリを実行します。
+6.  **登録**を選択します。
 7.  アプリの **[概要]** ページで、アプリケーション (クライアント) ID 値をメモします。
-8.  このサンプルでは、[暗黙的な許可フロー](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)を有効にする必要があります。 登録したアプリケーションの左のナビゲーション ウィンドウで、 **[認証]** を選択します。
+8.  このサンプルでは、[暗黙的な許可フロー](https://docs.microsoft.com/azure/active-directory/develop/v2-oauth2-implicit-grant-flow)を有効にする必要があります。 登録したアプリケーションの左のナビゲーション ウィンドウで、**[認証]** を選択します。
 9.  **[詳細設定]** の **[暗黙の付与]** で **[ID トークン]** チェックボックスと **[アクセス トークン]** チェックボックスの両方をオンにします。 このアプリではユーザーをサインインし、Flow API を呼び出す必要があるため、ID トークンとアクセス トークンが必要になります。
-10. **[保存]** を選択します。
+10. **保存**を選択します。
 
 ### <a name="running-the-sample"></a>サンプルを実行する
 <!-- todo where should I download from? -->
@@ -431,7 +432,7 @@ Flow サービス スコープ (委任されたアクセス許可) でクライ�
 3.  このサンプル アプリは、Flow スコープの **Flows.Read.All** と **Flow.Manage.All** を使用するように構成されています。 **applicationConfig** オブジェクトの **flowScopes** プロパティを更新することで、追加のスコープを構成できます。
 4.  次のコマンドを実行し、依存関係をインストールし、サンプル アプリを実行します。
     > \> npm install \> node server.js
-5. ブラウザーを開き、「 http://localhost:30662 」と入力します。
+5. ブラウザーを開き、「http://localhost:30662」と入力します。
 6. **[サインイン]** ボタンを選択し、AAD に認証し、フロー アクセス トークンを取得します。
 7. **[アクセス トークン]** テキスト ボックスにアクセス トークンが含まれます。
     ![ウィジェット アーキテクチャ](../media/embed-flow-dev/SampleApp-AccessToken.png)

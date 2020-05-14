@@ -1,6 +1,6 @@
 ---
-title: Power Automate での GDPR データ主体の削除要求 | Microsoft Docs
-description: Power Automate を使用して GDPR データ主体の削除要求に応答する方法を説明します。
+title: Power Automate GDPRデータ対象者削除依頼 | Microsoft Docs
+description: Power Automate を使用して GDPRデータ対象者削除依頼に対応する方法を説明します。
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,61 +25,61 @@ ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
 ms.translationtype: HT
 ms.contentlocale: ja-JP
 ms.lasthandoff: 04/08/2020
-ms.locfileid: "80862678"
+ms.locfileid: "3299080"
 ---
-# <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Power Automate に対する GDPR データ主体の削除要求への応答
+# <a name="responding-to-gdpr-data-subject-delete-requests-for-power-automate"></a>Power Automate の GDPR データ対象者削除依頼に対応する
 
 
 組織の顧客データから個人データを削除することによる "忘れられる権利" は、GDPR での重要な保護です。 個人データの削除には、すべての個人データとシステムによって生成されたログの削除は含まれますが、監査ログ情報の削除は含まれません。
 
-Power Automate では、組織の日常業務の重要な一部であるオートメーション ワークフローを構築できます。 ユーザーが組織を離れるとき、管理者は、手作業で確認し、ユーザーが作成した特定のデータとリソースを削除するかどうかを判断する必要があります。 その他の個人データは、Azure Active Directory からユーザーのアカウントが削除されるとき常に自動的に削除されます。
+Power Automate では、組織の日常業務の重要な一部であるオートメーション ワークフローを構築できます。 ユーザーが組織を離れるとき、管理者は、手作業で確認し、ユーザーが作成した特定のデータとリソースを削除するかどうかを判断する必要があります。 その他の個人データは、Azure Active Directory からユーザーのアカウントが削除されるときは常に自動的に削除されます。
 
 次の表では、自動的に削除される個人データと、管理者が手動で確認して削除する必要があるデータを示します。
 
-|手動での確認と削除が必要|ユーザーが Azure Active Directory から削除されると自動的に削除|
+|手作業で確認して削除する必要があるデータ|ユーザーが Azure Active Directory から削除すると自動的に削除される|
 |------|------|
-|環境*|システム生成ログ|
+|環境*|システムによって生成されたログ|
 |環境のアクセス許可**|実行履歴|
 |フロー|アクティビティ フィード|
-|フローのアクセス許可|ゲートウェイ |
+|フロー アクセス許可|ゲートウェイ |
 |ユーザーの詳細|ゲートウェイのアクセス許可|
 |接続*||
 |接続のアクセス許可||
 |カスタム コネクタ*||
 |カスタム コネクタのアクセス許可||
 
-\* これらの各リソースには、個人データを含む "作成者" および "変更者" のレコードが含まれます。 セキュリティ上の理由から、これらのレコードはリソースが削除されるまで保持されます。
+* これらの各リソースには、個人データを含む "作成者" および "変更者" のレコードが含まれます。 セキュリティ上の理由から、これらのレコードはリソースが削除されるまで保持されます。
 
-** Common Data Service データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service にレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+** Common Data Service  データベースが含まれる環境では、環境のアクセス許可 (たとえば、環境作成者および環境管理者のロールが割り当てられているユーザー) が、Common Data Service にレコードとして格納されます。 Common Data Service を使用するユーザーのDSRへの応答方法に関するガイダンスについては、[Common Data Service 顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)を参照してください。
 
-手動での確認が必要なデータとリソースのため、Power Automate では特定のユーザーの個人データの検索または変更を行う以下のエクスペリエンスが提供されています。
+手動での確認が必要なデータとリソースのため、Power Automate  では特定のユーザーの個人データの検索または変更を行う以下のエクスペリエンスが提供されています。
 
-* **Web サイト アクセス:** [Power Apps 管理センター](https://admin.powerapps.com/)または [Power Automate 管理センター](https://admin.flow.microsoft.com/)にサインインします
+* **Web サイト アクセス:**  [Power Apps 管理センター](https://admin.powerapps.com/)、または [Power Automate 管理センター](https://admin.flow.microsoft.com/) にサインインします
 
-* **PowerShell アクセス:** [Power Apps 管理者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804) 
+* **PowerShell アクセス:**[Power Apps  管理者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871804) 
 
 次に示すのは、リソースの種類ごとに各個人データの種類を削除するために管理者が使用できるエクスペリエンスの詳細です。
 
 |個人データが含まれるリソース|Web サイト アクセス|PowerShell アクセス|自動削除|
 |-----|----|----|----|
-|システム生成ログ|[Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)|||
+|システムによって生成されたログ|[Office 365 サービス トラスト ポータル](https://servicetrust.microsoft.com/)|||
 |環境|Power Automate 管理センター|Power Apps コマンドレット||
 |環境のアクセス許可*|Power Automate 管理センター|Power Apps コマンドレット||
 |実行履歴||| 28 日間のアイテム保持ポリシーにより削除|
 |アクティビティ フィード |||28 日間のアイテム保持ポリシーにより削除|
 |ユーザー ジョブ|| ||
-|フロー|Power Automate 作成者ポータル**|||
-|フローのアクセス許可|Power Automate 作成者ポータル|||
+|フロー|Power Automate メーカー ポータル**|||
+|フロー アクセス許可|Power Automate メーカー ポータル|||
 |ユーザーの詳細||Power Apps コマンドレット||
-|接続|Power Automate 作成者ポータル| ||
-|接続のアクセス許可|Power Automate 作成者ポータル| ||
-|カスタム コネクタ|Power Automate 作成者ポータル| ||
-|カスタム コネクタのアクセス許可|Power Automate 作成者ポータル| ||
-|承認履歴|Microsoft Power Apps 作成者ポータル*|||
+|つながり|Power Automate メーカー ポータル| ||
+|接続のアクセス許可|Power Automate メーカー ポータル| ||
+|カスタム コネクタ|Power Automate メーカー ポータル| ||
+|カスタム コネクタのアクセス許可|Power Automate メーカー ポータル| ||
+|承認履歴|Microsoft Power Apps メーカー ポータル*|||
 
-\* Common Data Service の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service 内のレコードとして格納されます。 Common Data Service を使用するユーザーに対する DSR に応答する方法のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+* Common Data Service の導入により、環境内にデータベースが作成された場合、環境のアクセス許可とモデル駆動型アプリのアクセス許可が、Common Data Service 内のレコードとして格納されます。 Common Data Service を使用するユーザーのDSRへの応答方法に関するガイダンスについては、[Common Data Service 顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)を参照してください。
 
-\*\* 管理者は、Power Automate 管理センターからアクセス権を割り当てられている場合、Power Automate 作成者ポータルからのみ、これらのリソースにアクセスできます。
+\*\* 管理者は、Power Automate フロー管理センターからアクセス権を割り当てられている場合、Power Automate 作成者ポータルからのみ、これらのリソースにアクセスできます。
 
 ## <a name="manage-delete-requests"></a>削除要求を管理する
 
@@ -106,19 +106,19 @@ Power Automate では、組織の日常業務の重要な一部であるオー�
 
     ![共有を管理する](./media/gdpr-dsr-delete/admin-manage-sharing.png)
 
-1. 右端近くに表示される **[共有]** パネルで、自分自身を所有者として追加し、 **[保存]** を選択します。
+1. 右端近くに表示される **[共有]** パネルで、自分自身を所有者として追加し、**[保存]** を選択します。
 
     ![フローを共有する](./media/gdpr-dsr-delete/flow-sharing-save.png)
 
-1. [Power Automate](https://flow.microsoft.com/) にサインインし、 **[マイ フロー]** 、 **[チームのフロー]** の順に選択します。
+1. [Power Automate](https://flow.microsoft.com/) にサインインし、 **マイ フロー** を選択し、**チーム フロー** を選択します：
 
-1. コピーするフローの省略記号 **[...]** を選び、 **[名前を付けて保存]** を選びます。
+1. コピーするフローの省略記号 **[...]** を選び、**[名前を付けて保存]** を選びます。
 
     ![フローの名前を付けて保存](./media/gdpr-dsr-delete/flow-save-as.png)
 
-1. 必要に応じて接続を構成し、 **[続行]** を選びます。
+1. 必要に応じて接続を構成し、**[続行]** を選びます。
 
-1. 新しい名前を指定し、 **[保存]** を選びます。
+1. 新しい名前を指定し、**[保存]** を選びます。
 
     ![フローのコピーを作成する](./media/gdpr-dsr-delete/create-copy-flow.png)
 
@@ -126,38 +126,38 @@ Power Automate では、組織の日常業務の重要な一部であるオー�
 
     ![チームのフロー](./media/gdpr-dsr-delete/team-flows.png)
 
-1. 元のフローを削除します。削除するフローの省略記号 **[...]** を選び、 **[削除]** を選んでから、メッセージが表示されたら再び **[削除]** を選びます。 この手順では、ユーザーと Power Automate の間のシステムの依存関係に含まれる、基になっている個人識別子も削除されます。
+1. 元のフローを削除します。削除するフローの省略記号 **[...]** を選び、**[削除]** を選んでから、メッセージが表示されたら再び **[削除]** を選びます。 この手順では、ユーザーと Power Automate の間のシステムの依存関係に含まれる、基になっている個人識別子も削除されます。
 
     ![フローの削除の確認](./media/gdpr-dsr-delete/delete-flow-confirmation.png)
 
 1. **[マイ フロー]** を開き、切り替えコントロールを **[オン]** にして、コピーしたフローを有効にします。
 
-    ![フローを有効にする](./media/gdpr-dsr-delete/toggle-on.png)
+    ![フローの有効化](./media/gdpr-dsr-delete/toggle-on.png)
 
 1. コピーが、元のバージョンと同じワークフロー ロジックを実行するようになります。
 
 ## <a name="delete-approval-history-from-power-automate"></a>Power Automate から承認履歴を削除する
 
- Power Automate の承認データは、Common Data Service の現在または以前のバージョンに格納されています。 承認には、承認の割り当ておよび承認応答に含まれるコメントの形式で、個人情報が存在します。 管理者は、次の手順でそのデータにアクセスできます。
+ Power Automate の承認データは、現在または以前のバージョンの Common Data Service に格納されています。 承認には、承認の割り当ておよび承認応答に含まれるコメントの形式で、個人情報が存在します。 管理者は、次の手順でそのデータにアクセスできます。
 
-1. [PowerApps](https://make.powerapps.com/) にサインインします。
+1. [PowerApps](https://make.powerapps.com/) にサインインする。
 
-1. **[データ]** を選んでから、 **[エンティティ]** を選びます。
+1. **[データ]** を選んでから、**[エンティティ]** を選びます。
 
-1. **[Flow Approval]\(フローの承認\)** エンティティの省略記号 **[...]** を選んでから、Microsoft Excel でデータを開きます。
+1. **Flow 承認**  エンティティの省略記号 **(…)** を選んでから、Microsoft Excel でデータを開きます。
 
 1. Microsoft Excel で、必要に応じて承認データを検索し、フィルター処理して、削除します。
 
-Common Data Service を使用するユーザーに対する DSR に応答する方法の他のガイダンスについては、[Common Data Service の顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)に関するページをご覧ください。
+Common Data Service を使用するユーザーのDSRへの応答方法に関する詳細なガイダンスについては、[Common Data Service 顧客データに対する DSR の実行](https://go.microsoft.com/fwlink/?linkid=872251)を参照してください。
 
 
 ## <a name="delete-connections-created-by-a-user"></a>ユーザーによって作成された接続を削除する
 
 接続は、他の API や SaaS システムとの接続を確立するために、コネクタと組み合わせて使われます。  接続にはそれを作成したユーザーへの参照が含まれ、結果として、ユーザーへの参照を除去するために削除できます。
 
-Power Apps 作成者 PowerShell コマンドレット
+Power Apps Maker PowerShell コマンドレット
 
-ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448)の Remove-Connection 機能を使って、すべての接続を削除できます。
+ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448) の Remove-Connection 機能を使って、すべての接続を削除できます。
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -166,7 +166,7 @@ Add-PowerAppsAccount
 Get-AdminPowerAppConnection | Remove-Connection
 ```
 
-Power Apps 管理者 PowerShell コマンドレット
+Power Apps 管理者 PowerShell cmdlets
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -179,9 +179,9 @@ Get-AdminPowerAppConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection
 
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>共有接続に対するユーザーのアクセス許可を削除する
 
-Power Apps 作成者 PowerShell コマンドレット
+Power Apps Maker PowerShell コマンドレット
 
-ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448)の Remove-ConnectionRoleAssignment 機能を使って、共有接続に対するすべての接続ロールの割り当てを削除できます。
+ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448) の Remove-ConnectionRoleAssignment 機能を使って、共有接続に対するすべての接続ロールの割り当てを削除できます。
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -190,7 +190,7 @@ Add-PowerAppsAccount
 Get-ConnectionRoleAssignment | Remove-ConnectionRoleAssignment
 ```
 
-Power Apps 管理者 PowerShell コマンドレット
+Power Apps 管理者 PowerShell cmdlets
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -201,17 +201,17 @@ Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-A
 
 ```
 > [!NOTE]
-> 所有者ロールの割り当ては、接続リソースを削除しない限り削除できません。
+> 所有者のロール割り当ては、接続リソースを削除しない限り、削除できません。
 >
 >
 
 ## <a name="delete-custom-connectors-created-by-the-user"></a>ユーザーによって作成されたカスタム コネクタを削除する
 
-カスタム コネクタは、既存の既製コネクタを補完し、他の API、SaaS、およびカスタム開発システムに接続できるようにします。 カスタム コネクタにはそれを作成したユーザーへの参照が含まれ、結果として、ユーザーへの参照を除去するために削除できます。
+カスタム コネクタは、既存の既製のコネクタを補完し、他の API、SaaS、カスタム開発システムへの接続に対応します。 カスタム コネクタにはそれを作成したユーザーへの参照が含まれ、結果として、ユーザーへの参照を除去するために削除できます。
 
-Power Apps 作成者 PowerShell コマンドレット
+Power Apps Maker PowerShell コマンドレット
 
-ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448)の Remove-Connector 機能を使って、すべてのカスタム コネクタを削除できます。
+ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448) の Remove-Connector 機能を使って、すべてのカスタム コネクタを削除できます。
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -220,7 +220,7 @@ Add-PowerAppsAccount
 Get-Connector -FilterNonCustomConnectors | Remove-Connector
 ```
 
-Power Apps 管理者 PowerShell コマンドレット
+Power Apps 管理者 PowerShell cmdlets
 ```PowerShell
 Add-PowerAppsAccount
 
@@ -232,9 +232,9 @@ Get-AdminConnector -CreatedBy $deleteDsrUserId | Remove-AdminConnector
 
 ## <a name="delete-the-users-permissions-to-shared-custom-connectors"></a>共有カスタム コネクタに対するユーザーのアクセス許可を削除する
 
-Power Apps 作成者 PowerShell コマンドレット
+Power Apps Maker PowerShell コマンドレット
 
-ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448)の Remove-ConnectorRoleAssignment 機能を使って、共有カスタム コネクタに対するすべてのコネクタ ロールの割り当てを削除できます。
+ユーザーは、[Power Apps 作成者 PowerShell コマンドレット](https://go.microsoft.com/fwlink/?linkid=871448) の Remove-ConnectorRoleAssignment 機能を使って、共有接続に対するすべての接続ロールの割り当てを削除できます。
 
 ```PowerShell
 Add-PowerAppsAccount
@@ -243,7 +243,7 @@ Add-PowerAppsAccount
 Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 ```
 
-Power Apps 管理者 PowerShell コマンドレット
+Power Apps 管理者 PowerShell cmdlets
 ```PowerShell
 Add-PowerAppsAccount
 
@@ -254,7 +254,7 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 ```
 
 > [!NOTE]
-> 所有者ロールの割り当ては、接続リソースを削除しない限り削除できません。
+> 所有者のロール割り当ては、接続リソースを削除しない限り、削除できません。
 >
 >
 
@@ -270,17 +270,17 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 >
 >
 
-## <a name="give-access-to-a-users-environments-from-the-power-automate-admin-center"></a>Power Automate 管理センターからユーザーの環境へのアクセス権を付与する
+## <a name="give-access-to-a-users-environments-from-the-power-automate-admin-center"></a>Power Automate 管理センター からユーザー環境へのアクセスを許可する
 
-管理者は、[Power Automate 管理センター](https://admin.flow.microsoft.com/)から、特定のユーザーによって作成された環境への管理アクセス権を付与できます。 環境の管理について詳しくは、「[Power Automate 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
+管理者は、[Power Automate 管理センター](https://admin.flow.microsoft.com/) から、特定のユーザーによって作成された環境への管理アクセス権を付与できます。 環境の管理について詳しくは、 [Power Automate 内の環境を使用する](https://docs.microsoft.com/flow/environments-overview-admin)をご覧ください。
 
 ## <a name="delete-the-users-permissions-to-all-other-environments"></a>他のすべての環境に対するユーザーのアクセス許可を削除する
 
 ユーザーには環境内のアクセス許可 (環境管理者、環境作成者など) を割り当てることができ、アクセス許可は "ロールの割り当て" として Power Automate サービスに格納されます。
 
-Common Data Service の導入により、環境内にデータベースが作成された場合、これらの "ロールの割り当て" が、Common Data Service 内のレコードとして格納されます。
+Common Data Service の導入により、環境内にデータベースが作成された場合、これら役割の割り当てが、Common Data Service 内のレコードとして格納されます。
 
-環境でのユーザーのアクセス許可の削除について詳しくは、「[Power Automate 内の環境の使用](https://docs.microsoft.com/flow/environments-overview-admin)」をご覧ください。
+環境でのユーザーのアクセス許可の削除についての詳細は、[Power Automate 内の環境を使用する](https://docs.microsoft.com/flow/environments-overview-admin)をご覧ください。
 
 ## <a name="delete-gateway-settings"></a>ゲートウェイ設定を削除する
 
@@ -290,7 +290,7 @@ Common Data Service の導入により、環境内にデータベースが作成
 
 ユーザーの詳細では、ユーザーと特定のテナント間のリンクが提供されます。 このコマンドを実行する前に、このユーザーのすべてのフローを再割り当てまたは削除していることを確認します。 完了したら、管理者は **Remove-AdminFlowUserDetails** コマンドレットを呼び出し、ユーザーのオブジェクト ID を渡すことで、ユーザーの詳細を削除できます。
 
-Power Apps 管理者 PowerShell コマンドレット
+Power Apps 管理者 PowerShell cmdlets
 ```PowerShell
 Add-PowerAppsAccount
 Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
@@ -301,9 +301,9 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
 >
 >
 
-## <a name="delete-the-user-from-azure-active-directory"></a>Azure Active Directory からユーザーを削除する
+## <a name="delete-the-user-from-azure-active-directory"></a>Azure Active Directoryからユーザーを削除する
 
-上記の手順が完了したら、最後の手順として、[Office 365 Service Trust Portal](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) で参照できる Azure データ主体の要求の GDPR ドキュメントの手順に従って、Azure Active Directory 用のユーザーのアカウントを削除します。
+上記の手順が完了後は、最後に [Office 365 サービス トラスト ポータル](https://servicetrust.microsoft.com/ViewPage/GDPRDSR) で参照できる Azure データ主体の要求の GDPR ドキュメントの手順に従って、Azure Active Directory 用のユーザーのアカウントを削除してください。
 
 ## <a name="delete-the-user-from-unmanaged-tenant"></a>アンマネージド テナントからユーザーを削除する
 
@@ -311,12 +311,12 @@ Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
 
 マネージドまたはアンマネージド テナントのユーザーであるかどうかを識別するには、次の操作を実行します。
 
-1. URL 内の電子メールを必ず自分のものに置き換え、ブラウザーで [https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1) の URL を開きます。
-1. **アンマネージド テナント**のメンバーである場合、応答に `"IsViral": true` が表示されます。
+1. ブラウザで次の URL を開き、URL で電子メール アドレスを必ず置き換えてください: [https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.microsoftonline.com/common/userrealm/foobar@contoso.com?api-version=2.1)
+1. **アンマネージド テナント** のメンバーである場合、応答に `"IsViral": true` が表示されます。
 
     {
 
-     "Login": "foobar@unmanagedcontoso.com",
+     "ログイン"："foobar@unmanagedcontoso.com"
 
     "DomainName": "unmanagedcontoso.com",
 

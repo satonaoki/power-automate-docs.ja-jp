@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: cdd901c75e7245126760200cc94d28555dc4a33a
-ms.sourcegitcommit: 27ee91452be26cf5c96397c39f9f5b8bede14cdb
+ms.sourcegitcommit: 7d6c210192ce68ad0d0b27f67f581e307d5ef606
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "80801540"
+ms.lasthandoff: 04/05/2020
+ms.locfileid: "3298948"
 ---
 # <a name="introduction-to-ui-flows"></a>UI フローの概要
 
@@ -45,15 +45,15 @@ UI flows により、Robotic Process Automation (RPA: ロボットによるプ�
 
 Power Automate を使用すると、API を使用して最新のアプリケーションを自動化することも、不完全な API または API なしでレガシ アプリケーションを自動化することもできます。 1 回の自動化で、レガシ アプリ、最新アプリ、手動プロセスを組み合わせることもできます。
 
-| **アプリケーションの種類**      | **機能** | **ベネフィット**     |
+| **アプリケーションの種類**      | **機能** | **給付金**     |
 |---------------------------|----------------------------|------------------|
 | API を使用した最新アプリ| コネクタ                 | ソフトウェア UI 更新による高い信頼性 |
 | レガシ アプリ (API なし)          | UI フロー                    | 作成が簡単。 API が使用できない場合でも機能する。   |
 
 
-ご自分の UI フローは、自動されたフロー、ボタン フロー、スケジュールされたフロー、およびビジネス プロセス フローと共に [ **[マイ フロー]** ](manage.md) 内にあります。
+ご自分の UI フローは、自動されたフロー、ボタン フロー、スケジュールされたフロー、およびビジネス プロセス フローと共に [**[マイ フロー]**](manage.md) 内にあります。
 
-## <a name="next-steps"></a>次の手順
+## <a name="next-steps"></a>次のステップ
 
 - [UI フローの設定](setup.md)方法について学習します。 
 - ワークフローを自動化するために使用できる[さまざまな種類のフロー](..\getting-started.md#types-of-flows)の詳細について学習する。

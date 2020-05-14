@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 6ec875a8a3bf682b7a3d9b44a0cc1d3624bf7a70
-ms.sourcegitcommit: 0761c15339ba3de6036f7fe5251aa8ad9173ee8b
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75902225"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298200"
 ---
 # <a name="lead-collection-sample"></a>潜在顧客の収集のサンプル
 
@@ -33,12 +33,12 @@ ms.locfileid: "75902225"
 
 ![](media/adaptive-cards/lead-notification.png)
 
-"*入力/出力と注:* "
+"*入力/出力と注:*"
 
-| 動的トークンの名前    | プレースホルダー テキスト       | ノート                                                                                       |
+| 動的トークンの名前    | プレースホルダー テキスト       | メモ​​                                                                                       |
 |-----------------------|------------------------|--------------------------------------|
-| タイトル                 |                        | 表示テキスト                                                                                  |
-| acInstructions        |                        | 表示テキスト                                                                                  |
+| 敬称                 |                        | テキストの表示                                                                                  |
+| acInstructions        |                        | テキストの表示                                                                                  |
 | acLeadFName           | {firstName}            | 応答の**出力**                                                                           |
 | acLeadLName           | {lastName}             | 応答の**出力**                                                                           |
 | acLeadEmail           | {emailAddress}         | 応答の**出力**                                                                           |

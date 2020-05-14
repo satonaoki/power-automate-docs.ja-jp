@@ -21,11 +21,11 @@ search.audienceType:
 - flowmaker
 - enduser
 ms.openlocfilehash: 56b90ebdf7f3655763b7e40c60b985f06604c47b
-ms.sourcegitcommit: 84fb0547e79567efa19d7c16857176f7f1b53934
+ms.sourcegitcommit: d336e5ffb6cf07e5c8fefe19a87dd7668db9e074
 ms.translationtype: HT
 ms.contentlocale: ja-JP
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "79194027"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "3298288"
 ---
 # <a name="overview"></a>概要
 
@@ -44,9 +44,9 @@ ms.locfileid: "79194027"
 - [Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
 - バージョン 9.1.0.267 以上の環境
 
-  バージョンを確認するには、[Power Automate 管理センター](https://admin.flow.microsoft.com)に移動して **[環境]** を選択し、目的の環境を選択してから **[詳細]** タブを選択します。
+  バージョンを確認するには、[Power Automate 管理センター](https://admin.flow.microsoft.com) に移動して **環境** を選択し、目的の環境を選択してから **詳細** タブを選択します。
 
-## <a name="create-a-solution"></a>ソリューションを作成する
+## <a name="create-a-solution"></a>ソリューションの作成
 
 ソリューションを作成するには次の手順に従います。
 
@@ -59,7 +59,7 @@ ms.locfileid: "79194027"
 
    ![](./media/overview-solution-flows/select-new-solution.png)
 
-1. 新しいソリューションに必要なすべての情報を指定します ( **[表示名]** 、 **[発行者]** 、 **[バージョン]** 、 **[名前]** など)。 ソリューションの説明を入力することもお勧めします。
+1. 新しいソリューションに必要なすべての情報を指定します (**[表示名]**、**[発行者]**、**[バージョン]**、**[名前]** など)。 ソリューションの説明を入力することもお勧めします。
 
    ![](./media/overview-solution-flows/new-solution.png)
 
@@ -72,12 +72,12 @@ ms.locfileid: "79194027"
    ![](./media/overview-solution-flows/new-solution-created.png)
 
    > [!TIP]
-   > 新しいソリューションが表示されない場合は、 **[ソリューション]** を選択してソリューションの一覧を更新します。
+   > 新しいソリューションが表示されない場合は、**[ソリューション]** を選択してソリューションの一覧を更新します。
 
-## <a name="learn-more"></a>詳細情報
+## <a name="learn-more"></a>詳細はこちら
 
 - [ソリューションにフローを作成する](./create-flow-solution.md)
-- [ソリューションをエクスポートする](./export-flow-solution.md)
-- [ソリューションをインポートする](./import-flow-solution.md)
+- [ソリューションのエクスポート](./export-flow-solution.md)
+- [ソリューションのインポート](./import-flow-solution.md)
 - [ソリューション対応フローを編集する](./edit-solution-aware-flow.md)
 - [ソリューション対応フローを削除する](./remove-solution-aware-flow.md)
