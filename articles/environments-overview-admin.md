@@ -30,7 +30,7 @@ ms.locfileid: "3299036"
 # <a name="using-environments-within-power-automate"></a>Power Automate 内の環境を使用する
 
 
-## <a name="benefits"></a>給付金
+## <a name="benefits"></a>利点
 
 環境には次の利点があります。
 
